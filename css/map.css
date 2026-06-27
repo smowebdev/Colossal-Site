@@ -1,0 +1,367 @@
+.cs-map-wrapper {
+  z-index: 2;
+}
+.cs-map-header > .left {
+  width: 39.85%;
+  padding-left: 1.521vw;
+  margin-right: 6.42%;
+  padding-top: 0.86vw;
+}
+.cs-map-header > .right {
+  width: 53.73%;
+}
+
+.cs-map-stat-list {
+  display: flex;
+  gap: 1.323vw;
+}
+
+.cs-map-stat-list .item {
+  width: calc(25% - 1.323vw);
+  overflow: hidden;
+}
+.cs-map-stat-list .item.large {
+  width: 29%;
+}
+.cs-map-stat-list .item-header {
+  font-size: clamp(5px, 0.529vw, 20px);
+  line-height: 2.625;
+  letter-spacing: 0.02em;
+  padding-bottom: 0.331vw;
+}
+
+.cs-map-stat-list .item-body {
+  margin-bottom: 1.521vw;
+}
+
+.cs-map-stat-list .item-body .title {
+  font-size: 6.349vw;
+  letter-spacing: -0.013em;
+}
+
+.cs-map-stat-list .item-body .line-text {
+  font-size: 0.595vw;
+}
+
+.cs-map-stat-list .item-bottom {
+  font-size: 1.058vw;
+  line-height: 1.0625;
+  max-width: 7.937vw;
+}
+.cs-map {
+  margin-top: 1.455vw;
+  padding-bottom: 1.323vw;
+}
+.cs-map .critical-team {
+  top: 2.513vw;
+  right: 4.101vw;
+  max-width: 16.534vw;
+}
+.cs-map .critical-team .row-1 {
+  gap: 2.315vw;
+  padding-bottom: 0.529vw;
+  margin-bottom: 1.323vw;
+}
+.cs-map .critical-team .label {
+  font-size: 0.529vw;
+  letter-spacing: 0.02em;
+}
+.cs-map .critical-team .tag {
+  font-size: 0.661vw;
+  line-height: 1.4;
+  padding: 0.265vw 0.529vw;
+  background: #383838;
+}
+.cs-map .critical-team-list {
+  gap: 0.794vw;
+}
+.cs-map .critical-team-list .item {
+  display: flex;
+  align-items: center;
+  gap: 0.794vw;
+}
+.cs-map .critical-team-list .item .number {
+  font-size: 2.646vw;
+  line-height: 0.9;
+  letter-spacing: -0.0355em;
+  width: 35%;
+  text-align: right;
+}
+.cs-map .critical-team-list .item .desc {
+  font-weight: 700;
+  font-size: 0.794vw;
+  line-height: 1.083;
+  width: 65%;
+}
+.cs-map .global-lab {
+  bottom: 6.481vw;
+  left: 4.431vw;
+}
+.cs-map .global-lab .clsl-text {
+  color: #715f31;
+  font-size: 1.02vw;
+  letter-spacing: 0.026em;
+  margin-bottom: 0.397vw;
+}
+.cs-map .global-lab .clsl-text .square {
+  width: 0.728vw;
+  height: 0.728vw;
+  background-color: #715f31;
+}
+.cs-map .map-number {
+  position: absolute;
+  font-size: 0.794vw;
+  line-height: 1.33;
+  background-color: rgba(79, 79, 79, 0.75);
+  border: 1px solid #ff7b31;
+  border-radius: 0.86vw;
+  width: 1.389vw;
+  height: 1.389vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.cs-map .map-number.number-1 {
+  left: 23.6%;
+  top: 37.3%;
+}
+.cs-map .map-number.number-2 {
+  left: 24.8%;
+  top: 36%;
+}
+.cs-map .map-number.number-3 {
+  left: 30.5%;
+  top: 34.2%;
+}
+.cs-map .map-number.number-4 {
+  left: 84%;
+  top: 74%;
+}
+.cs-map .map-number.number-5 {
+  left: 93.3%;
+  top: 77.8%;
+}
+.cs-map .map-text {
+  position: absolute;
+  font-size: 0.331vw;
+  line-height: 1.6;
+  color: #b5b5b5;
+  display: flex;
+  align-items: center;
+  gap: 1.058vw;
+  text-align: right;
+}
+
+.cs-map .map-text.text-1 {
+  left: 11.5%;
+  top: 21.5%;
+  flex-direction: row-reverse;
+}
+.cs-map .map-text.text-2 {
+  left: 14%;
+  top: 28.5%;
+}
+.cs-map .map-text.text-3 {
+  left: 13%;
+  top: 37%;
+}
+.cs-map .map-text.text-4 {
+  left: 25%;
+  top: 32.3%;
+}
+
+.cs-map .map-text.text-5 {
+  left: 25%;
+  top: 40.8%;
+  flex-direction: row-reverse;
+}
+.cs-map .map-text.text-6 {
+  left: 43.2%;
+  top: 26.2%;
+}
+.cs-map .map-text.text-7 {
+  left: 49%;
+  top: 24.3%;
+}
+.cs-map .map-text.text-8 {
+  left: 53.2%;
+  top: 28%;
+  gap: 1.257vw;
+  flex-direction: row-reverse;
+}
+.cs-map .map-text.text-9 {
+  left: 53%;
+  flex-direction: row-reverse;
+  top: 28.9%;
+}
+.cs-map .map-biobank {
+  position: absolute;
+  font-family: "Telegraf";
+  font-weight: 700;
+  font-size: 0.403vw;
+  display: flex;
+  align-items: center;
+  gap: 0.595vw;
+  color: #ffffff;
+}
+.cs-map .map-biobank img {
+  width: 1.389vw;
+}
+.cs-map .map-biobank.biobank-1 {
+  left: 17.5%;
+  top: 37.5%;
+}
+.cs-map .map-biobank.biobank-2 {
+  left: 63%;
+  top: 41.6%;
+  flex-direction: row-reverse;
+}
+.square-loader {
+  width: 0.529vw;
+  height: 0.529vw;
+  background: #fff;
+  animation: pulse 1.3s ease-in-out infinite;
+}
+.square-loader.small {
+  width: 0.331vw;
+  height: 0.331vw;
+}
+@keyframes blinkSquare {
+  0%,
+  100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+.cs-map .img-bottom-right {
+  bottom: 5.489vw;
+  right: 3.968vw;
+  width: 2.249vw;
+}
+.cs-map .map-location {
+  position: absolute;
+  min-height: 7.143vw;
+  max-width: 21.032vw;
+  width: 100%;
+  display: flex;
+}
+.cs-map .map-location .left {
+  width: 23%;
+  padding-top: 0.926vw;
+}
+.cs-map .map-location .right {
+  width: 77%;
+  position: relative;
+  padding: 0.926vw 1.19vw;
+}
+
+.cs-map .map-location .img-border {
+  width: 0.728vw;
+}
+.cs-map .map-location .square-plus {
+  width: 1.058vw;
+  height: 1.058vw;
+  border: 1px solid #828282;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.926vw;
+}
+.cs-map .map-location .square-plus img {
+  width: 0.397vw;
+}
+.cs-map .map-location .text-source {
+  font-size: 0.529vw;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: -0.529vw;
+}
+.cs-map .map-location .right .inner {
+  border-left: 1px solid #4f4f4f;
+  padding-left: 0.661vw;
+}
+.cs-map .map-location .content {
+  padding-left: 0.992vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.529vw;
+}
+.cs-map .map-location .content::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.198vw;
+  height: calc(100% - 0.397vw);
+  width: 2px;
+  background-color: #828282;
+}
+.cs-map .map-location .content-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.058vw;
+  padding: 0 0.07vw;
+}
+.cs-map .map-location .content .slash {
+  font-size: 0.794vw;
+}
+.cs-map .map-location .content .core-team {
+  display: flex;
+  align-items: center;
+  gap: 0.992vw;
+  font-size: 0.529vw;
+  letter-spacing: 0.02em;
+}
+.cs-map .map-location .content .core-team .square {
+  background-color: #ff7b31;
+}
+.cs-map .map-location .content-body {
+  display: flex;
+  gap: 0.661vw;
+  padding: 0.331vw 0.397vw;
+  background-color: #383838;
+  font-size: 0.794vw;
+  line-height: 1.166;
+}
+.cs-map .map-location .content .location-name {
+  font-size: 0.794vw;
+  line-height: 1.166;
+  flex: 1;
+}
+.cs-map .map-location .content .location-name span {
+  color: #6c6c6c;
+}
+.cs-map .map-location .content-bottom {
+  font-size: 0.794vw;
+  line-height: 1.166;
+  color: #4f4f4f;
+}
+.cs-map .map-location.location-1 {
+  top: 44%;
+  left: 4%;
+}
+.cs-map .map-location.location-2 {
+  top: 13%;
+  left: 20.5%;
+}
+.cs-map .map-location.location-3 {
+  top: 36.2%;
+  left: 31.8%;
+}
+.cs-map .map-location.location-4 {
+  top: 66.2%;
+  left: 61.5%;
+}
+.cs-map .map-location.location-5 {
+  top: 46.2%;
+  left: 75.5%;
+}

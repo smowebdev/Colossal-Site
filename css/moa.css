@@ -1,0 +1,865 @@
+.moa-hero-content {
+    padding: 5.886vw 0 2.778vw;
+}
+
+.moa-hero .mammoth-database {
+    margin: 11.045vw 0 13.757vw;
+}
+
+.moa-hero .mammoth-hero-process {
+    bottom: 15.608vw;
+}
+
+.moa-hero .mammoth-hero-process .line-orange {
+    background: linear-gradient(90deg, #7DEA13 0%, #E0FF14 100%);
+    height: 0.529vw;
+    box-shadow: 0px 0px 7.5px 0px #7DEA13;
+
+}
+
+.moa-hero .mammoth-hero-info {
+    padding-top: 2.646vw;
+}
+
+.moa-hero .row-1 {
+    margin-bottom: 0.463vw;
+}
+
+.moa-page .reviving-mammoth-sec .row-2 {
+    margin-bottom: 5.886vw;
+}
+
+.moa-page .reviving-mammoth-heading {
+    max-width: 79.101vw;
+}
+
+.moa-page .reviving-mammoth-sec {
+    padding-bottom: 5.225vw;
+}
+
+.moa-page .earth-friend-content .inner {
+    padding: 7.606vw 10.119vw 4.828vw;
+}
+
+.moa-page .earth-friend-content .heading {
+    padding-top: 5.026vw;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 32.56%, rgba(125, 234, 19, 0.68) 100%), linear-gradient(0deg, #F4F4F4, #F4F4F4);
+
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.moa-about-img {
+    max-width: 72.487vw;
+    margin-top: -34.193vw;
+}
+
+.moa-about-img img {
+    margin-left: -3.241vw;
+}
+
+.moa-about-sec::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    height: 40.079vw;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.04%, #000000 93.71%);
+    pointer-events: none;
+    z-index: 3;
+}
+
+.moa-page .science-action-sec {
+    margin-top: -7.077vw;
+}
+
+.moa-page .science-action-content .left .title {
+    max-width: 29.431vw;
+}
+
+.moa-page .science-action-content .right .content .text-content-2 {
+    left: 2.513vw;
+}
+
+.moa-page .step-de-extinction .content-top .box-1 .time {
+    font-size: 1.852vw;
+    line-height: 1.32;
+    letter-spacing: -0.04em;
+}
+
+.moa-page .metrics-panel-row .item {
+    padding: 0 1.058vw;
+    width: 25%;
+}
+
+.moa-page .advisor-card .advisor-img-wrapper::before {
+    background: linear-gradient(180deg, #C9C9C7 20.19%, #7DEA13 100%);
+}
+
+.moa-page .advisor-info .advisor-role {
+    max-width: 100%;
+}
+
+.moa-page .testimonial-main>.left .row-1 {
+    margin-bottom: 1.984vw;
+}
+
+.moa-page .testimonial-main>.left .quote-title {
+    font-size: 2.116vw;
+    line-height: 130%;
+    letter-spacing: 0.01375em;
+}
+
+.moa-page .testimonial-main>.left .row-3 .text {
+    font-size: clamp(6px, 0.639vw, 20px);
+}
+
+.moa-page .testimonial-main>.left .row-3 .quote-icon img {
+    transform: rotate(-180deg);
+}
+
+.moa-page .testimonial-main>.left .line:last-child {
+    margin: 1.72vw 0 0 0;
+}
+
+.moa-page .testimonial-main>.left .row-2 {
+    margin-bottom: 1.455vw;
+}
+
+.moa-page .testimonial-main>.right::before {
+    background:
+        linear-gradient(30.75deg, #FF7B31 36.25%, #FF7B31 43.5%, #C0C0C0 70.59%), linear-gradient(0deg, #C0C0C0, #C0C0C0);
+}
+
+.moa-page .testimonial-main>.right::after {
+    background:
+        radial-gradient(160.77% 55.4% at 51.75% 100%, #7DEA13 16.52%, rgba(125, 234, 19, 0) 70.91%);
+}
+
+.moa-page .partner-slider .partner-name,
+.moa-page .partner-slider .partner-name .plus,
+.moa-page .partner-slider .index-text {
+    color: #000000;
+}
+
+.moa-page .partner-slider .btn-visit {
+    border-color: #000;
+    color: #000;
+}
+
+.moa-page .woolly-mammoths-sec .bg-1 {
+    height: auto;
+}
+
+.moa-page .woolly-mammoths-sec .bg-1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25.397vw;
+    background: linear-gradient(180deg, #715F31 0%, rgba(113, 95, 49, 0) 100%);
+    z-index: 1;
+}
+
+.moa-page .woolly-mammoths-sec .bg-1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #715F31 4.85%, rgba(113, 95, 49, 0) 63.66%);
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.moa-page .woolly-mammoths-sec .heading {
+    font-size: 32.49vw;
+    line-height: 114.99999999999999%;
+    letter-spacing: 0;
+}
+
+.moa-page .woolly-mammoths-sec .heading-1 {
+    margin: -5.291vw 0 0.86vw -1.587vw;
+}
+
+.moa-page .woolly-mammoths-sec .heading-wrapper span {
+    letter-spacing: 0.02em;
+    top: 28%;
+    right: 10%;
+}
+
+.moa-page .woolly-mammoths-sec .heading-2 {
+    margin-top: -3.836vw;
+    margin-right: -1.058vw;
+}
+
+.moa-page .woolly-mammoths-sec .woolly-mammoths-img {
+    margin-top: -76.323vw;
+}
+
+
+.moa-page .woolly-mammoths-sec .woolly-mammoths-img .text {
+    top: 45.6% !important;
+}
+
+.moa-page .woolly-mammoths-sec .woolly-mammoths-img .clsl-text {
+    font-size: 2.249vw;
+    letter-spacing: 0.026em;
+    left: 4.233vw;
+    top: 45.4% !important;
+    transform: translateY(-50%);
+}
+
+.moa-page .woolly-mammoths-sec .woolly-mammoths-img .clsl-text .square {
+    width: 1.587vw;
+    height: 1.587vw;
+}
+
+.moa-page .woolly-mammoths-sec .woolly-mammoths-img::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    inset: unset;
+    width: 100%;
+    bottom: 6%;
+    height: 44.6%;
+    background: linear-gradient(0deg, #000000 6.61%, rgba(0, 0, 0, 0.482781) 23.8%, rgba(0, 0, 0, 0) 66.4%);
+    mix-blend-mode: multiply;
+}
+
+.moa-intro-bottom {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 52.45%;
+}
+
+.moa-intro-bottom .title {
+    font-size: 11.243vw;
+    line-height: 0.79;
+    background:
+        linear-gradient(180deg, #FFFFFF 26.43%, #FF7B31 89.27%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 4.365vw;
+}
+
+.moa-intro-bottom .bottom-row .column {
+    gap: 0.661vw 7.143vw;
+    font-size: 1.01vw;
+    line-height: 1.44;
+}
+
+.moa-intro-bottom .bottom-row .column .square {
+    margin-top: 0.331vw;
+}
+
+.moa-habitat-sec {
+    margin-top: -9.921vw;
+}
+
+.moa-habitat-sec .text-clsl {
+    gap: 1.058vw;
+    font-size: 2.249vw;
+    line-height: 0.7;
+    letter-spacing: 0.026em;
+    left: 5.423vw;
+    bottom: 4.762vw;
+
+}
+
+.moa-habitat-sec .text-clsl .square {
+    width: 1.587vw;
+    height: 1.587vw;
+}
+
+.moa-habitat-sec .wrapper-md {
+    padding: 0 5.423vw;
+}
+
+.moa-habitat-sec .map-wrapper {
+    max-width: 81.614vw;
+}
+
+
+.moa-habitat-sec .map-wrapper .subtitle-1,
+.moa-habitat-sec .map-wrapper .subtitle-2 {
+    top: 7%;
+}
+
+.moa-habitat-sec .map-wrapper .subtitle-3,
+.moa-habitat-sec .map-wrapper .subtitle-4 {
+    top: 35%;
+}
+
+.moa-habitat-sec .map-wrapper .subtitle-4 {
+    color: #FF0EF3 !important;
+}
+
+.moa-habitat-sec .map-wrapper .square-1 {
+    top: 20.5%;
+    left: 1.587vw;
+}
+
+.moa-habitat-sec .map-wrapper .square-2 {
+    top: 20.5%;
+    right: 1.587vw;
+}
+
+.moa-habitat-sec .map-wrapper .square-3 {
+    top: 50%;
+    right: 1.587vw;
+}
+
+.moa-habitat-sec .map-wrapper .map-img {
+    max-width: 73.479vw;
+    top: -19.974vw;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .map-title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    left: 7.143vw;
+    bottom: 14.947vw;
+    width: 14.087vw;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .ecosystem-list {
+    gap: 0.529vw;
+    font-size: 0.724vw;
+    list-style: none;
+    right: 5.952vw;
+    bottom: 14.881vw;
+    max-height: 5.291vw;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .ecosystem-list li {
+    margin-right: 0.661vw;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .map-label {
+    font-size: 0.529vw;
+    line-height: 1.5;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .map-label.label-left {
+    padding: 0.331vw;
+    top: 21.164vw;
+    left: 4.828vw;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .map-label.label-right {
+    top: 21.561vw;
+    right: 5.159vw;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .video-dot {
+    max-width: 2.778vw;
+    border: 1px solid #979797;
+    border-radius: 0.661vw;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .video-dot-1 {
+    top: 12.5%;
+    left: 42%;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .video-dot-2 {
+    top: 25.5%;
+    left: 52%;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .video-dot-3 {
+    top: 29%;
+    left: 57.6%;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .video-dot-4 {
+    top: 29.5%;
+    left: 64.4%;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .video-dot-5 {
+    top: 35%;
+    left: 62.4%;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .video-dot-6 {
+    top: 36.5%;
+    left: 49%;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .video-dot-7 {
+    top: 48.3%;
+    left: 57.3%;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .video-dot-8 {
+    top: 51%;
+    left: 49%;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .video-dot-9 {
+    top: 55.5%;
+    left: 49.2%;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .video-dot-10 {
+    top: 67.2%;
+    left: 43.5%;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .video-dot-11 {
+    top: 71.2%;
+    left: 37%;
+}
+
+.moa-habitat-sec .map-wrapper .map-img .video-dot-12 {
+    top: 81%;
+    left: 33%;
+}
+
+.moa-habitat-sec .moa-data {
+    margin-top: -32.077vw;
+}
+
+.moa-habitat-sec .moa-data .box-left,
+.moa-habitat-sec .moa-data .box-right {
+    width: 50%;
+}
+
+.moa-habitat-sec .moa-data .box-left {
+    max-width: 33.399vw;
+    padding: 3.307vw;
+}
+
+.moa-habitat-sec .moa-data .box-left .box-inner {
+    padding: 1.323vw;
+}
+
+.moa-habitat-sec .moa-data .box-left .box-inner svg {
+    width: 1.389vw;
+    height: 1.389vw;
+    object-fit: contain;
+}
+
+.moa-habitat-sec .moa-data .box-left .box-video {
+    border: 1px solid transparent;
+    border-image: linear-gradient(180deg, #4F4F4F 0%, #B5B5B5 100%) 1;
+    padding: 0.529vw;
+    aspect-ratio: 341/339;
+}
+
+.moa-habitat-sec .moa-data .box-left .box-video .video::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/moa/200W_Grid.png') no-repeat center / cover;
+    mix-blend-mode: difference;
+    opacity: 0.55;
+}
+
+.moa-habitat-sec .moa-data .box-left .box-video .video::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(130, 130, 130, 0.23);
+}
+
+.moa-habitat-sec .moa-data .box-left .box-video video {
+    border: 1px solid #4F4F4F;
+}
+
+.moa-habitat-sec .moa-data .box-left .box-video .video-note {
+    gap: 0.992vw;
+    font-size: clamp(6px, 0.529vw, 20px);
+    letter-spacing: 0.02em;
+    top: 0.661vw;
+    right: 0.794vw;
+}
+
+.moa-habitat-sec .moa-data .box-left .text-1 {
+    font-size: clamp(6px, 0.529vw, 20px);
+    letter-spacing: 0.02em;
+}
+
+.moa-habitat-sec .moa-data .box-left .text-2 {
+    font-size: clamp(8px, 0.661vw, 20px);
+    line-height: 1.4;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -0.331vw;
+}
+
+.moa-habitat-sec .moa-data .box-right .box-top {
+    border-bottom: 1px dashed #000;
+    padding: 0.661vw 1.984vw 0.661vw 1.72vw;
+}
+
+.moa-habitat-sec .moa-data .box-right .box-top .title {
+    font-size: 2.646vw;
+    line-height: 0.775;
+    letter-spacing: -0.025em;
+    padding-top: 1.72vw;
+    max-width: 34.392vw;
+}
+
+.moa-habitat-sec .moa-data .box-right .text {
+    font-size: 0.992vw;
+    line-height: 2.2;
+    letter-spacing: 0.02em;
+}
+
+.moa-habitat-sec .moa-data .box-right .square {
+    width: 2.183vw;
+    height: 2.183vw;
+}
+
+.moa-habitat-sec .moa-data .box-right .box-body {
+    padding: 0.992vw 1.984vw 0.794vw 1.72vw;
+}
+
+.moa-habitat-sec .moa-data .box-right .box-body .desc {
+    font-size: 1.731vw;
+    margin: 0.926vw 0 0.794vw;
+}
+
+.moa-habitat-sec .moa-data .box-right .box-body .title {
+    font-size: 3.924vw;
+    margin-bottom: 1.19vw;
+}
+
+.moa-habitat-sec .moa-data .box-right .box-body .subtitle {
+    font-size: 0.992vw;
+    letter-spacing: 0.02em;
+    margin-bottom: 1.587vw;
+}
+
+.moa-habitat-sec .moa-data .box-right .box-body .image img {
+    width: 15.873vw;
+}
+
+.moa-habitat-sec .moa-data .box-right .box-body .text-line {
+    font-size: 3.175vw;
+    letter-spacing: -0.17em;
+    margin-top: 1.19vw;
+}
+
+.moa-habitat-sec .moa-data .box-right .row-2 .column {
+    gap: 1.587vw;
+}
+
+.moa-habitat-sec .moa-data .box-right .row-2 .column-2 {
+    margin-left: 2.778vw;
+}
+
+.moa-habitat-sec .moa-data .box-right .row-2 .img-global {
+    mix-blend-mode: color-dodge;
+    width: 3.571vw;
+}
+
+.moa-habitat-sec .moa-data .box-right .row-2 .logo-list {
+    height: 1.852vw;
+    width: auto;
+}
+
+.moa-habitat-sec .bottom-img {
+    width: 61.376vw;
+    aspect-ratio: 1;
+    bottom: -13.492vw;
+    left: -14.153vw;
+    opacity: 0.3;
+}
+
+.moa-habitat-sec::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 32.738vw;
+    height: 28.505vw;
+    background: linear-gradient(-90deg, #9940DD 8.24%, rgba(255, 123, 49, 0.8) 42.9%, rgba(255, 255, 255, 0) 78.65%);
+    z-index: 1;
+    mix-blend-mode: exclusion;
+}
+
+.moa-info-sec .tusks-main .tusks-heading {
+    color: #5E5E5E;
+}
+
+.moa-info-sec .tusks-main .tusks-heading span {
+    color: #fff;
+}
+
+.moa-info-sec .tusks-main .tusks-heading-1 {
+    padding-top: 2.91vw;
+}
+
+.moa-info-sec .tusks-main .row-2 .left {
+    padding-right: 1.587vw;
+    width: 35.4%;
+}
+
+.moa-info-sec .tusks-main .row-2 .right {
+    width: 64.6%;
+}
+
+.moa-info-sec .tusks-main .row-2 .left .text {
+    max-width: 25.397vw;
+}
+
+.moa-info-sec .moa-feathers {
+    max-width: 24.603vw;
+    margin-top: 6.481vw;
+}
+
+.moa-info-sec .moa-feathers .label {
+    margin-bottom: 1.455vw;
+}
+
+.moa-info-sec .tusks-main .row-2 .right .image-1 {
+    width: 44.7%;
+    margin-top: -4.63vw;
+}
+
+.tusks-main .row-2 .right-inner {
+    width: 55.3%;
+}
+
+.moa-info-sec .tusks-main .row-2 .moa-species-chart {
+    width: 25.132vw;
+    margin-bottom: 5.622vw;
+    margin-top: -1.124vw;
+}
+
+.moa-info-sec .tusks-main .tusks-heading-2 {
+    width: 180%;
+    margin-left: -86%;
+    padding-bottom: 6.283vw;
+}
+
+.moa-info-sec .tusks-main .tusks-desc {
+    margin-bottom: 6.614vw;
+}
+
+.tusks-sec.moa-info-sec::before {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        linear-gradient(180deg, #000000 20.84%, rgba(0, 0, 0, 0.971839) 54.31%, rgba(0, 0, 0, 0) 69.47%);
+}
+
+.tusks-sec.moa-info-sec {
+    padding-top: 7.341vw;
+}
+
+.tusks-sec.moa-info-sec .video-bg {
+    aspect-ratio: 1512/1042;
+}
+
+.mammoth-related-sec.moa-related-sec .asian-elephant {
+    padding-bottom: 9.921vw;
+}
+
+.moa-conservation-impact-sec .conservation-impact-header::before {
+    background: linear-gradient(180deg, #715F31 12.5%, rgba(113, 95, 49, 0.67822) 48.64%, rgba(113, 95, 49, 0) 73.45%);
+    z-index: 1;
+}
+
+.moa-conservation-impact-sec .conservation-impact-header::after {
+    background: linear-gradient(180deg, #FFFFFF 7.18%, rgba(255, 255, 255, 0) 17.96%);
+    z-index: 1;
+}
+
+.conservation-impact-sec.moa-conservation-impact-sec {
+    margin-top: -5.952vw;
+}
+
+.moa-conservation-impact-sec .conservation-impact-header {
+    padding-top: 20.503vw;
+    padding-bottom: 9.259vw;
+}
+
+.moa-conservation-impact-sec .conservation-impact-header .heading {
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 32.56%, rgba(0, 0, 0, 0.78) 89.88%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.moa-conservation-impact-sec .conservation-impact-header .image {
+    width: 22.024vw;
+    margin-top: -6.614vw;
+}
+
+.moa-conservation-impact-sec .conservation-impact-header .image img {
+    margin-left: -1.72vw;
+}
+
+.moa-conservation-impact-sec .conservation-impact-header>.bg-grid {
+    opacity: 0.6;
+    mix-blend-mode: exclusion;
+    top: 2.646vw;
+    height: 100%;
+}
+
+.moa-conservation-impact-bg {
+    top: 2.646vw;
+}
+
+.moa-conservation-impact-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 79.55%, #000000 97.67%);
+    pointer-events: none;
+    z-index: 2;
+}
+
+.conservation-threat {
+    margin-top: 4.497vw;
+    margin-bottom: 3.968vw;
+}
+
+.conservation-threat .row-1 {
+    padding: 0.661vw 13.228vw 2.315vw 0;
+}
+
+.conservation-threat .row-1 .column {
+    gap: 0.661vw 6.944vw;
+    padding-right: 2.646vw;
+    width: 26%;
+}
+
+.conservation-threat .row-1 .column .square {
+    margin-top: 0.265vw;
+}
+
+.conservation-threat-box .column-1 {
+    width: 3.175vw;
+    padding: 0.794vw 0.661vw 3.307vw 0.661vw;
+}
+
+.conservation-threat-box .column-2 {
+    padding: 1.852vw 3.307vw 3.307vw;
+}
+
+.conservation-threat-box .column-3 {
+    padding: 2.381vw 0.661vw 1.521vw 0.661vw;
+    width: 3.175vw;
+}
+
+.conservation-threat-box .column-3 .stat-plus {
+    margin-bottom: 0;
+    margin-top: 1.521vw;
+}
+
+.conservation-threat-box .subtitle {
+    font-size: 1.323vw;
+    margin-bottom: 3.704vw;
+}
+
+.conservation-threat-box .title {
+    font-size: 7.566vw;
+    margin-bottom: 2.976vw;
+    letter-spacing: 0.064em;
+}
+
+.conservation-threat-box .desc {
+    max-width: 51.389vw;
+    font-size: 1.587vw;
+    line-height: 120%;
+    color: #7B7B7B;
+}
+
+.conservation-threat-box .critical-loss {
+    top: 1.455vw;
+    right: 2.116vw;
+    gap: 0.728vw;
+}
+
+.conservation-threat-box .critical-loss .line-text {
+    font-size: 0.59vw;
+}
+
+.conservation-threat-box .critical-loss .label {
+    font-size: 0.774vw;
+    padding: 0.331vw 0.529vw;
+}
+
+.conservation-impact-sec.moa-conservation-impact-sec .conservation-impact-learnmore::before {
+    background: rgba(0, 0, 0, 0.4);
+
+}
+
+.moa-shaping-conversation-sec .row-1 {
+    margin-bottom: 1.984vw;
+}
+
+.moa-shaping-conversation-sec .row-2 {
+    padding-right: 2.513vw;
+    margin-bottom: 3.968vw;
+}
+
+.moa-shaping-conversation-sec .row-2 .column {
+    gap: 0.661vw 7.143vw;
+}
+
+.shaping-conversation-sec.moa-shaping-conversation-sec {
+    padding-bottom: 0;
+}
+
+.moa-culture-lore-sec .culture-lore-main {
+    margin-top: -5.291vw;
+    padding-top: 36.508vw;
+    padding-bottom: 38.955vw;
+    clip-path: polygon(0% 99.986%, 0% 0%, 100% 0%, 100% 99.986%, 75.575% 99.986%, 75.575% 99.986%, 75.331% 99.966%, 75.101% 99.909%, 74.886% 99.817%, 74.689% 99.694%, 74.515% 99.543%, 74.365% 99.367%, 74.244% 99.169%, 74.154% 98.952%, 74.098% 98.72%, 74.079% 98.475%, 74.083% 97.624%, 74.083% 97.624%, 74.065% 97.379%, 74.009% 97.146%, 73.918% 96.93%, 73.797% 96.731%, 73.647% 96.555%, 73.472% 96.404%, 73.276% 96.281%, 73.061% 96.19%, 72.83% 96.133%, 72.586% 96.113%, 27.288% 96.188%, 27.288% 96.188%, 27.047% 96.208%, 26.818% 96.265%, 26.604% 96.356%, 26.409% 96.477%, 26.235% 96.627%, 26.086% 96.801%, 25.965% 96.997%, 25.874% 97.211%, 25.816% 97.441%, 25.796% 97.684%, 25.791% 98.491%, 25.791% 98.491%, 25.77% 98.734%, 25.713% 98.964%, 25.622% 99.179%, 25.5% 99.375%, 25.35% 99.549%, 25.176% 99.698%, 24.981% 99.819%, 24.767% 99.91%, 24.538% 99.966%, 24.296% 99.986%, 0% 99.986%);
+}
+
+.moa-culture-lore-sec .btn-primary:hover .arrow {
+    background-color: #7DEA13 !important;
+}
+
+.moa-culture-lore-sec .culture-lore-main::after {
+    mix-blend-mode: exclusion;
+    bottom: 0;
+    top: auto;
+    height: 54%;
+    background: linear-gradient(180deg, rgba(125, 234, 19, 0) 52.56%, #7DEA13 90.99%);
+}
+
+.moa-culture-lore-sec .culture-lore-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/moa/teknoir_texture_grain.jpg') no-repeat center / cover;
+    opacity: 0.4;
+    mix-blend-mode: screen;
+    z-index: 1;
+}
+
+.moa-page .footer-end {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -38.69vw;
+    max-height: 56.217vw;
+    mix-blend-mode: exclusion;
+    overflow: hidden;
+    text-align: center;
+}
+
+.moa-page .footer-end img {
+    max-width: 58.399vw;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(-10.25deg);
+    position: relative;
+    left: 4.63vw;
+}

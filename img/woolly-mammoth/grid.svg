@@ -1,0 +1,64 @@
+<svg width="1469" height="1235" viewBox="0 0 1469 1235" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g style="mix-blend-mode:overlay" clip-path="url(#clip0_760_4073)">
+<g clip-path="url(#clip1_760_4073)">
+<rect width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="252" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="504" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="756" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="1008" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="1260" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+</g>
+<g clip-path="url(#clip2_760_4073)">
+<rect y="252" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="252" y="252" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="504" y="252" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="756" y="252" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="1008" y="252" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="1260" y="252" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+</g>
+<g clip-path="url(#clip3_760_4073)">
+<rect y="504" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="252" y="504" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="504" y="504" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="756" y="504" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="1008" y="504" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="1260" y="504" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+</g>
+<g clip-path="url(#clip4_760_4073)">
+<rect y="756" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="252" y="756" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="504" y="756" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="756" y="756" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="1008" y="756" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="1260" y="756" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+</g>
+<g clip-path="url(#clip5_760_4073)">
+<rect y="1008" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="252" y="1008" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="504" y="1008" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="756" y="1008" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="1008" y="1008" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+<rect x="1260" y="1008" width="252" height="252" stroke="black" stroke-opacity="0.5" stroke-width="0.5"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_760_4073">
+<rect width="1469" height="1235" fill="white"/>
+</clipPath>
+<clipPath id="clip1_760_4073">
+<rect width="1512" height="252" fill="white"/>
+</clipPath>
+<clipPath id="clip2_760_4073">
+<rect width="1512" height="252" fill="white" transform="translate(0 252)"/>
+</clipPath>
+<clipPath id="clip3_760_4073">
+<rect width="1512" height="252" fill="white" transform="translate(0 504)"/>
+</clipPath>
+<clipPath id="clip4_760_4073">
+<rect width="1512" height="252" fill="white" transform="translate(0 756)"/>
+</clipPath>
+<clipPath id="clip5_760_4073">
+<rect width="1512" height="252" fill="white" transform="translate(0 1008)"/>
+</clipPath>
+</defs>
+</svg>
