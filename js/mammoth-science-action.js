@@ -64,6 +64,11 @@ jQuery(function ($) {
   }
 
   function updatePhase(index) {
+    if (!cards[index]) {
+      console.warn(`Card at index ${index} does not exist.`);
+      return;
+    }
+
     const phaseNumber = formatNumber(index + 1);
 
     phaseCounters.forEach((counter) => {
@@ -147,4 +152,28 @@ jQuery(function ($) {
   updatePhase(0);
 
   ScrollTrigger.refresh();
+  const swiper = new Swiper('.xh-team-swiper', {
+    slidesPerView: 2,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: '.xh-btn-next',
+      prevEl: '.xh-btn-prev',
+    },
+    on: {
+      init(swiper) {
+        updateCounter(swiper);
+      },
+      slideChange(swiper) {
+        updateCounter(swiper);
+      }
+    }
+  });
+
+ function updateCounter(swiper) {
+  document.querySelector('.swiper-pagination-current').textContent =
+    String(swiper.activeIndex + 1).padStart(2, '0');
+
+  document.querySelector('.swiper-pagination-total').textContent =
+    String(swiper.slides.length).padStart(2, '0');
+}
 });
