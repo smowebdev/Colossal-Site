@@ -2935,6 +2935,7 @@
     border-radius: 16px;
     position: relative;
     overflow: hidden;
+    width: 100%;
 }
 
 .core-phenotype-sec .trait-comparison .title {
@@ -2957,6 +2958,7 @@
     font-size: 20px;
     line-height: 16px;
     margin-bottom: 17px;
+    margin-right: 21px;
 }
 
 .core-phenotype-sec .trait-comparison .label {
@@ -2981,11 +2983,6 @@
     flex-shrink: 0;
 }
 
-.core-phenotype-sec .trait-comparison__row .column {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-}
 
 .core-phenotype-sec .trait-comparison .row-1 {
     margin-bottom: 57px;
@@ -3076,4 +3073,134 @@
     transform: rotate(90deg);
     top: 11%;
     right: -13%;
+}
+
+.core-phenotype-sec .trait-comparison .row-2 {
+    margin-bottom: 38px;
+    gap: 18px;
+}
+
+.core-phenotype-sec .trait-comparison .row-2 .row-inner {
+    gap: 20px;
+}
+
+.core-phenotype-sec .trait-comparison .row-2 .column {
+    padding-top: 19px;
+    border-top: 1px solid #828282;
+}
+
+.core-phenotype-sec .trait-comparison .row-2 .column-1 {
+    width: calc(41.47% - 9px);
+    gap: 20px;
+}
+
+.core-phenotype-sec .trait-comparison .row-2 .column-1 .col-left {
+    width: 211px;
+}
+
+.core-phenotype-sec .trait-comparison .row-2 .column-1 .col-right {
+    width: calc(100% - 211px - 20px);
+}
+
+.core-phenotype-sec .trait-comparison .row-2 .column-1 .image {
+    margin-bottom: 19px;
+}
+
+.core-phenotype-sec .trait-comparison .row-2 .column-1 .image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/mammoth-science-action/dark-grid-1.png') no-repeat center / cover;
+    pointer-events: none;
+}
+
+.core-phenotype-sec .trait-comparison .row-2 .column-2 {
+    width: calc(58.53% - 9px);
+}
+
+.core-phenotype-sec .trait-comparison .row-2 .column-2 .col-left {
+    width: calc(100% - 215px - 20px);
+}
+
+.core-phenotype-sec .trait-comparison .row-2 .column-2 .col-right {
+    width: 215px;
+}
+
+.core-phenotype-sec .trait-comparison .row-2 .column-2 .video {
+    aspect-ratio: 564/393;
+}
+
+.core-phenotype-sec .trait-comparison .row-2 .column-2 .video::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.23);
+    box-shadow: 0px 0px 40.7px 0px #FF7B31 inset;
+
+}
+
+.core-phenotype-sec .trait-comparison .row-2 .column-2 .video-text {
+    font-size: 34px;
+    letter-spacing: 0.89px;
+    bottom: 38px;
+    left: 50px;
+}
+
+.core-phenotype-sec .trait-comparison .row-2 .column-2 .video-image {
+    aspect-ratio: 1;
+    bottom: 30px;
+    right: 30px;
+    width: 200px;
+
+
+}
+
+.core-phenotype-sec .trait-comparison .row-2 .column-2 .video-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    box-shadow: 0px 0px 29.9px 0px #FF7B31 inset,
+        0px 17px 28.4px 0px #00000040;
+}
+
+.core-phenotype-sec .trait-comparison .row-2 .title {
+    margin-bottom: 115px;
+}
+
+.core-phenotype-sec .trait-comparison .row-3 {
+    gap: 20px;
+}
+
+.core-phenotype-sec .trait-comparison .row-3 .row-inner {
+    gap: 23px;
+}
+
+.core-phenotype-sec .trait-comparison .row-3 .column {
+    padding-top: 25px;
+    border-top: 1px solid #828282;
+}
+
+.core-phenotype-sec .trait-comparison .row-3 .column-1 {
+    width: calc(50% - 10px);
+}
+
+.core-phenotype-sec .trait-comparison .row-3 .column .col-left {
+    width: 331px;
+}
+
+.core-phenotype-sec .trait-comparison .row-3 .column .col-right {
+    width: calc(100% - 331px - 23px);
+}
+
+.core-phenotype-sec .trait-comparison .row-3 .column .image {
+    aspect-ratio: 331/392;
+}
+
+.core-phenotype-sec .trait-comparison .row-3 .column-2 {
+    width: calc(50% - 10px);
+}
+
+
+.core-phenotype-sec .trait-comparison .row-3 .title {
+    margin-bottom: 50px;
 }
