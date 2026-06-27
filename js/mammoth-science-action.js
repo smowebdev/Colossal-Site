@@ -169,11 +169,32 @@ jQuery(function ($) {
     }
   });
 
- function updateCounter(swiper) {
-  document.querySelector('.swiper-pagination-current').textContent =
-    String(swiper.activeIndex + 1).padStart(2, '0');
+  function updateCounter(swiper) {
+    document.querySelector('.swiper-pagination-current').textContent =
+      String(swiper.activeIndex + 1).padStart(2, '0');
 
-  document.querySelector('.swiper-pagination-total').textContent =
-    String(swiper.slides.length).padStart(2, '0');
-}
+    document.querySelector('.swiper-pagination-total').textContent =
+      String(swiper.slides.length).padStart(2, '0');
+  }
+  document.querySelectorAll('.xh-research .list .panel').forEach(panel => {
+    const item = panel.previousElementSibling;
+
+    panel.addEventListener('shown.bs.collapse', () => {
+      item.classList.add('active');
+
+      const trigger = item.querySelector('[data-bs-toggle="collapse"]');
+      if (trigger) {
+        trigger.textContent = '[ CLOSE ]';
+      }
+    });
+
+    panel.addEventListener('hidden.bs.collapse', () => {
+      item.classList.remove('active');
+
+      const trigger = item.querySelector('[data-bs-toggle="collapse"]');
+      if (trigger) {
+        trigger.textContent = '[ EXPAND ]';
+      }
+    });
+  });
 });
