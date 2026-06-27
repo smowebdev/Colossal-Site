@@ -3354,6 +3354,119 @@
 }
 
 .core-phenotype-sec .deep-dive .gene-identification .content .box-content {
-    min-height: 592px;
     border: 1px solid #B3B3B3;
+}
+
+.core-phenotype-sec .deep-dive .gene-identification {
+    margin-bottom: 60px;
+}
+
+.core-phenotype-sec .deep-dive .example-genes .title-wrapper {
+    padding: 87px 24px 67px;
+    margin-bottom: 55px;
+
+}
+
+.core-phenotype-sec .deep-dive .example-genes .title {
+    font-size: 64px;
+}
+
+.core-phenotype-sec .deep-dive .example-genes .title-wrapper .text-plus {
+    font-size: 34px;
+    line-height: 22px;
+}
+
+.core-phenotype-sec .example-genes__box {
+    min-height: 642px;
+    padding: 14px 76px 0 97px;
+}
+
+.core-phenotype-sec .example-genes__box::before,
+.core-phenotype-sec .example-genes__box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 31px;
+    height: 100%;
+    border: 1px solid #828282;
+
+}
+
+.core-phenotype-sec .example-genes__box::before {
+    left: 0;
+    border-right: none;
+}
+
+.core-phenotype-sec .example-genes__box::after {
+    right: 0;
+    border-left: none;
+}
+
+.core-phenotype-sec .example-genes__box .box-line {
+    height: 1px;
+    margin-bottom: 39px;
+}
+
+.core-phenotype-sec .example-genes__box .box-left {
+    width: 58.1%;
+    padding-right: 22px;
+}
+
+.core-phenotype-sec .example-genes__box .box-right {
+    width: 41.9%;
+}
+
+.core-phenotype-sec .example-genes__box .box-label {
+    font-size: 15.92px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    padding-right: 56px;
+    margin-bottom: 42px;
+}
+
+.core-phenotype-sec .example-genes__box .box-plus {
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    font-size: 21.22px;
+}
+
+.core-phenotype-sec .example-genes__box .box-desc {
+    font-size: 25.46px;
+    padding-right: 10px;
+    margin-bottom: 36px;
+}
+
+.core-phenotype-sec .example-genes__box .box-title {
+    font-size: 42.44px;
+    line-height: 33px;
+    letter-spacing: -1.06px;
+    margin-bottom: 98px;
+}
+
+.core-phenotype-sec .example-genes__box .box-name {
+    font-size: 100px;
+    margin-bottom: 18px;
+}
+
+.core-phenotype-sec .example-genes__box .box-logo {
+    width: 123px;
+}
+
+.core-phenotype-sec .example-genes__box .box-row-1 .box-column-left {
+    width: 60%;
+    padding-right: 20px;
+}
+
+.core-phenotype-sec .example-genes__box .box-row-1 .box-column-right {
+    width: 40%;
+}
+
+.core-phenotype-sec .example-genes__box .box-row-text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 38px;
+}
+
+.core-phenotype-sec .example-genes__box .box-text .body-text {
+    margin-top: 16px;
 }

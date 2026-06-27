@@ -3,6 +3,5 @@ dist/
 build/
 .cache/
 *.zip
-*.mp4
 *.psd
 *.ai
