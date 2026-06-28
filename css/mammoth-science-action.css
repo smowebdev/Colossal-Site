@@ -3259,7 +3259,7 @@
 
 .core-phenotype-sec .deep-dive-content {
     margin-top: -1.984vw;
-    padding: 4.762vw 0 100px;
+    padding-top: 4.762vw;
 }
 
 .core-phenotype-sec .deep-dive .gene-identification__title {
@@ -3372,6 +3372,10 @@
 .core-phenotype-sec .deep-dive .example-genes .title-wrapper .text-plus {
     font-size: 2.249vw;
     line-height: 0.647;
+}
+
+.core-phenotype-sec .example-genes {
+    margin-bottom: -14.087vw;
 }
 
 .core-phenotype-sec .example-genes__box {
@@ -3579,28 +3583,28 @@
     margin-bottom: 6.481vw;
 }
 
-.core-phenotype-sec .example-genes .fgf5-main .left {
+.core-phenotype-sec .example-genes .gene-symbol-main .left {
     width: 46%;
     padding-right: 2.646vw;
 }
 
-.core-phenotype-sec .example-genes .fgf5-main .right {
+.core-phenotype-sec .example-genes .gene-symbol-main .right {
     width: 54%;
 }
 
-.core-phenotype-sec .example-genes .fgf5-line {
+.core-phenotype-sec .example-genes .gene-symbol-line {
     height: 1px;
     margin-bottom: 2.116vw;
 }
 
-.core-phenotype-sec .example-genes .fgf5-chart {
+.core-phenotype-sec .example-genes .gene-symbol-chart {
     border-radius: 8.466vw;
     border: 1px solid #B3B3B3;
     min-height: 20.635vw;
     padding: 3.704vw 4.101vw 2.646vw 3.307vw;
 }
 
-.core-phenotype-sec .example-genes .fgf5-chart::before {
+.core-phenotype-sec .example-genes .gene-symbol-chart::before {
     content: "";
     position: absolute;
     background: url('../img/mammoth-science-action/grid-1.png') no-repeat center / cover;
@@ -3608,7 +3612,7 @@
     pointer-events: none;
 }
 
-.core-phenotype-sec .example-genes .fgf5 .title {
+.core-phenotype-sec .example-genes .gene-symbol .title {
     font-size: 2.116vw;
     line-height: 1;
     letter-spacing: 0.0140625em;
@@ -3616,19 +3620,411 @@
 
 }
 
-.core-phenotype-sec .example-genes .fgf5 .desc {
+.core-phenotype-sec .example-genes .gene-symbol .image-left {
+    margin-bottom: 3.439vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol .desc {
     gap: 2.646vw;
 }
 
-.core-phenotype-sec .example-genes .fgf5 .desc-left {
-    width: calc(55% - 0.175vw);
+.core-phenotype-sec .example-genes .gene-symbol .desc-left {
+    width: calc(56% - 0.175vw);
 
 }
 
-.core-phenotype-sec .example-genes .fgf5 .desc-right {
-    width: calc(45% - 0.175vw);
+.core-phenotype-sec .example-genes .gene-symbol .desc-right {
+    width: calc(44% - 0.175vw);
 }
 
-.core-phenotype-sec .example-genes .fgf5 .desc strong {
+.core-phenotype-sec .example-genes .gene-symbol .desc strong {
     color: #fff;
+}
+
+.core-phenotype-sec .example-genes__content {
+    margin-bottom: 3.968vw;
+}
+
+.core-phenotype-sec .example-genes__content:last-child {
+    margin-bottom: 0;
+}
+
+.core-phenotype-sec .example-genes .tail-size-box {
+    aspect-ratio: 1;
+    backdrop-filter: blur(10.399999618530273px);
+    -webkit-backdrop-filter: blur(10.399999618530273px);
+    border: 1px solid #383838;
+    background:
+        linear-gradient(180deg, rgba(125, 234, 19, 0) 0%, #7DEA13 100%), linear-gradient(0deg, #F4F4F4, #F4F4F4);
+    padding: 1.455vw 1.323vw 1.323vw;
+}
+
+.core-phenotype-sec .example-genes .tail-size-box .label {
+    gap: 1.852vw;
+    top: 1.124vw;
+    left: 1.257vw;
+}
+
+.core-phenotype-sec .example-genes .tail-size-box .box-img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 22.95vw;
+    top: 4.894vw;
+}
+
+.core-phenotype-sec .example-genes .tail-size-box .box-expression {
+    font-size: 0.706vw;
+    letter-spacing: 0.022em;
+    padding: 0.265vw 0.397vw;
+    background-color: rgba(130, 130, 130, 0.75);
+    bottom: 20%;
+}
+
+.core-phenotype-sec .example-genes .tail-size-box .box-expression-1 {
+    left: 16%;
+}
+
+.core-phenotype-sec .example-genes .tail-size-box .box-expression-2 {
+    right: 13%;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hoxb13 {
+    gap: 1.058vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hoxb13 .desc-left,
+.core-phenotype-sec .example-genes .gene-symbol.hoxb13 .desc-right {
+    width: calc(50% - 0.529vw);
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hoxb13 .gene-symbol-main .left {
+    width: 35.26%;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hoxb13 .gene-symbol-main .right {
+    width: 64.74%;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hoxb13 .gene-symbol-chart {
+    max-width: 49.405vw;
+    border-radius: 1.058vw;
+    background-color: rgba(55, 55, 55, 0.71);
+    border-color: #F4F4F4;
+    backdrop-filter: blur(11.300000190734863px);
+    -webkit-backdrop-filter: blur(11.300000190734863px);
+    padding: 3.571vw 2.513vw 1.72vw;
+
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hoxb13 .gene-symbol-chart::before {
+    border-radius: 1.058vw;
+
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .genomic-dna {
+    margin-bottom: 6.151vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .box-chart__title {
+    margin-bottom: 1.19vw;
+    font-size: 1.058vw;
+    line-height: 1.0625;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .genomic-dna__box {
+    background-color: rgba(217, 217, 217, 0.71);
+    border: 1px solid #F4F4F4;
+    backdrop-filter: blur(9.109691619873047px);
+    -webkit-backdrop-filter: blur(9.109691619873047px);
+    padding: 0.992vw 2.646vw 0.529vw;
+    border-radius: 0.794vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .genomic-dna__box img {
+    max-width: 8.796vw;
+    margin-bottom: 1.257vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-caption {
+    font-size: 1.059vw;
+    letter-spacing: 0.022em;
+    vertical-align: middle;
+    padding: 0.397vw 0.595vw;
+    background-color: rgba(130, 130, 130, 0.75);
+    border: 1px solid #F4F4F4;
+    display: inline-block;
+    border-radius: 2.315vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .genomic-dna__note {
+    right: -87%;
+    top: 33%;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .genomic-dna__note::before {
+    content: "";
+    position: absolute;
+    height: 1.5px;
+    width: 6.283vw;
+    background-color: #7DEA13;
+    top: 50%;
+    transform: translateY(-50%);
+    left: calc(-100% - 0.661vw);
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .genomic-dna__note::after {
+    content: "";
+    position: absolute;
+    height: 4.696vw;
+    width: 0.992vw;
+    border: 1.5px solid #7DEA13;
+    border-left: none;
+    top: 50%;
+    transform: translateY(-50%);
+    left: calc(-100% - 0.661vw - 0.992vw);
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .genomic-dna__box::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -3.439vw;
+    height: 2.249vw;
+    width: 1.5px;
+    background-color: #7DEA13;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .genomic-dna__box::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -4.365vw;
+    height: 0.86vw;
+    width: 20.304vw;
+    border: 1.5px solid #7DEA13;
+    border-bottom: none;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.587vw;
+    padding: 0 1.852vw;
+    margin-bottom: 1.984vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle .box-chart__title {
+    margin-bottom: 1.521vw;
+    max-width: 13.955vw;
+
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle__box {
+    border-radius: 1.058vw;
+    border: 1px solid #D9D9D9;
+    background-color: #7DEA13;
+    min-height: 8.73vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle__box .chart-caption {
+    left: 0.794vw;
+    bottom: 0.926vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle__note {
+    top: -53%;
+    right: -17%;
+    max-width: 12.897vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle__note::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5.423vw;
+    width: 1.5px;
+    height: 3.836vw;
+    background-color: #7DEA13;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle__note-2 {
+    top: 46%;
+    right: -78%;
+    max-width: 8.333vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle__note-2::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -5.886vw;
+    width: 4.101vw;
+    height: 1.5px;
+    background-color: #fff;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle__dash {
+    width: 10.78vw;
+    right: 0.661vw;
+    bottom: -5.026vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-bottom .box-chart__title {
+    margin-left: 4.96vw;
+    margin-bottom: 2.315vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-bottom__image {
+    gap: 1.521vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-bottom__note {
+    bottom: -3%;
+    left: -36%;
+    max-width: 9.987vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-bottom__note::before {
+    content: "";
+    position: absolute;
+    top: 0.265vw;
+    right: -10.847vw;
+    width: 9.921vw;
+    height: 1.257vw;
+    border: 1.5px solid #7DEA13;
+    border-top: none;
+    border-left: none;
+
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-bottom__note-2 {
+    bottom: 26%;
+    right: -30%;
+    max-width: 8.003vw;
+    gap: 1.587vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-bottom__note-2 img {
+    width: 2.579vw;
+    margin-left: 1.323vw;
+}
+
+.gene-symbol-chart-wrapper__note {
+    max-width: 8.333vw;
+    top: 0;
+    right: -0.926vw;
+}
+
+.core-phenotype-sec .example-genes__content.smaller-ears .box-row-text {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.core-phenotype-sec .example-genes__content.smaller-ears .smaller-ears-box {
+    border: 1px solid #B3B3B3;
+}
+
+.core-phenotype-sec .example-genes__content.smaller-ears .smaller-ears-box__text {
+    max-width: 12.897vw;
+    left: 2.91vw;
+    bottom: 3.175vw;
+    gap: 0.926vw;
+}
+
+.core-phenotype-sec .example-genes__content.smaller-ears .smaller-ears-box__line {
+    height: 1px;
+    width: 14.021vw;
+    top: 45%;
+    left: -38%;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hmx1 .gene-symbol-main .left {
+    padding-left: 5.291vw;
+    padding-right: 0;
+    width: 46.7%;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hmx1 .gene-symbol-main .right {
+    flex: 53.3%;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hmx1 .hmx1-ins {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.926vw 9.061vw;
+    margin-top: -26.058vw;
+    padding: 0 4.96vw;
+    margin-bottom: 2.646vw;
+}
+
+
+.core-phenotype-sec .example-genes .gene-symbol.hmx1 .hmx1-in-item .item-image__caption {
+    font-size: 0.659vw;
+    letter-spacing: 0.047em;
+    gap: 0.265vw;
+    left: 0;
+    top: 2.778vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hmx1 .hmx1-in-item.item-cows .item-image__caption {
+    top: 4.365vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hmx1 .hmx1-in-item.item-rats .item-image__caption {
+    left: -1.058vw;
+    top: 4.563vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hmx1 .hmx1-in-item .item-image__caption img {
+    width: 1.521vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hmx1 .hmx1-in-item .item-title {
+    font-size: 1.587vw;
+    line-height: 1.375;
+    letter-spacing: -0.044em;
+    margin-top: 0.496vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol-note {
+    font-size: 0.61vw;
+    letter-spacing: 0.02em;
+    margin-bottom: 1.455vw;
+}
+
+.core-phenotype-sec .example-genes__content.smaller-ears .example-genes__box {
+    margin-bottom: 6.614vw;
+}
+
+.core-phenotype-sec .example-genes__content.smaller-ears .example-genes__box .box-left {
+    padding-right: 6.878vw;
+    width: 61%;
+}
+
+.core-phenotype-sec .example-genes__content.smaller-ears .example-genes__box .box-right {
+    width: 39%;
+}
+
+.core-phenotype-sec .critical-advisory-box {
+    margin-top: 4.894vw;
+    position: relative;
+    z-index: 3;
+    bottom: -14.087vw;
+}
+
+.woolly-mouse-sec {
+    min-height: 100vh;
 }
