@@ -347,6 +347,10 @@ h6 {
     line-height: 1.8;
 }
 
+.text-xxm {
+    font-size: clamp(6px, 0.53vw, 20px);
+}
+
 .text-tiny {
     font-size: clamp(7px, 0.661vw, 20px);
 }
