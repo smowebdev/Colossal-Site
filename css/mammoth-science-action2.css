@@ -189,9 +189,11 @@
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
-.xh-research .list>.row.py-2{
+
+.xh-research .list>.row.py-2 {
     padding: 0.6vw 0 0.46vw !important;
 }
+
 .xh-research .list .about-text {
     font-size: 0.79vw;
     line-height: 1.06vw;
@@ -293,7 +295,592 @@
     right: -2.12vw;
     border-bottom: 0.57px solid #FF7B31;
     border-right: 0.57px solid #FF7B31;
-}.view-all{
+}
+
+.view-all {
     padding: 1.52vw 0 1.79vw;
     border-bottom: 1px solid #000;
+}
+
+.xh-team-network {
+    padding: 3.44vw 0 3.44vw;
+}
+
+.xh-team-network .nav .text-md {
+    line-height: 0.73vw;
+}
+
+.xh-team-network .nav {
+    margin-bottom: 7.21vw;
+}
+
+.gap-109 {
+    gap: 7.21vw;
+}
+
+.xh-team-network h2.title {
+    font-size: 6.35vw;
+    line-height: 5.29vw;
+    text-align: center;
+    margin-bottom: 3.7vw;
+}
+
+.xh-team-network .map {
+    margin: 0 2.12vw;
+    border: 1px solid #2E2E2E;
+
+}
+
+.xh-team-network .map .map-bg {
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 86.1%, rgba(0, 0, 0, 0.7) 97.06%),
+        linear-gradient(90deg, rgba(0, 0, 0, 0) 91.19%, rgba(0, 0, 0, 0.7) 100%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 89.83%, rgba(0, 0, 0, 0.7) 98.42%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0.7) 5.01%, rgba(0, 0, 0, 0) 18.91%);
+}
+
+.xh-team-network .footer-label {
+    gap: 0.4vw;
+    left: 2.05vw;
+    bottom: 4.1vw;
+}
+
+/*  */
+.text-md-11 {
+    line-height: 0.73vw;
+
+}
+
+
+
+.location-box-1 {
+    left: 9.39vw;
+    top: 5.69vw;
+}
+
+.location-box-1 .side-meta {
+    top: 0.53vw;
+    left: -6.28vw;
+}
+
+.gap-19 {
+    gap: 1.26vw;
+}
+
+
+
+.marker-number {
+    font-size: 0.79vw;
+    line-height: 1.06vw;
+    width: 1.39vw;
+    height: 1.39vw;
+    border-radius: 50%;
+    border: 1px solid #FF7B31;
+    background: #4F4F4FBF;
+
+
+}
+
+.marker-number-1 {
+    top: 13.56vw;
+    left: 10.71vw;
+}
+
+/*  */
+.xh-team-network .map .cs-map {
+    margin: 0;
+    padding: 0;
+}
+
+.xh-team-network .map .number-1 {
+    top: 13.56vw;
+    left: 10.71vw;
+}
+
+.xh-team-network .map .number-2 {
+    bottom: 17.72vw;
+    left: 40.01vw;
+    top: auto;
+}
+
+.xh-team-network .map .number-3 {
+    top: 18.72vw;
+    right: 18.85vw;
+    left: auto;
+}
+
+.xh-team-network .map .number-4 {
+    top: 21.49vw;
+    right: 11.51vw;
+    left: auto;
+
+}
+
+.xh-team-network .map .number-5 {
+    top: 17.06vw;
+    right: 9.52vw;
+    left: auto;
+
+}
+
+.xh-team-network .map .map-location.location-1 {
+    top: 5.03vw;
+    left: 3.37vw;
+}
+
+.xh-team-network .map .map-location.location-2 {
+    top: 16.67vw;
+    left: 24.01vw;
+}
+
+.xh-team-network .map .map-location.location-3 {
+    top: 16.01vw;
+    right: 23.68vw;
+    left: auto;
+}
+
+.xh-team-network .map .map-location.location-4 {
+    top: auto;
+    right: 2.84vw;
+    bottom: 12.24vw;
+    left: auto;
+}
+
+.xh-team-network .map .map-location.location-5 {
+    top: 7.14vw;
+    right: 2.18vw;
+    left: auto;
+}
+
+.xh-team-network .cs-map .map-location .content-bottom {
+    color: #B3B3B3;
+}
+
+.xh-team-network .map .map-location.reverse {
+    flex-direction: row-reverse;
+}
+
+.xh-team-network .cs-map .map-location.reverse .left {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.xh-team-network .cs-map .map-location.reverse .text-source {
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.xh-science-action {
+    padding-top: 6.42vw;
+}
+
+.xh-science-action .nav .text-md {
+    line-height: 0.73vw;
+}
+
+.xh-science-action .nav {
+    margin-bottom: 2.78vw;
+}
+
+.xh-science-action .heading .title-text {
+    font-size: 2.65vw;
+    line-height: 100%;
+    letter-spacing: 0.03vw;
+    max-width: 29.63vw;
+}
+
+.xh-science-action .heading p {
+    max-width: 42vw;
+
+    margin-left: 1.46vw;
+    line-height: 1.25;
+}
+
+.xh-science-action .hero {
+    margin-top: -6.61vw;
+}
+
+.testimonial-sec-xh .testimonial-main>.right::after {
+    display: none;
+}
+
+.testimonial-sec-xh .testimonial-main>.left .quote-title {
+    font-size: 2.31vw;
+    padding-top: 6.61vw;
+    padding-bottom: 7.8vw;
+    line-height: 1;
+    letter-spacing: 0.89px;
+
+}
+
+.mt-27 {
+    margin-top: 1.79vw;
+    margin-bottom: 0 !important;
+}
+
+.testimonial-sec-xh .testimonial-main>.left {
+    padding-bottom: 2.45vw !important;
+    background: #212121;
+
+}
+
+.testimonial-sec-xh {
+    padding-bottom: 0 !important;
+}
+
+.testimonial-sec-xh .testimonial-main>.right .testimonial-author {
+    padding-top: 2.38vw;
+    padding-bottom: 1.32vw;
+}
+
+.genome-changes {
+    margin-bottom: 4.43vw;
+    margin-top: -0.99vw;
+}
+
+.genome-changes .nav {
+    margin-bottom: 3.11vw;
+}
+
+.genome-changes .nav .square {
+    width: 0.86vw;
+    height: 0.86vw;
+}
+
+.genome-changes .nav .text-md {
+    font-size: 1.19vw;
+    line-height: 0.99vw;
+}
+
+.genome-changes .heading {
+    width: 29.63vw;
+}
+
+.genome-changes .heading .divider {
+    font-size: 1.65vw;
+    line-height: 1.03vw;
+    letter-spacing: -10%;
+    margin: 1.32vw 0 1.59vw;
+}
+
+.gap-20 {
+    gap: 1.32vw;
+}
+
+.genome-changes .heading .text-md {
+    line-height: 1.32vw;
+    letter-spacing: 0.03vw;
+
+}
+
+.genome-changes .diagram {
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2.78vw 1.72vw 1.92vw 2.31vw;
+    width: 60.58vw;
+    background-size: cover;
+}
+
+.img-diagram {
+    max-width: 52.38vw;
+    margin-bottom: 5.16vw;
+}
+
+.genome-changes .diagram .col-half {
+    width: calc(50% - (1.32vw / 2));
+}
+
+.diagram-title-1 {
+    width: 15.74vw;
+    top: 3.04vw;
+    left: 2.58vw;
+}
+
+.diagram-title-2 {
+    width: 22.29vw;
+    top: 3.04vw;
+    left: 24.01vw;
+}
+
+.diagram-title-sm {
+    font-weight: 700;
+    font-size: 0.66vw;
+    line-height: 0.93vw;
+    letter-spacing: 1.7%;
+
+}
+
+.diagram-title-3 {
+    width: 15.67vw;
+    top: 10.25vw;
+    left: 14.35vw;
+}
+
+.diagram-title-4 {
+    width: 6.75vw;
+    top: 4.37vw;
+    right: 5.42vw;
+}
+
+.diagram-title-5 {
+    width: 11.97vw;
+    top: 20.97vw;
+    right: 3.04vw;
+}
+
+.diagram-title-6 {
+    width: 11.51vw;
+    top: 22.02vw;
+    left: 12.49vw;
+}
+
+.diagram-title-7 {
+    width: 15.08vw;
+    top: 22.02vw;
+    left: 24.47vw;
+}
+
+.gene-editing-banner .badges {
+    max-width: 69.18vw;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.gene-editing-banner .badges .badge {
+    font-size: 3.99vw;
+    line-height: 90%;
+    letter-spacing: 13%;
+    text-align: center;
+    font-weight: 400;
+    padding: 1.32vw 2.65vw;
+    border-radius: 50px;
+}
+
+.gene-editing-banner .footer-meta-1 {
+    left: 10.32vw;
+    bottom: 7.28vw;
+}
+
+.gene-editing-banner .footer-meta-2 {
+    bottom: 7.28vw;
+    right: 15.87vw;
+}
+
+.line-editing {
+    top: 30px;
+    max-width: 91.53vw;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ipsc-strategy .nav {
+    margin-bottom: 3.7vw;
+}
+
+.ipsc-strategy .heading .col-third-1 {
+    width: 22.95vw;
+}
+
+.ipsc-strategy .heading .col-third-2 {
+    width: calc(100% - 22.95vw);
+}
+
+.ipsc-strategy .label .square {
+    width: 0.86vw;
+    height: 0.86vw;
+}
+
+.ipsc-strategy .label {
+    margin-bottom: 1.98vw;
+}
+
+.ipsc-strategy .label .text-md {
+    font-size: 1.19vw;
+    line-height: 1.06vw;
+}
+
+.lh-20 {
+    line-height: 1.32vw;
+}
+
+.ipsc-strategy .wrap-cont {
+    gap: 2.45vw;
+    grid-template-columns: 20.57vw 20.57vw auto;
+}
+
+.ipsc-strategy .citation-box .label {
+    font-weight: 800;
+    color: #838383;
+}
+
+.ipsc-strategy .citation-box .divider {
+    margin-top: 1.06vw;
+    margin-bottom: 0.79vw;
+
+}
+
+.ipsc-strategy .citation-box .citation-link {
+    line-height: 1.06vw;
+    max-width: 14.55vw;
+}
+
+.ipsc-strategy .citation-box .img-bioRxiv {
+    width: 4.37vw;
+}
+
+.ipsc-strategy .citation-box .btn-primary .arrow {
+    padding: 1.32vw 2.12vw;
+}
+
+.ipsc-strategy .citation-box .read-study span {
+    font-weight: 700;
+    font-size: 0.87vw;
+    line-height: 1.16vw;
+    letter-spacing: 13%;
+
+}
+
+.ipsc-strategy .section-label {
+    font-weight: 700;
+    font-size: 1.32vw;
+    line-height: 109.00000000000001%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    margin-bottom: 0.79vw;
+    margin-top: -1.32vw;
+}
+
+.ipsc-strategy .diagram {
+    padding: 3.04vw 3.44vw 3.04vw 4.23vw;
+}
+
+.ipsc-strategy .diagram .step-tag {
+    background: #828282BF !important;
+    border: 0.86px solid #F4F4F4;
+    font-family: Telegraf;
+    font-weight: 400;
+    font-size: 1.04vw;
+    line-height: 1;
+    letter-spacing: 0.02vw;
+    vertical-align: middle;
+    background: #F4F4F4;
+    padding: 0.41vw 0.62vw;
+    border-radius: 25px;
+
+}
+
+.ipsc-strategy .diagram .text-md {
+    font-weight: 800;
+    font-style: italic;
+    font-size: 1.3vw;
+    line-height: 1;
+    letter-spacing: 0.03vw;
+    text-align: center;
+    vertical-align: middle;
+    color: #F4F4F4;
+}
+
+.ipsc-strategy .diagram .step {
+    min-height: 13.76vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.ipsc-strategy .diagram .col-quarter {
+    width: 12.7vw;
+}
+
+.ipsc-strategy .diagram .col-quarter-2 {
+    width: 13.62vw;
+}
+
+.ipsc-strategy .diagram .col-quarter-3 {
+    width: 10.05vw;
+}
+
+.ipsc-strategy .diagram .col-quarter-4 {
+    width: 9.46vw;
+}
+
+.ipsc-strategy .diagram .col-arrow .line {
+    width: 2px;
+    height: 3.7vw;
+}
+
+.ipsc-strategy .diagram .col-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 7.47vw;
+}
+
+.ipsc-strategy .diagram .col-arrow .arrow img {
+    max-width: 7.41vw;
+    margin-bottom: 0.99vw;
+}
+
+.ipsc-strategy .diagram .col-arrow .text-md {
+    font-size: 0.79vw;
+    line-height: 130%;
+    letter-spacing: 2%;
+    text-align: center;
+    vertical-align: bottom;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 0.6vw;
+}
+
+.mb-39 {
+    margin-bottom: 2.58vw;
+}
+
+.ipsc-strategy .diagram .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.79vw;
+}
+
+.gap-12 {
+    gap: 0.79vw;
+
+}
+
+.ipsc-strategy .diagram .cell-img-wrap {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.ipsc-strategy .diagram .cell-img-wrap .tag {
+    font-family: NB Architekt Std;
+    font-weight: 700;
+    font-size: 0.93vw;
+    line-height: 1;
+    letter-spacing: 4%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 0 1vw;
+    min-height: 1.59vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.09px solid #FFFFFF;
+    border-radius: 25px;
+}
+
+.ipsc-strategy .diagram .cell-img-wrap .d-inline-flex {
+    position: absolute;
+    top: 0.79vw;
+    right: 0.79vw;
+    align-items: end;
+}
+
+.gap-80 {
+    gap: 5.29vw;
+}
+
+.ipsc-strategy .caption {
+    margin: 0.6vw 0 1.79vw;
 }
