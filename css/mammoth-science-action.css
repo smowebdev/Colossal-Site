@@ -613,9 +613,12 @@
 }
 
 .critical-advisory-box .box-column-2 {
-    padding: 1.653vw 1.058vw;
+    padding: 1.653vw 1.058vw 2.249vw;
     border-right: 1px solid #000;
     width: 59%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .critical-advisory-box .box-warning-label {
@@ -638,11 +641,13 @@
 
 .critical-advisory-box .box-desc {
     max-width: 30.291vw;
+    margin-bottom: 2.116vw;
+
 }
 
 .critical-advisory-box .box-links {
     gap: 1.058vw;
-    margin-top: 2.116vw;
+    margin-top: auto;
 }
 
 .critical-advisory-box .box-links a {
@@ -4025,6 +4030,934 @@
     bottom: -14.087vw;
 }
 
+
 .woolly-mouse-sec {
     min-height: 100vh;
+    padding: 18.783vw 0 100px;
+}
+
+.woolly-mouse-sec .woolly-mouse-intro {
+    padding-bottom: 3.241vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-intro::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 40.08%, #FFFFFF 80.45%);
+    left: 0;
+    width: 100%;
+    height: 39.683vw;
+    bottom: 4.233vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-intro .intro-bg {
+    opacity: 0.3;
+    max-width: 95.503vw;
+    top: -2.513vw;
+    left: -1.852vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-intro .row-1 {
+    padding-bottom: 1.257vw;
+    margin-bottom: 1.852vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-intro .row-1 .column {
+    gap: 0.661vw 7.143vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-intro .row-2 {
+    padding: 3.968vw 0;
+    margin-top: 2.579vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-intro .row-3 {
+    padding-top: 1.323vw;
+    font-size: 1.19vw;
+    line-height: 1.22;
+}
+
+.woolly-mouse-sec .woolly-mouse-intro .intro-text {
+    font-size: 2.646vw;
+    line-height: 1;
+    letter-spacing: 0.011em;
+    max-width: 71.429vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-subheading {
+    font-size: 1.98vw;
+    line-height: 120%;
+    letter-spacing: 0.46em;
+    max-width: 50.661vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-heading {
+    font-size: 18.358vw;
+    line-height: 0.72;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 32.56%, rgba(255, 123, 49, 0.68) 100%), linear-gradient(0deg, #000000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding-top: 4.63vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 10.55%, rgba(255, 123, 49, 0.68) 75.6%);
+    top: 0;
+    height: 58%;
+    pointer-events: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__bg {
+    margin-top: -5.291vw;
+    margin-bottom: -10.317vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 78.54%, #FFFFFF 94.46%);
+    pointer-events: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__bg .mice-img {
+    width: 10.714vw;
+    top: -6.944vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video {
+    bottom: 19.114vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 78%;
+    padding: 2.116vw 2.646vw 7.937vw;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-border {
+    position: absolute;
+    width: 3.902vw;
+    height: 3.902vw;
+    border-color: #fff;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-border.border-top-left {
+    border-top: 1.28px solid #fff;
+    border-left: 1.28px solid #fff;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-border.border-top-right {
+    border-top: 1.28px solid #fff;
+    border-right: 1.28px solid #fff;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-border.border-bottom-left {
+    border-bottom: 1.28px solid #fff;
+    border-left: 1.28px solid #fff;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-border.border-bottom-right {
+    border-bottom: 1.28px solid #fff;
+    border-right: 1.28px solid #fff;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video::after {
+    border-left: none;
+    right: 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-title {
+    letter-spacing: 0.18em;
+    margin-bottom: 3.307vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-watchnow {
+    letter-spacing: 0.18em;
+    right: -4.365vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-box {
+    max-width: 54.894vw;
+    aspect-ratio: 830/448;
+    border-radius: 0.794vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        linear-gradient(0deg, rgba(108, 108, 108, 0.2), rgba(108, 108, 108, 0.2));
+    box-shadow: 0px 32px 26.8px 10px rgba(0, 0, 0, 0.51);
+}
+
+
+.woolly-mouse-sec .woolly-mouse-banner__video .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    gap: 0.661vw;
+    padding: 0.529vw;
+    background: rgba(130, 130, 130, 0.5);
+    border: 1px solid #F4F4F4;
+    border-radius: 2.646vw;
+    color: #f4f4f4;
+    letter-spacing: 0.13em;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-banner__video .play-btn img {
+    width: 0.794vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-box.playing .video-overlay {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .4s ease;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-about .content-1 {
+    padding-top: 2.447vw;
+    margin-bottom: 6.548vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-1.title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-1 .column-1 {
+    width: 34%;
+    padding-right: 4.365vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-1 .column-2 {
+    width: 33.5%;
+    padding-right: 3.571vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-1 .column-3 {
+    width: 32.5%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .subject-list {
+    gap: 1.19vw;
+    margin-bottom: 2.646vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .subject-list .img-subject {
+    width: calc((100% - 1.19vw - 4.63vw) / 2);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .subject-list .arrows {
+    gap: 1.058vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .subject-list .arrows {
+    width: 4.63vw;
+
+}
+
+
+.woolly-mouse-sec .woolly-mouse-about .subject-list .arrow-left {
+    transform: rotate(180deg);
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-title {
+    font-size: 0.794vw;
+    line-height: 150%;
+    color: #838383;
+    margin-bottom: 0.926vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-list {
+    gap: 1.323vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-item {
+    border-top: 1px solid #D9D9D9;
+    padding-top: 0.728vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1.323vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-item .item-title {
+    font-size: 0.794vw;
+    line-height: 1.33;
+    color: #5E5E5E;
+    flex: 1;
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-item .item-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.397vw;
+    font-weight: 700;
+    font-size: 0.794vw;
+    line-height: 1.33;
+    color: #9940DD;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-item .item-btn {
+    width: 4.894vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-item .item-btn img {
+    width: 0.728vw;
+    flex-shrink: 0;
+    transition: all 0.4s ease;
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-item .item-logo {
+    width: 6.481vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-item .item-logo img {
+    height: 1.852vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-item:hover .item-btn img {
+    transform: translateX(0.331vw);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.058vw;
+    margin-bottom: 2.116vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    margin-bottom: 1.918vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box {
+    min-height: 48.413vw;
+    backdrop-filter: blur(65.46627044677734px);
+    -webkit-backdrop-filter: blur(65.46627044677734px);
+    border: 1.53px solid #B3B3B3;
+    background-color: #F3F3F3;
+    padding: 1.587vw 1.984vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-label {
+    gap: 0.595vw;
+    left: 2.249vw;
+    font-size: 0.529vw;
+    letter-spacing: 0.02em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-label.label-top {
+    top: 1.918vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-label.label-bottom {
+    bottom: 1.918vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-key-data {
+    bottom: 1.323vw;
+    font-size: 0.794vw;
+    line-height: 1.75;
+    letter-spacing: 0.02em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left::before,
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 80%;
+    width: 1.323vw;
+    border: 1.53px solid #828282;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left::before {
+    border-right: none;
+    left: 2.249vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left::after {
+    border-left: none;
+    right: 2.249vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-pattern {
+    top: 3.175vw;
+    left: 5.093vw;
+    gap: 0.265vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-pattern .image {
+    width: 6.085vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-hair-title {
+    font-size: 1.587vw;
+    line-height: 1.125;
+    letter-spacing: -0.0533em;
+    position: relative;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-hair-title span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1.389vw;
+    font-size: 1.058vw;
+    line-height: 1.0625;
+    color: #B3B3B3;
+    font-weight: 400;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-pattern_list {
+    line-height: 1.375;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-color {
+    border: 1px solid #B3B3B3;
+    background-color: #fff;
+    width: 21.892vw;
+    top: 1.587vw;
+    right: 4.299vw;
+    padding: 1.587vw 0.595vw 2.976vw 1.72vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-color::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/mammoth-science-action/grid-2.png') no-repeat center / cover;
+    pointer-events: none;
+    mix-blend-mode: exclusion;
+    opacity: 0.6;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-color__top {
+    max-width: 16.138vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-color .text-1 {
+    font-size: 0.794vw;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    margin-bottom: 1.058vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-color .image {
+    left: 1.521vw;
+    top: 0.728vw;
+    width: 5.688vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-color__bottom {
+    gap: 3.571vw;
+    margin-top: 4.894vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-color .arrow {
+    width: 5.423vw;
+    left: -1.257vw;
+    top: 1.786vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-follice-length {
+    top: 7.209vw;
+    left: 11.905vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-follice-length .image {
+    width: 26.852vw;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-follice-length__title {
+    gap: 0.794vw;
+    margin-top: 0.728vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-follice-length__title .title-arrow {
+    width: 1.984vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-follice-length .arrow {
+    width: 3.307vw;
+    left: -5.291vw;
+    bottom: 0.794vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/mammoth-science-action/grid-3.png')no-repeat center / cover;
+    pointer-events: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 49.01%, #FFFFFF 99.17%);
+    pointer-events: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-text-small {
+    font-size: 0.661vw;
+    line-height: 1.4;
+    letter-spacing: 0.017em;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .text-1 {
+    left: 2.513vw;
+    top: 1.918vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .text-2 {
+    left: 2.513vw;
+    bottom: 1.918vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .text-3 {
+    font-size: 0.794vw;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    position: absolute;
+    top: 46%;
+    transform: translateY(-50%) rotate(90deg);
+    right: -0.661vw;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-img {
+    width: 37.765vw;
+    top: 1.852vw;
+    left: 2.91vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-hairs {
+    position: absolute;
+    left: 50%;
+    width: 74%;
+    transform: translateX(-50%);
+    bottom: 4.894vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3.307vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-hair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-hair__image {
+    aspect-ratio: 1;
+    max-width: 14.55vw;
+    padding: 0.794vw 1.984vw 2.116vw;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 1.49px solid #B3B3B3;
+    margin-bottom: 0.992vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-hair__image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #F4F4F4 20.23%, #7DEA13 100%);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-hair.lipid-metabolism .box-hair__image::before {
+    background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(153, 64, 221, 0.48) 100%), linear-gradient(0deg, #D9D9D9, #D9D9D9);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-hair__arrow {
+    width: 13.294vw;
+    top: -13.558vw;
+    left: 1.455vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-hair.lipid-metabolism .box-hair__arrow {
+    top: -10.979vw;
+    left: 1.19vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-3 {
+    padding-top: 43px;
+    margin-bottom: 41px;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-3 .left {
+    width: 69.8%;
+    padding-right: 64px;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-3 .right {
+    width: 30.2%;
+    gap: 20px;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-3 .text {
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0.45px;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-3 .text strong {
+    color: #000;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-3 .text span {
+    color: #000;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-3 .text-plus {
+    font-size: 1.403vw;
+    letter-spacing: 0.02em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-3 .title {
+    font-size: 3.931vw;
+    line-height: 0.87;
+    letter-spacing: -0.04em;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-about .content-4 .content-header {
+    max-width: 59.061vw;
+    border-top: 1px solid #5E5E5E;
+    margin-bottom: 3.241vw;
+    padding-top: 0.992vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-4 .label {
+    gap: 2.646vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .step-1 {
+    width: 34%;
+    padding-right: 5.093vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .step-2 {
+    width: 35%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .result {
+    width: 31%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .step-1 .step-arrow {
+    width: 1.72vw;
+    height: 11.905vw;
+    border: 1.5px solid #9940DD;
+    border-left: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .step-1 .step-arrow::before {
+    content: "";
+    position: absolute;
+    height: 1.5px;
+    width: 3.307vw;
+    background-color: #9940DD;
+    right: -3.307vw;
+    top: 43%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .step-1 .step-arrow.arrow-1 {
+    right: 14%;
+    top: 10%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .step-1 .step-arrow.arrow-2 {
+    right: 11%;
+    top: 38%;
+    border-color: #7DEA13;
+    height: 12.632vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .step-1 .step-arrow.arrow-2::before {
+    background-color: #7DEA13;
+    top: 70%;
+    width: 3.571vw;
+    right: -3.571vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .name {
+    line-height: 1.6875;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .step-table>div {
+    display: flex;
+    gap: 1.323vw;
+    margin-bottom: 0.595vw;
+    align-items: start;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-left {
+    width: 6.349vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-right {
+    width: 6.085vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-center {
+    flex: 1;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-headers__name {
+    border-bottom: 1px solid #828282;
+    padding-bottom: 0.595vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-rows {
+    color: #B3B3B3;
+    border-bottom: 1px solid #828282;
+    padding-bottom: 0.529vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-rows:last-child {
+    border-bottom: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-img+.table-img {
+    margin-top: 0.529vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-img__caption {
+    top: 0;
+    left: 0;
+    line-height: 1;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-img.cas9-hdr {
+    margin-left: auto;
+    max-width: 8.995vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-img.cas9-hdr .table-img__caption {
+    left: -1.984vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .result-box {
+    border: 1px solid #B3B3B3;
+    aspect-ratio: 434/476;
+    margin-top: -5.423vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .result-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/mammoth-science-action/grid-4.png') no-repeat center / cover;
+    pointer-events: none;
+    mix-blend-mode: difference;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-name {
+    line-height: 1;
+    margin-bottom: 0.397vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote .left {
+    width: 30%;
+    padding-bottom: 3.968vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote .center {
+    width: 27%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-gene-edit {
+    font-size: 0.794vw;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote .right {
+    width: 43%;
+    padding-right: 1.587vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-img__caption {
+    bottom: 0.265vw;
+    right: -0.661vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-2 {
+    margin-top: -2.05vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-2 .center {
+    gap: 0.794vw;
+    width: 31%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-2 .center svg {
+    width: 1.323vw;
+    flex-shrink: 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-2 .left {
+    width: 31%;
+    padding-bottom: 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-2 .right {
+    width: 38%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-2 .right svg {
+    width: 3.241vw;
+    top: 51%;
+    transform: translateY(-50%);
+    right: 0.661vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-2 .zygote-img__caption {
+    bottom: 1.72vw;
+    right: -4.762vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps {
+    padding: 4.96vw 0 49px;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__title {
+    font-size: 4.233vw;
+    max-width: 77.513vw;
+    margin-bottom: 5.622vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.323vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row .column-lg {
+    grid-column: span 2;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row .column-xl {
+    grid-column: span 3;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row+.key-steps__row {
+    margin-top: 1.058vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row .step-content {
+    gap: 1.323vw;
+    margin-top: 1.19vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row .step-title {
+    letter-spacing: 0.0275em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row .step-desc {
+    font-size: 0.529vw;
+    line-height: 1.25;
+    letter-spacing: 0.05625em;
+    max-width: 18.717vw;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .column {
+    min-height: 26.984vw;
+    border: 1px solid #B3B3B3;
+    border-radius: 1.72vw;
+    position: relative;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box {
+    padding: 1.058vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .img-bg {
+    border-radius: 1.72vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .img-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.17);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .box-line {
+    height: 1px;
+    margin-bottom: 4.894vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .box-title {
+    max-width: 89%;
+    margin-bottom: 3.968vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .box-img__caption {
+    top: -2.315vw;
+    left: 2.778vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .box-img__caption span {
+    max-width: 7.143vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .box-img__caption img {
+    position: absolute;
+    left: -1.323vw;
+    top: 0;
+    width: 0.529vw;
+    max-width: unset;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .box-img__caption.caption-2 {
+    top: auto;
+    bottom: -2.91vw;
+    left: 7.738vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .box-img__caption.caption-2 img {
+    width: 13.757vw;
+    top: -10.251vw;
+    left: -3.108vw;
 }

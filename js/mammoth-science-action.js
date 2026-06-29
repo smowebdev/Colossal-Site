@@ -1,4 +1,32 @@
 jQuery(function ($) {
+  // Play Video - Start
+  $(".woolly-mouse-banner__video .play-btn").on("click", function () {
+    const wrapper = $(this).closest(".woolly-mouse-banner__video .video-box");
+    const video = wrapper.find(".video-player").get(0);
+
+    video.setAttribute("controls", "");
+
+    video.play();
+
+    wrapper.addClass("playing");
+  });
+
+  $(".woolly-mouse-banner__video .video-player").on("ended", function () {
+    const wrapper = $(this).closest(".video-box");
+
+    this.removeAttribute("controls");
+
+    wrapper.removeClass("playing");
+  });
+  $(".woolly-mouse-banner__video .video-player").on("pause", function () {
+    if (this.seeking) return;
+
+    if (!this.ended) {
+      $(this).closest(".video-box").removeClass("playing");
+    }
+  });
+  // Play Video - End
+
   gsap.registerPlugin(ScrollTrigger);
 
   const header = document.querySelector("header.header");
@@ -152,12 +180,12 @@ jQuery(function ($) {
   updatePhase(0);
 
   ScrollTrigger.refresh();
-  const swiper = new Swiper('.xh-team-swiper', {
+  const swiper = new Swiper(".xh-team-swiper", {
     slidesPerView: 2,
     spaceBetween: 20,
     navigation: {
-      nextEl: '.xh-btn-next',
-      prevEl: '.xh-btn-prev',
+      nextEl: ".xh-btn-next",
+      prevEl: ".xh-btn-prev",
     },
     on: {
       init(swiper) {
@@ -165,35 +193,37 @@ jQuery(function ($) {
       },
       slideChange(swiper) {
         updateCounter(swiper);
-      }
-    }
+      },
+    },
   });
 
   function updateCounter(swiper) {
-    document.querySelector('.swiper-pagination-current').textContent =
-      String(swiper.activeIndex + 1).padStart(2, '0');
+    document.querySelector(".swiper-pagination-current").textContent = String(
+      swiper.activeIndex + 1,
+    ).padStart(2, "0");
 
-    document.querySelector('.swiper-pagination-total').textContent =
-      String(swiper.slides.length).padStart(2, '0');
+    document.querySelector(".swiper-pagination-total").textContent = String(
+      swiper.slides.length,
+    ).padStart(2, "0");
   }
-  document.querySelectorAll('.xh-research .list .panel').forEach(panel => {
+  document.querySelectorAll(".xh-research .list .panel").forEach((panel) => {
     const item = panel.previousElementSibling;
 
-    panel.addEventListener('shown.bs.collapse', () => {
-      item.classList.add('active');
+    panel.addEventListener("shown.bs.collapse", () => {
+      item.classList.add("active");
 
       const trigger = item.querySelector('[data-bs-toggle="collapse"]');
       if (trigger) {
-        trigger.textContent = '[ CLOSE ]';
+        trigger.textContent = "[ CLOSE ]";
       }
     });
 
-    panel.addEventListener('hidden.bs.collapse', () => {
-      item.classList.remove('active');
+    panel.addEventListener("hidden.bs.collapse", () => {
+      item.classList.remove("active");
 
       const trigger = item.querySelector('[data-bs-toggle="collapse"]');
       if (trigger) {
-        trigger.textContent = '[ EXPAND ]';
+        trigger.textContent = "[ EXPAND ]";
       }
     });
   });

@@ -238,8 +238,8 @@ h6 {
 }
 
 .hub-text-small {
-    /* font-weight: 700; */
-    font-size: clamp(7px, 0.661vw, 20px);
+    font-weight: 700;
+    font-size: 0.661vw;
     letter-spacing: 0.017em;
     line-height: 1.4;
     font-family: 'NB Architekt Std';
