@@ -6270,27 +6270,22 @@
 
 }
 
-.ipsc-strategy-heading-wrapper::before,
-.ipsc-strategy-heading-wrapper::after {
+.ipsc-strategy-heading-grid {
+    top: -8%;
+    height: 108%;
+
+}
+
+.ipsc-strategy-heading-grid::before {
     content: "";
     position: absolute;
-    width: 100%;
-    left: 0;
-    top: -4%;
-    height: 104%;
-    pointer-events: none;
+    inset: 0;
+    background:
+        linear-gradient(180deg, #FFFFFF 5.45%, rgba(255, 255, 255, 0) 43.68%), linear-gradient(180deg, rgba(255, 255, 255, 0) 68.88%, #FFFFFF 100%);
+    z-index: 1;
 }
 
-.ipsc-strategy-heading-wrapper::before {
-    background: url('../img/mammoth-science-action/grid-7.png') no-repeat center / cover;
-    mix-blend-mode: exclusion;
 
-}
-
-.ipsc-strategy-heading-wrapper::after {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 68.88%, #FFFFFF 100%),
-        linear-gradient(180deg, #FFFFFF 5.45%, rgba(255, 255, 255, 0) 43.68%);
-}
 
 .ipsc-strategy-heading-wrapper .heading {
     font-size: 11.189vw;
