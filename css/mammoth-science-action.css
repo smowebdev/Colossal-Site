@@ -193,7 +193,7 @@
 .mammoth-revival-bottom .left .video {
     border-radius: 0.732vw;
     aspect-ratio: 300/169;
-    max-width: 300px;
+    max-width: 19.841vw;
     margin-top: 2.315vw;
 }
 
@@ -439,7 +439,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.455vw;
-    margin-bottom: 54px;
+    margin-bottom: 3.571vw;
 }
 
 .team-lead-item .item-top {
@@ -613,9 +613,12 @@
 }
 
 .critical-advisory-box .box-column-2 {
-    padding: 1.653vw 1.058vw;
+    padding: 1.653vw 1.058vw 2.249vw;
     border-right: 1px solid #000;
     width: 59%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .critical-advisory-box .box-warning-label {
@@ -638,11 +641,13 @@
 
 .critical-advisory-box .box-desc {
     max-width: 30.291vw;
+    margin-bottom: 2.116vw;
+
 }
 
 .critical-advisory-box .box-links {
     gap: 1.058vw;
-    margin-top: 2.116vw;
+    margin-top: auto;
 }
 
 .critical-advisory-box .box-links a {
@@ -2028,7 +2033,7 @@
 .phase-card-wrapper.phase-card-8 .phase-card-boxdot {
     max-width: 44.246vw;
     padding: 4.497vw 9.59vw 2.646vw;
-    min-height: 247px;
+    min-height: 16.336vw;
 }
 
 .phase-card-wrapper.phase-card-9 {
@@ -2462,7 +2467,7 @@
 }
 
 .lab-notes-sec .genomic-elements__box .box-note .note-2 {
-    font-size: 12.59px;
+    font-size: 0.833vw;
     line-height: 120%;
     letter-spacing: 0.06em;
 }
@@ -2573,7 +2578,7 @@
 }
 
 .genome-architecture .left {
-    padding: 5.357vw 82px 7.87vw 4.167vw;
+    padding: 5.357vw 5.423vw 7.87vw 4.167vw;
 }
 
 .genome-architecture .left::before {
@@ -2910,74 +2915,74 @@
 }
 
 .core-phenotype-sec .trait-comparison {
-    padding: 3.439vw 0 44px;
+    padding: 3.439vw 0 2.91vw;
 }
 
 .core-phenotype-sec .trait-comparison-title {
     font-size: 5.51vw;
     line-height: 0.84;
-    margin-bottom: 70px;
+    margin-bottom: 4.63vw;
 }
 
 .core-phenotype-sec .trait-comparison .line-text {
-    margin-bottom: 28px;
+    margin-bottom: 1.852vw;
 }
 
 .core-phenotype-sec .trait-comparison .video {
     border: 1px solid #828282;
-    border-radius: 16px;
+    border-radius: 1.058vw;
     overflow: hidden;
     position: relative;
 }
 
 .core-phenotype-sec .trait-comparison .image {
     border: 1px solid #828282;
-    border-radius: 16px;
+    border-radius: 1.058vw;
     position: relative;
     overflow: hidden;
     width: 100%;
 }
 
 .core-phenotype-sec .trait-comparison .title {
-    font-size: 34px;
-    line-height: 24px;
-    letter-spacing: 0.89px;
-    margin-bottom: 69px;
+    font-size: 2.249vw;
+    line-height: 0.7;
+    letter-spacing: 0.026em;
+    margin-bottom: 4.563vw;
 }
 
 .core-phenotype-sec .trait-comparison .title .square {
-    width: 24px;
-    height: 24px;
+    width: 1.587vw;
+    height: 1.587vw;
 }
 
 .core-phenotype-sec .trait-comparison .desc {
-    max-width: 215px;
+    max-width: 14.22vw;
 }
 
 .core-phenotype-sec .trait-comparison .desc-plus {
-    font-size: 20px;
-    line-height: 16px;
-    margin-bottom: 17px;
-    margin-right: 21px;
+    font-size: 1.323vw;
+    line-height: 0.8;
+    margin-bottom: 1.124vw;
+    margin-right: 1.389vw;
 }
 
 .core-phenotype-sec .trait-comparison .label {
     margin-top: auto;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    font-size: 9.87px;
+    gap: 0.397vw;
+    font-size: 0.653vw;
     letter-spacing: 0.13em;
     color: #F4F4F4;
     background: rgba(130, 130, 130, 0.5);
     border: 1px solid #F4F4F4;
-    padding: 4px 6px;
-    border-radius: 24px;
+    padding: 0.265vw 0.397vw;
+    border-radius: 1.587vw;
 }
 
 .core-phenotype-sec .trait-comparison .label .dot {
-    width: 7.4px;
-    height: 7.4px;
+    width: 0.489vw;
+    height: 0.489vw;
     border-radius: 50%;
     background-color: #FF7B31;
     flex-shrink: 0;
@@ -2985,11 +2990,11 @@
 
 
 .core-phenotype-sec .trait-comparison .row-1 {
-    margin-bottom: 57px;
+    margin-bottom: 3.77vw;
 }
 
 .core-phenotype-sec .trait-comparison .row-1 .column {
-    padding-right: 20px;
+    padding-right: 1.323vw;
 }
 
 .core-phenotype-sec .trait-comparison .row-1 .column-1 {
@@ -3011,6 +3016,8 @@
 
 .core-phenotype-sec .trait-comparison .row-1 .column-2 .video {
     aspect-ratio: 311/390;
+    box-shadow: 0px 17px 28.4px 0px #00000040;
+
 }
 
 .core-phenotype-sec .trait-comparison .row-1 .column-3 .image::before {
@@ -3030,16 +3037,16 @@
 }
 
 .core-phenotype-sec .trait-comparison .closest-living {
-    margin-top: -200px;
+    margin-top: -13.228vw;
 }
 
 .core-phenotype-sec .trait-comparison .closest-living__traits .item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 24px;
+    gap: 1.587vw;
     border-bottom: 1px solid #828282;
-    padding: 8px 0 7px;
+    padding: 0.529vw 0 0.463vw;
 }
 
 .core-phenotype-sec .trait-comparison .closest-living__traits .item:first-child {
@@ -3047,63 +3054,63 @@
 }
 
 .core-phenotype-sec .trait-comparison .closest-living__video .square {
-    width: 16px;
-    height: 16px;
+    width: 1.058vw;
+    height: 1.058vw;
 }
 
 
 .core-phenotype-sec .trait-comparison .closest-living__video video {
     transform: scale(1.2);
-    margin-bottom: -55px;
+    margin-bottom: -3.638vw;
 }
 
 .core-phenotype-sec .trait-comparison .closest-living__traits .item-label {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.058vw;
+    line-height: 1.5;
 }
 
 .core-phenotype-sec .trait-comparison .closest-living__traits .item-value {
-    font-size: 24px;
+    font-size: 1.587vw;
     line-height: 1;
     color: #979797;
 }
 
 .core-phenotype-sec .trait-comparison .closest-living__title {
-    max-width: 153px;
+    max-width: 10.119vw;
     transform: rotate(90deg);
     top: 11%;
     right: -13%;
 }
 
 .core-phenotype-sec .trait-comparison .row-2 {
-    margin-bottom: 38px;
-    gap: 18px;
+    margin-bottom: 2.513vw;
+    gap: 1.19vw;
 }
 
 .core-phenotype-sec .trait-comparison .row-2 .row-inner {
-    gap: 20px;
+    gap: 1.323vw;
 }
 
 .core-phenotype-sec .trait-comparison .row-2 .column {
-    padding-top: 19px;
+    padding-top: 1.257vw;
     border-top: 1px solid #828282;
 }
 
 .core-phenotype-sec .trait-comparison .row-2 .column-1 {
-    width: calc(41.47% - 9px);
-    gap: 20px;
+    width: calc(41.47% - 0.595vw);
+    gap: 1.323vw;
 }
 
 .core-phenotype-sec .trait-comparison .row-2 .column-1 .col-left {
-    width: 211px;
+    width: 13.955vw;
 }
 
 .core-phenotype-sec .trait-comparison .row-2 .column-1 .col-right {
-    width: calc(100% - 211px - 20px);
+    width: calc(100% - 13.955vw - 1.323vw);
 }
 
 .core-phenotype-sec .trait-comparison .row-2 .column-1 .image {
-    margin-bottom: 19px;
+    margin-bottom: 1.257vw;
 }
 
 .core-phenotype-sec .trait-comparison .row-2 .column-1 .image::before {
@@ -3115,15 +3122,15 @@
 }
 
 .core-phenotype-sec .trait-comparison .row-2 .column-2 {
-    width: calc(58.53% - 9px);
+    width: calc(58.53% - 0.595vw);
 }
 
 .core-phenotype-sec .trait-comparison .row-2 .column-2 .col-left {
-    width: calc(100% - 215px - 20px);
+    width: calc(100% - 14.22vw - 1.323vw);
 }
 
 .core-phenotype-sec .trait-comparison .row-2 .column-2 .col-right {
-    width: 215px;
+    width: 14.22vw;
 }
 
 .core-phenotype-sec .trait-comparison .row-2 .column-2 .video {
@@ -3140,19 +3147,17 @@
 }
 
 .core-phenotype-sec .trait-comparison .row-2 .column-2 .video-text {
-    font-size: 34px;
-    letter-spacing: 0.89px;
-    bottom: 38px;
-    left: 50px;
+    font-size: 2.249vw;
+    letter-spacing: 0.026em;
+    bottom: 2.513vw;
+    left: 3.307vw;
 }
 
 .core-phenotype-sec .trait-comparison .row-2 .column-2 .video-image {
     aspect-ratio: 1;
-    bottom: 30px;
-    right: 30px;
-    width: 200px;
-
-
+    bottom: 1.984vw;
+    right: 1.984vw;
+    width: 13.228vw;
 }
 
 .core-phenotype-sec .trait-comparison .row-2 .column-2 .video-image::before {
@@ -3164,32 +3169,32 @@
 }
 
 .core-phenotype-sec .trait-comparison .row-2 .title {
-    margin-bottom: 115px;
+    margin-bottom: 7.606vw;
 }
 
 .core-phenotype-sec .trait-comparison .row-3 {
-    gap: 20px;
+    gap: 1.323vw;
 }
 
 .core-phenotype-sec .trait-comparison .row-3 .row-inner {
-    gap: 23px;
+    gap: 1.521vw;
 }
 
 .core-phenotype-sec .trait-comparison .row-3 .column {
-    padding-top: 25px;
+    padding-top: 1.653vw;
     border-top: 1px solid #828282;
 }
 
 .core-phenotype-sec .trait-comparison .row-3 .column-1 {
-    width: calc(50% - 10px);
+    width: calc(50% - 0.661vw);
 }
 
 .core-phenotype-sec .trait-comparison .row-3 .column .col-left {
-    width: 331px;
+    width: 21.892vw;
 }
 
 .core-phenotype-sec .trait-comparison .row-3 .column .col-right {
-    width: calc(100% - 331px - 23px);
+    width: calc(100% - 21.892vw - 1.521vw);
 }
 
 .core-phenotype-sec .trait-comparison .row-3 .column .image {
@@ -3197,24 +3202,24 @@
 }
 
 .core-phenotype-sec .trait-comparison .row-3 .column-2 {
-    width: calc(50% - 10px);
+    width: calc(50% - 0.661vw);
 }
 
 
 .core-phenotype-sec .trait-comparison .row-3 .title {
-    margin-bottom: 50px;
+    margin-bottom: 3.307vw;
 }
 
 .core-phenotype-sec .trait-comparison .row-3 .image-deco {
-    width: 243px;
-    right: -8px;
-    bottom: -18px;
+    width: 16.071vw;
+    right: -0.529vw;
+    bottom: -1.19vw;
 
 }
 
 .core-phenotype-sec .deep-dive-header {
-    padding-top: 79px;
-    padding-bottom: 31px;
+    padding-top: 5.225vw;
+    padding-bottom: 2.05vw;
 }
 
 .core-phenotype-sec .deep-dive-header__grid::before {
@@ -3229,7 +3234,7 @@
 .core-phenotype-sec .deep-dive-header::after {
     content: "";
     position: absolute;
-    bottom: 24px;
+    bottom: 1.587vw;
     left: 0;
     width: 100%;
     height: 79%;
@@ -3237,15 +3242,29 @@
     z-index: 2;
 }
 
-.core-phenotype-sec .deep-dive-heading {
-    font-size: 210.23px;
-    line-height: 161px;
+.core-phenotype-sec .deep-dive-header .text-plus {
+    font-size: 1.587vw;
+    letter-spacing: 0.1em;
+    top: 2.646vw;
+}
+
+.core-phenotype-sec .deep-dive-header .text-plus-left {
+    left: 2.646vw;
+}
+
+.core-phenotype-sec .deep-dive-header .text-plus-right {
+    right: 2.646vw;
+}
+
+.core-phenotype-sec .deep-dive-heading .heading {
+    font-size: 13.904vw;
+    line-height: 0.77;
     background: linear-gradient(180deg, #B3B3B3 0%, #7DEA13 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
-    padding: 73px 0 86px;
+    padding: 4.828vw 0 5.688vw;
 }
 
 .core-phenotype-sec .deep-dive-heading::before {
@@ -3253,30 +3272,41 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 31px;
+    width: 2.05vw;
     height: 100%;
     border: 1px solid #828282;
     border-right: none;
 }
 
+.core-phenotype-sec .deep-dive-heading::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2.05vw;
+    height: 100%;
+    border: 1px solid #828282;
+    border-left: none;
+}
+
 .core-phenotype-sec .deep-dive-content {
-    margin-top: -30px;
-    padding: 72px 0 100px;
+    margin-top: -1.984vw;
+    padding-top: 4.762vw;
 }
 
 .core-phenotype-sec .deep-dive .gene-identification__title {
-    font-size: 40px;
+    font-size: 2.646vw;
     letter-spacing: 0.011em;
-    margin-bottom: 112px;
+    margin-bottom: 7.407vw;
 }
 
 .core-phenotype-sec .deep-dive .gene-identification .content {
-    margin-top: 42px;
+    margin-top: 2.778vw;
 }
 
 .core-phenotype-sec .deep-dive .gene-identification .content .left {
     width: 40.9%;
-    padding-right: 77px;
+    padding-right: 5.093vw;
 }
 
 .core-phenotype-sec .deep-dive .gene-identification .content .right {
@@ -3284,15 +3314,15 @@
 }
 
 .core-phenotype-sec .deep-dive .gene-identification .content .title {
-    font-size: 40px;
+    font-size: 2.646vw;
     letter-spacing: 0.011em;
-    margin-bottom: 40px;
+    margin-bottom: 2.646vw;
 }
 
 .core-phenotype-sec .deep-dive .gene-identification .content .label {
-    font-size: 9.77px;
+    font-size: 0.646vw;
     letter-spacing: 0.017em;
-    margin-bottom: 26px;
+    margin-bottom: 1.72vw;
 }
 
 .core-phenotype-sec .deep-dive .gene-identification .box-link {
@@ -3305,8 +3335,8 @@
             96.1% 14.3%, 99.7% 21.2%, 99.7% 92.6%,
             96.1% 99.5%, 3.7% 99.5%, 0.1% 92.6%,
             0.1% 7.1%, 3.7% 0.2%);
-    max-width: 450px;
-    padding: 30px 38px 16px 24px;
+    max-width: 29.762vw;
+    padding: 1.984vw 2.513vw 1.058vw 1.587vw;
 }
 
 .core-phenotype-sec .deep-dive .gene-identification .box-link::before {
@@ -3322,29 +3352,29 @@
 }
 
 .core-phenotype-sec .deep-dive .gene-identification .box-link__title {
-    font-size: 20px;
+    font-size: 1.323vw;
     letter-spacing: -0.02em;
-    margin-bottom: 20px;
-    max-width: 280px;
+    margin-bottom: 1.323vw;
+    max-width: 18.519vw;
 }
 
 .core-phenotype-sec .deep-dive .gene-identification .box-link__desc {
-    font-size: 12px;
+    font-size: 0.794vw;
     line-height: 130%;
     color: #979797;
-    max-width: 300px;
+    max-width: 19.841vw;
 }
 
 .core-phenotype-sec .deep-dive .gene-identification .box-link__arrow {
-    width: 65px;
-    height: 65px;
+    width: 4.299vw;
+    height: 4.299vw;
     border-radius: 50%;
     background-color: #D9D9D9;
     border: 1px solid #979797;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 0.661vw;
     transition: all 0.3s ease-in-out;
 }
 
@@ -3354,6 +3384,3149 @@
 }
 
 .core-phenotype-sec .deep-dive .gene-identification .content .box-content {
-    min-height: 592px;
     border: 1px solid #B3B3B3;
+}
+
+.core-phenotype-sec .deep-dive .gene-identification {
+    margin-bottom: 3.968vw;
+}
+
+.core-phenotype-sec .deep-dive .example-genes .title-wrapper {
+    padding: 5.754vw 1.587vw 4.431vw;
+    margin-bottom: 3.638vw;
+
+}
+
+.core-phenotype-sec .deep-dive .example-genes .title {
+    font-size: 4.233vw;
+}
+
+.core-phenotype-sec .deep-dive .example-genes .title-wrapper .text-plus {
+    font-size: 2.249vw;
+    line-height: 0.647;
+}
+
+.core-phenotype-sec .example-genes {
+    margin-bottom: -14.087vw;
+}
+
+.core-phenotype-sec .example-genes__box {
+    padding: 0.926vw 5.026vw 1.852vw 6.415vw;
+    margin-bottom: 4.828vw;
+}
+
+.core-phenotype-sec .example-genes__box::before,
+.core-phenotype-sec .example-genes__box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 2.05vw;
+    height: 100%;
+    border: 1px solid #828282;
+
+}
+
+.core-phenotype-sec .example-genes__box::before {
+    left: 0;
+    border-right: none;
+}
+
+.core-phenotype-sec .example-genes__box::after {
+    right: 0;
+    border-left: none;
+}
+
+.core-phenotype-sec .example-genes__box .box-line {
+    height: 1px;
+    margin-bottom: 2.579vw;
+}
+
+.core-phenotype-sec .example-genes__box .box-left {
+    width: 58.1%;
+    padding-right: 1.455vw;
+}
+
+.core-phenotype-sec .example-genes__box .box-right {
+    width: 41.9%;
+}
+
+.core-phenotype-sec .example-genes__box .box-label {
+    font-size: 1.053vw;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-right: 3.704vw;
+    margin-bottom: 2.778vw;
+}
+
+.core-phenotype-sec .example-genes__box .box-plus {
+    line-height: 1.131;
+    letter-spacing: 0.02em;
+    font-size: 1.403vw;
+}
+
+.core-phenotype-sec .example-genes__box .box-desc {
+    font-size: 1.684vw;
+    padding-right: 0.661vw;
+    margin-bottom: 2.381vw;
+}
+
+.core-phenotype-sec .example-genes__box .box-title {
+    font-size: 2.807vw;
+    line-height: 0.78;
+    letter-spacing: -0.025em;
+    margin-bottom: 6.481vw;
+}
+
+.core-phenotype-sec .example-genes__box .box-name {
+    font-size: 6.614vw;
+    margin-bottom: 1.653vw;
+}
+
+.core-phenotype-sec .example-genes__box .box-logo {
+    width: 8.135vw;
+}
+
+.core-phenotype-sec .example-genes__box .box-row-1 .box-column-left {
+    width: 60%;
+    padding-right: 1.323vw;
+}
+
+.core-phenotype-sec .example-genes__box .box-row-1 .box-column-right {
+    width: 40%;
+}
+
+.core-phenotype-sec .example-genes__box .box-row-text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2.513vw;
+}
+
+.core-phenotype-sec .example-genes__box .box-text .body-text {
+    margin-top: 1.058vw;
+}
+
+.core-phenotype-sec .example-genes__box .box-image-2 {
+    width: 41.534vw;
+    bottom: -21%;
+    left: -2%;
+}
+
+.core-phenotype-sec .example-genes__box .box-image-2::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 56.48%, #000000 77.43%);
+}
+
+.core-phenotype-sec .example-genes__box .box-image-caption {
+    font-size: 0.661vw;
+    line-height: 1.4;
+    letter-spacing: 0.017em;
+    bottom: 7.804vw;
+    left: 12.434vw;
+}
+
+.core-phenotype-sec .example-genes__rowheader {
+    margin-bottom: 5.423vw;
+}
+
+.core-phenotype-sec .example-genes .anagen .title {
+    max-width: 85.847vw;
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    margin-bottom: 2.513vw;
+}
+
+.core-phenotype-sec .example-genes .anagen-list-wrapper {
+    max-width: 59.524vw;
+}
+
+.core-phenotype-sec .example-genes .anagen-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2.646vw;
+}
+
+.core-phenotype-sec .example-genes .anagen-item .item-number {
+    font-size: 1.278vw;
+    line-height: 1.09;
+    position: absolute;
+    left: 0;
+    top: 3.902vw;
+    z-index: 2;
+}
+
+.core-phenotype-sec .example-genes .anagen-item .item-arrow {
+    width: 5.159vw;
+    height: 5.159vw;
+    border-radius: 50%;
+    border: 1px solid #B3B3B3;
+    background-color: #383838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.265vw;
+    position: absolute;
+    top: 46%;
+    right: -3.571vw;
+    z-index: 2;
+}
+
+.core-phenotype-sec .example-genes .anagen-item .item-img {
+    aspect-ratio: 195/390;
+    overflow: hidden;
+    margin-bottom: 1.323vw;
+}
+
+.core-phenotype-sec .example-genes .anagen-item .item-img::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 80.13%, #000000 100%);
+    pointer-events: none
+}
+
+.core-phenotype-sec .example-genes .anagen-item .item-title {
+    font-size: 1.587vw;
+    line-height: 1.125;
+    letter-spacing: -0.053em;
+
+}
+
+.core-phenotype-sec .example-genes .anagen-phase-list {
+    margin-top: 1.455vw;
+    padding: 0 0.661vw;
+}
+
+.core-phenotype-sec .example-genes .anagen-bg-grid {
+    top: 7.474vw;
+}
+
+.core-phenotype-sec .example-genes .anagen-bg-grid::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 65.29%, #000000 119.61%),
+        linear-gradient(0deg, #000000 5.45%, rgba(0, 0, 0, 0) 43.68%);
+
+}
+
+.core-phenotype-sec .example-genes .anagen {
+    margin-bottom: 6.481vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol-main .left {
+    width: 46%;
+    padding-right: 2.646vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol-main .right {
+    width: 54%;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol-line {
+    height: 1px;
+    margin-bottom: 2.116vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol-chart {
+    border-radius: 8.466vw;
+    border: 1px solid #B3B3B3;
+    min-height: 20.635vw;
+    padding: 3.704vw 4.101vw 2.646vw 3.307vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol-chart::before {
+    content: "";
+    position: absolute;
+    background: url('../img/mammoth-science-action/grid-1.png') no-repeat center / cover;
+    inset: 0;
+    pointer-events: none;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol .title {
+    font-size: 2.116vw;
+    line-height: 1;
+    letter-spacing: 0.0140625em;
+    margin-bottom: 2.778vw;
+
+}
+
+.core-phenotype-sec .example-genes .gene-symbol .image-left {
+    margin-bottom: 3.439vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol .desc {
+    gap: 2.646vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol .desc-left {
+    width: calc(56% - 0.175vw);
+
+}
+
+.core-phenotype-sec .example-genes .gene-symbol .desc-right {
+    width: calc(44% - 0.175vw);
+}
+
+.core-phenotype-sec .example-genes .gene-symbol .desc strong {
+    color: #fff;
+}
+
+.core-phenotype-sec .example-genes__content {
+    margin-bottom: 3.968vw;
+}
+
+.core-phenotype-sec .example-genes__content:last-child {
+    margin-bottom: 0;
+}
+
+.core-phenotype-sec .example-genes .tail-size-box {
+    aspect-ratio: 1;
+    backdrop-filter: blur(10.399999618530273px);
+    -webkit-backdrop-filter: blur(10.399999618530273px);
+    border: 1px solid #383838;
+    background:
+        linear-gradient(180deg, rgba(125, 234, 19, 0) 0%, #7DEA13 100%), linear-gradient(0deg, #F4F4F4, #F4F4F4);
+    padding: 1.455vw 1.323vw 1.323vw;
+}
+
+.core-phenotype-sec .example-genes .tail-size-box .label {
+    gap: 1.852vw;
+    top: 1.124vw;
+    left: 1.257vw;
+}
+
+.core-phenotype-sec .example-genes .tail-size-box .box-img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 22.95vw;
+    top: 4.894vw;
+}
+
+.core-phenotype-sec .example-genes .tail-size-box .box-expression {
+    font-size: 0.706vw;
+    letter-spacing: 0.022em;
+    padding: 0.265vw 0.397vw;
+    background-color: rgba(130, 130, 130, 0.75);
+    bottom: 20%;
+}
+
+.core-phenotype-sec .example-genes .tail-size-box .box-expression-1 {
+    left: 16%;
+}
+
+.core-phenotype-sec .example-genes .tail-size-box .box-expression-2 {
+    right: 13%;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hoxb13 {
+    gap: 1.058vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hoxb13 .desc-left,
+.core-phenotype-sec .example-genes .gene-symbol.hoxb13 .desc-right {
+    width: calc(50% - 0.529vw);
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hoxb13 .gene-symbol-main .left {
+    width: 35.26%;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hoxb13 .gene-symbol-main .right {
+    width: 64.74%;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hoxb13 .gene-symbol-chart {
+    max-width: 49.405vw;
+    border-radius: 1.058vw;
+    background-color: rgba(55, 55, 55, 0.71);
+    border-color: #F4F4F4;
+    backdrop-filter: blur(11.300000190734863px);
+    -webkit-backdrop-filter: blur(11.300000190734863px);
+    padding: 3.571vw 2.513vw 1.72vw;
+
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hoxb13 .gene-symbol-chart::before {
+    border-radius: 1.058vw;
+
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .genomic-dna {
+    margin-bottom: 6.151vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .box-chart__title {
+    margin-bottom: 1.19vw;
+    font-size: 1.058vw;
+    line-height: 1.0625;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .genomic-dna__box {
+    background-color: rgba(217, 217, 217, 0.71);
+    border: 1px solid #F4F4F4;
+    backdrop-filter: blur(9.109691619873047px);
+    -webkit-backdrop-filter: blur(9.109691619873047px);
+    padding: 0.992vw 2.646vw 0.529vw;
+    border-radius: 0.794vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .genomic-dna__box img {
+    max-width: 8.796vw;
+    margin-bottom: 1.257vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-caption {
+    font-size: 1.059vw;
+    letter-spacing: 0.022em;
+    vertical-align: middle;
+    padding: 0.397vw 0.595vw;
+    background-color: rgba(130, 130, 130, 0.75);
+    border: 1px solid #F4F4F4;
+    display: inline-block;
+    border-radius: 2.315vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .genomic-dna__note {
+    right: -87%;
+    top: 33%;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .genomic-dna__note::before {
+    content: "";
+    position: absolute;
+    height: 1.5px;
+    width: 6.283vw;
+    background-color: #7DEA13;
+    top: 50%;
+    transform: translateY(-50%);
+    left: calc(-100% - 0.661vw);
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .genomic-dna__note::after {
+    content: "";
+    position: absolute;
+    height: 4.696vw;
+    width: 0.992vw;
+    border: 1.5px solid #7DEA13;
+    border-left: none;
+    top: 50%;
+    transform: translateY(-50%);
+    left: calc(-100% - 0.661vw - 0.992vw);
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .genomic-dna__box::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -3.439vw;
+    height: 2.249vw;
+    width: 1.5px;
+    background-color: #7DEA13;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .genomic-dna__box::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -4.365vw;
+    height: 0.86vw;
+    width: 20.304vw;
+    border: 1.5px solid #7DEA13;
+    border-bottom: none;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.587vw;
+    padding: 0 1.852vw;
+    margin-bottom: 1.984vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle .box-chart__title {
+    margin-bottom: 1.521vw;
+    max-width: 13.955vw;
+
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle__box {
+    border-radius: 1.058vw;
+    border: 1px solid #D9D9D9;
+    background-color: #7DEA13;
+    min-height: 8.73vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle__box .chart-caption {
+    left: 0.794vw;
+    bottom: 0.926vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle__note {
+    top: -53%;
+    right: -17%;
+    max-width: 12.897vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle__note::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5.423vw;
+    width: 1.5px;
+    height: 3.836vw;
+    background-color: #7DEA13;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle__note-2 {
+    top: 46%;
+    right: -78%;
+    max-width: 8.333vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle__note-2::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -5.886vw;
+    width: 4.101vw;
+    height: 1.5px;
+    background-color: #fff;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-middle__dash {
+    width: 10.78vw;
+    right: 0.661vw;
+    bottom: -5.026vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-bottom .box-chart__title {
+    margin-left: 4.96vw;
+    margin-bottom: 2.315vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-bottom__image {
+    gap: 1.521vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-bottom__note {
+    bottom: -3%;
+    left: -36%;
+    max-width: 9.987vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-bottom__note::before {
+    content: "";
+    position: absolute;
+    top: 0.265vw;
+    right: -10.847vw;
+    width: 9.921vw;
+    height: 1.257vw;
+    border: 1.5px solid #7DEA13;
+    border-top: none;
+    border-left: none;
+
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-bottom__note-2 {
+    bottom: 26%;
+    right: -30%;
+    max-width: 8.003vw;
+    gap: 1.587vw;
+}
+
+.core-phenotype-sec .gene-symbol.hoxb13 .gene-symbol-chart .chart-bottom__note-2 img {
+    width: 2.579vw;
+    margin-left: 1.323vw;
+}
+
+.gene-symbol-chart-wrapper__note {
+    max-width: 8.333vw;
+    top: 0;
+    right: -0.926vw;
+}
+
+.core-phenotype-sec .example-genes__content.smaller-ears .box-row-text {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.core-phenotype-sec .example-genes__content.smaller-ears .smaller-ears-box {
+    border: 1px solid #B3B3B3;
+}
+
+.core-phenotype-sec .example-genes__content.smaller-ears .smaller-ears-box__text {
+    max-width: 12.897vw;
+    left: 2.91vw;
+    bottom: 3.175vw;
+    gap: 0.926vw;
+}
+
+.core-phenotype-sec .example-genes__content.smaller-ears .smaller-ears-box__line {
+    height: 1px;
+    width: 14.021vw;
+    top: 45%;
+    left: -38%;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hmx1 .gene-symbol-main .left {
+    padding-left: 5.291vw;
+    padding-right: 0;
+    width: 46.7%;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hmx1 .gene-symbol-main .right {
+    flex: 53.3%;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hmx1 .hmx1-ins {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.926vw 9.061vw;
+    margin-top: -26.058vw;
+    padding: 0 4.96vw;
+    margin-bottom: 2.646vw;
+}
+
+
+.core-phenotype-sec .example-genes .gene-symbol.hmx1 .hmx1-in-item .item-image__caption {
+    font-size: 0.659vw;
+    letter-spacing: 0.047em;
+    gap: 0.265vw;
+    left: 0;
+    top: 2.778vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hmx1 .hmx1-in-item.item-cows .item-image__caption {
+    top: 4.365vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hmx1 .hmx1-in-item.item-rats .item-image__caption {
+    left: -1.058vw;
+    top: 4.563vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hmx1 .hmx1-in-item .item-image__caption img {
+    width: 1.521vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol.hmx1 .hmx1-in-item .item-title {
+    font-size: 1.587vw;
+    line-height: 1.375;
+    letter-spacing: -0.044em;
+    margin-top: 0.496vw;
+}
+
+.core-phenotype-sec .example-genes .gene-symbol-note {
+    font-size: 0.61vw;
+    letter-spacing: 0.02em;
+    margin-bottom: 1.455vw;
+}
+
+.core-phenotype-sec .example-genes__content.smaller-ears .example-genes__box {
+    margin-bottom: 6.614vw;
+}
+
+.core-phenotype-sec .example-genes__content.smaller-ears .example-genes__box .box-left {
+    padding-right: 6.878vw;
+    width: 61%;
+}
+
+.core-phenotype-sec .example-genes__content.smaller-ears .example-genes__box .box-right {
+    width: 39%;
+}
+
+.core-phenotype-sec .critical-advisory-box {
+    margin-top: 4.894vw;
+    position: relative;
+    z-index: 3;
+    bottom: -14.087vw;
+}
+
+
+.woolly-mouse-sec {
+    padding-top: 18.783vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-intro {
+    padding-bottom: 3.241vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-intro::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 40.08%, #FFFFFF 80.45%);
+    left: 0;
+    width: 100%;
+    height: 39.683vw;
+    bottom: 4.233vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-intro .intro-bg {
+    opacity: 0.3;
+    max-width: 95.503vw;
+    top: -2.513vw;
+    left: -1.852vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-intro .row-1 {
+    padding-bottom: 1.257vw;
+    margin-bottom: 1.852vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-intro .row-1 .column {
+    gap: 0.661vw 7.143vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-intro .row-2 {
+    padding: 3.968vw 0;
+    margin-top: 2.579vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-intro .row-3 {
+    padding-top: 1.323vw;
+    font-size: 1.19vw;
+    line-height: 1.22;
+}
+
+.woolly-mouse-sec .woolly-mouse-intro .intro-text {
+    font-size: 2.646vw;
+    line-height: 1;
+    letter-spacing: 0.011em;
+    max-width: 71.429vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-subheading {
+    font-size: 1.98vw;
+    line-height: 120%;
+    letter-spacing: 0.46em;
+    max-width: 50.661vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-heading {
+    font-size: 18.358vw;
+    line-height: 0.72;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 32.56%, rgba(255, 123, 49, 0.68) 100%), linear-gradient(0deg, #000000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding-top: 4.63vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 10.55%, rgba(255, 123, 49, 0.68) 75.6%);
+    top: 0;
+    height: 58%;
+    pointer-events: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__bg {
+    margin-top: -5.291vw;
+    margin-bottom: -10.317vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 78.54%, #FFFFFF 94.46%);
+    pointer-events: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__bg .mice-img {
+    width: 10.714vw;
+    top: -6.944vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video {
+    bottom: 19.114vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 78%;
+    padding: 2.116vw 2.646vw 7.937vw;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-border {
+    position: absolute;
+    width: 3.902vw;
+    height: 3.902vw;
+    border-color: #fff;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-border.border-top-left {
+    border-top: 1.28px solid #fff;
+    border-left: 1.28px solid #fff;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-border.border-top-right {
+    border-top: 1.28px solid #fff;
+    border-right: 1.28px solid #fff;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-border.border-bottom-left {
+    border-bottom: 1.28px solid #fff;
+    border-left: 1.28px solid #fff;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-border.border-bottom-right {
+    border-bottom: 1.28px solid #fff;
+    border-right: 1.28px solid #fff;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video::after {
+    border-left: none;
+    right: 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-title {
+    letter-spacing: 0.18em;
+    margin-bottom: 3.307vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-watchnow {
+    letter-spacing: 0.18em;
+    right: -4.365vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-box {
+    max-width: 54.894vw;
+    aspect-ratio: 830/448;
+    border-radius: 0.794vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        linear-gradient(0deg, rgba(108, 108, 108, 0.2), rgba(108, 108, 108, 0.2));
+    box-shadow: 0px 32px 26.8px 10px rgba(0, 0, 0, 0.51);
+}
+
+
+.woolly-mouse-sec .woolly-mouse-banner__video .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    gap: 0.661vw;
+    padding: 0.529vw;
+    background: rgba(130, 130, 130, 0.5);
+    border: 1px solid #F4F4F4;
+    border-radius: 2.646vw;
+    color: #f4f4f4;
+    letter-spacing: 0.13em;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-banner__video .play-btn img {
+    width: 0.794vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-banner__video .video-box.playing .video-overlay {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .4s ease;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-about .content-1 {
+    padding-top: 2.447vw;
+    margin-bottom: 6.548vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-1.title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-1 .column-1 {
+    width: 34%;
+    padding-right: 4.365vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-1 .column-2 {
+    width: 33.5%;
+    padding-right: 3.571vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-1 .column-3 {
+    width: 32.5%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .subject-list {
+    gap: 1.19vw;
+    margin-bottom: 2.646vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .subject-list .img-subject {
+    width: calc((100% - 1.19vw - 4.63vw) / 2);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .subject-list .arrows {
+    gap: 1.058vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .subject-list .arrows {
+    width: 4.63vw;
+
+}
+
+
+.woolly-mouse-sec .woolly-mouse-about .subject-list .arrow-left {
+    transform: rotate(180deg);
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-title {
+    font-size: 0.794vw;
+    line-height: 150%;
+    color: #838383;
+    margin-bottom: 0.926vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-list {
+    gap: 1.323vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-item {
+    border-top: 1px solid #D9D9D9;
+    padding-top: 0.728vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1.323vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-item .item-title {
+    font-size: 0.794vw;
+    line-height: 1.33;
+    color: #5E5E5E;
+    flex: 1;
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-item .item-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.397vw;
+    font-weight: 700;
+    font-size: 0.794vw;
+    line-height: 1.33;
+    color: #9940DD;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-item .item-btn {
+    width: 4.894vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-item .item-btn img {
+    width: 0.728vw;
+    flex-shrink: 0;
+    transition: all 0.4s ease;
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-item .item-logo {
+    width: 6.481vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-item .item-logo img {
+    height: 1.852vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about__citations .citation-item:hover .item-btn img {
+    transform: translateX(0.331vw);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.058vw;
+    margin-bottom: 2.116vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    margin-bottom: 1.918vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box {
+    min-height: 48.413vw;
+    backdrop-filter: blur(65.46627044677734px);
+    -webkit-backdrop-filter: blur(65.46627044677734px);
+    border: 1.53px solid #B3B3B3;
+    background-color: #F3F3F3;
+    padding: 1.587vw 1.984vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-label {
+    gap: 0.595vw;
+    left: 2.249vw;
+    font-size: 0.529vw;
+    letter-spacing: 0.02em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-label.label-top {
+    top: 1.918vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-label.label-bottom {
+    bottom: 1.918vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-key-data {
+    bottom: 1.323vw;
+    font-size: 0.794vw;
+    line-height: 1.75;
+    letter-spacing: 0.02em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left::before,
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 80%;
+    width: 1.323vw;
+    border: 1.53px solid #828282;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left::before {
+    border-right: none;
+    left: 2.249vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left::after {
+    border-left: none;
+    right: 2.249vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-pattern {
+    top: 3.175vw;
+    left: 5.093vw;
+    gap: 0.265vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-pattern .image {
+    width: 6.085vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-hair-title {
+    font-size: 1.587vw;
+    line-height: 1.125;
+    letter-spacing: -0.0533em;
+    position: relative;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-hair-title span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1.389vw;
+    font-size: 1.058vw;
+    line-height: 1.0625;
+    color: #B3B3B3;
+    font-weight: 400;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-pattern_list {
+    line-height: 1.375;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-color {
+    border: 1px solid #B3B3B3;
+    background-color: #fff;
+    width: 21.892vw;
+    top: 1.587vw;
+    right: 4.299vw;
+    padding: 1.587vw 0.595vw 2.976vw 1.72vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-color::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/mammoth-science-action/grid-2.png') no-repeat center / cover;
+    pointer-events: none;
+    mix-blend-mode: exclusion;
+    opacity: 0.6;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-color__top {
+    max-width: 16.138vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-color .text-1 {
+    font-size: 0.794vw;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    margin-bottom: 1.058vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-color .image {
+    left: 1.521vw;
+    top: 0.728vw;
+    width: 5.688vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-color__bottom {
+    gap: 3.571vw;
+    margin-top: 4.894vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-color .arrow {
+    width: 5.423vw;
+    left: -1.257vw;
+    top: 1.786vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-follice-length {
+    top: 7.209vw;
+    left: 11.905vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-follice-length .image {
+    width: 26.852vw;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-follice-length__title {
+    gap: 0.794vw;
+    margin-top: 0.728vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-follice-length__title .title-arrow {
+    width: 1.984vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-left .box-hair-follice-length .arrow {
+    width: 3.307vw;
+    left: -5.291vw;
+    bottom: 0.794vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/mammoth-science-action/grid-3.png')no-repeat center / cover;
+    pointer-events: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 49.01%, #FFFFFF 99.17%);
+    pointer-events: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-text-small {
+    font-size: 0.661vw;
+    line-height: 1.4;
+    letter-spacing: 0.017em;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .text-1 {
+    left: 2.513vw;
+    top: 1.918vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .text-2 {
+    left: 2.513vw;
+    bottom: 1.918vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .text-3 {
+    font-size: 0.794vw;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    position: absolute;
+    top: 46%;
+    transform: translateY(-50%) rotate(90deg);
+    right: -0.661vw;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-img {
+    width: 37.765vw;
+    top: 1.852vw;
+    left: 2.91vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-hairs {
+    position: absolute;
+    left: 50%;
+    width: 74%;
+    transform: translateX(-50%);
+    bottom: 4.894vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3.307vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-hair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-hair__image {
+    aspect-ratio: 1;
+    max-width: 14.55vw;
+    padding: 0.794vw 1.984vw 2.116vw;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 1.49px solid #B3B3B3;
+    margin-bottom: 0.992vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-hair__image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #F4F4F4 20.23%, #7DEA13 100%);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-hair.lipid-metabolism .box-hair__image::before {
+    background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(153, 64, 221, 0.48) 100%), linear-gradient(0deg, #D9D9D9, #D9D9D9);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-hair__arrow {
+    width: 13.294vw;
+    top: -13.558vw;
+    left: 1.455vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-2 .box-right .box-hair.lipid-metabolism .box-hair__arrow {
+    top: -10.979vw;
+    left: 1.19vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-3 {
+    padding-top: 2.844vw;
+    margin-bottom: 2.712vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-3 .left {
+    width: 69.8%;
+    padding-right: 4.233vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-3 .right {
+    width: 30.2%;
+    gap: 1.323vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-3 .text {
+    font-size: 2.116vw;
+    line-height: 1;
+    letter-spacing: 0.0140625em;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-3 .text strong {
+    color: #000;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-3 .text span {
+    color: #000;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-3 .text-plus {
+    font-size: 1.403vw;
+    letter-spacing: 0.02em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-3 .title {
+    font-size: 3.931vw;
+    line-height: 0.87;
+    letter-spacing: -0.04em;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-about .content-4 .content-header {
+    max-width: 59.061vw;
+    border-top: 1px solid #5E5E5E;
+    margin-bottom: 3.241vw;
+    padding-top: 0.992vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .content-4 .label {
+    gap: 2.646vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .step-1 {
+    width: 34%;
+    padding-right: 5.093vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .step-2 {
+    width: 35%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .result {
+    width: 31%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .step-1 .step-arrow {
+    width: 1.72vw;
+    height: 11.905vw;
+    border: 1.5px solid #9940DD;
+    border-left: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .step-1 .step-arrow::before {
+    content: "";
+    position: absolute;
+    height: 1.5px;
+    width: 3.307vw;
+    background-color: #9940DD;
+    right: -3.307vw;
+    top: 43%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .step-1 .step-arrow.arrow-1 {
+    right: 14%;
+    top: 10%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .step-1 .step-arrow.arrow-2 {
+    right: 11%;
+    top: 38%;
+    border-color: #7DEA13;
+    height: 12.632vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .step-1 .step-arrow.arrow-2::before {
+    background-color: #7DEA13;
+    top: 70%;
+    width: 3.571vw;
+    right: -3.571vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .name {
+    line-height: 1.6875;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .step-table>div {
+    display: flex;
+    gap: 1.323vw;
+    margin-bottom: 0.595vw;
+    align-items: start;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-left {
+    width: 6.349vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-right {
+    width: 6.085vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-center {
+    flex: 1;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-headers__name {
+    border-bottom: 1px solid #828282;
+    padding-bottom: 0.595vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-rows {
+    color: #B3B3B3;
+    border-bottom: 1px solid #828282;
+    padding-bottom: 0.529vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-rows:last-child {
+    border-bottom: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-img+.table-img {
+    margin-top: 0.529vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-img__caption {
+    top: 0;
+    left: 0;
+    line-height: 1;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-img.cas9-hdr {
+    margin-left: auto;
+    max-width: 8.995vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .table-img.cas9-hdr .table-img__caption {
+    left: -1.984vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .result-box {
+    border: 1px solid #B3B3B3;
+    aspect-ratio: 434/476;
+    margin-top: -5.423vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .result-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/mammoth-science-action/grid-4.png') no-repeat center / cover;
+    pointer-events: none;
+    mix-blend-mode: difference;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-name {
+    line-height: 1;
+    margin-bottom: 0.397vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote .left {
+    width: 30%;
+    padding-bottom: 3.968vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote .center {
+    width: 27%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-gene-edit {
+    font-size: 0.794vw;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote .right {
+    width: 43%;
+    padding-right: 1.587vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-img__caption {
+    bottom: 0.265vw;
+    right: -0.661vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-2 {
+    margin-top: -2.05vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-2 .center {
+    gap: 0.794vw;
+    width: 31%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-2 .center svg {
+    width: 1.323vw;
+    flex-shrink: 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-2 .left {
+    width: 31%;
+    padding-bottom: 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-2 .right {
+    width: 38%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-2 .right svg {
+    width: 3.241vw;
+    top: 51%;
+    transform: translateY(-50%);
+    right: 0.661vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .multiplex-edited-mice .zygote-2 .zygote-img__caption {
+    bottom: 1.72vw;
+    right: -4.762vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps {
+    padding: 4.96vw 0 3.042vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__title {
+    font-size: 4.233vw;
+    max-width: 77.513vw;
+    margin-bottom: 5.622vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.058vw 1.323vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row .column-lg {
+    grid-column: span 2;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row .column-xl {
+    grid-column: span 3;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row+.key-steps__row {
+    margin-top: 1.058vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row .step-content {
+    gap: 1.323vw;
+    margin-top: 1.19vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row .step-title {
+    letter-spacing: 0.0275em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row .step-desc {
+    font-size: 0.529vw;
+    line-height: 1.25;
+    letter-spacing: 0.05625em;
+    max-width: 18.717vw;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .column {
+    min-height: 26.984vw;
+    border: 1px solid #B3B3B3;
+    border-radius: 1.72vw;
+    position: relative;
+    padding: 1.058vw;
+}
+
+
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .img-bg {
+    border-radius: 1.72vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .img-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.17);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .box-line {
+    height: 1px;
+    margin-bottom: 4.894vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .box-title {
+    max-width: 89%;
+    margin-bottom: 3.968vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .box-img__caption {
+    top: -2.315vw;
+    left: 2.778vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .box-img__caption span {
+    max-width: 7.143vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .box-img__caption img {
+    position: absolute;
+    left: -1.323vw;
+    top: 0;
+    width: 0.529vw;
+    max-width: unset;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .box-img__caption.caption-2 {
+    top: auto;
+    bottom: -2.91vw;
+    left: 7.738vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .box-img__caption.caption-2 img {
+    width: 13.757vw;
+    top: -10.251vw;
+    left: -3.108vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/mammoth-science-action/grid-5.png') no-repeat center / cover;
+    pointer-events: none;
+    border-radius: inherit;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-title {
+    max-width: 5.556vw;
+    left: 4%;
+    top: 8%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-label {
+    font-size: 0.529vw;
+    line-height: 1.75;
+    letter-spacing: 0.017em;
+    display: block;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item__arrow {
+    width: 1.521vw;
+    top: 51%;
+    right: -10%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-1 {
+    width: 13.624vw;
+    left: -4%;
+    top: 22.5%;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-1 .box-item__arrow {
+    width: 2.646vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-1 .box-item__img {
+    margin: 0.728vw 0 0.397vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-1 .box-label:last-child {
+    margin-right: 1.323vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-2 {
+    width: 8.201vw;
+    left: 31%;
+    top: 45.5%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-2 .box-item__img {
+    margin: 0 0 0.198vw 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-2 .box-item__arrow {
+    transform: rotate(-32.02deg);
+    top: 22%;
+    right: -16%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-3 {
+    width: 9.061vw;
+    left: 30%;
+    top: 7.5%;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-3 .box-item__arrow {
+    transform: rotate(32.02deg);
+    top: 66%;
+    right: -10%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-4 {
+    width: 7.937vw;
+    left: 53%;
+    top: 22.5%;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-4 .box-item__arrow {
+    top: 61%;
+    right: -22%;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-5 {
+    width: 7.804vw;
+    left: 75%;
+    top: 22.5%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-5 .box-item__img {
+    margin: 2.381vw 0 0 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-5 .box-item__arrow {
+    top: 62%;
+    right: -22%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-label.label-1 {
+    top: 11.5%;
+    left: 69%;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted {
+    top: 62%;
+    left: 52%;
+    width: 19.974vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted__title {
+    font-size: 0.529vw;
+    line-height: 1.75;
+    letter-spacing: 0.017em;
+    margin-bottom: 0.132vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted__desc {
+    font-size: 0.463vw;
+    line-height: 1;
+    letter-spacing: 0.064em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted__content {
+    max-width: 80%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted__video {
+    aspect-ratio: 302/96;
+    margin-top: 0.529vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted__video .video-caption {
+    font-size: 0.368vw;
+    line-height: 1.44;
+    letter-spacing: 0.017em;
+    color: #EFEFEF;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted__video .video-caption.caption-1 {
+    top: 15%;
+    left: 63%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted__video .video-caption.caption-2 {
+    top: 45%;
+    left: 58%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted__video .video-label {
+    font-size: 0.916vw;
+    letter-spacing: 0.022em;
+    display: inline-block;
+    color: #F4F4F4;
+    border: 1px solid #f4f4f4;
+    background-color: rgba(130, 130, 130, 0.75);
+    border-radius: 1.984vw;
+    padding: 0.265vw 0.529vw;
+    top: 64%;
+    left: 53%;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .blastocyst .box-line {
+    background-color: #383838;
+    margin-bottom: 0.86vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .blastocyst::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #FFFFFF 0%, #7DEA13 100%);
+    border-radius: inherit;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .blastocyst .box-img {
+    aspect-ratio: 1;
+    max-width: 18.519vw;
+    margin: 1.72vw auto 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .blastocyst .box-img__caption {
+    bottom: 1.984vw;
+    left: 0;
+    width: 100%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .column-4 {
+    padding: 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .column-4 .box-img {
+    border-radius: inherit;
+    width: 100%;
+    height: 33.466vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .column-4 .box-img::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: rgba(0, 0, 0, 0.17);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .column-5 {
+    padding: 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .column-5 .box-img {
+    border-radius: inherit;
+    width: 100%;
+    height: 33.466vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .column-5 .box-img::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: rgba(0, 0, 0, 0.17);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept {
+    margin-bottom: 5.159vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__header {
+    margin-bottom: 2.646vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content {
+    gap: 1.323vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left {
+    width: calc(58.4% - 0.661vw);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .right {
+    width: calc(41.6% - 0.661vw);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .line {
+    background-color: #5E5E5E;
+    margin-bottom: 1.455vw;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    width: 59%;
+    padding-right: 0.661vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-desc {
+    width: 41%;
+    margin-top: 0.265vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-2 {
+    margin-top: -3.968vw;
+    margin-bottom: 2.646vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-2 .item-wild-type {
+    margin-left: -2.381vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-2 .item-wild-type img {
+    width: 21.164vw;
+    margin-bottom: 0.595vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-2 .item-wild-type .item-title {
+    margin-left: -4.63vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-2 .item-woolly-mouse {
+    margin-left: -4.894vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-2 .item-woolly-mouse img {
+    width: 19.709vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-2 .item-woolly-mouse .item-title {
+    margin-left: -8.135vw;
+    margin-top: -0.463vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-3 .title {
+    font-size: 1.587vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-3 .row-header {
+    margin-bottom: 1.323vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-3 .images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.058vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-3 .image {
+    aspect-ratio: 391/254;
+    border-radius: 1.72vw;
+    border: 1px solid #B3B3B3;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-3 .image .square-plus {
+    bottom: 1.389vw;
+    left: 1.521vw;
+    border-color: #fff;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .right-row-1 {
+    gap: 5.82vw;
+    margin-bottom: 1.72vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .right-title {
+    width: 9.656vw;
+    flex-shrink: 0;
+    font-size: 1.587vw;
+    line-height: 0.833;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .right-desc p {
+    margin-bottom: 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box {
+    border: 1px solid #383838;
+    background-color: #F4F4F4;
+    padding: 1.19vw 1.19vw 1.653vw 1.19vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/mammoth-science-action/grid-6.png') no-repeat center / cover;
+    opacity: 0.8;
+    mix-blend-mode: exclusion;
+    pointer-events: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-label {
+    gap: 0.595vw;
+    font-size: 0.529vw;
+    letter-spacing: 0.02em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-title {
+    font-size: 0.794vw;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-header {
+    margin-bottom: 2.183vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-border {
+    width: 1.124vw;
+    border: 1.53px solid #828282;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-border-left {
+    border-right: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-border-right {
+    border-left: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-content {
+    gap: 1.323vw;
+    padding: 1.323vw 0 2.778vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-content__left {
+    width: calc(64% - 0.661vw);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-content__right {
+    width: calc(36% - 0.661vw);
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-chart img {
+    width: 18.981vw;
+    margin-left: auto;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-experiment {
+    margin-top: 1.323vw;
+    max-width: 7.407vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-experiment__title {
+    margin-bottom: 1.918vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-content__text-left {
+    font-size: 0.651vw;
+    letter-spacing: 0.02em;
+    top: 40%;
+    left: -4%;
+    transform: rotate(-90deg);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-content__text-right {
+    font-size: 0.651vw;
+    letter-spacing: 0.02em;
+    top: 40%;
+    right: -1%;
+    transform: rotate(-90deg);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-content__text-bottom {
+    font-size: 0.794vw;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-experiment-list {
+    gap: 0.265vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-experiment-item {
+    background-color: #E0C2F6;
+    border: 1px solid #383838;
+    border-radius: 1.058vw;
+    padding: 0.661vw 1.587vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-experiment-item .item-label {
+    font-size: 0.452vw;
+    letter-spacing: 0.02em;
+    width: 1.058vw;
+    height: 1.058vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -0.198vw;
+    bottom: -0.198vw;
+    border-radius: 50%;
+    color: #FFFFFF;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .chart-legend {
+    margin-top: 1.786vw;
+    border-top: 1px solid #383838;
+    max-width: 9.127vw;
+    gap: 0.463vw 1.984vw;
+    padding-top: 0.794vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .chart-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.397vw;
+    font-size: 0.651vw;
+    letter-spacing: 0.02em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .chart-legend-item .dot {
+    width: 0.86vw;
+    height: 0.86vw;
+    border-radius: 50%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .left {
+    width: 59.6%;
+    padding-right: 1.786vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .right {
+    width: 40.4%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .label {
+    gap: 4.365vw;
+    margin-bottom: 1.786vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    margin-bottom: 12.566vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .left-content {
+    gap: 1.323vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .left-content .image {
+    width: calc(57.5% - 0.661vw);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .left-content .image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: linear-gradient(187.76deg,
+            #FF7B31 21.28%,
+            #828282 94.01%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .left-content .image::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000000 100%);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .left-content .content {
+    width: calc(42.5% - 0.661vw);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .slide-img {
+    aspect-ratio: 562/481;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #979797;
+    border-radius: 0.529vw;
+    margin-bottom: 1.72vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .slide-img::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 58.11%, #FF7B31 105.93%);
+    mix-blend-mode: exclusion;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .slide-desc {
+    font-size: 1.19vw;
+    line-height: 1.22;
+    letter-spacing: 0.025em;
+    color: #4F4F4F;
+    max-width: 33.267vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .swiper-arrow {
+    background-color: #7DEA13;
+    width: 4.563vw;
+    height: 1.72vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .swiper-arrow svg {
+    width: 1.455vw;
+    height: auto;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .swiper-arrow.swiper-button-disabled {
+    background-color: #D9D9D9;
+    color: #828282;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .slider-nav {
+    gap: 2.447vw;
+    margin-top: 3.968vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .slider-counter {
+    font-size: 2.116vw;
+}
+
+/*  */
+
+.xh-team-slider .title-text {
+    font-size: 4.43vw;
+    line-height: 4.56vw;
+    letter-spacing: 0.06vw;
+    text-align: center;
+    max-width: 71.56vw;
+    margin: 0 auto;
+    padding: 3.9vw 0 4.89vw;
+}
+
+.xh-team-slider .plus {
+    font-size: 2.25vw;
+    line-height: 1.46vw;
+    font-weight: 300;
+}
+
+.xh-team-slider .xh-plus-row {
+    padding: 0 8.13vw 0 8.33vw;
+    margin-bottom: 6.48vw;
+}
+
+.xh-team-slider .wrapper-md {
+    padding: 0 1.65vw;
+}
+
+.xh-team-slider {
+    margin-bottom: 5.49vw;
+}
+
+.xh-team-slider .xh-controls {
+    margin-bottom: 1.26vw;
+    font-size: 3.17vw;
+    padding-left: 2.58vw;
+}
+
+.xh-team-slider .swiper-arrow.swiper-button-disabled {
+    background: #D9D9D9;
+}
+
+.xh-team-slider .xh-team-swiper img {
+    background: linear-gradient(180deg, #C9C9C7 0%, #C265F6 100%);
+    border: 1px solid #828282;
+    border-radius: 1.058vw;
+    overflow: hidden;
+}
+
+.xh-field-lab {
+    padding-top: 8.2vw;
+    padding-bottom: 5.56vw;
+}
+
+.xh-field-lab h2 {
+    font-weight: 800;
+    font-size: 18.36vw;
+    line-height: 13.21vw;
+    background: linear-gradient(180deg, #000000 58.18%, #828282 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-top: 5.62vw;
+    padding-bottom: 18.72vw;
+}
+
+.img-field-lab {
+    height: 46.23vw;
+    width: 41.6vw;
+}
+
+.de-extinction {
+    gap: 2.71vw;
+    display: grid;
+    grid-template-columns: 29.63vw auto 29.63vw;
+    bottom: -16.51vw;
+}
+
+.de-extinction img {
+    box-shadow: 0px 1.52vw 1.2vw -0.53vw #00000040;
+    border: 0.89px solid #B3B3B3;
+    border-radius: 0.79vw;
+    overflow: hidden;
+}
+
+.de-extinction h3 {
+    font-size: 2.65vw;
+    line-height: 1;
+    letter-spacing: 0.03vw;
+    margin-bottom: 7.21vw;
+}
+
+.de-extinction p {
+    letter-spacing: 0.03vw;
+    line-height: 1.32vw;
+    margin-bottom: 7.61vw;
+}
+
+.xh-field-lab .grid-colum-4 {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.32vw;
+
+}
+
+.xh-field-lab .grid-colum-4 .item img,
+.xh-field-lab .grid-colum-4 .item video {
+    aspect-ratio: 331/244;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.529vw;
+}
+
+.gap-66 {
+    gap: 4.37vw;
+}
+
+.mb-34 {
+    margin-bottom: 2.25vw;
+}
+
+.mb-54 {
+    margin-bottom: 3.57vw;
+}
+
+.xh-field-lab .grid-colum-4 .item video {
+    box-shadow: 0px 23px 18.2px -8px #00000040;
+    border: 0.89px solid #B3B3B3;
+    aspect-ratio: 331/277;
+
+}
+
+.xh-field-lab .grid-colum-4 p {
+    font-weight: 400;
+    line-height: 1.32vw;
+    letter-spacing: 0.03vw;
+    color: #9D9D9D;
+    max-width: 14.15vw;
+    margin-left: auto;
+    margin-top: 2.18vw;
+}
+
+.gap-13 {
+    gap: 0.86vw;
+}
+
+.xh-research {
+    padding-top: 2.84vw;
+    padding-bottom: 0.73vw;
+}
+
+.xh-research .heading {
+    margin-top: 1.32vw;
+    border-top: 1px solid #000000;
+    padding-top: 1.06vw;
+    padding-bottom: 3.31vw;
+}
+
+.xh-research .heading h2 {
+    font-size: 6.35vw;
+    line-height: 5.29vw;
+    letter-spacing: -1px;
+    max-width: 44.31vw;
+
+}
+
+.xh-research .heading .content {
+    margin-right: 3.51vw;
+    max-width: 32.66vw;
+    gap: 9.14vw;
+}
+
+.xh-research .heading .content p {
+    font-size: 1.59vw;
+    line-height: 1.1;
+}
+
+.xh-research .counter {
+    padding-bottom: 1.06vw;
+
+}
+
+.xh-research .list .border-top,
+.xh-research .list .border-bottom {
+    border-color: #000000 !important;
+}
+
+.xh-research .list .border-bottom.active {
+    border-bottom: none !important;
+}
+
+.xh-research .list>.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.xh-research .list>.row.py-2 {
+    padding: 0.6vw 0 0.46vw !important;
+}
+
+.xh-research .list .about-text {
+    font-size: 0.79vw;
+    line-height: 1.06vw;
+    font-weight: 400;
+    letter-spacing: 0.03vw;
+
+}
+
+.colum-collapse .label {
+    margin-bottom: 1.52vw;
+}
+
+.colum-collapse .download-btn {
+    font-size: 0.79vw;
+    line-height: 1.37vw;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 0.63vw;
+    display: block;
+    margin-top: 3.31vw;
+    color: #000 !important;
+}
+
+.colum-collapse-1 {
+    max-width: 29.83vw;
+}
+
+.colum-collapse-list {
+    margin-top: 4.7vw;
+}
+
+.colum-collapse-2 {
+    max-width: 19.31vw
+}
+
+.colum-collapse-2 .colum-collapse-list .label {
+    margin-bottom: 1.26vw;
+}
+
+.colum-collapse-list .tag {
+    font-weight: 400;
+    font-size: 0.754vw;
+    line-height: 0.96;
+    letter-spacing: 0.01em;
+    text-align: center;
+    padding: 0.25vw 0.5vw;
+    vertical-align: middle;
+    border: 1px solid #FFFFFF;
+    border-radius: 1.323vw;
+}
+
+.wrap-collapse {
+    padding: 2.58vw 4.7vw 3.17vw 3.11vw;
+    border-radius: 0 0 1.06vw 1.06vw !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.colum-collapse {
+    padding: 0 !important;
+}
+
+.colum-collapse-3 {
+    padding-top: 2.58vw !important;
+    width: 24.47vw;
+}
+
+.corner {
+    width: 0.66vw;
+    height: 0.66vw;
+    position: absolute;
+}
+
+.corner-tl {
+    top: -3.64vw;
+    left: -1.98vw;
+    border-top: 0.57px solid #FF7B31;
+    border-left: 0.57px solid #FF7B31;
+}
+
+.corner-tr {
+    top: -3.64vw;
+    right: -1.98vw;
+    border-top: 0.57px solid #FF7B31;
+    border-right: 0.57px solid #FF7B31;
+}
+
+.corner-bl {
+    bottom: -3.64vw;
+    left: -2.12vw;
+    border-bottom: 0.57px solid #FF7B31;
+    border-left: 0.57px solid #FF7B31;
+}
+
+.corner-br {
+    bottom: -3.64vw;
+    right: -2.12vw;
+    border-bottom: 0.57px solid #FF7B31;
+    border-right: 0.57px solid #FF7B31;
+}
+
+.view-all {
+    padding: 1.52vw 0 1.79vw;
+    border-bottom: 1px solid #000;
+}
+
+.xh-team-network {
+    padding: 3.44vw 0 3.44vw;
+}
+
+.xh-team-network .nav .text-md {
+    line-height: 0.73vw;
+}
+
+.xh-team-network .nav {
+    margin-bottom: 7.21vw;
+}
+
+.gap-109 {
+    gap: 7.21vw;
+}
+
+.xh-team-network h2.title {
+    font-size: 6.35vw;
+    line-height: 5.29vw;
+    text-align: center;
+    margin-bottom: 3.7vw;
+}
+
+.xh-team-network .map {
+    margin: 0 2.12vw;
+    border: 1px solid #2E2E2E;
+
+}
+
+.xh-team-network .map .map-bg {
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 86.1%, rgba(0, 0, 0, 0.7) 97.06%),
+        linear-gradient(90deg, rgba(0, 0, 0, 0) 91.19%, rgba(0, 0, 0, 0.7) 100%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 89.83%, rgba(0, 0, 0, 0.7) 98.42%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0.7) 5.01%, rgba(0, 0, 0, 0) 18.91%);
+}
+
+.xh-team-network .footer-label {
+    gap: 0.4vw;
+    left: 2.05vw;
+    bottom: 4.1vw;
+}
+
+/*  */
+.text-md-11 {
+    line-height: 0.73vw;
+
+}
+
+
+
+.location-box-1 {
+    left: 9.39vw;
+    top: 5.69vw;
+}
+
+.location-box-1 .side-meta {
+    top: 0.53vw;
+    left: -6.28vw;
+}
+
+.gap-19 {
+    gap: 1.26vw;
+}
+
+
+
+.marker-number {
+    font-size: 0.79vw;
+    line-height: 1.06vw;
+    width: 1.39vw;
+    height: 1.39vw;
+    border-radius: 50%;
+    border: 1px solid #FF7B31;
+    background: #4F4F4FBF;
+
+
+}
+
+.marker-number-1 {
+    top: 13.56vw;
+    left: 10.71vw;
+}
+
+/*  */
+.xh-team-network .map .cs-map {
+    margin: 0;
+    padding: 0;
+}
+
+.xh-team-network .map .number-1 {
+    top: 13.56vw;
+    left: 10.71vw;
+}
+
+.xh-team-network .map .number-2 {
+    bottom: 17.72vw;
+    left: 40.01vw;
+    top: auto;
+}
+
+.xh-team-network .map .number-3 {
+    top: 18.72vw;
+    right: 18.85vw;
+    left: auto;
+}
+
+.xh-team-network .map .number-4 {
+    top: 21.49vw;
+    right: 11.51vw;
+    left: auto;
+
+}
+
+.xh-team-network .map .number-5 {
+    top: 17.06vw;
+    right: 9.52vw;
+    left: auto;
+
+}
+
+.xh-team-network .map .map-location.location-1 {
+    top: 5.03vw;
+    left: 3.37vw;
+}
+
+.xh-team-network .map .map-location.location-2 {
+    top: 16.67vw;
+    left: 24.01vw;
+}
+
+.xh-team-network .map .map-location.location-3 {
+    top: 16.01vw;
+    right: 23.68vw;
+    left: auto;
+}
+
+.xh-team-network .map .map-location.location-4 {
+    top: auto;
+    right: 2.84vw;
+    bottom: 12.24vw;
+    left: auto;
+}
+
+.xh-team-network .map .map-location.location-5 {
+    top: 7.14vw;
+    right: 2.18vw;
+    left: auto;
+}
+
+.xh-team-network .cs-map .map-location .content-bottom {
+    color: #B3B3B3;
+}
+
+.xh-team-network .map .map-location.reverse {
+    flex-direction: row-reverse;
+}
+
+.xh-team-network .cs-map .map-location.reverse .left {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.xh-team-network .cs-map .map-location.reverse .text-source {
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.xh-science-action {
+    padding-top: 6.42vw;
+}
+
+.xh-science-action .nav .text-md {
+    line-height: 0.73vw;
+}
+
+.xh-science-action .nav {
+    margin-bottom: 2.78vw;
+}
+
+.xh-science-action .heading .title-text {
+    font-size: 2.65vw;
+    line-height: 100%;
+    letter-spacing: 0.03vw;
+    max-width: 29.63vw;
+}
+
+.xh-science-action .heading p {
+    max-width: 42vw;
+
+    margin-left: 1.46vw;
+    line-height: 1.25;
+}
+
+.xh-science-action .hero {
+    margin-top: -6.61vw;
+}
+
+.testimonial-sec-xh .testimonial-main>.right::after {
+    display: none;
+}
+
+.testimonial-sec-xh .testimonial-main>.left .quote-title {
+    font-size: 2.31vw;
+    padding-top: 6.61vw;
+    padding-bottom: 7.8vw;
+    line-height: 1;
+    letter-spacing: 0.025em;
+
+}
+
+.mt-27 {
+    margin-top: 1.79vw;
+    margin-bottom: 0 !important;
+}
+
+.testimonial-sec-xh .testimonial-main>.left {
+    padding-bottom: 2.45vw !important;
+    background: #212121;
+
+}
+
+.testimonial-sec-xh {
+    padding-bottom: 0 !important;
+}
+
+.testimonial-sec-xh .testimonial-main>.right .testimonial-author {
+    padding-top: 2.38vw;
+    padding-bottom: 1.32vw;
+}
+
+.genome-changes {
+    margin-bottom: 4.43vw;
+    margin-top: -0.99vw;
+}
+
+.genome-changes .nav {
+    margin-bottom: 3.11vw;
+}
+
+.genome-changes .nav .square {
+    width: 0.86vw;
+    height: 0.86vw;
+}
+
+.genome-changes .nav .text-md {
+    font-size: 1.19vw;
+    line-height: 0.99vw;
+}
+
+.genome-changes .heading {
+    width: 29.63vw;
+}
+
+.genome-changes .heading .divider {
+    font-size: 1.65vw;
+    line-height: 1.03vw;
+    letter-spacing: -10%;
+    margin: 1.32vw 0 1.59vw;
+}
+
+.gap-20 {
+    gap: 1.32vw;
+}
+
+.genome-changes .heading .text-md {
+    line-height: 1.32vw;
+    letter-spacing: 0.03vw;
+
+}
+
+.genome-changes .diagram {
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2.78vw 1.72vw 1.92vw 2.31vw;
+    width: 60.58vw;
+    background-size: cover;
+}
+
+.img-diagram {
+    max-width: 52.38vw;
+    margin-bottom: 5.16vw;
+}
+
+.genome-changes .diagram .col-half {
+    width: calc(50% - (1.32vw / 2));
+}
+
+.diagram-title-1 {
+    width: 15.74vw;
+    top: 3.04vw;
+    left: 2.58vw;
+}
+
+.diagram-title-2 {
+    width: 22.29vw;
+    top: 3.04vw;
+    left: 24.01vw;
+}
+
+.diagram-title-sm {
+    font-weight: 700;
+    font-size: 0.66vw;
+    line-height: 0.93vw;
+    letter-spacing: 1.7%;
+
+}
+
+.diagram-title-3 {
+    width: 15.67vw;
+    top: 10.25vw;
+    left: 14.35vw;
+}
+
+.diagram-title-4 {
+    width: 6.75vw;
+    top: 4.37vw;
+    right: 5.42vw;
+}
+
+.diagram-title-5 {
+    width: 11.97vw;
+    top: 20.97vw;
+    right: 3.04vw;
+}
+
+.diagram-title-6 {
+    width: 11.51vw;
+    top: 22.02vw;
+    left: 12.49vw;
+}
+
+.diagram-title-7 {
+    width: 15.08vw;
+    top: 22.02vw;
+    left: 24.47vw;
+}
+
+.gene-editing-banner .badges {
+    max-width: 69.18vw;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.gene-editing-banner .badges .badge {
+    font-size: 3.99vw;
+    line-height: 90%;
+    letter-spacing: 13%;
+    text-align: center;
+    font-weight: 400;
+    padding: 1.32vw 2.65vw;
+    border-radius: 3.307vw;
+    border: 2px solid #FFFFFF;
+}
+
+.gene-editing-banner .footer-meta-1 {
+    left: 10.32vw;
+    bottom: 7.28vw;
+}
+
+.gene-editing-banner .footer-meta-2 {
+    bottom: 7.28vw;
+    right: 15.87vw;
+}
+
+.line-editing {
+    top: 1.984vw;
+    max-width: 91.53vw;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ipsc-strategy-heading-wrapper {
+    padding: 5.952vw 4.233vw 4.431vw;
+
+}
+
+.ipsc-strategy-heading-grid {
+    top: -8%;
+    height: 108%;
+
+}
+
+.ipsc-strategy-heading-grid::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, #FFFFFF 5.45%, rgba(255, 255, 255, 0) 43.68%), linear-gradient(180deg, rgba(255, 255, 255, 0) 68.88%, #FFFFFF 100%);
+    z-index: 1;
+}
+
+
+
+.ipsc-strategy-heading-wrapper .heading {
+    font-size: 11.189vw;
+    line-height: 0.8;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 32.56%, rgba(255, 123, 49, 0.68) 100%), linear-gradient(0deg, #000000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.ipsc-strategy-heading-wrapper .heading-label {
+    background: linear-gradient(247.77deg, #FFFFFF 14.46%, #7DEA13 91.55%);
+    border: 1px solid #000;
+    font-size: 1.948vw;
+    padding: 1.587vw 3.307vw;
+    border-radius: 8.532vw;
+}
+
+.ele-stem-celss-project .colossal-project-swiper .swiper-slide-next .slide-img::before {
+    display: none;
+}
+
+.ipsc-strategy .nav {
+    margin-bottom: 3.7vw;
+}
+
+.ipsc-strategy .heading .col-third-1 {
+    width: 22.95vw;
+}
+
+.ipsc-strategy .heading .col-third-2 {
+    width: calc(100% - 22.95vw);
+}
+
+.ipsc-strategy .label .square {
+    width: 0.86vw;
+    height: 0.86vw;
+}
+
+.ipsc-strategy .label {
+    margin-bottom: 1.98vw;
+}
+
+.ipsc-strategy .label .text-md {
+    font-size: 1.19vw;
+    line-height: 1.06vw;
+}
+
+.lh-20 {
+    line-height: 1.32vw;
+}
+
+.ipsc-strategy .wrap-cont {
+    gap: 2.45vw;
+    grid-template-columns: 20.57vw 20.57vw auto;
+}
+
+.ipsc-strategy .citation-box .label {
+    font-weight: 800;
+    color: #838383;
+}
+
+.ipsc-strategy .citation-box .divider {
+    margin-top: 1.06vw;
+    margin-bottom: 0.79vw;
+
+}
+
+.ipsc-strategy .citation-box .citation-link {
+    line-height: 1.06vw;
+    max-width: 14.55vw;
+}
+
+.ipsc-strategy .citation-box .img-bioRxiv {
+    width: 4.37vw;
+}
+
+.ipsc-strategy .citation-box .btn-primary .arrow {
+    padding: 1.32vw 2.12vw;
+}
+
+.ipsc-strategy .citation-box .read-study span {
+    font-weight: 700;
+    font-size: 0.87vw;
+    line-height: 1.16vw;
+    letter-spacing: 13%;
+
+}
+
+.ipsc-strategy .section-label {
+    font-weight: 700;
+    font-size: 1.32vw;
+    line-height: 109.00000000000001%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    margin-bottom: 0.79vw;
+    margin-top: -1.32vw;
+}
+
+.ipsc-strategy .diagram {
+    padding: 3.04vw 3.44vw 3.04vw 4.23vw;
+}
+
+.ipsc-strategy .diagram .step-tag {
+    background: #828282BF !important;
+    border: 0.86px solid #F4F4F4;
+    font-family: Telegraf;
+    font-weight: 400;
+    font-size: 1.04vw;
+    line-height: 1;
+    letter-spacing: 0.02vw;
+    vertical-align: middle;
+    background: #F4F4F4;
+    padding: 0.41vw 0.62vw;
+    border-radius: 1.653vw;
+
+}
+
+.ipsc-strategy .diagram .text-md {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.3vw;
+    line-height: 1;
+    letter-spacing: 0.03vw;
+    text-align: center;
+    vertical-align: middle;
+    color: #F4F4F4;
+}
+
+.ipsc-strategy .diagram .step {
+    min-height: 13.76vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.ipsc-strategy .diagram .col-quarter {
+    width: 12.7vw;
+}
+
+.ipsc-strategy .diagram .col-quarter-2 {
+    width: 13.62vw;
+}
+
+.ipsc-strategy .diagram .col-quarter-3 {
+    width: 10.05vw;
+}
+
+.ipsc-strategy .diagram .col-quarter-4 {
+    width: 9.46vw;
+}
+
+.ipsc-strategy .diagram .col-arrow .line {
+    width: 2px;
+    height: 3.7vw;
+}
+
+.ipsc-strategy .diagram .col-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 7.47vw;
+}
+
+.ipsc-strategy .diagram .col-arrow .arrow img {
+    max-width: 7.41vw;
+    margin-bottom: 0.99vw;
+}
+
+.ipsc-strategy .diagram .col-arrow .text-md {
+    font-size: 0.79vw;
+    line-height: 130%;
+    letter-spacing: 2%;
+    text-align: center;
+    vertical-align: bottom;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 0.6vw;
+    font-style: normal;
+}
+
+.mb-39 {
+    margin-bottom: 2.58vw;
+}
+
+.ipsc-strategy .diagram .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.79vw;
+}
+
+.gap-12 {
+    gap: 0.79vw;
+
+}
+
+.ipsc-strategy .diagram .cell-img-wrap {
+    border-radius: 0.529vw;
+    overflow: hidden;
+}
+
+.ipsc-strategy .diagram .cell-img-wrap .tag {
+    font-family: NB Architekt Std;
+    font-weight: 700;
+    font-size: 0.93vw;
+    line-height: 1;
+    letter-spacing: 4%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 0 1vw;
+    min-height: 1.59vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.09px solid #FFFFFF;
+    border-radius: 1.653vw;
+}
+
+.ipsc-strategy .diagram .cell-img-wrap .d-inline-flex {
+    position: absolute;
+    top: 0.79vw;
+    right: 0.79vw;
+    align-items: end;
+}
+
+.gap-80 {
+    gap: 5.29vw;
+}
+
+.ipsc-strategy .caption {
+    margin: 0.6vw 0 1.79vw;
+}
+
+.science-action-page .footer-end {
+    margin-top: -6.614vw;
+}
+
+.gap-195 {
+    gap: 12.4vw
 }

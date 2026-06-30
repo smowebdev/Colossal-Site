@@ -1,4 +1,32 @@
 jQuery(function ($) {
+  // Play Video - Start
+  $(".woolly-mouse-banner__video .play-btn").on("click", function () {
+    const wrapper = $(this).closest(".woolly-mouse-banner__video .video-box");
+    const video = wrapper.find(".video-player").get(0);
+
+    video.setAttribute("controls", "");
+
+    video.play();
+
+    wrapper.addClass("playing");
+  });
+
+  $(".woolly-mouse-banner__video .video-player").on("ended", function () {
+    const wrapper = $(this).closest(".video-box");
+
+    this.removeAttribute("controls");
+
+    wrapper.removeClass("playing");
+  });
+  $(".woolly-mouse-banner__video .video-player").on("pause", function () {
+    if (this.seeking) return;
+
+    if (!this.ended) {
+      $(this).closest(".video-box").removeClass("playing");
+    }
+  });
+  // Play Video - End
+
   gsap.registerPlugin(ScrollTrigger);
 
   const header = document.querySelector("header.header");
@@ -64,6 +92,11 @@ jQuery(function ($) {
   }
 
   function updatePhase(index) {
+    if (!cards[index]) {
+      console.warn(`Card at index ${index} does not exist.`);
+      return;
+    }
+
     const phaseNumber = formatNumber(index + 1);
 
     phaseCounters.forEach((counter) => {
@@ -147,4 +180,86 @@ jQuery(function ($) {
   updatePhase(0);
 
   ScrollTrigger.refresh();
+
+  function updateCounter(swiper) {
+    const container = swiper.el.closest(".swiper-wrapper-box");
+
+    if (!container) return;
+
+    const current = container.querySelector(".swiper-pagination-current");
+    const total = container.querySelector(".swiper-pagination-total");
+
+    if (current) {
+      current.textContent = String(swiper.activeIndex + 1).padStart(2, "0");
+    }
+
+    if (total) {
+      total.textContent = String(swiper.slides.length).padStart(2, "0");
+    }
+  }
+
+  const mightiestMouseSlider = new Swiper(".mightiestmouse-slider", {
+    slidesPerView: 1,
+    navigation: {
+      nextEl: ".mightiestmouse-btn-next",
+      prevEl: ".mightiestmouse-btn-prev",
+    },
+    on: {
+      init(swiper) {
+        updateCounter(swiper);
+      },
+      slideChange(swiper) {
+        updateCounter(swiper);
+      },
+    },
+  });
+
+  const teamSwiper = new Swiper(".xh-team-swiper", {
+    slidesPerView: 2,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: ".xh-btn-next",
+      prevEl: ".xh-btn-prev",
+    },
+    on: {
+      init(swiper) {
+        updateCounter(swiper);
+      },
+      slideChange(swiper) {
+        updateCounter(swiper);
+      },
+    },
+  });
+  document.querySelectorAll(".xh-research .list .item").forEach(function (item) {
+    item.addEventListener("click", function (e) {
+      if (e.target.closest("[data-bs-toggle='collapse']")) return;
+
+      const trigger = this.querySelector("[data-bs-toggle='collapse']");
+      if (trigger) {
+        trigger.click();
+      }
+    });
+  });
+
+  document.querySelectorAll(".xh-research .list .panel").forEach(function (panel) {
+    const item = panel.previousElementSibling;
+
+    panel.addEventListener("shown.bs.collapse", function () {
+      item.classList.add("active");
+
+      const trigger = item.querySelector("[data-bs-toggle='collapse']");
+      if (trigger) {
+        trigger.textContent = "[ CLOSE ]";
+      }
+    });
+
+    panel.addEventListener("hidden.bs.collapse", function () {
+      item.classList.remove("active");
+
+      const trigger = item.querySelector("[data-bs-toggle='collapse']");
+      if (trigger) {
+        trigger.textContent = "[ EXPAND ]";
+      }
+    });
+  });
 });
