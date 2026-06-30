@@ -6218,6 +6218,7 @@
     font-weight: 400;
     padding: 1.32vw 2.65vw;
     border-radius: 3.307vw;
+    border: 2px solid #FFFFFF;
 }
 
 .gene-editing-banner .footer-meta-1 {
@@ -6444,7 +6445,7 @@
     vertical-align: bottom;
     text-transform: uppercase;
     font-weight: 400;
-    margin-top: 0.6vw;
+    margin-top: 0.6vw;    font-style: normal;
 }
 
 .mb-39 {
@@ -6501,4 +6502,7 @@
 
 .science-action-page .footer-end {
     margin-top: -6.614vw;
+}
+.gap-195{
+    gap:12.4vw
 }
