@@ -405,7 +405,7 @@
     color: #828282;
 }
 
-.sa-advisors-item:hover .item-btn {
+.sa-advisors-item:hover .btn-learnmore {
     background-color: #000;
     color: #FF7B31;
 }
