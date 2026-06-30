@@ -193,7 +193,7 @@
 .mammoth-revival-bottom .left .video {
     border-radius: 0.732vw;
     aspect-ratio: 300/169;
-    max-width: 300px;
+    max-width: 19.841vw;
     margin-top: 2.315vw;
 }
 
@@ -439,7 +439,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.455vw;
-    margin-bottom: 54px;
+    margin-bottom: 3.571vw;
 }
 
 .team-lead-item .item-top {
@@ -2033,7 +2033,7 @@
 .phase-card-wrapper.phase-card-8 .phase-card-boxdot {
     max-width: 44.246vw;
     padding: 4.497vw 9.59vw 2.646vw;
-    min-height: 247px;
+    min-height: 16.336vw;
 }
 
 .phase-card-wrapper.phase-card-9 {
@@ -2467,7 +2467,7 @@
 }
 
 .lab-notes-sec .genomic-elements__box .box-note .note-2 {
-    font-size: 12.59px;
+    font-size: 0.833vw;
     line-height: 120%;
     letter-spacing: 0.06em;
 }
@@ -2578,7 +2578,7 @@
 }
 
 .genome-architecture .left {
-    padding: 5.357vw 82px 7.87vw 4.167vw;
+    padding: 5.357vw 5.423vw 7.87vw 4.167vw;
 }
 
 .genome-architecture .left::before {
@@ -4614,24 +4614,24 @@
 }
 
 .woolly-mouse-sec .woolly-mouse-about .content-3 {
-    padding-top: 43px;
-    margin-bottom: 41px;
+    padding-top: 2.844vw;
+    margin-bottom: 2.712vw;
 }
 
 .woolly-mouse-sec .woolly-mouse-about .content-3 .left {
     width: 69.8%;
-    padding-right: 64px;
+    padding-right: 4.233vw;
 }
 
 .woolly-mouse-sec .woolly-mouse-about .content-3 .right {
     width: 30.2%;
-    gap: 20px;
+    gap: 1.323vw;
 }
 
 .woolly-mouse-sec .woolly-mouse-about .content-3 .text {
-    font-size: 32px;
-    line-height: 32px;
-    letter-spacing: 0.45px;
+    font-size: 2.116vw;
+    line-height: 1;
+    letter-spacing: 0.0140625em;
 
 }
 
@@ -5463,7 +5463,7 @@
 }
 
 .woolly-mouse-sec .woolly-mouse-about .meet-dale .label {
-    gap: 66px;
+    gap: 4.365vw;
     margin-bottom: 1.786vw;
 }
 
@@ -5532,7 +5532,7 @@
     line-height: 1.22;
     letter-spacing: 0.025em;
     color: #4F4F4F;
-    max-width: 503px;
+    max-width: 33.267vw;
 }
 
 .woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .swiper-arrow {
@@ -5561,6 +5561,7 @@
 }
 
 /*  */
+
 .xh-team-slider .title-text {
     font-size: 4.43vw;
     line-height: 4.56vw;
@@ -5603,7 +5604,7 @@
 .xh-team-slider .xh-team-swiper img {
     background: linear-gradient(180deg, #C9C9C7 0%, #C265F6 100%);
     border: 1px solid #828282;
-    border-radius: 16px;
+    border-radius: 1.058vw;
     overflow: hidden;
 }
 
@@ -5667,7 +5668,7 @@
     aspect-ratio: 331/244;
     width: 100%;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 0.529vw;
 }
 
 .gap-66 {
@@ -5800,14 +5801,14 @@
 
 .colum-collapse-list .tag {
     font-weight: 400;
-    font-size: 11.4px;
-    line-height: 10.92px;
-    letter-spacing: 1%;
+    font-size: 0.754vw;
+    line-height: 0.96;
+    letter-spacing: 0.01em;
     text-align: center;
     padding: 0.25vw 0.5vw;
     vertical-align: middle;
     border: 1px solid #FFFFFF;
-    border-radius: 20px;
+    border-radius: 1.323vw;
 }
 
 .wrap-collapse {
@@ -6072,7 +6073,7 @@
     padding-top: 6.61vw;
     padding-bottom: 7.8vw;
     line-height: 1;
-    letter-spacing: 0.89px;
+    letter-spacing: 0.025em;
 
 }
 
@@ -6216,7 +6217,7 @@
     text-align: center;
     font-weight: 400;
     padding: 1.32vw 2.65vw;
-    border-radius: 50px;
+    border-radius: 3.307vw;
 }
 
 .gene-editing-banner .footer-meta-1 {
@@ -6230,10 +6231,60 @@
 }
 
 .line-editing {
-    top: 30px;
+    top: 1.984vw;
     max-width: 91.53vw;
     width: 100%;
     margin: 0 auto;
+}
+
+.ipsc-strategy-heading-wrapper {
+    padding: 5.952vw 4.233vw 4.431vw;
+
+}
+
+.ipsc-strategy-heading-wrapper::before,
+.ipsc-strategy-heading-wrapper::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -4%;
+    height: 104%;
+    pointer-events: none;
+}
+
+.ipsc-strategy-heading-wrapper::before {
+    background: url('../img/mammoth-science-action/grid-7.png') no-repeat center / cover;
+    mix-blend-mode: exclusion;
+
+}
+
+.ipsc-strategy-heading-wrapper::after {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 68.88%, #FFFFFF 100%),
+        linear-gradient(180deg, #FFFFFF 5.45%, rgba(255, 255, 255, 0) 43.68%);
+}
+
+.ipsc-strategy-heading-wrapper .heading {
+    font-size: 11.189vw;
+    line-height: 0.8;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 32.56%, rgba(255, 123, 49, 0.68) 100%), linear-gradient(0deg, #000000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.ipsc-strategy-heading-wrapper .heading-label {
+    background: linear-gradient(247.77deg, #FFFFFF 14.46%, #7DEA13 91.55%);
+    border: 1px solid #000;
+    font-size: 1.948vw;
+    padding: 1.587vw 3.307vw;
+    border-radius: 8.532vw;
+}
+
+.ele-stem-celss-project .colossal-project-swiper .swiper-slide-next .slide-img::before {
+    display: none;
 }
 
 .ipsc-strategy .nav {
@@ -6328,12 +6379,12 @@
     vertical-align: middle;
     background: #F4F4F4;
     padding: 0.41vw 0.62vw;
-    border-radius: 25px;
+    border-radius: 1.653vw;
 
 }
 
 .ipsc-strategy .diagram .text-md {
-    font-weight: 800;
+    font-weight: 700;
     font-style: italic;
     font-size: 1.3vw;
     line-height: 1;
@@ -6411,7 +6462,7 @@
 }
 
 .ipsc-strategy .diagram .cell-img-wrap {
-    border-radius: 8px;
+    border-radius: 0.529vw;
     overflow: hidden;
 }
 
@@ -6430,7 +6481,7 @@
     align-items: center;
     justify-content: center;
     border: 1.09px solid #FFFFFF;
-    border-radius: 25px;
+    border-radius: 1.653vw;
 }
 
 .ipsc-strategy .diagram .cell-img-wrap .d-inline-flex {
@@ -6446,4 +6497,8 @@
 
 .ipsc-strategy .caption {
     margin: 0.6vw 0 1.79vw;
+}
+
+.science-action-page .footer-end {
+    margin-top: -6.614vw;
 }

@@ -181,6 +181,23 @@ jQuery(function ($) {
 
   ScrollTrigger.refresh();
 
+  function updateCounter(swiper) {
+    const container = swiper.el.closest(".swiper-wrapper-box");
+
+    if (!container) return;
+
+    const current = container.querySelector(".swiper-pagination-current");
+    const total = container.querySelector(".swiper-pagination-total");
+
+    if (current) {
+      current.textContent = String(swiper.activeIndex + 1).padStart(2, "0");
+    }
+
+    if (total) {
+      total.textContent = String(swiper.slides.length).padStart(2, "0");
+    }
+  }
+
   const mightiestMouseSlider = new Swiper(".mightiestmouse-slider", {
     slidesPerView: 1,
     navigation: {
@@ -197,7 +214,7 @@ jQuery(function ($) {
     },
   });
 
-  const swiper = new Swiper(".xh-team-swiper", {
+  const teamSwiper = new Swiper(".xh-team-swiper", {
     slidesPerView: 2,
     spaceBetween: 20,
     navigation: {
@@ -213,16 +230,6 @@ jQuery(function ($) {
       },
     },
   });
-
-  function updateCounter(swiper) {
-    document.querySelector(".swiper-pagination-current").textContent = String(
-      swiper.activeIndex + 1,
-    ).padStart(2, "0");
-
-    document.querySelector(".swiper-pagination-total").textContent = String(
-      swiper.slides.length,
-    ).padStart(2, "0");
-  }
   document.querySelectorAll(".xh-research .list .panel").forEach((panel) => {
     const item = panel.previousElementSibling;
 
