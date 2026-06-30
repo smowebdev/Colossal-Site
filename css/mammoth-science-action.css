@@ -5559,3 +5559,891 @@
 .woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .slider-counter {
     font-size: 2.116vw;
 }
+
+/*  */
+.xh-team-slider .title-text {
+    font-size: 4.43vw;
+    line-height: 4.56vw;
+    letter-spacing: 0.06vw;
+    text-align: center;
+    max-width: 71.56vw;
+    margin: 0 auto;
+    padding: 3.9vw 0 4.89vw;
+}
+
+.xh-team-slider .plus {
+    font-size: 2.25vw;
+    line-height: 1.46vw;
+    font-weight: 300;
+}
+
+.xh-team-slider .xh-plus-row {
+    padding: 0 8.13vw 0 8.33vw;
+    margin-bottom: 6.48vw;
+}
+
+.xh-team-slider .wrapper-md {
+    padding: 0 1.65vw;
+}
+
+.xh-team-slider {
+    margin-bottom: 5.49vw;
+}
+
+.xh-team-slider .xh-controls {
+    margin-bottom: 1.26vw;
+    font-size: 3.17vw;
+    padding-left: 2.58vw;
+}
+
+.xh-team-slider .swiper-arrow.swiper-button-disabled {
+    background: #D9D9D9;
+}
+
+.xh-team-slider .xh-team-swiper img {
+    background: linear-gradient(180deg, #C9C9C7 0%, #C265F6 100%);
+    border: 1px solid #828282;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.xh-field-lab {
+    padding-top: 8.2vw;
+    padding-bottom: 5.56vw;
+}
+
+.xh-field-lab h2 {
+    font-weight: 800;
+    font-size: 18.36vw;
+    line-height: 13.21vw;
+    background: linear-gradient(180deg, #000000 58.18%, #828282 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-top: 5.62vw;
+    padding-bottom: 18.72vw;
+}
+
+.img-field-lab {
+    height: 46.23vw;
+    width: 41.6vw;
+}
+
+.de-extinction {
+    gap: 2.71vw;
+    display: grid;
+    grid-template-columns: 29.63vw auto 29.63vw;
+    bottom: -16.51vw;
+}
+
+.de-extinction img {
+    box-shadow: 0px 1.52vw 1.2vw -0.53vw #00000040;
+    border: 0.89px solid #B3B3B3;
+    border-radius: 0.79vw;
+    overflow: hidden;
+}
+
+.de-extinction h3 {
+    font-size: 2.65vw;
+    line-height: 1;
+    letter-spacing: 0.03vw;
+    margin-bottom: 7.21vw;
+}
+
+.de-extinction p {
+    letter-spacing: 0.03vw;
+    line-height: 1.32vw;
+    margin-bottom: 7.61vw;
+}
+
+.xh-field-lab .grid-colum-4 {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.32vw;
+
+}
+
+.xh-field-lab .grid-colum-4 .item img,
+.xh-field-lab .grid-colum-4 .item video {
+    aspect-ratio: 331/244;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.gap-66 {
+    gap: 4.37vw;
+}
+
+.mb-34 {
+    margin-bottom: 2.25vw;
+}
+
+.mb-54 {
+    margin-bottom: 3.57vw;
+}
+
+.xh-field-lab .grid-colum-4 .item video {
+    box-shadow: 0px 23px 18.2px -8px #00000040;
+    border: 0.89px solid #B3B3B3;
+    aspect-ratio: 331/277;
+
+}
+
+.xh-field-lab .grid-colum-4 p {
+    font-weight: 400;
+    line-height: 1.32vw;
+    letter-spacing: 0.03vw;
+    color: #9D9D9D;
+    max-width: 14.15vw;
+    margin-left: auto;
+    margin-top: 2.18vw;
+}
+
+.gap-13 {
+    gap: 0.86vw;
+}
+
+.xh-research {
+    padding-top: 2.84vw;
+    padding-bottom: 0.73vw;
+}
+
+.xh-research .heading {
+    margin-top: 1.32vw;
+    border-top: 1px solid #000000;
+    padding-top: 1.06vw;
+    padding-bottom: 3.31vw;
+}
+
+.xh-research .heading h2 {
+    font-size: 6.35vw;
+    line-height: 5.29vw;
+    letter-spacing: -1px;
+    max-width: 44.31vw;
+
+}
+
+.xh-research .heading .content {
+    margin-right: 3.51vw;
+    max-width: 32.66vw;
+    gap: 9.14vw;
+}
+
+.xh-research .heading .content p {
+    font-size: 1.59vw;
+    line-height: 1.1;
+}
+
+.xh-research .counter {
+    padding-bottom: 1.06vw;
+
+}
+
+.xh-research .list .border-top,
+.xh-research .list .border-bottom {
+    border-color: #000000 !important;
+}
+
+.xh-research .list .border-bottom.active {
+    border-bottom: none !important;
+}
+
+.xh-research .list>.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.xh-research .list>.row.py-2 {
+    padding: 0.6vw 0 0.46vw !important;
+}
+
+.xh-research .list .about-text {
+    font-size: 0.79vw;
+    line-height: 1.06vw;
+    font-weight: 400;
+    letter-spacing: 0.03vw;
+
+}
+
+.colum-collapse .label {
+    margin-bottom: 1.52vw;
+}
+
+.colum-collapse .download-btn {
+    font-size: 0.79vw;
+    line-height: 1.37vw;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 0.63vw;
+    display: block;
+    margin-top: 3.31vw;
+    color: #000 !important;
+}
+
+.colum-collapse-1 {
+    max-width: 29.83vw;
+}
+
+.colum-collapse-list {
+    margin-top: 4.7vw;
+}
+
+.colum-collapse-2 {
+    max-width: 19.31vw
+}
+
+.colum-collapse-2 .colum-collapse-list .label {
+    margin-bottom: 1.26vw;
+}
+
+.colum-collapse-list .tag {
+    font-weight: 400;
+    font-size: 11.4px;
+    line-height: 10.92px;
+    letter-spacing: 1%;
+    text-align: center;
+    padding: 0.25vw 0.5vw;
+    vertical-align: middle;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.wrap-collapse {
+    padding: 2.58vw 4.7vw 3.17vw 3.11vw;
+    border-radius: 0 0 1.06vw 1.06vw !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.colum-collapse {
+    padding: 0 !important;
+}
+
+.colum-collapse-3 {
+    padding-top: 2.58vw !important;
+    width: 24.47vw;
+}
+
+.corner {
+    width: 0.66vw;
+    height: 0.66vw;
+    position: absolute;
+}
+
+.corner-tl {
+    top: -3.64vw;
+    left: -1.98vw;
+    border-top: 0.57px solid #FF7B31;
+    border-left: 0.57px solid #FF7B31;
+}
+
+.corner-tr {
+    top: -3.64vw;
+    right: -1.98vw;
+    border-top: 0.57px solid #FF7B31;
+    border-right: 0.57px solid #FF7B31;
+}
+
+.corner-bl {
+    bottom: -3.64vw;
+    left: -2.12vw;
+    border-bottom: 0.57px solid #FF7B31;
+    border-left: 0.57px solid #FF7B31;
+}
+
+.corner-br {
+    bottom: -3.64vw;
+    right: -2.12vw;
+    border-bottom: 0.57px solid #FF7B31;
+    border-right: 0.57px solid #FF7B31;
+}
+
+.view-all {
+    padding: 1.52vw 0 1.79vw;
+    border-bottom: 1px solid #000;
+}
+
+.xh-team-network {
+    padding: 3.44vw 0 3.44vw;
+}
+
+.xh-team-network .nav .text-md {
+    line-height: 0.73vw;
+}
+
+.xh-team-network .nav {
+    margin-bottom: 7.21vw;
+}
+
+.gap-109 {
+    gap: 7.21vw;
+}
+
+.xh-team-network h2.title {
+    font-size: 6.35vw;
+    line-height: 5.29vw;
+    text-align: center;
+    margin-bottom: 3.7vw;
+}
+
+.xh-team-network .map {
+    margin: 0 2.12vw;
+    border: 1px solid #2E2E2E;
+
+}
+
+.xh-team-network .map .map-bg {
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 86.1%, rgba(0, 0, 0, 0.7) 97.06%),
+        linear-gradient(90deg, rgba(0, 0, 0, 0) 91.19%, rgba(0, 0, 0, 0.7) 100%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 89.83%, rgba(0, 0, 0, 0.7) 98.42%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0.7) 5.01%, rgba(0, 0, 0, 0) 18.91%);
+}
+
+.xh-team-network .footer-label {
+    gap: 0.4vw;
+    left: 2.05vw;
+    bottom: 4.1vw;
+}
+
+/*  */
+.text-md-11 {
+    line-height: 0.73vw;
+
+}
+
+
+
+.location-box-1 {
+    left: 9.39vw;
+    top: 5.69vw;
+}
+
+.location-box-1 .side-meta {
+    top: 0.53vw;
+    left: -6.28vw;
+}
+
+.gap-19 {
+    gap: 1.26vw;
+}
+
+
+
+.marker-number {
+    font-size: 0.79vw;
+    line-height: 1.06vw;
+    width: 1.39vw;
+    height: 1.39vw;
+    border-radius: 50%;
+    border: 1px solid #FF7B31;
+    background: #4F4F4FBF;
+
+
+}
+
+.marker-number-1 {
+    top: 13.56vw;
+    left: 10.71vw;
+}
+
+/*  */
+.xh-team-network .map .cs-map {
+    margin: 0;
+    padding: 0;
+}
+
+.xh-team-network .map .number-1 {
+    top: 13.56vw;
+    left: 10.71vw;
+}
+
+.xh-team-network .map .number-2 {
+    bottom: 17.72vw;
+    left: 40.01vw;
+    top: auto;
+}
+
+.xh-team-network .map .number-3 {
+    top: 18.72vw;
+    right: 18.85vw;
+    left: auto;
+}
+
+.xh-team-network .map .number-4 {
+    top: 21.49vw;
+    right: 11.51vw;
+    left: auto;
+
+}
+
+.xh-team-network .map .number-5 {
+    top: 17.06vw;
+    right: 9.52vw;
+    left: auto;
+
+}
+
+.xh-team-network .map .map-location.location-1 {
+    top: 5.03vw;
+    left: 3.37vw;
+}
+
+.xh-team-network .map .map-location.location-2 {
+    top: 16.67vw;
+    left: 24.01vw;
+}
+
+.xh-team-network .map .map-location.location-3 {
+    top: 16.01vw;
+    right: 23.68vw;
+    left: auto;
+}
+
+.xh-team-network .map .map-location.location-4 {
+    top: auto;
+    right: 2.84vw;
+    bottom: 12.24vw;
+    left: auto;
+}
+
+.xh-team-network .map .map-location.location-5 {
+    top: 7.14vw;
+    right: 2.18vw;
+    left: auto;
+}
+
+.xh-team-network .cs-map .map-location .content-bottom {
+    color: #B3B3B3;
+}
+
+.xh-team-network .map .map-location.reverse {
+    flex-direction: row-reverse;
+}
+
+.xh-team-network .cs-map .map-location.reverse .left {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.xh-team-network .cs-map .map-location.reverse .text-source {
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.xh-science-action {
+    padding-top: 6.42vw;
+}
+
+.xh-science-action .nav .text-md {
+    line-height: 0.73vw;
+}
+
+.xh-science-action .nav {
+    margin-bottom: 2.78vw;
+}
+
+.xh-science-action .heading .title-text {
+    font-size: 2.65vw;
+    line-height: 100%;
+    letter-spacing: 0.03vw;
+    max-width: 29.63vw;
+}
+
+.xh-science-action .heading p {
+    max-width: 42vw;
+
+    margin-left: 1.46vw;
+    line-height: 1.25;
+}
+
+.xh-science-action .hero {
+    margin-top: -6.61vw;
+}
+
+.testimonial-sec-xh .testimonial-main>.right::after {
+    display: none;
+}
+
+.testimonial-sec-xh .testimonial-main>.left .quote-title {
+    font-size: 2.31vw;
+    padding-top: 6.61vw;
+    padding-bottom: 7.8vw;
+    line-height: 1;
+    letter-spacing: 0.89px;
+
+}
+
+.mt-27 {
+    margin-top: 1.79vw;
+    margin-bottom: 0 !important;
+}
+
+.testimonial-sec-xh .testimonial-main>.left {
+    padding-bottom: 2.45vw !important;
+    background: #212121;
+
+}
+
+.testimonial-sec-xh {
+    padding-bottom: 0 !important;
+}
+
+.testimonial-sec-xh .testimonial-main>.right .testimonial-author {
+    padding-top: 2.38vw;
+    padding-bottom: 1.32vw;
+}
+
+.genome-changes {
+    margin-bottom: 4.43vw;
+    margin-top: -0.99vw;
+}
+
+.genome-changes .nav {
+    margin-bottom: 3.11vw;
+}
+
+.genome-changes .nav .square {
+    width: 0.86vw;
+    height: 0.86vw;
+}
+
+.genome-changes .nav .text-md {
+    font-size: 1.19vw;
+    line-height: 0.99vw;
+}
+
+.genome-changes .heading {
+    width: 29.63vw;
+}
+
+.genome-changes .heading .divider {
+    font-size: 1.65vw;
+    line-height: 1.03vw;
+    letter-spacing: -10%;
+    margin: 1.32vw 0 1.59vw;
+}
+
+.gap-20 {
+    gap: 1.32vw;
+}
+
+.genome-changes .heading .text-md {
+    line-height: 1.32vw;
+    letter-spacing: 0.03vw;
+
+}
+
+.genome-changes .diagram {
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2.78vw 1.72vw 1.92vw 2.31vw;
+    width: 60.58vw;
+    background-size: cover;
+}
+
+.img-diagram {
+    max-width: 52.38vw;
+    margin-bottom: 5.16vw;
+}
+
+.genome-changes .diagram .col-half {
+    width: calc(50% - (1.32vw / 2));
+}
+
+.diagram-title-1 {
+    width: 15.74vw;
+    top: 3.04vw;
+    left: 2.58vw;
+}
+
+.diagram-title-2 {
+    width: 22.29vw;
+    top: 3.04vw;
+    left: 24.01vw;
+}
+
+.diagram-title-sm {
+    font-weight: 700;
+    font-size: 0.66vw;
+    line-height: 0.93vw;
+    letter-spacing: 1.7%;
+
+}
+
+.diagram-title-3 {
+    width: 15.67vw;
+    top: 10.25vw;
+    left: 14.35vw;
+}
+
+.diagram-title-4 {
+    width: 6.75vw;
+    top: 4.37vw;
+    right: 5.42vw;
+}
+
+.diagram-title-5 {
+    width: 11.97vw;
+    top: 20.97vw;
+    right: 3.04vw;
+}
+
+.diagram-title-6 {
+    width: 11.51vw;
+    top: 22.02vw;
+    left: 12.49vw;
+}
+
+.diagram-title-7 {
+    width: 15.08vw;
+    top: 22.02vw;
+    left: 24.47vw;
+}
+
+.gene-editing-banner .badges {
+    max-width: 69.18vw;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.gene-editing-banner .badges .badge {
+    font-size: 3.99vw;
+    line-height: 90%;
+    letter-spacing: 13%;
+    text-align: center;
+    font-weight: 400;
+    padding: 1.32vw 2.65vw;
+    border-radius: 50px;
+}
+
+.gene-editing-banner .footer-meta-1 {
+    left: 10.32vw;
+    bottom: 7.28vw;
+}
+
+.gene-editing-banner .footer-meta-2 {
+    bottom: 7.28vw;
+    right: 15.87vw;
+}
+
+.line-editing {
+    top: 30px;
+    max-width: 91.53vw;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ipsc-strategy .nav {
+    margin-bottom: 3.7vw;
+}
+
+.ipsc-strategy .heading .col-third-1 {
+    width: 22.95vw;
+}
+
+.ipsc-strategy .heading .col-third-2 {
+    width: calc(100% - 22.95vw);
+}
+
+.ipsc-strategy .label .square {
+    width: 0.86vw;
+    height: 0.86vw;
+}
+
+.ipsc-strategy .label {
+    margin-bottom: 1.98vw;
+}
+
+.ipsc-strategy .label .text-md {
+    font-size: 1.19vw;
+    line-height: 1.06vw;
+}
+
+.lh-20 {
+    line-height: 1.32vw;
+}
+
+.ipsc-strategy .wrap-cont {
+    gap: 2.45vw;
+    grid-template-columns: 20.57vw 20.57vw auto;
+}
+
+.ipsc-strategy .citation-box .label {
+    font-weight: 800;
+    color: #838383;
+}
+
+.ipsc-strategy .citation-box .divider {
+    margin-top: 1.06vw;
+    margin-bottom: 0.79vw;
+
+}
+
+.ipsc-strategy .citation-box .citation-link {
+    line-height: 1.06vw;
+    max-width: 14.55vw;
+}
+
+.ipsc-strategy .citation-box .img-bioRxiv {
+    width: 4.37vw;
+}
+
+.ipsc-strategy .citation-box .btn-primary .arrow {
+    padding: 1.32vw 2.12vw;
+}
+
+.ipsc-strategy .citation-box .read-study span {
+    font-weight: 700;
+    font-size: 0.87vw;
+    line-height: 1.16vw;
+    letter-spacing: 13%;
+
+}
+
+.ipsc-strategy .section-label {
+    font-weight: 700;
+    font-size: 1.32vw;
+    line-height: 109.00000000000001%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    margin-bottom: 0.79vw;
+    margin-top: -1.32vw;
+}
+
+.ipsc-strategy .diagram {
+    padding: 3.04vw 3.44vw 3.04vw 4.23vw;
+}
+
+.ipsc-strategy .diagram .step-tag {
+    background: #828282BF !important;
+    border: 0.86px solid #F4F4F4;
+    font-family: Telegraf;
+    font-weight: 400;
+    font-size: 1.04vw;
+    line-height: 1;
+    letter-spacing: 0.02vw;
+    vertical-align: middle;
+    background: #F4F4F4;
+    padding: 0.41vw 0.62vw;
+    border-radius: 25px;
+
+}
+
+.ipsc-strategy .diagram .text-md {
+    font-weight: 800;
+    font-style: italic;
+    font-size: 1.3vw;
+    line-height: 1;
+    letter-spacing: 0.03vw;
+    text-align: center;
+    vertical-align: middle;
+    color: #F4F4F4;
+}
+
+.ipsc-strategy .diagram .step {
+    min-height: 13.76vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.ipsc-strategy .diagram .col-quarter {
+    width: 12.7vw;
+}
+
+.ipsc-strategy .diagram .col-quarter-2 {
+    width: 13.62vw;
+}
+
+.ipsc-strategy .diagram .col-quarter-3 {
+    width: 10.05vw;
+}
+
+.ipsc-strategy .diagram .col-quarter-4 {
+    width: 9.46vw;
+}
+
+.ipsc-strategy .diagram .col-arrow .line {
+    width: 2px;
+    height: 3.7vw;
+}
+
+.ipsc-strategy .diagram .col-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 7.47vw;
+}
+
+.ipsc-strategy .diagram .col-arrow .arrow img {
+    max-width: 7.41vw;
+    margin-bottom: 0.99vw;
+}
+
+.ipsc-strategy .diagram .col-arrow .text-md {
+    font-size: 0.79vw;
+    line-height: 130%;
+    letter-spacing: 2%;
+    text-align: center;
+    vertical-align: bottom;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 0.6vw;
+}
+
+.mb-39 {
+    margin-bottom: 2.58vw;
+}
+
+.ipsc-strategy .diagram .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.79vw;
+}
+
+.gap-12 {
+    gap: 0.79vw;
+
+}
+
+.ipsc-strategy .diagram .cell-img-wrap {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.ipsc-strategy .diagram .cell-img-wrap .tag {
+    font-family: NB Architekt Std;
+    font-weight: 700;
+    font-size: 0.93vw;
+    line-height: 1;
+    letter-spacing: 4%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 0 1vw;
+    min-height: 1.59vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.09px solid #FFFFFF;
+    border-radius: 25px;
+}
+
+.ipsc-strategy .diagram .cell-img-wrap .d-inline-flex {
+    position: absolute;
+    top: 0.79vw;
+    right: 0.79vw;
+    align-items: end;
+}
+
+.gap-80 {
+    gap: 5.29vw;
+}
+
+.ipsc-strategy .caption {
+    margin: 0.6vw 0 1.79vw;
+}
