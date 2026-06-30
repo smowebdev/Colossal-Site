@@ -3016,6 +3016,8 @@
 
 .core-phenotype-sec .trait-comparison .row-1 .column-2 .video {
     aspect-ratio: 311/390;
+    box-shadow: 0px 17px 28.4px 0px #00000040;
+
 }
 
 .core-phenotype-sec .trait-comparison .row-1 .column-3 .image::before {
@@ -3240,7 +3242,21 @@
     z-index: 2;
 }
 
-.core-phenotype-sec .deep-dive-heading {
+.core-phenotype-sec .deep-dive-header .text-plus {
+    font-size: 1.587vw;
+    letter-spacing: 0.1em;
+    top: 2.646vw;
+}
+
+.core-phenotype-sec .deep-dive-header .text-plus-left {
+    left: 2.646vw;
+}
+
+.core-phenotype-sec .deep-dive-header .text-plus-right {
+    right: 2.646vw;
+}
+
+.core-phenotype-sec .deep-dive-heading .heading {
     font-size: 13.904vw;
     line-height: 0.77;
     background: linear-gradient(180deg, #B3B3B3 0%, #7DEA13 100%);
@@ -3260,6 +3276,17 @@
     height: 100%;
     border: 1px solid #828282;
     border-right: none;
+}
+
+.core-phenotype-sec .deep-dive-heading::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2.05vw;
+    height: 100%;
+    border: 1px solid #828282;
+    border-left: none;
 }
 
 .core-phenotype-sec .deep-dive-content {
@@ -6445,7 +6472,8 @@
     vertical-align: bottom;
     text-transform: uppercase;
     font-weight: 400;
-    margin-top: 0.6vw;    font-style: normal;
+    margin-top: 0.6vw;
+    font-style: normal;
 }
 
 .mb-39 {
@@ -6503,6 +6531,7 @@
 .science-action-page .footer-end {
     margin-top: -6.614vw;
 }
-.gap-195{
-    gap:12.4vw
+
+.gap-195 {
+    gap: 12.4vw
 }
