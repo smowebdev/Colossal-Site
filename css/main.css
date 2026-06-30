@@ -295,6 +295,10 @@ h6 {
     background-color: #FF7B31 !important;
 }
 
+.bg-brown {
+    background-color: #6A5F40 !important;
+}
+
 .bg-green {
     background-color: #7DEA13 !important;
 }
@@ -466,6 +470,10 @@ h6 {
 .w-half {
     width: 50%;
 
+}
+
+.dot {
+    flex-shrink: 0;
 }
 
 .flex-1 {

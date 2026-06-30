@@ -4032,8 +4032,7 @@
 
 
 .woolly-mouse-sec {
-    min-height: 100vh;
-    padding: 18.783vw 0 100px;
+    padding-top: 18.783vw;
 }
 
 .woolly-mouse-sec .woolly-mouse-intro {
@@ -4856,7 +4855,7 @@
 }
 
 .woolly-mouse-sec .woolly-mouse-about .key-steps {
-    padding: 4.96vw 0 49px;
+    padding: 4.96vw 0 3.042vw;
 }
 
 .woolly-mouse-sec .woolly-mouse-about .key-steps__title {
@@ -4868,7 +4867,7 @@
 .woolly-mouse-sec .woolly-mouse-about .key-steps__row {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1.323vw;
+    grid-gap: 1.058vw 1.323vw;
 }
 
 .woolly-mouse-sec .woolly-mouse-about .key-steps__row .column-lg {
@@ -4906,11 +4905,10 @@
     border: 1px solid #B3B3B3;
     border-radius: 1.72vw;
     position: relative;
-}
-
-.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box {
     padding: 1.058vw;
 }
+
+
 
 .woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .img-bg {
     border-radius: 1.72vw;
@@ -4923,7 +4921,7 @@
     background-color: rgba(0, 0, 0, 0.17);
 }
 
-.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .mouse-cells-box .box-line {
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .box-line {
     height: 1px;
     margin-bottom: 4.894vw;
 }
@@ -4960,4 +4958,604 @@
     width: 13.757vw;
     top: -10.251vw;
     left: -3.108vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/mammoth-science-action/grid-5.png') no-repeat center / cover;
+    pointer-events: none;
+    border-radius: inherit;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-title {
+    max-width: 5.556vw;
+    left: 4%;
+    top: 8%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-label {
+    font-size: 0.529vw;
+    line-height: 1.75;
+    letter-spacing: 0.017em;
+    display: block;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item__arrow {
+    width: 1.521vw;
+    top: 51%;
+    right: -10%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-1 {
+    width: 13.624vw;
+    left: -4%;
+    top: 22.5%;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-1 .box-item__arrow {
+    width: 2.646vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-1 .box-item__img {
+    margin: 0.728vw 0 0.397vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-1 .box-label:last-child {
+    margin-right: 1.323vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-2 {
+    width: 8.201vw;
+    left: 31%;
+    top: 45.5%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-2 .box-item__img {
+    margin: 0 0 0.198vw 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-2 .box-item__arrow {
+    transform: rotate(-32.02deg);
+    top: 22%;
+    right: -16%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-3 {
+    width: 9.061vw;
+    left: 30%;
+    top: 7.5%;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-3 .box-item__arrow {
+    transform: rotate(32.02deg);
+    top: 66%;
+    right: -10%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-4 {
+    width: 7.937vw;
+    left: 53%;
+    top: 22.5%;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-4 .box-item__arrow {
+    top: 61%;
+    right: -22%;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-5 {
+    width: 7.804vw;
+    left: 75%;
+    top: 22.5%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-5 .box-item__img {
+    margin: 2.381vw 0 0 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-item.box-5 .box-item__arrow {
+    top: 62%;
+    right: -22%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .box-label.label-1 {
+    top: 11.5%;
+    left: 69%;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted {
+    top: 62%;
+    left: 52%;
+    width: 19.974vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted__title {
+    font-size: 0.529vw;
+    line-height: 1.75;
+    letter-spacing: 0.017em;
+    margin-bottom: 0.132vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted__desc {
+    font-size: 0.463vw;
+    line-height: 1;
+    letter-spacing: 0.064em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted__content {
+    max-width: 80%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted__video {
+    aspect-ratio: 302/96;
+    margin-top: 0.529vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted__video .video-caption {
+    font-size: 0.368vw;
+    line-height: 1.44;
+    letter-spacing: 0.017em;
+    color: #EFEFEF;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted__video .video-caption.caption-1 {
+    top: 15%;
+    left: 63%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted__video .video-caption.caption-2 {
+    top: 45%;
+    left: 58%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .stem-cell-editing .laser-assisted__video .video-label {
+    font-size: 0.916vw;
+    letter-spacing: 0.022em;
+    display: inline-block;
+    color: #F4F4F4;
+    border: 1px solid #f4f4f4;
+    background-color: rgba(130, 130, 130, 0.75);
+    border-radius: 1.984vw;
+    padding: 0.265vw 0.529vw;
+    top: 64%;
+    left: 53%;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .blastocyst .box-line {
+    background-color: #383838;
+    margin-bottom: 0.86vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .blastocyst::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #FFFFFF 0%, #7DEA13 100%);
+    border-radius: inherit;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .blastocyst .box-img {
+    aspect-ratio: 1;
+    max-width: 18.519vw;
+    margin: 1.72vw auto 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .blastocyst .box-img__caption {
+    bottom: 1.984vw;
+    left: 0;
+    width: 100%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .column-4 {
+    padding: 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .column-4 .box-img {
+    border-radius: inherit;
+    width: 100%;
+    height: 33.466vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .column-4 .box-img::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: rgba(0, 0, 0, 0.17);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .column-5 {
+    padding: 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .column-5 .box-img {
+    border-radius: inherit;
+    width: 100%;
+    height: 33.466vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .key-steps__row.row-2 .column-5 .box-img::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: rgba(0, 0, 0, 0.17);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept {
+    margin-bottom: 5.159vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__header {
+    margin-bottom: 2.646vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content {
+    gap: 1.323vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left {
+    width: calc(58.4% - 0.661vw);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .right {
+    width: calc(41.6% - 0.661vw);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .line {
+    background-color: #5E5E5E;
+    margin-bottom: 1.455vw;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    width: 59%;
+    padding-right: 0.661vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-desc {
+    width: 41%;
+    margin-top: 0.265vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-2 {
+    margin-top: -3.968vw;
+    margin-bottom: 2.646vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-2 .item-wild-type {
+    margin-left: -2.381vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-2 .item-wild-type img {
+    width: 21.164vw;
+    margin-bottom: 0.595vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-2 .item-wild-type .item-title {
+    margin-left: -4.63vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-2 .item-woolly-mouse {
+    margin-left: -4.894vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-2 .item-woolly-mouse img {
+    width: 19.709vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-2 .item-woolly-mouse .item-title {
+    margin-left: -8.135vw;
+    margin-top: -0.463vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-3 .title {
+    font-size: 1.587vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-3 .row-header {
+    margin-bottom: 1.323vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-3 .images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.058vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-3 .image {
+    aspect-ratio: 391/254;
+    border-radius: 1.72vw;
+    border: 1px solid #B3B3B3;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .left-row-3 .image .square-plus {
+    bottom: 1.389vw;
+    left: 1.521vw;
+    border-color: #fff;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .right-row-1 {
+    gap: 5.82vw;
+    margin-bottom: 1.72vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .right-title {
+    width: 9.656vw;
+    flex-shrink: 0;
+    font-size: 1.587vw;
+    line-height: 0.833;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .right-desc p {
+    margin-bottom: 0;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box {
+    border: 1px solid #383838;
+    background-color: #F4F4F4;
+    padding: 1.19vw 1.19vw 1.653vw 1.19vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/mammoth-science-action/grid-6.png') no-repeat center / cover;
+    opacity: 0.8;
+    mix-blend-mode: exclusion;
+    pointer-events: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-label {
+    gap: 0.595vw;
+    font-size: 0.529vw;
+    letter-spacing: 0.02em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-title {
+    font-size: 0.794vw;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-header {
+    margin-bottom: 2.183vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-border {
+    width: 1.124vw;
+    border: 1.53px solid #828282;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-border-left {
+    border-right: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-border-right {
+    border-left: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-content {
+    gap: 1.323vw;
+    padding: 1.323vw 0 2.778vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-content__left {
+    width: calc(64% - 0.661vw);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-content__right {
+    width: calc(36% - 0.661vw);
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-chart img {
+    width: 18.981vw;
+    margin-left: auto;
+}
+
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-experiment {
+    margin-top: 1.323vw;
+    max-width: 7.407vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-experiment__title {
+    margin-bottom: 1.918vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-content__text-left {
+    font-size: 0.651vw;
+    letter-spacing: 0.02em;
+    top: 40%;
+    left: -4%;
+    transform: rotate(-90deg);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-content__text-right {
+    font-size: 0.651vw;
+    letter-spacing: 0.02em;
+    top: 40%;
+    right: -1%;
+    transform: rotate(-90deg);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-content__text-bottom {
+    font-size: 0.794vw;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-experiment-list {
+    gap: 0.265vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-experiment-item {
+    background-color: #E0C2F6;
+    border: 1px solid #383838;
+    border-radius: 1.058vw;
+    padding: 0.661vw 1.587vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .box-experiment-item .item-label {
+    font-size: 0.452vw;
+    letter-spacing: 0.02em;
+    width: 1.058vw;
+    height: 1.058vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -0.198vw;
+    bottom: -0.198vw;
+    border-radius: 50%;
+    color: #FFFFFF;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .chart-legend {
+    margin-top: 1.786vw;
+    border-top: 1px solid #383838;
+    max-width: 9.127vw;
+    gap: 0.463vw 1.984vw;
+    padding-top: 0.794vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .chart-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.397vw;
+    font-size: 0.651vw;
+    letter-spacing: 0.02em;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .proof-concept__content .chimera-method-box .chart-legend-item .dot {
+    width: 0.86vw;
+    height: 0.86vw;
+    border-radius: 50%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .left {
+    width: 59.6%;
+    padding-right: 1.786vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .right {
+    width: 40.4%;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .label {
+    gap: 66px;
+    margin-bottom: 1.786vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    margin-bottom: 12.566vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .left-content {
+    gap: 1.323vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .left-content .image {
+    width: calc(57.5% - 0.661vw);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .left-content .image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: linear-gradient(187.76deg,
+            #FF7B31 21.28%,
+            #828282 94.01%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .left-content .image::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000000 100%);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .left-content .content {
+    width: calc(42.5% - 0.661vw);
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .slide-img {
+    aspect-ratio: 562/481;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #979797;
+    border-radius: 0.529vw;
+    margin-bottom: 1.72vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .slide-img::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 58.11%, #FF7B31 105.93%);
+    mix-blend-mode: exclusion;
+
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .slide-desc {
+    font-size: 1.19vw;
+    line-height: 1.22;
+    letter-spacing: 0.025em;
+    color: #4F4F4F;
+    max-width: 503px;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .swiper-arrow {
+    background-color: #7DEA13;
+    width: 4.563vw;
+    height: 1.72vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .swiper-arrow svg {
+    width: 1.455vw;
+    height: auto;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .swiper-arrow.swiper-button-disabled {
+    background-color: #D9D9D9;
+    color: #828282;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .slider-nav {
+    gap: 2.447vw;
+    margin-top: 3.968vw;
+}
+
+.woolly-mouse-sec .woolly-mouse-about .meet-dale .mightiestmouse-slider .slider-counter {
+    font-size: 2.116vw;
 }

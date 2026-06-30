@@ -180,6 +180,23 @@ jQuery(function ($) {
   updatePhase(0);
 
   ScrollTrigger.refresh();
+
+  const mightiestMouseSlider = new Swiper(".mightiestmouse-slider", {
+    slidesPerView: 1,
+    navigation: {
+      nextEl: ".mightiestmouse-btn-next",
+      prevEl: ".mightiestmouse-btn-prev",
+    },
+    on: {
+      init(swiper) {
+        updateCounter(swiper);
+      },
+      slideChange(swiper) {
+        updateCounter(swiper);
+      },
+    },
+  });
+
   const swiper = new Swiper(".xh-team-swiper", {
     slidesPerView: 2,
     spaceBetween: 20,
