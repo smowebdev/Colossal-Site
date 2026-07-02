@@ -127,4 +127,83 @@ jQuery(document).ready(function ($) {
     });
   });
   // Featured Video - End
+
+  // Speaking Slider - Start
+
+  function updateSpeakingSliderHeight(swiper) {
+    if (!swiper || !swiper.slides.length) return;
+
+    let maxHeight = 0;
+
+    swiper.slides.forEach((slide) => {
+      slide.style.height = "auto";
+
+      const slideHeight = slide.getBoundingClientRect().height;
+      if (slideHeight > maxHeight) {
+        maxHeight = slideHeight;
+      }
+    });
+
+    swiper.slides.forEach((slide) => {
+      slide.style.height = `${maxHeight}px`;
+    });
+
+    swiper.updateSize();
+    swiper.updateSlides();
+    swiper.updateProgress();
+  }
+
+  const speakingSlider = new Swiper(".speaking-slider", {
+    slidesPerView: "auto",
+    speed: 600,
+    spaceBetween: 20,
+    centeredSlides: true,
+    rewind: true,
+    watchSlidesProgress: true,
+    slideToClickedSlide: true,
+
+    autoHeight: false,
+    height: null,
+
+    navigation: {
+      nextEl: ".speaking-next",
+      prevEl: ".speaking-prev",
+    },
+
+    on: {
+      init(swiper) {
+        updateCounter(swiper);
+        setTimeout(() => updateSpeakingSliderHeight(swiper), 100);
+      },
+
+      slideChange(swiper) {
+        updateCounter(swiper);
+      },
+
+      resize(swiper) {
+        updateSpeakingSliderHeight(swiper);
+      },
+    },
+  });
+
+  let resizeTimeout;
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+      if (speakingSlider) {
+        updateSpeakingSliderHeight(speakingSlider);
+      }
+    }, 150);
+  });
+
+  function updateCounter(swiper) {
+    const current = String(swiper.activeIndex + 1).padStart(2, "0");
+
+    const total = String(swiper.slides.length).padStart(2, "0");
+
+    document.querySelector(".speaking-counter .current").innerHTML = current;
+
+    document.querySelector(".speaking-counter .total").innerHTML = total;
+  }
+  // Speaking Slider - End
 });
