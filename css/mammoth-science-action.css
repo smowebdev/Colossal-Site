@@ -306,53 +306,7 @@
     grid-gap: 2.579vw;
 }
 
-.data-item .data-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.794vw;
-    padding-bottom: 0.529vw;
-    border-bottom: 1px solid #979797;
-    font-size: 0.529vw;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-}
 
-.data-item .data-source {
-    display: flex;
-    align-items: center;
-    gap: 0.794vw;
-}
-
-.data-item .data-plus {
-    width: 1.058vw;
-    height: 1.058vw;
-    padding: 0.265vw;
-    border: 1px solid #828282;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-.data-item .data-number {
-    font-size: 6.349vw;
-    letter-spacing: -0.0127em;
-    margin-bottom: 0.132vw;
-}
-
-.data-item .data-slash {
-    font-size: 0.59vw;
-    letter-spacing: -0.1em;
-
-}
-
-.data-item .data-desc {
-    font-size: 1.058vw;
-    margin-top: 1.389vw;
-    max-width: 12.698vw;
-}
 
 .sa-advisors-list {
     display: grid;
