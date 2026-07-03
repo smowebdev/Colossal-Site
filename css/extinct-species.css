@@ -181,7 +181,6 @@
 }
 
 .extinct-species-page .colossal-project-swiper .slide-img {
-    aspect-ratio: 566/508;
     margin-bottom: 0;
 }
 
@@ -199,7 +198,7 @@
     transition: all 0.3s ease;
 }
 
-.colossal-project-swiper .swiper-slide-next .slide-warning {
+.colossal-project-swiper .swiper-slide-active .slide-warning {
     opacity: 1;
 }
 

@@ -320,33 +320,64 @@ jQuery(document).ready(function ($) {
 
   // centerActiveItem($(".species-colossal-list .item.active"));
 
-  new Swiper(".colossal-project-swiper", {
+  function updateSpeakingSliderHeight(swiper) {
+    if (!swiper || !swiper.slides.length) return;
+
+    let maxHeight = 0;
+
+    swiper.slides.forEach((slide) => {
+      slide.style.height = "auto";
+
+      const slideHeight = slide.getBoundingClientRect().height;
+      if (slideHeight > maxHeight) {
+        maxHeight = slideHeight;
+      }
+    });
+
+    swiper.slides.forEach((slide) => {
+      slide.style.height = `${maxHeight}px`;
+    });
+
+    swiper.updateSize();
+    swiper.updateSlides();
+    swiper.updateProgress();
+  }
+  const colossalProjectSlider = new Swiper(".colossal-project-swiper", {
     slidesPerView: "auto",
+    speed: 600,
     spaceBetween: 20,
-    breakpoints: {
-      0: {
-        spaceBetween: 8,
-      },
-      768: {
-        spaceBetween: 10,
-      },
-      1024: {
-        spaceBetween: 20,
-      },
-    },
+    centeredSlides: true,
+    rewind: true,
+    watchSlidesProgress: true,
+    slideToClickedSlide: true,
+    initialSlide: 1,
+    autoHeight: false,
+    height: null,
     navigation: {
       nextEl: ".colossal-project-next",
       prevEl: ".colossal-project-prev",
     },
-    loop: true,
     on: {
       init: function () {
         handleVideo(this);
+        setTimeout(() => updateSpeakingSliderHeight(swiper), 100);
       },
       slideChange: function () {
         handleVideo(this);
       },
+      resize(swiper) {
+        updateSpeakingSliderHeight(swiper);
+      },
     },
+  });
+  let resizeTimeout;
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+      if (speakingSlider) {
+        updateSpeakingSliderHeight(speakingSlider);
+      }
+    }, 150);
   });
   function handleVideo(swiper) {
     $(".slide-video").each(function () {
@@ -356,7 +387,7 @@ jQuery(document).ready(function ($) {
       }
     });
 
-    const $activeSlide = $(swiper.slides).eq(swiper.activeIndex + 1);
+    const $activeSlide = $(swiper.slides).eq(swiper.activeIndex);
 
     if (!$activeSlide.length) return;
 

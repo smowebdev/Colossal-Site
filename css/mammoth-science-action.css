@@ -6306,7 +6306,7 @@
     border-radius: 8.532vw;
 }
 
-.ele-stem-celss-project .colossal-project-swiper .swiper-slide-next .slide-img::before {
+.ele-stem-celss-project .colossal-project-swiper .swiper-slide-active .slide-img::before {
     display: none;
 }
 

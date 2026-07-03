@@ -161,7 +161,7 @@ jQuery(document).ready(function ($) {
     rewind: true,
     watchSlidesProgress: true,
     slideToClickedSlide: true,
-
+    initialSlide: 1,
     autoHeight: false,
     height: null,
 
