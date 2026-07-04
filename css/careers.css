@@ -21,7 +21,7 @@
 }
 
 .careers-hero-heading .heading-sub {
-    right: 5.952vw;
+    right: 6.3%;
     top: 0;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .careers-main-sec {
-    padding: 3.902vw 0 13.228vw;
+    padding: 3.902vw 0 0;
 }
 
 
@@ -260,6 +260,10 @@
     object-fit: cover;
 }
 
+.careers-benefits {
+    padding-bottom: 13.228vw;
+}
+
 .careers-benefits .row-1 {
     padding-bottom: 2.646vw;
     font-size: 1.19vw;
@@ -384,4 +388,179 @@
 
 .careers-benefit-item:hover .item-img {
     opacity: 1;
+}
+
+.careers-main-sec .careers-article {
+    margin-bottom: 6.349vw;
+}
+
+.careers-main-sec .careers-article .careers-article-content {
+    gap: 1.984vw;
+    padding-bottom: 4.497vw;
+}
+
+.careers-main-sec .careers-article .artile-logo img {
+    height: 10.053vw;
+    object-fit: cover;
+    width: auto;
+}
+
+.careers-main-sec .careers-article .artile-title {
+    font-size: 8.267vw;
+    letter-spacing: 0.07008em;
+}
+
+.careers-main-sec .careers-article .btn-primary .arrow {
+    padding: 1.653vw 4.101vw;
+}
+
+.careers-equal-opportunity {
+    padding: 1.72vw 0 2.976vw;
+
+}
+
+.careers-equal-opportunity .equal-opportunity-logo {
+    width: 6.415vw;
+}
+
+.careers-equal-opportunity__header {
+    gap: 1.587vw;
+    margin-bottom: 4.101vw;
+}
+
+.careers-equal-opportunity .title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    max-width: 69.444vw;
+    padding-bottom: 3.968vw;
+}
+
+.careers-equal-opportunity .image {
+    height: 48.016vw;
+    border-bottom-left-radius: 3.175vw;
+    border-bottom-right-radius: 3.175vw;
+    margin-bottom: 5.688vw;
+}
+
+.careers-equal-opportunity .image::before {
+    content: "";
+    position: absolute;
+    top: -0.066vw;
+    width: 100%;
+    left: 0;
+    height: 15%;
+    background:
+        linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    pointer-events: none;
+}
+
+.careers-equal-opportunity .equal-opportunity-bottom {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+}
+
+.careers-equal-opportunity .equal-opportunity-bottom .img-arrow {
+    width: 11.243vw;
+    right: 13.889vw;
+    top: -11.045vw;
+}
+
+.careers-main-sec .work-with-us {
+    padding-top: 11.243vw;
+}
+
+.careers-main-sec .work-with-us .heading {
+    font-size: 11.243vw;
+    line-height: 0.79;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 32.56%, rgba(125, 234, 19, 0.68) 83.73%), linear-gradient(0deg, #F4F4F4, #F4F4F4);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding: 0.661vw 0;
+}
+
+.careers-main-sec .work-with-us-slider {
+    margin-top: -2.976vw;
+}
+
+.work-with-us__content {
+    margin-top: -19.312vw;
+    border-bottom-left-radius: 3.175vw;
+    border-bottom-right-radius: 3.175vw;
+    background:
+        linear-gradient(180deg, rgba(244, 244, 244, 0) 32.37%, #D9D9D9 64.23%, #7DEA13 100%), linear-gradient(0deg, #F4F4F4, #F4F4F4);
+    padding: 22.024vw 0 6.812vw;
+}
+
+.work-with-us__content .content-title {
+    max-width: 80.225vw;
+    padding: 5.291vw 0px;
+    margin-bottom: 3.042vw;
+}
+
+.work-with-us__content .content-title .text-plus {
+    font-size: 2.249vw;
+    line-height: 0.647;
+}
+
+.work-with-us__content .title {
+    font-size: 4.431vw;
+    line-height: 1.03;
+    letter-spacing: 0.013em;
+
+}
+
+.work-with-us .why-work-at__header {
+    padding-bottom: 2.844vw;
+}
+
+.work-with-us .why-work-at__header span {
+    font-size: 0.661vw;
+    letter-spacing: 0.02em;
+}
+
+.work-with-us .why-work-at__title {
+    font-size: 1.587vw;
+}
+
+.why-work-at__item {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.116vw;
+    align-items: center;
+    padding-bottom: 1.984vw;
+    padding-top: 2.844vw;
+    border-bottom: 1px solid #000;
+    position: relative;
+}
+
+.why-work-at__item .item-title {
+    font-weight: 700;
+    font-size: 5.026vw;
+    line-height: 90%;
+    letter-spacing: -0.05em;
+    max-width: 72.751vw;
+}
+
+.why-work-at__item .item-desc {
+    font-size: 1.058vw;
+    line-height: 140%;
+    text-align: right;
+    flex: 1;
+}
+
+.why-work-at__item .item-plus {
+    width: 1.058vw;
+    height: 1.058vw;
+    padding: 0.198vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0.794vw;
+    right: 0;
+    border: 1px solid #000;
 }

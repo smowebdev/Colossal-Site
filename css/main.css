@@ -526,6 +526,39 @@ h6 {
     overflow: hidden;
 }
 
+.source-group {
+    gap: 0.926vw;
+    font-size: 0.529vw;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.source-group__label {
+    display: flex;
+    gap: 1.257vw;
+    align-items: center;
+}
+
+.source-group__right .source-group__arrow {
+    transform: rotate(180deg);
+}
+
+.source-group__right {
+    align-items: flex-end;
+}
+
+.source-group__plus {
+    width: 1.058vw;
+    height: 1.058vw;
+    padding: 0.198vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid currentColor;
+}
 
 .swiper-button-lock {
     display: none !important;
