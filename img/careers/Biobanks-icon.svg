@@ -1,0 +1,10 @@
+<svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="0.9" cy="4.50156" r="0.9" fill="white"/>
+<circle cx="8.09922" cy="4.50156" r="0.9" fill="white"/>
+<circle cx="0.9" cy="0.9" r="0.9" transform="matrix(-4.37114e-08 1 1 4.37114e-08 3.60156 0)" fill="white"/>
+<circle cx="0.9" cy="0.9" r="0.9" transform="matrix(-4.37114e-08 1 1 4.37114e-08 3.60156 7.19922)" fill="white"/>
+<circle cx="0.9" cy="0.9" r="0.9" transform="matrix(0.707107 0.707107 0.707107 -0.707107 0.679688 1.95312)" fill="white"/>
+<circle cx="0.9" cy="0.9" r="0.9" transform="matrix(0.707107 0.707107 0.707107 -0.707107 5.77344 7.04688)" fill="white"/>
+<circle cx="0.9" cy="0.9" r="0.9" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 1.95312 8.31641)" fill="white"/>
+<circle cx="0.9" cy="0.9" r="0.9" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 7.04688 3.22656)" fill="white"/>
+</svg>

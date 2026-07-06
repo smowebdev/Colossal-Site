@@ -783,10 +783,13 @@ h6 {
     width: 1.058vw;
     height: 1.058vw;
     border: 1px solid #828282;
-    padding: 0.198vw;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.square-plus img {
+    width: 0.397vw;
 }
 
 .cs-warning-box {
@@ -2057,12 +2060,11 @@ h6 {
 
 .colossal-project-swiper {
     overflow: visible;
-    min-height: 39vw;
 }
 
 .colossal-project-swiper .swiper-slide {
     width: 21.892vw;
-    transition: all 0.5s ease-in-out;
+    transition: width 0.6s ease;
 }
 
 .colossal-project-swiper .swiper-slide.slide-small {
@@ -2159,7 +2161,7 @@ h6 {
     font-size: clamp(6px, 0.638vw, 20px);
     color: #979797;
     line-height: 1.66;
-    min-width: 11.111vw;
+    min-width: 10vw;
 }
 
 .colossal-project-swiper-info .content img {
@@ -2168,9 +2170,9 @@ h6 {
 }
 
 .colossal-project-swiper-info {
-    gap: 6.944vw;
-    right: 7.331vw;
-    bottom: 5.5vw;
+    gap: 3.307vw;
+    right: 0;
+    bottom: 3.307vw;
     z-index: 2;
 }
 

@@ -564,3 +564,618 @@
     right: 0;
     border: 1px solid #000;
 }
+
+.scientific-breakthrough-sec {
+    padding: 4.63vw 1.19vw 5.291vw;
+}
+
+.scientific-breakthrough-main {
+    padding: 4.894vw 2.646vw 0;
+}
+
+.scientific-breakthrough-main::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/2000W_grid.png') no-repeat center / cover;
+    pointer-events: none;
+}
+
+.scientific-breakthrough-main::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #FF7B31 14.74%, rgba(106, 95, 64, 0) 85.72%);
+    pointer-events: none;
+}
+
+.scientific-breakthrough-sec .subheading {
+    font-size: 2.185vw;
+}
+
+.scientific-breakthrough-header {
+    margin-bottom: 6.085vw;
+    max-width: 72.751vw;
+}
+
+.scientific-breakthrough-sec .heading {
+    font-size: 11.243vw;
+    line-height: 0.79;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 32.56%, rgba(255, 123, 49, 0.68) 100%), linear-gradient(0deg, #F4F4F4, #F4F4F4);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.scientific-breakthrough-sec .image {
+    margin-top: -9.259vw;
+}
+
+.scientific-breakthrough-sec .image {
+    width: 51.918vw;
+}
+
+.scientific-breakthrough-sec .image-caption {
+    font-size: 1.856vw;
+    line-height: 0.93;
+    letter-spacing: -0.03em;
+    width: 12.302vw;
+    left: -15%;
+    top: 51%;
+}
+
+.scientific-breakthrough-sec .image-caption img {
+    width: 11.706vw;
+    position: absolute;
+    left: 3.836vw;
+    bottom: -3.836vw;
+}
+
+.scientific-breakthrough-sec .image-btn {
+    top: 44%;
+    right: -27%;
+    max-width: 19.841vw;
+}
+
+.unlimited-gear-sec {
+    padding-bottom: 5.026vw;
+}
+
+.unlimited-gear-sec .subheading {
+    font-size: 2.185vw;
+}
+
+.unlimited-gear-header {
+    margin-bottom: 5.556vw;
+}
+
+.unlimited-gear-sec .heading {
+    font-size: 12.626vw;
+    line-height: 0.93;
+    padding-bottom: 3.836vw;
+}
+
+.unlimited-gear-sec .row-1 {
+    font-size: 0.661vw;
+    letter-spacing: 0.02em;
+    margin-bottom: 3.307vw;
+}
+
+.science-style-card {
+    border-radius: 1.587vw;
+    overflow: hidden;
+    background-color: #D9D9D9;
+    border: 1px solid #828282;
+    position: relative;
+    padding: 2.116vw 0.926vw 1.786vw;
+    color: #000;
+    width: 100%;
+    height: 100%;
+}
+
+.science-style-card .card-image {
+    aspect-ratio: 578/500;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.science-style-card .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.science-style-card .card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.587vw;
+    font-family: 'NB Architekt Std';
+    font-size: 0.86vw;
+    line-height: 1.62;
+    letter-spacing: 0.02em;
+    padding: 0 1.323vw;
+}
+
+
+.science-style-card .card-source {
+    display: flex;
+    align-items: center;
+    gap: 0.926vw;
+}
+
+.science-style-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/careers/grid-2.png') no-repeat center / cover;
+    pointer-events: none;
+}
+
+.science-style-nav {
+    margin-top: 2.844vw;
+}
+
+.careers-page .swiper-arrow.swiper-button-disabled {
+    background-color: #D9D9D9;
+    color: #5E5E5E;
+}
+
+.science-style-slider .swiper-arrow.swiper-button-disabled {
+    background-color: #B3B3B3;
+}
+
+
+.science-style-slider .swiper-slide {
+    display: flex;
+    height: auto;
+}
+
+.science-style-slider-wrapper {
+    padding-bottom: 3.439vw;
+}
+
+.careers-perks-header {
+    max-width: 80.225vw;
+    margin-bottom: 4.63vw;
+}
+
+.careers-perks-header .text-plus {
+    font-size: 2.249vw;
+}
+
+.careers-perks-title {
+    font-size: 3.175vw;
+    line-height: 120%;
+    padding: 2.249vw 7.937vw;
+}
+
+.careers-perks-image {
+    aspect-ratio: 1382/832;
+    margin-bottom: -32.407vw;
+}
+
+.unlimited-gear-bottom {
+    padding-top: 35.648vw;
+}
+
+.unlimited-gear-pride {
+    padding-top: 4.233vw;
+    display: grid;
+    gap: 1.323vw;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.unlimited-gear-pride .column {
+    gap: 3.175vw;
+}
+
+.unlimited-gear-pride .column-1 {
+    grid-column: span 2;
+}
+
+.unlimited-gear-pride .column-2 .image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/careers/grid-4.png') no-repeat center / cover;
+    pointer-events: none;
+}
+
+.unlimited-gear-pride .column-3 .image {
+    background-color: #E5E5E5;
+    margin-bottom: 4.233vw;
+}
+
+.unlimited-gear-pride .column-3 .image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/careers/grid-5.png') no-repeat center / cover;
+    pointer-events: none;
+}
+
+.clothes-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #828282;
+    background-color: #E5E5E5;
+    border-radius: 1.587vw;
+    padding: 1.587vw 1.587vw 1.984vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.clothes-card .card-image {
+    margin-bottom: -1.653vw;
+    position: relative;
+}
+
+.clothes-card .card-image img {
+    max-width: 25.595vw;
+    margin: 0 auto;
+}
+
+.clothes-card .card-name {
+    flex: 1;
+}
+
+.clothes-card .card-content {
+    display: flex;
+    align-items: center;
+    font-family: 'NB Architekt Std';
+    justify-content: space-between;
+    gap: 6.614vw;
+    font-size: 0.86vw;
+    line-height: 1.62;
+    letter-spacing: 0.02em;
+    padding: 0 2.315vw;
+    text-align: center;
+    position: relative;
+}
+
+.clothes-card .card-source {
+    display: flex;
+    align-items: center;
+    gap: 0.926vw;
+}
+
+.clothes-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/careers/grid-3.png') no-repeat center / cover;
+    pointer-events: none;
+}
+
+.unlimited-gear-pride .slider-counter {
+    font-size: 2.116vw;
+}
+
+.unlimited-gear-pride .slider-counter .total {
+    color: #4F4F4F;
+}
+
+
+.career-labs-sec .subheading {
+    font-size: 1.732vw;
+    letter-spacing: 0.015em;
+}
+
+.career-labs-sec .heading {
+    font-size: 11.243vw;
+    line-height: 0.79;
+    background:
+        linear-gradient(180deg, #979797 0%, #FF7B31 100%), linear-gradient(0deg, #000000, #000000);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 49.603vw;
+    background-clip: text;
+    color: transparent;
+    padding-top: 0.661vw;
+}
+
+.career-labs-header {
+    margin-bottom: 4.96vw;
+}
+
+.career-labs-heading-wrapper .square-lg {
+    width: 1.058vw;
+    height: 1.058vw;
+    right: 0;
+    top: 26%;
+}
+
+.career-labs-heading-wrapper .text-left {
+    left: 0;
+    top: 26%;
+}
+
+.career-labs-heading-wrapper .lab-location-box {
+    gap: 1.587vw;
+    width: 16.865vw;
+    line-height: 1.4;
+    top: 30%;
+}
+
+.career-labs-heading-wrapper .lab-location-box.box-left {
+    left: 5%;
+}
+
+.career-labs-heading-wrapper .lab-location-box.box-right {
+    right: 5%;
+}
+
+.career-labs-heading-wrapper .lab-location-box .square {
+    width: 0.397vw;
+    height: 0.397vw;
+}
+
+.career-labs-heading-wrapper .lab-location-box span {
+    display: inline-block;
+    padding: 0.331vw 0;
+}
+
+.career-labs-map {
+    max-width: 81.548vw;
+    margin-top: -3.439vw;
+}
+
+.career-labs-map .pin-location {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.397vw;
+    position: absolute;
+    z-index: 2;
+    padding: 0.331vw 0.397vw;
+    border: 1px solid #F4F4F4;
+    background-color: #C9C9C7;
+    border-radius: 1.587vw;
+    color: #F4F4F4;
+    font-size: 0.653vw;
+    letter-spacing: 0.13em;
+    white-space: nowrap;
+}
+
+.career-labs-map .pin-location .dot {
+    width: 0.489vw;
+    height: 0.489vw;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.career-labs-map .pin-location img {
+    width: 0.595vw;
+    height: 0.595vw;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.career-labs-map .pin-location.pin-green {
+    border-color: #7DEA13;
+}
+
+.career-labs-map .pin-location.pin-green .dot {
+    background-color: #7DEA13;
+}
+
+.career-labs-map .pin-location.location-1 {
+    top: 28%;
+    left: 16%;
+}
+
+.career-labs-map .pin-location.location-2 {
+    top: 54%;
+    left: 9%;
+}
+
+.career-labs-map .pin-location.location-3 {
+    top: 65%;
+    left: 32%;
+}
+
+.career-labs-map .pin-location.location-4 {
+    top: 38%;
+    left: 40%;
+}
+
+.career-labs-map .pin-location.location-5 {
+    top: 36%;
+    left: 74%;
+}
+
+.career-labs-map .pin-location.location-6 {
+    top: 16%;
+    left: 80%;
+}
+
+.career-labs-map .pin-location.location-7 {
+    top: 74%;
+    left: 92.5%;
+}
+
+.career-labs-top::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 93.61%);
+    z-index: 1;
+}
+
+.career-labs-sec .colossal-offices-header {
+    padding-top: 2.513vw;
+    line-height: 1.375;
+    border-top: 1px solid #979797;
+    margin-bottom: 1.786vw;
+}
+
+.career-labs-sec .colossal-offices-header .square {
+    margin-top: 0.331vw;
+}
+
+.career-labs-sec .colossal-offices-header .column {
+    gap: 0.661vw 7.275vw;
+}
+
+.career-labs-funfact {
+    padding: 5.556vw 0 6.415vw;
+}
+
+.career-labs-sec .clsl-lab-video {
+    margin-bottom: 0;
+}
+
+.career-labs-funfact .funfact-label {
+    font-size: 1.438vw;
+    line-height: 1.33;
+    letter-spacing: 0.13em;
+    padding: 0.661vw 3.968vw;
+    margin-bottom: 2.646vw;
+}
+
+.career-labs-funfact .funfact-label::before,
+.career-labs-funfact .funfact-label::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 0.529vw;
+    border: 0.132vw solid #979797;
+}
+
+.career-labs-funfact .funfact-label::before {
+    left: 0;
+    border-right: none;
+}
+
+.career-labs-funfact .funfact-label::after {
+    border-left: none;
+    right: 0;
+}
+
+.career-labs-funfact .funfact-title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    max-width: 75.728vw;
+}
+
+.career-labs-funfact .funfact-header {
+    margin-bottom: 1.984vw;
+}
+
+.career-labs-funfact .row-1 {
+    font-size: 1.19vw;
+    line-height: 1.22;
+    margin-bottom: 2.646vw;
+    padding-bottom: 2.778vw;
+    border-bottom: 1px solid #000000;
+}
+
+.career-labs-funfact .colossal-project-swiper .swiper-arrow {
+    background-color: #FF7B31;
+    color: #000;
+}
+
+.career-labs-funfact .colossal-project-swiper .swiper-slide-active .slide-img::before {
+    display: none;
+}
+
+.career-labs-funfact .row-2 {
+    gap: 1.323vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 4.365vw;
+    margin-bottom: 4.167vw;
+}
+
+.career-labs-funfact .row-2 .column {
+    aspect-ratio: 682/640;
+    display: block;
+}
+
+.career-labs-funfact .row-3 {
+    padding: 5.952vw 0 5.423vw;
+    background-color: #fff;
+    margin-bottom: 6.614vw;
+}
+
+.career-labs-funfact .row-3 .title {
+    font-size: 16.049vw;
+    line-height: 80%;
+}
+
+.career-labs-funfact .row-3 .title-top {
+    top: -0.926vw;
+}
+
+.career-labs-funfact .row-3 .title-bottom {
+    bottom: -0.926vw;
+}
+
+
+.career-labs-funfact .row-4 .text-plus {
+    font-size: 2.249vw;
+    line-height: 0.647;
+}
+
+.career-labs-funfact .row-4 .title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    max-width: 49.339vw;
+}
+
+.career-labs-funfact .row-4 .title-wrapper {
+    padding: 4.96vw 2.646vw 6.481vw;
+    max-width: 80.556vw;
+}
+
+.career-labs-cta {
+    padding: 0 1.058vw;
+}
+
+.career-labs-cta .cta-box {
+    border-radius: 2.646vw;
+    min-height: 54.365vw;
+    gap: 1.19vw;
+    padding: 6.614vw;
+}
+
+.career-labs-cta .cta-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, rgba(255, 123, 49, 0) 19.06%, #9940DD 101.14%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    pointer-events: none;
+}
+
+.career-labs-cta .cta-btn {
+    width: 26.455vw;
+}
+
+.career-labs-cta .cta-content {
+    width: calc(100% - 1.19vw - 26.455vw);
+    gap: 2.381vw;
+    font-size: 2.116vw;
+    letter-spacing: 0.01375em;
+    border: 0.198vw solid #D9D9D9;
+    backdrop-filter: blur(116px);
+    -webkit-backdrop-filter: blur(116px);
+    border-radius: 4.299vw;
+    padding: 1.389vw 2.646vw;
+}
+
+.career-labs-cta .btn-primary .arrow {
+    background-color: rgba(0, 0, 0, 0.49);
+}
+
+.career-labs-cta .cta-logo {
+    height: 3.77vw;
+    width: auto;
+}

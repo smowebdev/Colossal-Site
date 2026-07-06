@@ -119,4 +119,50 @@ $(function () {
   });
 
   updateCareerCount(false);
+
+  // Science Style Slider - Start
+  const scienceStyleSlider = new Swiper(".science-style-slider", {
+    slidesPerView: 2.43,
+    spaceBetween: 20,
+    centeredSlides: true,
+    loop: true,
+    navigation: {
+      nextEl: ".science-style-next",
+      prevEl: ".science-style-prev",
+    },
+  });
+  // Science Style Slider - End
+  // Clothes Slider - Start
+  const clothesSlider = new Swiper(".clothes-slider", {
+    slidesPerView: 1,
+    navigation: {
+      nextEl: ".clothes-next",
+      prevEl: ".clothes-prev",
+    },
+    on: {
+      init: function () {
+        updateCounter(this, ".unlimited-gear-sec .slider-counter");
+      },
+      slideChange: function () {
+        updateCounter(this, ".unlimited-gear-sec .slider-counter");
+      },
+    },
+  });
+  function updateCounter(swiper, wrapperSelector) {
+    const wrapper = document.querySelector(wrapperSelector);
+
+    if (!wrapper) return;
+
+    const current = wrapper.querySelector(".current");
+    const total = wrapper.querySelector(".total");
+
+    if (!current || !total) return;
+
+    let realIndex = swiper.realIndex + 1;
+    let totalSlides = swiper.slides.length - (swiper.loop ? 2 : 0);
+
+    current.textContent = realIndex.toString().padStart(2, "0");
+    total.textContent = totalSlides.toString().padStart(2, "0");
+  }
+  // Clothes Slider - End
 });

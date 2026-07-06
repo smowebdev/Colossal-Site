@@ -320,7 +320,7 @@ jQuery(document).ready(function ($) {
 
   // centerActiveItem($(".species-colossal-list .item.active"));
 
-  function updateSpeakingSliderHeight(swiper) {
+  function updateSliderHeight(swiper) {
     if (!swiper || !swiper.slides.length) return;
 
     let maxHeight = 0;
@@ -360,13 +360,13 @@ jQuery(document).ready(function ($) {
     on: {
       init: function () {
         handleVideo(this);
-        setTimeout(() => updateSpeakingSliderHeight(swiper), 100);
+        setTimeout(() => updateSliderHeight(this), 100);
       },
       slideChange: function () {
         handleVideo(this);
       },
       resize(swiper) {
-        updateSpeakingSliderHeight(swiper);
+        updateSliderHeight(swiper);
       },
     },
   });
@@ -374,8 +374,8 @@ jQuery(document).ready(function ($) {
   window.addEventListener("resize", () => {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
-      if (speakingSlider) {
-        updateSpeakingSliderHeight(speakingSlider);
+      if (colossalProjectSlider) {
+        updateSliderHeight(colossalProjectSlider);
       }
     }, 150);
   });
