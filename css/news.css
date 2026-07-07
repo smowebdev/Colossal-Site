@@ -1991,3 +1991,11 @@
     background-color: #fff;
     color: #000;
 }
+
+.news-page .footer-end {
+    mix-blend-mode: difference;
+    max-width: 94.444vw;
+    margin: -17.46vw auto 0;
+    height: 42.989vw;
+    overflow: hidden;
+}

@@ -1705,9 +1705,9 @@
 }
 
 .careers-page .footer-end {
-    margin-top: -201px;
-    margin-left: -56px;
-    height: 630px;
+    margin-top: -13.294vw;
+    margin-left: -3.704vw;
+    height: 41.667vw;
     overflow: hidden;
     opacity: 0.86;
 }
@@ -1715,7 +1715,7 @@
 .careers-page .footer-end img {
     transform: rotateY(180deg);
     max-width: unset;
-    width: 1713px;
+    width: 113.294vw;
 }
 
 .careers-page .footer-colossal-logo {
