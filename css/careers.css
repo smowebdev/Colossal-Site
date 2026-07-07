@@ -1703,3 +1703,22 @@
     bottom: -0.529vw;
     right: 5.489vw;
 }
+
+.careers-page .footer-end {
+    margin-top: -201px;
+    margin-left: -56px;
+    height: 630px;
+    overflow: hidden;
+    opacity: 0.86;
+}
+
+.careers-page .footer-end img {
+    transform: rotateY(180deg);
+    max-width: unset;
+    width: 1713px;
+}
+
+.careers-page .footer-colossal-logo {
+    position: relative;
+    z-index: 2;
+}
