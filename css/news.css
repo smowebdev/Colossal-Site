@@ -1597,6 +1597,7 @@
 
 .speaking-slider {
     overflow: visible;
+    min-height: 39.683vw;
 }
 
 .speaking-slider .swiper-wrapper {
@@ -1614,7 +1615,7 @@
     width: 19.709vw;
 }
 
-.speaking-slider .swiper-slide.swiper-slide-active {
+.speaking-slider .swiper-slide.swiper-slide-next {
     width: 29.63vw;
 }
 
@@ -1630,7 +1631,7 @@
     aspect-ratio: 298/375;
 }
 
-.speaking-slider .swiper-slide-active .slider-image {
+.speaking-slider .swiper-slide-next .slider-image {
     aspect-ratio: 448/566;
 }
 
@@ -1648,11 +1649,11 @@
     background-color: #5E5E5E;
 }
 
-.speaking-slider .swiper-slide-active .slider-label {
+.speaking-slider .swiper-slide-next .slider-label {
     color: #fff;
 }
 
-.speaking-slider .swiper-slide-active .slider-label .square {
+.speaking-slider .swiper-slide-next .slider-label .square {
     background-color: #fff;
 }
 
@@ -1668,7 +1669,7 @@
 }
 
 
-.speaking-slider .swiper-slide-active .slider-image:before {
+.speaking-slider .swiper-slide-next .slider-image:before {
     content: "";
     position: absolute;
     inset: 0;

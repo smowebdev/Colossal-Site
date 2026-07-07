@@ -2060,6 +2060,7 @@ h6 {
 
 .colossal-project-swiper {
     overflow: visible;
+    min-height: 39.683vw;
 }
 
 .colossal-project-swiper .swiper-slide {
@@ -2106,15 +2107,15 @@ h6 {
 }
 
 
-.colossal-project-swiper .swiper-slide-active {
+.colossal-project-swiper .swiper-slide-next {
     width: 37.434vw !important;
 }
 
-.colossal-project-swiper .swiper-slide-active .slide-img {
+.colossal-project-swiper .swiper-slide-next .slide-img {
     aspect-ratio: 566/508 !important;
 }
 
-.colossal-project-swiper .swiper-slide-active .slide-img::before {
+.colossal-project-swiper .swiper-slide-next .slide-img::before {
     box-shadow: 0px 0px 1.978vw 0px #FF7B31 inset;
     background: none;
 }
@@ -2140,7 +2141,7 @@ h6 {
     transition: all 0.3s ease-in-out;
 }
 
-.colossal-project-swiper .swiper-slide-active .slide-cate {
+.colossal-project-swiper .swiper-slide-next .slide-cate {
     opacity: 1;
 }
 

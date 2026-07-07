@@ -157,11 +157,10 @@ jQuery(document).ready(function ($) {
     slidesPerView: "auto",
     speed: 600,
     spaceBetween: 20,
-    centeredSlides: true,
-    rewind: true,
+    loop: true,
     watchSlidesProgress: true,
     slideToClickedSlide: true,
-    initialSlide: 1,
+    initialSlide: 0,
     autoHeight: false,
     height: null,
 

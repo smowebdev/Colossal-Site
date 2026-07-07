@@ -320,37 +320,14 @@ jQuery(document).ready(function ($) {
 
   // centerActiveItem($(".species-colossal-list .item.active"));
 
-  function updateSliderHeight(swiper) {
-    if (!swiper || !swiper.slides.length) return;
-
-    let maxHeight = 0;
-
-    swiper.slides.forEach((slide) => {
-      slide.style.height = "auto";
-
-      const slideHeight = slide.getBoundingClientRect().height;
-      if (slideHeight > maxHeight) {
-        maxHeight = slideHeight;
-      }
-    });
-
-    swiper.slides.forEach((slide) => {
-      slide.style.height = `${maxHeight}px`;
-    });
-
-    swiper.updateSize();
-    swiper.updateSlides();
-    swiper.updateProgress();
-  }
   const colossalProjectSlider = new Swiper(".colossal-project-swiper", {
     slidesPerView: "auto",
     speed: 600,
     spaceBetween: 20,
-    centeredSlides: true,
-    rewind: true,
+    loop: true,
     watchSlidesProgress: true,
     slideToClickedSlide: true,
-    initialSlide: 1,
+    initialSlide: 0,
     autoHeight: false,
     height: null,
     navigation: {
@@ -360,25 +337,13 @@ jQuery(document).ready(function ($) {
     on: {
       init: function () {
         handleVideo(this);
-        setTimeout(() => updateSliderHeight(this), 100);
       },
       slideChange: function () {
         handleVideo(this);
       },
-      resize(swiper) {
-        updateSliderHeight(swiper);
-      },
     },
   });
-  let resizeTimeout;
-  window.addEventListener("resize", () => {
-    clearTimeout(resizeTimeout);
-    resizeTimeout = setTimeout(() => {
-      if (colossalProjectSlider) {
-        updateSliderHeight(colossalProjectSlider);
-      }
-    }, 150);
-  });
+
   function handleVideo(swiper) {
     $(".slide-video").each(function () {
       if (typeof this.pause === "function") {

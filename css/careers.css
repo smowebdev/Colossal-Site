@@ -1086,6 +1086,10 @@
     display: none;
 }
 
+.career-labs-funfact .colossal-project-swiper-info {
+    bottom: 6.614vw;
+}
+
 .career-labs-funfact .row-2 {
     gap: 1.323vw;
     display: grid;
