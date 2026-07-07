@@ -1,4 +1,17 @@
 $(function () {
+  const $careersBenefitItem = $(".careers-benefit-item");
+
+  $careersBenefitItem.first().addClass("active");
+
+  $careersBenefitItem.on("mouseenter", function () {
+    $careersBenefitItem.removeClass("active");
+    $(this).addClass("active");
+  });
+
+  $(".careers-benefit-list").on("mouseleave", function () {
+    $careersBenefitItem.removeClass("active");
+    $careersBenefitItem.first().addClass("active");
+  });
   const $careerGroups = $(".career-group");
   const $careerItems = $(".career-item");
 
