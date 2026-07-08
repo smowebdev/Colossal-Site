@@ -1,0 +1,1031 @@
+.de-extinction-hero {
+    padding: 8.201vw 0 2.844vw;
+}
+
+.de-extinction-hero::before,
+.de-extinction-hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.de-extinction-hero::before {
+    background: url('../img/2000W_grid.png') no-repeat center / cover;
+}
+
+.de-extinction-hero::after {
+    background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 67.35%, #000000 100%),
+        linear-gradient(180deg, #000000 1.59%, rgba(0, 0, 0, 0) 31.41%);
+}
+
+.de-extinction-hero .heading {
+    font-size: 10.888vw;
+    line-height: 0.91;
+    margin-bottom: 0.529vw;
+}
+
+.de-extinction-hero .heading-group {
+    max-width: 83.862vw;
+}
+
+.de-extinction-hero .heading-group .heading:first-child {
+    margin-left: 7.143vw;
+}
+
+.de-extinction-hero .image {
+    max-width: 48.81vw;
+    transform: rotate(-11.2deg);
+    margin-top: -14.881vw;
+    left: -1.984vw;
+}
+
+.de-extinction-hero .row-1 {
+    margin-top: -22.09vw;
+}
+
+.de-extinction-hero .row-1 .column {
+    gap: 0.661vw 7.143vw;
+}
+
+.de-extinction-hero .row-1 .square {
+    margin-top: 0.265vw;
+}
+
+.de-extinction-hero .heading-bottom {
+    margin-top: 11.111vw;
+}
+
+.de-ex-mission-sec {
+    padding: 5.754vw 0 6.614vw;
+}
+
+.de-ex-mission-sec .row-1 {
+    margin-bottom: 2.116vw;
+}
+
+.de-ex-mission-sec .row-2 {
+    line-height: 1.375;
+}
+
+.de-ex-mission-sec .row-2 .column {
+    gap: 0.661vw 7.143vw;
+}
+
+.de-ex-mission-sec .row-2 .square {
+    margin-top: 0.331vw;
+}
+
+.de-ex-mission-sec .heading {
+    font-size: 11.243vw;
+    line-height: 0.79;
+    padding-top: 4.497vw;
+}
+
+.de-ex-mission-sec .heading-gradient {
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 32.56%, rgba(255, 123, 49, 0.68) 100%), linear-gradient(0deg, #F4F4F4, #F4F4F4);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.de-ex-mission-sec .content {
+    margin-top: -9.921vw;
+    margin-bottom: 5.159vw;
+}
+
+.de-ex-mission-sec .content-bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+}
+
+.de-ex-mission-sec .content-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 38.43%, #000000 100%);
+
+}
+
+.de-ex-mission-sec .content-image {
+    max-width: 82.474vw;
+    z-index: 3;
+    padding-top: 1.72vw;
+}
+
+.de-ex-mission-sec .content-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 53.87%, #000000 93.51%);
+    pointer-events: none;
+}
+
+.de-ex-mission-sec .content-title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    padding-bottom: 4.828vw;
+}
+
+.de-ex-mission-slider__wrapper {
+    margin-top: -12.037vw;
+    z-index: 5;
+}
+
+.de-ex-mission-slider .slide-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2.315vw;
+}
+
+.de-ex-mission-slider .slide-image {
+    height: 12.897vw;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.397vw;
+}
+
+.de-ex-mission-slider .swiper-slide {
+    width: 10.317vw;
+    transition: all 0.5s ease;
+}
+
+.de-ex-mission-slider .swiper-slide-active {
+    width: 16.005vw;
+}
+
+.de-ex-mission-slider .slide-title {
+    max-width: 6.415vw;
+}
+
+.mission-result__content {
+    margin-top: -1.852vw;
+}
+
+.mission-result__content .left {
+    width: 38.7%;
+}
+
+.mission-result__content .right {
+    width: 61.3%;
+    padding-left: 3.307vw;
+}
+
+.mission-result__img img {
+    margin-left: -1.19vw;
+}
+
+.mission-result__desc {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    line-height: 1;
+    max-width: 50.198vw;
+    padding-bottom: 3.307vw;
+}
+
+.mission-result__video {
+    padding: 0 1.323vw;
+    margin-top: -2.646vw;
+    margin-bottom: -32.011vw;
+}
+
+.mission-result__video .video {
+    aspect-ratio: 1472/822;
+    border-radius: 2.646vw;
+}
+
+.mission-result__video .video::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 123, 49, 0) 49.22%, #9940DD 101.14%);
+    pointer-events: none;
+}
+
+.mission-result__video .source-group-1 {
+    top: 3.439vw;
+    left: 2.91vw;
+}
+
+.mission-result__video .source-group-2 {
+    top: 3.439vw;
+    right: 2.91vw;
+}
+
+.mission-result__video .source-group-3 {
+    bottom: 2.116vw;
+    left: 2.91vw;
+}
+
+.mission-result__video .source-group-4 {
+    bottom: 2.116vw;
+    right: 2.91vw;
+}
+
+.mission-result__video .video-text {
+    font-size: 3.439vw;
+    letter-spacing: 0.096em;
+    gap: 2.91vw;
+}
+
+.mission-result__video .video-text .text-highlight {
+    font-size: 5.063vw;
+    letter-spacing: 0;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0.261vw solid rgba(217, 217, 217, 1);
+    backdrop-filter: blur(116px);
+    -webkit-backdrop-filter: blur(116px);
+    border-radius: 13.228vw;
+    padding: 1.323vw 2.249vw;
+
+}
+
+.de-ex-about-sec {
+    padding: 24.008vw 0 0;
+}
+
+.de-ex-about__header .bg-grid::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 34.08%, #FFFFFF 93.61%),
+        linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 17.92%);
+}
+
+.de-ex-about__header {
+    padding: 4.497vw 0 4.63vw;
+}
+
+.de-ex-about__header .wrapper-md {
+    padding: 0 3.307vw;
+}
+
+.de-ex-about_heading-wrapper .img-1 {
+    max-width: 39.484vw;
+}
+
+.de-ex-about_heading-wrapper .img-1 .img-inner {
+    max-width: 24.471vw;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 1.19vw;
+}
+
+.de-ex-about_heading-wrapper .img-2 {
+    left: 0;
+    width: 84.061vw;
+    top: 4.762vw;
+}
+
+.de-ex-about_heading-wrapper .heading {
+    font-size: 4.762vw;
+    line-height: 120%;
+}
+
+.de-ex-about_heading-wrapper .text-plus {
+    position: absolute;
+    font-size: 2.249vw;
+    line-height: 0.6470;
+}
+
+.de-ex-about_heading-wrapper .text-plus-1 {
+    top: 9.458vw;
+    left: 6.481vw;
+}
+
+.de-ex-about_heading-wrapper .text-plus-2 {
+    top: 9.458vw;
+    right: 6.481vw;
+}
+
+.de-ex-about_heading-wrapper .text-plus-3 {
+    bottom: 8.135vw;
+    left: 6.481vw;
+}
+
+.de-ex-about_heading-wrapper .text-plus-4 {
+    bottom: 8.135vw;
+    right: 6.481vw;
+}
+
+.de-ex-about_heading-wrapper .highlight-text {
+    font-size: 13.889vw;
+    line-height: 0.87;
+    letter-spacing: -0.065em;
+    left: -7.672vw;
+    right: -7.672vw;
+    padding-top: 1.72vw;
+
+}
+
+.de-ex-about-sec .content-1 {
+    margin-top: 0.926vw;
+    margin-bottom: 5.952vw;
+}
+
+.de-ex-about-sec .content-1 .row-1 {
+    margin-bottom: 4.63vw;
+}
+
+.de-ex-about-sec .content-1 .row-1 .column {
+    gap: 0.661vw 7.143vw;
+}
+
+.de-ex-about-sec .content-1 .row-1 .square {
+    margin-top: 0.265vw;
+}
+
+.de-ex-about-sec .content-1 .row-2 {
+    gap: 1.323vw;
+    margin-bottom: 0.595vw;
+}
+
+.de-ex-about-sec .content-1 .title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+
+}
+
+.de-ex-about-sec .content-2 .content-heading {
+    font-size: 11.243vw;
+    line-height: 0.79;
+    padding-top: 0.529vw;
+}
+
+.de-ex-about-sec .content-2 .content-heading-wrapper {
+    margin-bottom: 1.852vw;
+}
+
+.de-ex-about-sec .content-2 .content-heading-wrapper .img-deco {
+    width: 38.492vw;
+    bottom: -7.672vw;
+}
+
+.de-ex-about-sec .content-2 .content-heading-wrapper .img-deco.deco-left {
+    left: -9.921vw;
+}
+
+.de-ex-about-sec .content-2 .content-heading-wrapper .img-deco.deco-right {
+    right: -8.995vw;
+    transform: rotateY(180deg);
+}
+
+.de-ex-about-sec .content-2 .row-1 {
+    gap: 4.894vw;
+    padding: 0 2.646vw;
+    margin-bottom: 3.505vw;
+
+}
+
+.de-ex-about-sec .content-2 .title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    padding: 2.778vw 0;
+}
+
+.de-ex-about-sec .content-2 .row-2 .column-1 {
+    width: 36.05%;
+    border-top: 1px solid #828282;
+    padding-top: 3.373vw;
+}
+
+.de-ex-about-sec .content-2 .row-2 .column-2 {
+    width: 27.9%;
+}
+
+.de-ex-about-sec .content-2 .row-2 .column-3 {
+    border-top: 1px solid #828282;
+    width: 36.05%;
+    padding-top: 3.373vw;
+}
+
+.de-ex-about-sec .content-2 .row-2 .label {
+    gap: 1.058vw;
+    font-size: 1.323vw;
+    line-height: 1.2;
+    letter-spacing: 0.0445em;
+    margin-bottom: 0.992vw;
+}
+
+.de-ex-about-sec .content-2 .row-2 .label .square {
+    width: 1.587vw;
+    height: 1.587vw;
+}
+
+.de-ex-about-sec .content-2 .row-2 .animal-content {
+    max-width: 19.841vw;
+}
+
+.de-ex-about-sec .content-2 .row-2 .animal-content .name {
+    font-size: 3.941vw;
+}
+
+.de-ex-about-sec .content-2 .row-2 .animal-content .video {
+    aspect-ratio: 300 / 324;
+    margin-top: -1.323vw;
+    margin-left: 0.661vw;
+}
+
+.de-ex-about-sec .content-2 .row-2 .animal-content .video video {
+    transform: scale(1.6);
+}
+
+.de-ex-about-sec .content-2 .row-2 .content-line {
+    width: 1px;
+    height: 10.119vw;
+    background: linear-gradient(180deg, #FFFFFF 0%, #3F3F3F 100%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.de-ex-about-sec .content-2 .row-2 .content-line.line-top {
+    top: -5.82vw;
+}
+
+.de-ex-about-sec .content-2 .row-2 .content-line.line-bottom {
+    bottom: -4.365vw;
+    background: linear-gradient(180deg, #3F3F3F 0%, #FFFFFF 85.71%);
+
+}
+
+.de-ex-about-sec .content-2 .row-2 .content-line::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2.183vw;
+    height: 1px;
+    background-color: #828282;
+}
+
+.de-ex-about-sec .content-2 .row-2 .content-line.line-top::before {
+    bottom: 0;
+}
+
+.de-ex-about-sec .content-2 .row-2 .content-line.line-bottom::before {
+    top: 0;
+}
+
+
+.de-ex-about-sec .content-2 .row-2 .content-desc {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    margin: auto -2.381vw;
+    padding-bottom: 1.984vw;
+    line-height: 1;
+}
+
+.de-ex-about-sec .content-2 .row-2 .text-plus {
+    position: absolute;
+    font-size: 1.587vw;
+    letter-spacing: 0.02em;
+}
+
+.de-ex-about-sec .content-2 .row-2 .text-plus-1 {
+    top: 3.439vw;
+    left: -4.101vw;
+}
+
+.de-ex-about-sec .content-2 .row-2 .text-plus-2 {
+    top: 3.439vw;
+    right: -4.101vw;
+}
+
+.de-ex-about-sec .content-2 .row-2 .text-plus-3 {
+    bottom: 4.894vw;
+    left: -4.101vw;
+}
+
+.de-ex-about-sec .content-2 .row-2 .text-plus-4 {
+    bottom: 4.894vw;
+    right: -4.101vw;
+}
+
+.de-ex-about-sec .content-2 {
+    margin-bottom: 2.116vw;
+}
+
+.de-ex-about-sec .content-3 .content-heading {
+    font-size: 22.981vw;
+    letter-spacing: 0.03em;
+}
+
+.de-ex-about-sec .content-3 .content-heading span {
+    font-size: 11.77vw;
+    letter-spacing: -0.086em;
+    padding-top: 3.307vw;
+}
+
+.de-ex-about-sec .content-3 .row-1 {
+    margin-bottom: 1.653vw;
+}
+
+.de-ex-about-sec .content-3 .row-1 .column {
+    gap: 0.661vw 7.143vw;
+    padding-right: 1.587vw;
+}
+
+.de-ex-about-sec .content-3 .row-1 .column-1 {
+    width: 33%;
+}
+
+.de-ex-about-sec .content-3 .row-1 .column-2 {
+    width: 18%;
+}
+
+.de-ex-about-sec .content-3 .row-1 .column-3 {
+    width: 34%;
+}
+
+.de-ex-about-sec .content-3 .row-1 .column-4 {
+    width: 15%;
+    padding-right: 0;
+}
+
+.de-ex-about-sec .content-3 .row-1 .square {
+    margin-top: 0.265vw;
+}
+
+.de-ex-about-sec .content-3 .row-2 .column {
+    padding-right: 1.587vw;
+}
+
+.de-ex-about-sec .content-3 .row-2 .column-1 {
+    width: 50.8%;
+}
+
+.de-ex-about-sec .content-3 .row-2 .column-2 {
+    width: 34%;
+}
+
+.de-ex-about-sec .content-3 .row-2 .column-3 {
+    width: 15.2%;
+    padding-right: 0;
+}
+
+.de-ex-about-sec .content-3 .row-2 {
+    margin-bottom: 2.513vw;
+}
+
+.de-ex-about-sec .content-3 .row-3 .column-1 {
+    width: 50.8%;
+    padding-right: 3.175vw;
+}
+
+.de-ex-about-sec .content-3 .row-3 .column-2 {
+    width: 49.2%;
+    padding-top: 1.653vw;
+}
+
+.de-ex-about-sec .content-3 .text-plus {
+    font-size: 1.587vw;
+}
+
+.de-ex-about-sec .content-3 .title {
+    font-size: 4.233vw;
+    margin-bottom: 1.323vw;
+}
+
+.de-ex-about-sec .content-3 .content-desc {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    margin-right: -1.323vw;
+
+}
+
+.de-ex-about-sec .content-3 .label {
+    font-size: 1.587vw;
+    margin-bottom: 1.323vw;
+}
+
+.de-ex-about-sec .content-3 .img-logo {
+    width: 2.249vw;
+    margin-bottom: 0.529vw;
+}
+
+.de-ex-about-sec .content-4 .content-bg-grid::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 34.08%, #FFFFFF 93.61%),
+        linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 17.92%);
+
+}
+
+.de-ex-about-sec .content-4 {
+    padding: 4.299vw 0 0;
+}
+
+.de-ex-about-sec .content-4 .content-bg-1 {
+    width: 96%;
+    top: 4.167vw;
+    left: -0.728vw;
+    position: absolute;
+}
+
+.de-ex-about-sec .content-4 .content-bg-2 {
+    opacity: 0.46;
+    width: 64.55vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 16.931vw;
+}
+
+.de-ex-about-sec .content-4 .content-inner {
+    padding-top: 17.659vw;
+}
+
+.de-ex-about-sec .content-4 .content-heading {
+    font-size: 6.769vw;
+    line-height: 0.79;
+    letter-spacing: -0.039em;
+    max-width: 41.865vw;
+    margin-bottom: 4.365vw;
+    background:
+        linear-gradient(180deg, #000000 0%, #828282 100%), linear-gradient(0deg, #000000, #000000);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.rebuilding-species-item {
+    position: relative;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.rebuilding-species-item .item-inner {
+    padding: 2.381vw 1.72vw 2.381vw 2.381vw;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rebuilding-species-item .item-label {
+    font-size: 1.433vw;
+    letter-spacing: 0.028em;
+    color: #828282;
+    margin-bottom: 1.72vw;
+}
+
+.rebuilding-species-item .item-number {
+    font-size: 1.433vw;
+    line-height: 1.06;
+    color: #828282;
+    margin-top: 2.183vw;
+}
+
+.rebuilding-species-item .item-view {
+    font-size: 0.794vw;
+    line-height: 1.16;
+    padding-bottom: 0.463vw;
+    display: block;
+}
+
+.rebuilding-species-item .item-extra {
+    font-size: 0.794vw;
+    line-height: 1.16;
+    display: none;
+    gap: 1.587vw;
+    position: absolute;
+    bottom: 4.63vw;
+    left: 2.381vw;
+    right: -3.968vw;
+    z-index: 2;
+}
+
+.rebuilding-species-item .item-extra__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.587vw;
+    justify-content: space-between;
+}
+
+.rebuilding-species-item .item-img {
+    height: 13.492vw;
+    width: auto;
+    object-fit: cover;
+    box-shadow: 0px 39px 18.3px -22px #00000059;
+    border-radius: 1.058vw;
+}
+
+.rebuilding-species-item .item-plus {
+    font-size: 1.587vw;
+    color: #000;
+}
+
+.rebuilding-species-item.active .item-extra {
+    display: flex;
+
+}
+
+.rebuilding-species-item.active .item-label,
+.rebuilding-species-item.active .item-number {
+    color: #000;
+}
+
+.rebuilding-species-item.active .item-inner::after {
+    background-color: #7DEA13;
+}
+
+.rebuilding-species-item.active .item-view {
+    display: none;
+}
+
+.rebuilding-species-item .item-title {
+    font-size: 2.148vw;
+}
+
+.rebuilding-species-item .item-inner::before,
+.rebuilding-species-item .item-inner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.rebuilding-species-item .item-inner::before {
+    background: #5E5E5E;
+}
+
+.rebuilding-species-item .item-inner::after {
+    inset: 1.35px;
+    background: #fff;
+}
+
+.rebuilding-species-item .item-inner>* {
+    position: relative;
+    z-index: 2;
+}
+
+.rebuilding-species-item .floating-icon {
+    position: absolute;
+    z-index: 10;
+}
+
+.rebuilding-species-item.item-1 {
+    width: 29.63vw;
+    aspect-ratio: 488 / 557;
+}
+
+.rebuilding-species-item.item-1 .item-inner {
+    clip-path: polygon(4.8% 0.1%, 95.2% 0.1%, 95.4% 0.1%, 95.7% 0.1%, 95.9% 0.2%, 96.2% 0.2%, 96.4% 0.3%, 96.6% 0.3%, 96.9% 0.4%, 97.1% 0.5%, 97.3% 0.5%, 97.5% 0.6%, 97.7% 0.7%, 97.9% 0.8%, 98.1% 1%, 98.3% 1.1%, 98.5% 1.2%, 98.6% 1.4%, 98.8% 1.5%, 98.9% 1.7%, 99.1% 1.8%, 99.2% 2%, 99.3% 2.2%, 99.4% 2.3%, 99.5% 2.5%, 99.6% 2.7%, 99.7% 2.9%, 99.7% 3.1%, 99.8% 3.3%, 99.8% 3.5%, 99.8% 3.7%, 99.8% 3.9%, 99.8% 68.5%, 99.8% 68.6%, 99.8% 68.7%, 99.8% 68.8%, 99.8% 69%, 99.8% 69.1%, 99.8% 69.2%, 99.7% 69.3%, 99.7% 69.4%, 99.7% 69.5%, 99.6% 69.6%, 99.6% 69.8%, 99.5% 69.9%, 99.5% 70%, 99.4% 70.1%, 99.3% 70.2%, 99.3% 70.3%, 99.2% 70.4%, 99.1% 70.5%, 99% 70.6%, 99% 70.7%, 98.9% 70.8%, 98.8% 70.9%, 98.7% 71%, 98.6% 71.1%, 98.5% 71.1%, 98.4% 71.2%, 98.3% 71.3%, 98.1% 71.4%, 98% 71.5%, 97.9% 71.5%, 86.3% 78.3%, 86.2% 78.3%, 86% 78.4%, 85.9% 78.5%, 85.8% 78.6%, 85.7% 78.7%, 85.6% 78.8%, 85.5% 78.9%, 85.4% 79%, 85.3% 79.1%, 85.2% 79.2%, 85.1% 79.3%, 85% 79.4%, 84.9% 79.5%, 84.8% 79.6%, 84.8% 79.7%, 84.7% 79.8%, 84.6% 79.9%, 84.6% 80%, 84.5% 80.2%, 84.5% 80.3%, 84.4% 80.4%, 84.4% 80.5%, 84.3% 80.6%, 84.3% 80.8%, 84.3% 80.9%, 84.3% 81%, 84.2% 81.1%, 84.2% 81.3%, 84.2% 81.4%, 84.2% 81.5%, 84.2% 96.1%, 84.2% 96.3%, 84.2% 96.5%, 84.2% 96.7%, 84.1% 96.9%, 84.1% 97.1%, 84% 97.3%, 83.9% 97.5%, 83.8% 97.7%, 83.7% 97.8%, 83.6% 98%, 83.5% 98.2%, 83.3% 98.3%, 83.2% 98.5%, 83% 98.6%, 82.9% 98.8%, 82.7% 98.9%, 82.5% 99%, 82.3% 99.2%, 82.1% 99.3%, 81.9% 99.4%, 81.7% 99.5%, 81.5% 99.5%, 81.3% 99.6%, 81% 99.7%, 80.8% 99.7%, 80.5% 99.8%, 80.3% 99.8%, 80.1% 99.9%, 79.8% 99.9%, 79.5% 99.9%, 4.8% 99.9%, 4.6% 99.9%, 4.3% 99.9%, 4.1% 99.8%, 3.8% 99.8%, 3.6% 99.7%, 3.4% 99.7%, 3.1% 99.6%, 2.9% 99.5%, 2.7% 99.5%, 2.5% 99.4%, 2.3% 99.3%, 2.1% 99.2%, 1.9% 99%, 1.7% 98.9%, 1.5% 98.8%, 1.4% 98.6%, 1.2% 98.5%, 1.1% 98.3%, 0.9% 98.2%, 0.8% 98%, 0.7% 97.8%, 0.6% 97.7%, 0.5% 97.5%, 0.4% 97.3%, 0.3% 97.1%, 0.3% 96.9%, 0.2% 96.7%, 0.2% 96.5%, 0.2% 96.3%, 0.2% 96.1%, 0.2% 3.9%, 0.2% 3.7%, 0.2% 3.5%, 0.2% 3.3%, 0.3% 3.1%, 0.3% 2.9%, 0.4% 2.7%, 0.5% 2.5%, 0.6% 2.3%, 0.7% 2.2%, 0.8% 2%, 0.9% 1.8%, 1.1% 1.7%, 1.2% 1.5%, 1.4% 1.4%, 1.5% 1.2%, 1.7% 1.1%, 1.9% 1%, 2.1% 0.8%, 2.3% 0.7%, 2.5% 0.6%, 2.7% 0.5%, 2.9% 0.5%, 3.1% 0.4%, 3.4% 0.3%, 3.6% 0.3%, 3.8% 0.2%, 4.1% 0.2%, 4.3% 0.1%, 4.6% 0.1%);
+}
+
+.rebuilding-species-item.item-1 .item-inner::before,
+.rebuilding-species-item.item-1 .item-inner::after {
+    clip-path: inherit;
+}
+
+.rebuilding-species-item.item-2 {
+    width: 34.259vw;
+    aspect-ratio: 518 / 557;
+    margin-left: -3.307vw;
+}
+
+.rebuilding-species-item.item-2 .item-inner {
+    clip-path: polygon(17.7% 0.1%, 95.8% 0.1%, 96% 0.1%, 96.3% 0.1%, 96.5% 0.2%, 96.7% 0.2%, 96.9% 0.3%, 97.1% 0.3%, 97.3% 0.4%, 97.5% 0.5%, 97.7% 0.5%, 97.9% 0.6%, 98% 0.7%, 98.2% 0.8%, 98.4% 1%, 98.5% 1.1%, 98.7% 1.2%, 98.8% 1.4%, 99% 1.5%, 99.1% 1.7%, 99.2% 1.8%, 99.3% 2%, 99.4% 2.2%, 99.5% 2.3%, 99.6% 2.5%, 99.7% 2.7%, 99.7% 2.9%, 99.8% 3.1%, 99.8% 3.3%, 99.8% 3.5%, 99.9% 3.7%, 99.9% 3.9%, 99.9% 14.1%, 99.9% 14.2%, 99.9% 14.3%, 99.9% 14.4%, 99.8% 14.5%, 99.8% 14.6%, 99.8% 14.7%, 99.8% 14.8%, 99.8% 14.9%, 99.8% 15%, 99.7% 15.1%, 99.7% 15.2%, 99.7% 15.3%, 99.6% 15.4%, 99.6% 15.5%, 99.6% 15.5%, 99.5% 15.6%, 99.5% 15.7%, 99.4% 15.8%, 99.4% 15.9%, 99.3% 16%, 99.3% 16.1%, 99.2% 16.1%, 99.2% 16.2%, 99.1% 16.3%, 99.1% 16.4%, 99% 16.5%, 98.9% 16.5%, 98.9% 16.6%, 98.8% 16.7%, 98.7% 16.8%, 93.4% 21.9%, 93.3% 21.9%, 93.2% 22%, 93.1% 22.1%, 93.1% 22.2%, 93% 22.2%, 92.9% 22.3%, 92.9% 22.4%, 92.8% 22.5%, 92.8% 22.6%, 92.7% 22.7%, 92.7% 22.8%, 92.6% 22.9%, 92.6% 23%, 92.5% 23%, 92.5% 23.1%, 92.4% 23.2%, 92.4% 23.3%, 92.4% 23.4%, 92.3% 23.5%, 92.3% 23.6%, 92.3% 23.7%, 92.2% 23.8%, 92.2% 23.9%, 92.2% 24%, 92.2% 24.1%, 92.2% 24.2%, 92.2% 24.3%, 92.2% 24.4%, 92.1% 24.5%, 92.1% 24.7%, 92.1% 96.1%, 92.1% 96.3%, 92.1% 96.5%, 92.1% 96.7%, 92.1% 96.9%, 92% 97.1%, 91.9% 97.3%, 91.9% 97.5%, 91.8% 97.7%, 91.7% 97.8%, 91.6% 98%, 91.5% 98.2%, 91.4% 98.3%, 91.2% 98.5%, 91.1% 98.6%, 91% 98.8%, 90.8% 98.9%, 90.7% 99%, 90.5% 99.2%, 90.3% 99.3%, 90.1% 99.4%, 90% 99.5%, 89.8% 99.5%, 89.6% 99.6%, 89.4% 99.7%, 89.2% 99.7%, 89% 99.8%, 88.8% 99.8%, 88.5% 99.9%, 88.3% 99.9%, 88.1% 99.9%, 4.2% 99.9%, 4% 99.9%, 3.7% 99.9%, 3.5% 99.8%, 3.3% 99.8%, 3.1% 99.7%, 2.9% 99.7%, 2.7% 99.6%, 2.5% 99.5%, 2.3% 99.5%, 2.1% 99.4%, 2% 99.3%, 1.8% 99.2%, 1.6% 99%, 1.5% 98.9%, 1.3% 98.8%, 1.2% 98.6%, 1% 98.5%, 0.9% 98.3%, 0.8% 98.2%, 0.7% 98%, 0.6% 97.8%, 0.5% 97.7%, 0.4% 97.5%, 0.3% 97.3%, 0.3% 97.1%, 0.2% 96.9%, 0.2% 96.7%, 0.2% 96.5%, 0.1% 96.3%, 0.1% 96.1%, 0.1% 83.5%, 0.1% 83.4%, 0.1% 83.2%, 0.2% 83.1%, 0.2% 83%, 0.2% 82.9%, 0.2% 82.8%, 0.2% 82.6%, 0.3% 82.5%, 0.3% 82.4%, 0.3% 82.3%, 0.4% 82.2%, 0.4% 82%, 0.5% 81.9%, 0.5% 81.8%, 0.6% 81.7%, 0.7% 81.6%, 0.7% 81.5%, 0.8% 81.4%, 0.9% 81.3%, 1% 81.2%, 1% 81.1%, 1.1% 81%, 1.2% 80.9%, 1.3% 80.8%, 1.4% 80.8%, 1.5% 80.7%, 1.6% 80.6%, 1.7% 80.5%, 1.8% 80.4%, 1.9% 80.4%, 11.7% 74.2%, 11.9% 74.2%, 12% 74.1%, 12.1% 74%, 12.2% 73.9%, 12.3% 73.8%, 12.4% 73.7%, 12.5% 73.6%, 12.6% 73.5%, 12.7% 73.4%, 12.8% 73.3%, 12.8% 73.2%, 12.9% 73.1%, 13% 73%, 13.1% 72.9%, 13.1% 72.8%, 13.2% 72.7%, 13.3% 72.6%, 13.3% 72.4%, 13.4% 72.3%, 13.4% 72.2%, 13.5% 72.1%, 13.5% 71.9%, 13.5% 71.8%, 13.6% 71.7%, 13.6% 71.6%, 13.6% 71.4%, 13.6% 71.3%, 13.6% 71.2%, 13.6% 71%, 13.6% 70.9%, 13.6% 3.9%, 13.7% 3.7%, 13.7% 3.5%, 13.7% 3.3%, 13.7% 3.1%, 13.8% 2.9%, 13.9% 2.7%, 13.9% 2.5%, 14% 2.3%, 14.1% 2.2%, 14.2% 2%, 14.3% 1.8%, 14.4% 1.7%, 14.6% 1.5%, 14.7% 1.4%, 14.8% 1.2%, 15% 1.1%, 15.1% 1%, 15.3% 0.8%, 15.5% 0.7%, 15.7% 0.6%, 15.8% 0.5%, 16% 0.5%, 16.2% 0.4%, 16.4% 0.3%, 16.6% 0.3%, 16.8% 0.2%, 17% 0.2%, 17.3% 0.1%, 17.5% 0.1%);
+
+}
+
+.rebuilding-species-item.item-2 .item-inner::before,
+.rebuilding-species-item.item-2 .item-inner::after {
+    clip-path: inherit;
+}
+
+.rebuilding-species-item.item-2 .item-inner .item-top {
+    padding-left: 4.894vw;
+}
+
+.rebuilding-species-item.item-2 .item-inner .item-view {
+    padding-left: 4.894vw;
+}
+
+.rebuilding-species-item.item-2 .item-extra {
+    left: 7.275vw;
+}
+
+.rebuilding-species-item.item-3 {
+    width: 32.341vw;
+    aspect-ratio: 489 / 557;
+    margin-left: -1.323vw;
+}
+
+.rebuilding-species-item.item-3 .item-inner {
+    clip-path: polygon(12.8% 0.1%, 95.6% 0.1%, 95.8% 0.1%, 96% 0.1%, 96.3% 0.2%, 96.5% 0.2%, 96.7% 0.3%, 96.9% 0.3%, 97.1% 0.4%, 97.3% 0.5%, 97.5% 0.5%, 97.7% 0.6%, 97.9% 0.7%, 98.1% 0.8%, 98.3% 1%, 98.4% 1.1%, 98.6% 1.2%, 98.8% 1.4%, 98.9% 1.5%, 99% 1.7%, 99.2% 1.8%, 99.3% 2%, 99.4% 2.2%, 99.5% 2.3%, 99.6% 2.5%, 99.6% 2.7%, 99.7% 2.9%, 99.8% 3.1%, 99.8% 3.3%, 99.8% 3.5%, 99.9% 3.7%, 99.9% 3.9%, 99.9% 96.1%, 99.9% 96.3%, 99.8% 96.5%, 99.8% 96.7%, 99.8% 96.9%, 99.7% 97.1%, 99.6% 97.3%, 99.6% 97.5%, 99.5% 97.7%, 99.4% 97.8%, 99.3% 98%, 99.2% 98.2%, 99% 98.3%, 98.9% 98.5%, 98.8% 98.6%, 98.6% 98.8%, 98.4% 98.9%, 98.3% 99%, 98.1% 99.2%, 97.9% 99.3%, 97.7% 99.4%, 97.5% 99.5%, 97.3% 99.5%, 97.1% 99.6%, 96.9% 99.7%, 96.7% 99.7%, 96.5% 99.8%, 96.3% 99.8%, 96% 99.9%, 95.8% 99.9%, 95.6% 99.9%, 4.4% 99.9%, 4.2% 99.9%, 4% 99.9%, 3.7% 99.8%, 3.5% 99.8%, 3.3% 99.7%, 3.1% 99.7%, 2.9% 99.6%, 2.7% 99.5%, 2.5% 99.5%, 2.3% 99.4%, 2.1% 99.3%, 1.9% 99.2%, 1.7% 99%, 1.6% 98.9%, 1.4% 98.8%, 1.2% 98.6%, 1.1% 98.5%, 1% 98.3%, 0.8% 98.2%, 0.7% 98%, 0.6% 97.8%, 0.5% 97.7%, 0.4% 97.5%, 0.4% 97.3%, 0.3% 97.1%, 0.2% 96.9%, 0.2% 96.7%, 0.2% 96.5%, 0.1% 96.3%, 0.1% 96.1%, 0.1% 25.5%, 0.1% 25.4%, 0.1% 25.3%, 0.2% 25.2%, 0.2% 25.1%, 0.2% 25%, 0.2% 24.9%, 0.2% 24.8%, 0.2% 24.7%, 0.2% 24.6%, 0.3% 24.5%, 0.3% 24.5%, 0.3% 24.4%, 0.4% 24.3%, 0.4% 24.2%, 0.4% 24.1%, 0.5% 24%, 0.5% 23.9%, 0.5% 23.9%, 0.6% 23.8%, 0.6% 23.7%, 0.7% 23.6%, 0.7% 23.5%, 0.8% 23.5%, 0.9% 23.4%, 0.9% 23.3%, 1% 23.2%, 1% 23.2%, 1.1% 23.1%, 1.2% 23%, 1.2% 22.9%, 7.3% 17%, 7.4% 16.9%, 7.5% 16.8%, 7.6% 16.8%, 7.6% 16.7%, 7.7% 16.6%, 7.8% 16.5%, 7.8% 16.4%, 7.9% 16.4%, 7.9% 16.3%, 8% 16.2%, 8% 16.1%, 8.1% 16%, 8.1% 15.9%, 8.2% 15.8%, 8.2% 15.7%, 8.3% 15.7%, 8.3% 15.6%, 8.3% 15.5%, 8.4% 15.4%, 8.4% 15.3%, 8.4% 15.2%, 8.4% 15.1%, 8.5% 15%, 8.5% 14.9%, 8.5% 14.8%, 8.5% 14.7%, 8.5% 14.6%, 8.5% 14.5%, 8.5% 14.4%, 8.5% 14.3%, 8.5% 3.9%, 8.5% 3.7%, 8.5% 3.5%, 8.6% 3.3%, 8.6% 3.1%, 8.7% 2.9%, 8.7% 2.7%, 8.8% 2.5%, 8.9% 2.3%, 9% 2.2%, 9.1% 2%, 9.2% 1.8%, 9.4% 1.7%, 9.5% 1.5%, 9.6% 1.4%, 9.8% 1.2%, 9.9% 1.1%, 10.1% 1%, 10.3% 0.8%, 10.5% 0.7%, 10.6% 0.6%, 10.8% 0.5%, 11% 0.5%, 11.2% 0.4%, 11.5% 0.3%, 11.7% 0.3%, 11.9% 0.2%, 12.1% 0.2%, 12.3% 0.1%, 12.6% 0.1%);
+
+}
+
+.rebuilding-species-item.item-3 .item-inner .item-top {
+    padding-left: 2.778vw;
+}
+
+.rebuilding-species-item.item-3 .item-inner .item-view {
+    padding-left: 2.778vw;
+}
+
+
+.rebuilding-species-item.item-3 .item-inner::before,
+.rebuilding-species-item.item-3 .item-inner::after {
+    clip-path: inherit;
+}
+
+.rebuilding-species-list {
+    margin-bottom: -16.733vw;
+}
+
+.why-de-ex-matters-sec {
+    padding: 22.487vw 0 100px;
+}
+
+.why-de-ex-matters-banner {
+    padding: 0 1.323vw;
+}
+
+.why-de-ex-matters-banner .banner-box {
+    padding: 5.291vw 0 0.331vw;
+}
+
+.why-de-ex-matters-banner .banner-box::before,
+.why-de-ex-matters-banner .banner-box::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.why-de-ex-matters-banner .banner-box::before {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 52.84%, #000000 92.02%),
+        linear-gradient(180deg, #7DEA13 0%, #FF7B31 32.03%, rgba(255, 123, 49, 0) 64.07%);
+    z-index: 1;
+}
+
+.why-de-ex-matters-banner .banner-box::after {
+    background: url('../img/de-extinction/grid-3.png') no-repeat center / cover;
+    opacity: 0.86;
+    z-index: 2;
+}
+
+.why-de-ex-matters-banner .box-content {
+    z-index: 3;
+}
+
+.why-de-ex-matters-banner .box-subheading {
+    font-size: 2.185vw;
+}
+
+.why-de-ex-matters-banner .box-header {
+    max-width: 76.19vw;
+    margin-bottom: 9.524vw;
+}
+
+.why-de-ex-matters-banner .box-heading {
+    font-size: 11.189vw;
+    line-height: 0.8;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 32.56%, rgba(255, 123, 49, 0.68) 100%), linear-gradient(0deg, #F4F4F4, #F4F4F4);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.why-de-ex-matters-banner .box-image {
+    margin-bottom: -1.984vw;
+    margin-top: -3.968vw;
+}
+
+.why-de-ex-matters-banner .box-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 28.66%, #000000 62.33%);
+    pointer-events: none;
+}
+
+.why-de-ex-matters-sec .fight-back {
+    padding: 6.614vw 0 4.762vw;
+    margin-top: -15.608vw;
+    z-index: 3;
+}
+
+.why-de-ex-matters-sec .fight-back .row-1 {
+    margin-bottom: 4.365vw;
+}
+
+.why-de-ex-matters-sec .fight-back-heading {
+    font-size: 11.189vw;
+    line-height: 0.8;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 32.56%, rgba(255, 123, 49, 0.68) 100%), linear-gradient(0deg, #F4F4F4, #F4F4F4);
+    padding: 1.323vw;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.why-de-ex-matters-sec .fight-back-bg-grid::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 61.07%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 67.72%, #000000 104.28%);
+
+}
+
+.why-de-ex-matters-sec .fight-back-heading-wrapper {
+    margin-bottom: 2.976vw;
+}
+
+.why-de-ex-matters-sec .fight-back-heading-wrapper img {
+    width: 29.101vw;
+    bottom: -3.571vw;
+}
+
+.why-de-ex-matters-sec .fight-back-content {
+    gap: 1.19vw;
+}
+
+.why-de-ex-matters-sec .fight-back-content .left {
+    width: calc(36.63% - 0.595vw);
+}
+
+.why-de-ex-matters-sec .fight-back-content .right {
+    width: calc(63.37% - 0.595vw);
+    padding: 2.513vw 1.323vw 0;
+}
+
+.why-de-ex-matters-sec .fight-back-content .right::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/de-extinction/grid-4.png') no-repeat center / cover;
+}
+
+.why-de-ex-matters-sec .fight-back-content .label {
+    margin-bottom: 2.646vw;
+}
+
+.why-de-ex-matters-sec .fight-back-content .title {
+    font-size: 5.556vw;
+    line-height: 0.74;
+}
+
+.why-de-ex-matters-sec .fight-back-content .title span {
+    transform: rotate(-4.62deg);
+    font-size: 6.964vw;
+    line-height: 0.79;
+    letter-spacing: -0.12em;
+    display: block;
+    margin-bottom: -0.661vw;
+    margin-top: -0.661vw;
+}
+
+.why-de-ex-matters-sec .fight-back-content .right img {
+    width: 33.995vw;
+    margin-left: 3.704vw;
+    margin-top: -3.571vw;
+}
+
+.why-de-ex-matters-sec .ecosystem-impact-title {
+    max-width: 80.159vw;
+    margin-bottom: 5.82vw;
+}
+
+.why-de-ex-matters-sec .ecosystem-impact-title .title {
+    font-size: 4.431vw;
+    line-height: 1.03;
+    letter-spacing: 0.013em;
+    padding: 5.291vw 0 7.143vw;
+}
+
+.why-de-ex-matters-sec .ecosystem-impact-title .text-plus {
+    font-size: 2.249vw;
+    line-height: 0.647;
+}
