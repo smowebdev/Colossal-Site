@@ -1916,17 +1916,27 @@
 }
 
 .de-ex-hiw {
-    padding: 48px 0;
+    padding: 3.307vw 0 8.399vw;
     border-top-left-radius: 3.175vw;
     border-top-right-radius: 3.175vw;
+}
+
+.de-ex-hiw::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 66%;
+    opacity: 0.9;
+    background: linear-gradient(180deg, rgba(194, 101, 246, 0) 0%, #C265F6 100%);
+    pointer-events: none;
 }
 
 .de-ex-hiw-inner {
     position: relative;
     width: 100%;
-    max-width: 1400px;
-    margin: auto;
-    aspect-ratio: 16/9;
+    aspect-ratio: 1512/850;
     overflow: hidden;
     user-select: none;
     cursor: default;
@@ -1950,30 +1960,27 @@
     pointer-events: none;
 }
 
-/* clip mặc định */
 
-.img-1 {
+.de-ex-hiw-images .img-1 {
     clip-path: polygon(0 0, 20% 0, 20% 100%, 0 100%);
 }
 
-.img-2 {
+.de-ex-hiw-images .img-2 {
     clip-path: polygon(20% 0, 40% 0, 40% 100%, 20% 100%);
 }
 
-.img-3 {
+.de-ex-hiw-images .img-3 {
     clip-path: polygon(40% 0, 60% 0, 60% 100%, 40% 100%);
 }
 
-.img-4 {
+.de-ex-hiw-images .img-4 {
     clip-path: polygon(60% 0, 80% 0, 80% 100%, 60% 100%);
 }
 
-.img-5 {
+.de-ex-hiw-images .img-5 {
     clip-path: polygon(80% 0, 100% 0, 100% 100%, 80% 100%);
 }
 
-
-/* ========================= */
 
 .de-ex-hiw-dividers {
     position: absolute;
@@ -1990,111 +1997,889 @@
     pointer-events: auto;
 }
 
+.de-divider__info {
+    display: flex;
+    flex-direction: column;
+    gap: 4.894vw;
+    position: absolute;
+    top: 2.116vw;
+    left: -1.323vw;
+}
+
+.de-divider__info span {
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 0.529vw;
+    letter-spacing: 0.1em;
+}
+
+.de-divider-step {
+    font-size: 1.058vw;
+    line-height: 1.3125;
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    left: 0.331vw;
+}
+
 .divider-line {
     position: absolute;
     left: 0;
     top: 0;
     width: 1px;
     height: 100%;
-    background: rgba(255, 255, 255, .35);
+    background: #fff;
 }
 
 .divider-handle {
     position: absolute;
-    left: -12px;
+    left: -0.794vw;
     top: 50%;
     transform: translateY(-50%);
-    width: 24px;
-    height: 90px;
-    border-radius: 50px;
-    background: #9EFF3C;
+    width: 1.587vw;
+    height: 5.952vw;
+    border-radius: 3.307vw;
+    background: #7DEA13;
     cursor: ew-resize;
     box-shadow: 0 0 20px rgba(158, 255, 60, .35);
+    opacity: 0;
+    transition: all 0.4s ease;
 }
 
-
-/* mặc định */
-
-.divider-1 {
-    left: 20%;
+.de-ex-hiw-inner:hover .divider-handle {
+    opacity: 1;
 }
 
-.divider-2 {
-    left: 40%;
-}
-
-.divider-3 {
-    left: 60%;
-}
-
-.divider-4 {
-    left: 80%;
-}
-
-.divider-5 {
-    left: 100%;
-}
-
-
-/* content */
 
 .de-ex-hiw-content {
+    z-index: 100;
+}
+
+.de-ex-hiw-content .row-1 {
+    font-size: 1.01vw;
+    line-height: 1.375;
+    margin-bottom: 4.299vw;
+}
+
+.de-ex-hiw-content .row-1 .square {
+    background-color: #383838;
+    margin-top: 0.331vw;
+}
+
+.de-ex-hiw-content .row-1 .column {
+    gap: 0.661vw 7.143vw;
+}
+
+.de-ex-hiw-content .heading {
+    font-size: 12.302vw;
+    background: linear-gradient(180deg, #FFFFFF 14.16%, #7DEA13 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin: 0 -1.323vw;
+}
+
+.de-ex-hiw-content .subheading {
+    font-size: 13.36vw;
+    color: #353535;
+    top: 2.646vw;
+    left: -5.291vw;
+    right: -5.291vw;
+}
+
+.de-ex-process-sec {
+    background: #E1E1E1;
+    margin-top: -9.59vw;
+    border-radius: 2.646vw;
+}
+
+.de-ex-process-sec::before {
+    content: "";
     position: absolute;
     inset: 0;
-    z-index: 100;
+    background: url("../img/de-extinction/bg-dot.png") no-repeat center/cover;
+    opacity: .27;
+    mix-blend-mode: multiply;
     pointer-events: none;
 }
 
-.de-title {
-    position: absolute;
-    top: 40px;
-    left: 40px;
+.process-container {
+    padding: 4.63vw 1.587vw 6.614vw;
+    height: 65.741vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
-.de-title h2 {
-    color: #9EFF3C;
-    font-size: 70px;
-    line-height: 1;
-    margin: 0;
+.process-container::-webkit-scrollbar {
+    display: none;
 }
 
-.de-levels {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+.process-container .row-1 {
+    padding: 0 2.646vw;
 }
 
-.level {
-    position: absolute;
-    top: 15px;
-    transform: translateX(-50%);
+.process-container .row-1 .column {
+    gap: 0.661vw 7.143vw;
 }
 
-.level span {
-    writing-mode: vertical-rl;
+.process-container .row-1 .square {
+    margin-top: 0.265vw;
+}
+
+.process-container__inner {
+    display: flex;
+    gap: 11.442vw;
+    margin-top: -1.058vw;
+}
+
+
+.de-ex-process-sec .process-sidebar {
+    width: 10.317vw;
+    flex-shrink: 0;
+    position: sticky;
+    top: 50%;
+    transform: translateY(-50%);
+    align-self: flex-start;
+    border-radius: 2.116vw;
+    background-color: #3A3A3A;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1.34px 2.75px 0px #00000054,
+        0px 5.83px 5.36px 0px #00000042,
+        0px 14.17px 9.66px 0px #00000036,
+        0px 27.06px 17.45px 0px #0000002E,
+        0px 45.19px 30.55px 0px #00000026,
+        0px 69.27px 50.8px 0px #0000001E,
+        0px 100px 80px 0px #00000012;
+    padding: 1.72vw 1.587vw;
+    text-align: center;
     color: #fff;
-    font-size: 12px;
-    letter-spacing: 3px;
+    z-index: 99;
 }
 
-.level:nth-child(1) {
-    left: 20%;
+.de-ex-process-sec .process-sidebar::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/de-extinction/grid-9.png') no-repeat center / cover;
+    pointer-events: none;
+    opacity: 0.5;
+    border-radius: inherit;
+    mix-blend-mode: screen;
 }
 
-.level:nth-child(2) {
-    left: 40%;
+.de-ex-process-sec .process-sidebar-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 0.661vw;
+    margin: 2.05vw 0;
+    position: relative;
+    z-index: 2;
 }
 
-.level:nth-child(3) {
-    left: 60%;
+.de-ex-process-sec .process-sidebar-title {
+    font-size: 0.794vw;
 }
 
-.level:nth-child(4) {
-    left: 80%;
+.de-ex-process-sec .process-step {
+    width: 100%;
+    display: inline-block;
+    padding: 0.728vw 1.653vw;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 4.63vw;
+    transition: all 0.3s ease-in-out;
+    font-size: 0.833vw;
+    font-family: 'NB Architekt Std';
+    letter-spacing: 0.1em;
+    opacity: 0.3;
 }
 
-.level:nth-child(5) {
-    left: 100%;
+.de-ex-process-sec .process-step:hover {
+    background: rgba(255, 123, 49, 0.4);
+    opacity: 1;
+    border-color: #FF7B31;
+}
+
+.de-ex-process-sec .process-step.active {
+    background: rgba(255, 123, 49, 0.4);
+    border-color: #FF7B31;
+    opacity: 1;
+}
+
+
+.de-ex-process-sec .process-content {
+    flex: 1;
+}
+
+
+.de-ex-process-sec .process-item {
+    position: relative;
+    margin-bottom: 6.614vw;
+    color: #000;
+}
+
+
+.de-ex-process-sec .process-item:last-child {
+    margin-bottom: 0;
+}
+
+
+.de-ex-process-sec .process-title-card {
+    position: absolute;
+    top: 7.937vw;
+    left: -1.852vw;
+    width: 20.503vw;
+    padding: 1.455vw 1.587vw;
+    background: #7DEA13;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0.529vw;
+    backdrop-filter: blur(36px);
+    -webkit-backdrop-filter: blur(36px);
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 2.116vw;
+    justify-content: space-between;
+    min-height: 13.757vw;
+}
+
+
+.de-ex-process-sec .process-title-card .card-title {
+    font-family: 'Telegraf';
+    font-weight: 700;
+    font-size: 2.646vw;
+    line-height: 80%;
+    letter-spacing: -0.02em;
+
+}
+
+.de-ex-process-sec .process-title-card .card-bottom {
+    font-family: 'NB Architekt Std';
+    display: flex;
+    align-items: center;
+    font-size: 0.794vw;
+    justify-content: space-between;
+}
+
+
+.de-ex-process-sec .process-image-wrap {
+    max-width: 54.233vw;
+    position: relative;
+    padding-bottom: 3.968vw;
+}
+
+.de-ex-process-sec .process-image-wrap .image {
+    max-width: 39.683vw;
+    margin: 0 auto;
+    position: relative;
+}
+
+.de-ex-process-sec .process-image-wrap .img-main {
+    width: 100%;
+}
+
+.de-ex-process-sec .process-image-wrap .img-chart {
+    position: absolute;
+    z-index: 1;
+    mix-blend-mode: difference;
+    top: 10%;
+    left: 15%;
+    width: 73%;
+}
+
+.de-ex-process-sec .process-description {
+    position: absolute;
+    top: 48%;
+    right: -21%;
+    width: 22.222vw;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 0.529vw;
+    padding: 2.513vw 1.852vw;
+    font-size: 1.323vw;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0.0225em;
+    color: #383838;
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(36px);
+    -webkit-backdrop-filter: blur(36px);
+
+}
+
+.de-ex-process-sec .process-description .label {
+    display: flex;
+    align-items: center;
+    gap: 0.463vw;
+    margin-bottom: 1.323vw;
+    font-family: 'NB Architekt Std';
+    font-weight: 700;
+    font-size: 0.661vw;
+    line-height: 96%;
+    letter-spacing: 0.07em;
+    color: #000;
+}
+
+.de-ex-process-sec .process-description .label .dot {
+    width: 0.529vw;
+    height: 0.529vw;
+    border-radius: 50%;
+    background-color: #C265F6;
+}
+
+.de-ex-process-sec .process-faq {
+    font-family: 'NB Architekt Std';
+    margin-top: -6.614vw;
+    margin-left: 1.587vw;
+    display: flex;
+    gap: 0.331vw;
+    align-items: flex-end;
+}
+
+.de-ex-process-sec .process-faq-toggle {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.de-ex-process-sec.process-faq-toggle img {
+    width: 0.661vw;
+}
+
+.de-ex-process-sec .process-faq-toggle .faq-toggle-close {
+    display: none;
+}
+
+.de-ex-process-sec .process-faq-item.active .faq-toggle-open {
+    display: none;
+}
+
+.de-ex-process-sec .process-faq-item.active .faq-toggle-close {
+    display: block;
+}
+
+.de-ex-process-sec .process-faq-title {
+    font-size: 1.693vw;
+    letter-spacing: 0.1em;
+    color: #383838;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #B3B3B3;
+    backdrop-filter: blur(36px);
+    -webkit-backdrop-filter: blur(36px);
+    border-radius: 4.63vw;
+    padding: 0.463vw 1.72vw;
+}
+
+.de-ex-process-sec .process-faq-question {
+    display: flex;
+    align-items: center;
+    gap: 0.265vw;
+    font-weight: 700;
+    color: #383838;
+    position: relative;
+
+}
+
+.de-ex-process-sec .process-clsl {
+    position: absolute;
+    right: 6.614vw;
+    bottom: -2.447vw;
+    display: flex;
+    align-items: center;
+    gap: 0.661vw 7.143vw;
+}
+
+.de-ex-process-sec .process-square {
+    position: absolute;
+    left: -25.5%;
+    bottom: -2.447vw;
+}
+
+.de-ex-process-sec .process-faq-number {
+    color: #B3B3B3;
+}
+
+.de-ex-process-sec .process-faq-answer {
+    color: #5E5E5E;
+    margin-top: 0.661vw;
+    padding-left: 1.124vw;
+    padding-right: 1.124vw;
+    padding-bottom: 0.265vw;
+    display: none;
+}
+
+.de-ex-process-sec .process-faq .process-faq-item {
+    width: 21.561vw;
+    font-size: 0.661vw;
+    line-height: 170%;
+    letter-spacing: 0.07em;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #B3B3B3;
+    backdrop-filter: blur(36px);
+    -webkit-backdrop-filter: blur(36px);
+    border-radius: 1.455vw;
+    padding: 0.794vw 0.926vw;
+}
+
+/* Process Item 1 */
+.de-ex-process-sec .process-item.process-item-1 .process-image-wrap {
+    padding-bottom: 0;
+}
+
+.de-ex-process-sec .process-item.process-item-1 .process-image-wrap .image {
+    max-width: 54.233vw;
+}
+
+/* Process Item 2 */
+.de-ex-process-sec .process-item.process-item-2 .process-title-card {
+    width: 23.148vw;
+    top: 2.646vw;
+}
+
+.de-ex-process-sec .process-item.process-item-2 .process-image-wrap .img-chart {
+    top: 11%;
+    left: 4%;
+}
+
+/* Process Item 3 */
+.de-ex-process-sec .process-item.process-item-3 .process-title-card {
+    left: -9.921vw;
+}
+
+.de-ex-process-sec .process-item.process-item-3 .process-description {
+    top: 10%;
+}
+
+/* Process Item 4 */
+.de-ex-process-sec .process-item.process-item-4 .process-title-card {
+    top: 0px;
+}
+
+.de-ex-process-sec .process-item.process-item-4 .process-description {
+    top: 10%;
+}
+
+.de-ex-process-sec .process-item.process-item-4 .process-image-wrap .img-chart {
+    top: 52%;
+    left: -7%;
+    width: 95%;
+}
+
+/* Process Item 5 */
+.de-ex-process-sec .process-item.process-item-5 .process-title-card {
+    left: -7.937vw;
+    top: 13.228vw;
+}
+
+.de-ex-process-sec .process-item.process-item-5 .process-image-wrap .img-chart {
+    width: 85%;
+    top: 3%;
+    left: 0%;
+}
+
+.de-ex-process-sec .process-item.process-item-5 .process-description {
+    top: 20%;
+}
+
+.ethics-risks-limitations-sec {
+    padding: 10.714vw 0 7.275vw;
+    margin-top: -6.349vw;
+}
+
+.ethics-risks-limitations-sec::before,
+.ethics-risks-limitations-sec::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.ethics-risks-limitations-sec::before {
+    background: url('../img/de-extinction/grid-10.png') no-repeat center / cover;
+    mix-blend-mode: screen;
+    opacity: 0.4;
+}
+
+.ethics-risks-limitations-sec::after {
+    background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.9) 80%);
+}
+
+.ethics-risks-limitations-sec .row-1 {
+    margin-bottom: 5.952vw;
+}
+
+.ethics-risks-limitations-sec .heading {
+    font-size: 8.118vw;
+    line-height: 1.4;
+}
+
+.ethics-risks-limitations-sec .heading span {
+    display: inline-block;
+    padding: 1.852vw 5.952vw;
+    border-radius: 20.304vw;
+    border: 0.198vw solid #B3B3B3;
+}
+
+.ethics-risks-limitations-slider {
+    margin-top: -7.407vw;
+}
+
+.ethics-risks-limitations-slider .swiper-wrapper {
+    align-items: center;
+}
+
+.ethics-risks-limitations-slider .slide-img img {
+    width: 100%;
+}
+
+.ethics-risks-limitations-header {
+    margin-bottom: 5.952vw;
+}
+
+.ethical-principles__header {
+    gap: 10.582vw;
+    margin-bottom: 6.878vw;
+}
+
+.ethical-principles__title {
+    font-size: 3.175vw;
+    line-height: 92%;
+    letter-spacing: 0.009em;
+    background: linear-gradient(0deg, #FFFFFF 24.67%, #9940DD 144.49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    width: calc(45% - 5.291vw);
+}
+
+.ethical-principles__desc {
+    font-size: 2.116vw;
+    line-height: 1.0625;
+    letter-spacing: 0.0140625em;
+    width: calc(55% - 5.291vw);
+}
+
+.ethical-principles__content .left {
+    width: 50.65%;
+    padding-left: 9.127vw;
+}
+
+.ethical-principles__content .right {
+    width: 49.35%;
+
+}
+
+.ethical-principles__image {
+    border-top-left-radius: 2.646vw;
+    border-top-right-radius: 2.646vw;
+}
+
+.ethical-principles__image .img-text {
+    font-size: 1.058vw;
+    line-height: 1.25;
+    letter-spacing: 0.017em;
+    position: absolute;
+    z-index: 2;
+    gap: 0.397vw;
+}
+
+.ethical-principles__image .img-text .square {
+    backdrop-filter: blur(0.7742958664894104px);
+    -webkit-backdrop-filter: blur(0.7742958664894104px);
+    box-shadow: 0px 0px 4.13px 0px #FF6131;
+}
+
+.ethical-principles__image .img-text-1 {
+    top: 3.175vw;
+    left: 2.844vw;
+}
+
+.ethical-principles__image .img-text-2 {
+    top: 3.175vw;
+    right: 2.844vw;
+}
+
+.ethical-principles__image .img-text-3 {
+    bottom: 4.299vw;
+    right: 2.844vw;
+}
+
+.ethical-principles__image .img-logo {
+    width: 3.571vw;
+    left: 2.844vw;
+    bottom: 4.299vw;
+    backdrop-filter: blur(0.7742958664894104px);
+    -webkit-backdrop-filter: blur(0.7742958664894104px);
+    filter: drop-shadow(0 0 4.13px #FF6131);
+}
+
+.ethical-principles__image::before,
+.ethical-principles__image::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.ethical-principles__image::before {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.ethical-principles__image::after {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 63.37%, #000000 94.01%);
+}
+
+.ethical-principles__item {
+    padding-bottom: 2.183vw;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(90deg,
+            #5E5E5E 58.17%,
+            #000000 100%) 1;
+
+}
+
+.ethical-principles__item .item-top {
+    display: flex;
+    gap: 1.257vw;
+    margin-bottom: 2.249vw;
+}
+
+.ethical-principles__item .item-bottom {
+    display: flex;
+    gap: 1.455vw;
+}
+
+.ethical-principles__item .item-number {
+    border: 1px solid #7DEA13;
+    width: 1.455vw;
+    height: 1.455vw;
+    flex-shrink: 0;
+    color: #7DEA13;
+    font-size: 0.595vw;
+    letter-spacing: 0.09em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 0.463vw;
+
+}
+
+.ethical-principles__item .item-title {
+    font-size: 2.646vw;
+    line-height: 112.99999999999999%;
+    letter-spacing: 0.011em;
+}
+
+.ethical-principles__item .item-inner {
+    max-width: 30.754vw;
+}
+
+.ethical-principles__list {
+    gap: 2.249vw;
+}
+
+.ethical-principles__content .source-group__label span {
+    transform: rotate(90deg);
+}
+
+.ethical-principles__content .source-group__label {
+    gap: 2.646vw;
+}
+
+.ethical-principles__content .source-group {
+    gap: 2.646vw;
+}
+
+.ethical-principles__content .source-group__top {
+    left: 2.646vw;
+    top: 0.265vw;
+}
+
+.ethical-principles__content .source-group__bottom {
+    left: 2.646vw;
+    bottom: 2.249vw;
+}
+
+.ethical-principles {
+    margin-bottom: 1.323vw;
+}
+
+.responsible-science-title-wrapper {
+    max-width: 80.159vw;
+    margin-bottom: 10.582vw;
+}
+
+.responsible-science-title-wrapper .text-plus {
+    font-size: 2.249vw;
+    line-height: 0.647;
+}
+
+.responsible-science-title {
+    font-size: 4.431vw;
+    line-height: 1.03;
+    letter-spacing: 0.013em;
+    padding: 3.042vw 1.323vw;
+}
+
+.responsible-science-content {
+    padding: 2.249vw 1.984vw;
+    border-radius: 1.058vw;
+    border: 1px solid #383838;
+    overflow: hidden;
+    min-height: 40.741vw;
+    gap: 1.124vw;
+    position: relative;
+}
+
+.responsible-science-content+.responsible-science-content {
+    margin-top: 1.323vw;
+}
+
+.responsible-science-content::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/de-extinction/grid-12.png') no-repeat center / cover;
+    pointer-events: none;
+    mix-blend-mode: exclusion;
+    opacity: 0.19;
+}
+
+.responsible-science-content .left {
+    width: 36.31vw;
+    position: relative;
+}
+
+.responsible-science-content .right {
+    width: calc(100% - 36.31vw - 1.124vw);
+    border-top: 1px solid #828282;
+    position: relative;
+}
+
+.responsible-science-content .image {
+    aspect-ratio: 1;
+}
+
+.responsible-science-content .content-title {
+    font-size: 6.331vw;
+    letter-spacing: -0.01em;
+}
+
+.responsible-science-content .content-title span {
+    display: block;
+    border-bottom: 1px solid #828282;
+}
+
+.responsible-science-content .content-subtitle {
+    font-size: 1.587vw;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0.01875em;
+    background: linear-gradient(90deg, #7DEA13 0%, #E0FF14 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding: 2.778vw 0 2.381vw;
+    border-bottom: 1px solid #828282;
+    margin-bottom: 1.19vw;
+}
+
+.responsible-science-content.content-2 .content-subtitle {
+    background: linear-gradient(90deg, #9810E4 0%, #C265F6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.responsible-science-content .content-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.587vw;
+}
+
+.responsible-science-content .content-item .square {
+    background-color: #9940DD;
+}
+
+.responsible-science-content.content-2 .content-item .square {
+    background-color: #FF7B31;
+}
+
+.responsible-science-content .content-item .item-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.794vw;
+    padding-bottom: 1.058vw;
+    margin-bottom: 0.661vw;
+    border-bottom: 1px solid #828282;
+}
+
+.responsible-science-content .content-item .item-label {
+    font-size: 0.636vw;
+    letter-spacing: 0.02em;
+}
+
+.responsible-science-content .content-item .item-content {
+    display: flex;
+    gap: 0.728vw;
+}
+
+.responsible-science-content .content-item .item-number {
+    font-size: 1.909vw;
+    letter-spacing: 0.02em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.365vw;
+    height: 4.365vw;
+    border-radius: 50%;
+    border: 1px solid #979797;
+    flex-shrink: 0;
+
+}
+
+.responsible-science-content .content-item .item-title {
+    font-size: 1.432vw;
+    line-height: 0.9;
+    letter-spacing: 0.03em;
+}
+
+.responsible-science-content .line-text {
+    font-size: 1.653vw;
+    background: linear-gradient(180deg, #979797 0%, #FF7B31 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding: 1.984vw 0;
+}
+
+.responsible-science-content .content-bottom {
+    display: grid;
+    grid-template-columns: 16.204vw 1fr 1fr;
+    grid-gap: 1.786vw;
+    padding-right: 1.984vw;
+
+}
+
+.responsible-science-content .content-bottom__img {
+    width: 13.955vw;
+}
+
+.responsible-science-content .content-plus {
+    font-size: 1.05vw;
+    letter-spacing: 0.02em;
+    color: #DEDFDF;
+    margin-bottom: 0.661vw;
 }
