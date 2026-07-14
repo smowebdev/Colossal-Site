@@ -206,4 +206,47 @@ jQuery(document).ready(function ($) {
     },
   );
   // Ethics Risks Limitations  Slider - End
+
+  // Partners Tab List - Start
+  const $partenerItems = $(".partners-list li");
+  const $partenerContents = $(".partner-content");
+
+  let current = 1;
+  const total = $partenerItems.length;
+
+  function updateButtons() {
+    $(".partner-prev").prop("disabled", current === 1);
+    $(".partner-next").prop("disabled", current === total);
+  }
+
+  function changePartner(id) {
+    current = id;
+
+    $partenerItems.removeClass("active");
+    $partenerItems.filter('[data-id="' + id + '"]').addClass("active");
+
+    $partenerContents.removeClass("active");
+    $partenerContents.filter('[data-id="' + id + '"]').addClass("active");
+
+    updateButtons();
+  }
+
+  $partenerItems.on("click", function () {
+    changePartner(Number($(this).data("id")));
+  });
+
+  $(".partner-next").on("click", function () {
+    if (current < total) {
+      changePartner(current + 1);
+    }
+  });
+
+  $(".partner-prev").on("click", function () {
+    if (current > 1) {
+      changePartner(current - 1);
+    }
+  });
+
+  changePartner(3);
+  // Partners Tab List - End
 });

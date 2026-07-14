@@ -797,6 +797,7 @@ h6 {
     min-height: 3.108vw;
     font-size: 0.72vw;
     letter-spacing: 0.05em;
+    aspect-ratio: 290/47;
 }
 
 .cs-warning-box .left {
@@ -3632,6 +3633,16 @@ h6 {
     font-size: 6.614vw;
     line-height: 1.5;
     letter-spacing: -0.0374em;
+    width: 80%;
+}
+
+.facts-sec .fact-row-lg .fact-title {
+    width: 85%;
+}
+
+.facts-sec .fact-row .text-md {
+    text-align: right;
+    flex: 1;
 }
 
 .facts-sec .fact-row .stat-plus {
@@ -4120,4 +4131,272 @@ h6 {
 
 .george-church-sec .beth-shapiro-row .column-3 .quote-label {
     margin-bottom: 10.582vw;
+}
+
+.xh-research {
+    padding-top: 2.84vw;
+    padding-bottom: 0.73vw;
+}
+
+.xh-research .heading {
+    margin-top: 1.32vw;
+    border-top: 1px solid #000000;
+    padding-top: 1.06vw;
+    padding-bottom: 3.31vw;
+}
+
+.xh-research .heading h2 {
+    font-size: 6.35vw;
+    line-height: 5.29vw;
+    letter-spacing: -1px;
+    max-width: 44.31vw;
+
+}
+
+.xh-research .heading .content {
+    margin-right: 3.51vw;
+    max-width: 32.66vw;
+    gap: 9.14vw;
+}
+
+.xh-research .heading .content p {
+    font-size: 1.59vw;
+    line-height: 1.1;
+}
+
+.xh-research .counter {
+    padding-bottom: 1.06vw;
+
+}
+
+.xh-research .list .border-top,
+.xh-research .list .border-bottom {
+    border-color: #000000 !important;
+}
+
+.xh-research .list .border-bottom.active {
+    border-bottom: none !important;
+}
+
+.xh-research .list>.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.xh-research .list>.row.py-2 {
+    padding: 0.6vw 0 0.46vw !important;
+}
+
+.xh-research .list .about-text {
+    font-size: 0.79vw;
+    line-height: 1.06vw;
+    font-weight: 400;
+    letter-spacing: 0.03vw;
+
+}
+
+.colum-collapse .label {
+    margin-bottom: 1.52vw;
+}
+
+.colum-collapse .download-btn {
+    font-size: 0.79vw;
+    line-height: 1.37vw;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 0.63vw;
+    display: block;
+    margin-top: 3.31vw;
+    color: #000 !important;
+}
+
+.colum-collapse-1 {
+    max-width: 29.83vw;
+}
+
+.colum-collapse-list {
+    margin-top: 4.7vw;
+}
+
+.colum-collapse-2 {
+    max-width: 19.31vw
+}
+
+.colum-collapse-2 .colum-collapse-list .label {
+    margin-bottom: 1.26vw;
+}
+
+.colum-collapse-list .tag {
+    font-weight: 400;
+    font-size: 0.754vw;
+    line-height: 0.96;
+    letter-spacing: 0.01em;
+    text-align: center;
+    padding: 0.25vw 0.5vw;
+    vertical-align: middle;
+    border: 1px solid #FFFFFF;
+    border-radius: 1.323vw;
+}
+
+.wrap-collapse {
+    padding: 2.58vw 4.7vw 3.17vw 3.11vw;
+    border-radius: 0 0 1.06vw 1.06vw !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.colum-collapse {
+    padding: 0 !important;
+}
+
+.colum-collapse-3 {
+    padding-top: 2.58vw !important;
+    width: 24.47vw;
+}
+
+.corner {
+    width: 0.66vw;
+    height: 0.66vw;
+    position: absolute;
+}
+
+.corner-tl {
+    top: -3.64vw;
+    left: -1.98vw;
+    border-top: 0.57px solid #FF7B31;
+    border-left: 0.57px solid #FF7B31;
+}
+
+.corner-tr {
+    top: -3.64vw;
+    right: -1.98vw;
+    border-top: 0.57px solid #FF7B31;
+    border-right: 0.57px solid #FF7B31;
+}
+
+.corner-bl {
+    bottom: -3.64vw;
+    left: -2.12vw;
+    border-bottom: 0.57px solid #FF7B31;
+    border-left: 0.57px solid #FF7B31;
+}
+
+.corner-br {
+    bottom: -3.64vw;
+    right: -2.12vw;
+    border-bottom: 0.57px solid #FF7B31;
+    border-right: 0.57px solid #FF7B31;
+}
+
+.view-all {
+    padding: 1.52vw 0 1.79vw;
+    border-bottom: 1px solid #000;
+}
+
+.gap-13 {
+    gap: 0.86vw;
+}
+
+.faqs-sec {
+    padding: 4.233vw 0 5.886vw;
+}
+
+.faqs-heading {
+    font-size: 2.381vw;
+    letter-spacing: 0.012em;
+    padding-bottom: 4.101vw;
+}
+
+.faqs-guide {
+    font-size: clamp(6px, 0.529vw, 20px);
+    margin-bottom: 1.19vw;
+}
+
+.faq-item {
+    border-top: 1px solid #000000;
+    padding: 1.19vw 0 1.124vw;
+}
+
+.faq-header {
+    position: relative;
+    cursor: pointer;
+}
+
+.faq-header-left {
+    display: flex;
+    align-items: center;
+    gap: 1.389vw;
+}
+
+.faq-header-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.794vw;
+}
+
+.faq-number {
+    font-size: 2.116vw;
+}
+
+.faq-dot {
+    width: 1.19vw;
+    height: 1.19vw;
+    background: #7DEA13;
+    display: block;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    border-radius: 50%;
+}
+
+.faq-item:hover .faq-dot {
+    opacity: 1;
+}
+
+.faq-item.active .faq-dot {
+    opacity: 1;
+}
+
+.faq-title {
+    font-size: 2.116vw;
+    font-family: 'Telegraf';
+    max-width: 54.233vw;
+}
+
+.faq-toggle {
+    font-size: 1.058vw;
+    color: #979797;
+    white-space: nowrap;
+}
+
+.faq-content {
+    padding-top: 1.521vw;
+    display: none;
+    color: #979797;
+    font-size: 1.058vw;
+    line-height: 1.2;
+}
+
+.faq-content-inner {
+    display: flex;
+    width: 88.35%;
+}
+
+.faq-content-inner .left {
+    flex: 1 1 50.98%;
+    padding-right: 3.902vw;
+}
+
+.faq-content-inner .right {
+    flex: 1 1 49.02%;
+}
+
+.faq-item.has-img .faq-content-inner .right {
+    padding-top: 1.786vw;
+}
+
+.faq-content img {
+    width: 100%;
 }

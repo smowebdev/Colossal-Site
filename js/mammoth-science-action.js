@@ -230,36 +230,4 @@ jQuery(function ($) {
       },
     },
   });
-  document.querySelectorAll(".xh-research .list .item").forEach(function (item) {
-    item.addEventListener("click", function (e) {
-      if (e.target.closest("[data-bs-toggle='collapse']")) return;
-
-      const trigger = this.querySelector("[data-bs-toggle='collapse']");
-      if (trigger) {
-        trigger.click();
-      }
-    });
-  });
-
-  document.querySelectorAll(".xh-research .list .panel").forEach(function (panel) {
-    const item = panel.previousElementSibling;
-
-    panel.addEventListener("shown.bs.collapse", function () {
-      item.classList.add("active");
-
-      const trigger = item.querySelector("[data-bs-toggle='collapse']");
-      if (trigger) {
-        trigger.textContent = "[ CLOSE ]";
-      }
-    });
-
-    panel.addEventListener("hidden.bs.collapse", function () {
-      item.classList.remove("active");
-
-      const trigger = item.querySelector("[data-bs-toggle='collapse']");
-      if (trigger) {
-        trigger.textContent = "[ EXPAND ]";
-      }
-    });
-  });
 });
