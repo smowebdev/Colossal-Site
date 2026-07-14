@@ -2885,7 +2885,7 @@
 }
 
 .our-tech-platform-sec {
-    padding: 4.762vw 0 100px;
+    padding: 4.762vw 0 6.614vw;
 }
 
 .our-tech-platform-sec .row-1 {
@@ -3510,7 +3510,7 @@
 
 .de-ex-projects-sec .project-item.project-md .project-title {
     font-size: 5.026vw;
-    margin-bottom: 10px;
+    margin-bottom: 0.661vw;
 }
 
 .de-ex-projects-sec .project-item.project-md .project-video {
@@ -3564,7 +3564,7 @@
 }
 
 .research-partners-sec {
-    padding: 3.571vw 0 56px;
+    padding: 3.571vw 0 3.704vw;
 }
 
 .research-partners-header {
@@ -3579,7 +3579,7 @@
 
 .research-partners-header .right {
     width: calc(47% - 1.587vw);
-    gap: 30px;
+    gap: 1.984vw;
 }
 
 .research-partners-sec .heading {
@@ -4020,4 +4020,19 @@
 
 .de-ex-faqs-sec .faqs-header {
     margin-bottom: 2.778vw;
+}
+
+.de-extinction-page .footer-end {
+    mix-blend-mode: difference;
+    margin-top: -14.815vw;
+    margin-left: -11.574vw;
+    overflow: hidden;
+    height: 42.989vw;
+    position: relative;
+    z-index: 2;
+}
+
+.de-extinction-page .footer-end img {
+    max-width: unset;
+    width: 116.005vw;
 }
