@@ -846,6 +846,21 @@ h6 {
     font-size: 6.349vw;
     letter-spacing: -0.0127em;
     margin-bottom: 0.132vw;
+    position: relative;
+}
+
+.data-item .data-number sup {
+    font-size: 2.646vw;
+    line-height: 1.4;
+    letter-spacing: -0.0305em;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.data-item .data-number:has(sup) {
+    padding-left: 1.984vw;
 }
 
 .data-item .data-slash {
@@ -1191,6 +1206,17 @@ h6 {
 
 .stat-item .stat-bottom-text p {
     margin-top: 0.661vw;
+}
+
+.stat-item .row-4 {
+    position: relative;
+}
+
+.stat-item .stat-wraning-icon {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 1.323vw;
 }
 
 .species-extinction-side {

@@ -1,0 +1,660 @@
+.conservation-hero {
+    padding: 7.011vw 0 0;
+}
+
+.conservation-hero::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 65%;
+    background: #000;
+    pointer-events: none;
+}
+
+.conservation-hero::after {
+    content: "";
+    position: absolute;
+    bottom: 0.86vw;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 67.38%, #000000 96.75%);
+    height: 55%;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.conservation-hero .heading {
+    font-size: 13.276vw;
+    margin: 0 -1.323vw;
+
+}
+
+.conservation-hero .video {
+    aspect-ratio: 1512/973;
+}
+
+.conservation-hero .video::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.conservation-hero .subheading {
+    font-size: 3.579vw;
+    color: #D9D9D9;
+    padding: 1.455vw 2.646vw;
+    border-radius: 8.995vw;
+    border: 0.132vw solid #D9D9D9;
+    display: inline-block;
+    margin: 5.225vw 0;
+}
+
+.conservation-hero__image {
+    margin-top: -18.32vw;
+}
+
+.conservation-hero__note {
+    position: absolute;
+    bottom: 24.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 59.788vw;
+    z-index: 5;
+    font-size: 1.587vw;
+    line-height: 1.166;
+    padding: 7.209vw 6.614vw;
+}
+
+.conservation-hero__note img {
+    width: 0.661vw;
+}
+
+.biodiversity-mission-sec {
+    margin-top: -1.918vw;
+    z-index: 4;
+    padding-bottom: 5.82vw;
+}
+
+.biodiversity-mission-sec .content {
+    gap: 8.796vw;
+    margin-bottom: 5.82vw;
+}
+
+.biodiversity-mission-sec .content .left {
+    width: 29.762vw;
+}
+
+.biodiversity-mission-sec .content .right {
+    width: calc(100% - 29.762vw - 8.796vw);
+}
+
+.biodiversity-mission-sec .content .title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+
+}
+
+.biodiversity-mission-sec .content .desc {
+    font-size: 2.116vw;
+    line-height: 1.0625;
+    letter-spacing: 0.0140625em;
+}
+
+.biodiversity-mission__action {
+    gap: 1.587vw;
+}
+
+.biodiversity-mission__action .img-plus {
+    width: 1.058vw;
+}
+
+.biodiversity-mission__action a {
+    font-size: 1.323vw;
+    gap: 1.587vw;
+}
+
+.con-colossal-foundation-sec {
+    padding-bottom: 4.365vw;
+}
+
+.con-colossal-foundation-sec .row-1 {
+    margin-bottom: 0.397vw;
+}
+
+.con-colossal-foundation-sec .image {
+    max-width: 47.95vw;
+    margin-bottom: 1.19vw;
+}
+
+.con-colossal-foundation-sec .heading {
+    font-size: 4.233vw;
+    line-height: 1;
+    letter-spacing: 0.006875em;
+    max-width: 81.481vw;
+    margin-bottom: 5.291vw;
+}
+
+.con-colossal-foundation-sec .data-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2.183vw;
+    margin-bottom: 6.019vw;
+}
+
+.con-colossal-foundation-sec .row-2 {
+    display: grid;
+    grid-template-columns: 10.913vw 1fr 21.825vw;
+    grid-gap: 3.968vw;
+}
+
+.con-colossal-foundation-sec .row-2 .square {
+    margin-top: 0.265vw;
+}
+
+.con-colossal-foundation-sec .row-2 .desc {
+    font-size: 1.19vw;
+    line-height: 118%;
+    letter-spacing: 0.01em;
+}
+
+.con-colossal-foundation__btn {
+    font-size: 0.794vw;
+    line-height: 1.33;
+    letter-spacing: 0.13em;
+    color: #FF6B00;
+    border: 1px solid #FF6B00;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 2.646vw;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.463vw;
+    padding: 0.463vw 0.794vw;
+}
+
+.con-colossal-foundation__btn svg {
+    width: 0.661vw;
+    flex-shrink: 0;
+}
+
+
+.planet-crisis-grid-bg {
+    position: absolute;
+    top: -30.093vw;
+    left: 0;
+    width: 100%;
+    mix-blend-mode: screen;
+    opacity: 0.5;
+}
+
+.planet-crisis-grid-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 29.81%, rgba(0, 0, 0, 0) 73.56%, #000000 100%);
+
+}
+
+.planet-crisis__banner {
+    border-radius: 2.646vw;
+    padding: 5.026vw 4.233vw 0;
+}
+
+.planet-crisis__banner .video {
+    aspect-ratio: 1512/1402;
+}
+
+.planet-crisis__banner .video::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(360deg, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.4) 100%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 55%, #FFFFFF 70%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, #FFFFFF 95%);
+    background-blend-mode: multiply, normal, normal, normal;
+}
+
+.planet-crisis__banner .subheading {
+    color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 6.614vw;
+}
+
+.planet-crisis__banner .heading {
+    padding-top: 1.455vw;
+    font-size: 18.358vw;
+    line-height: 0.72;
+    background:
+        linear-gradient(180deg, #FFFFFF 66.33%, #828282 100%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.planet-crisis__banner .image {
+    margin-left: -4.233vw;
+    margin-right: -4.233vw;
+    margin-top: -6.614vw;
+}
+
+.planet-crisis__slider-wrapper {
+    margin-top: -29.497vw;
+    padding-bottom: 5.952vw;
+}
+
+.planet-crisis__slider .swiper-slide {
+    transform: translateY(0);
+    transition: transform 0.8s ease;
+}
+
+.planet-crisis__slider .swiper-slide.is-offset {
+    transform: translateY(6.349vw);
+}
+
+.species-card {
+    position: relative;
+    border-radius: 1.323vw;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.34);
+    min-height: 36.772vw;
+    backdrop-filter: blur(82.25116729736328px);
+    -webkit-backdrop-filter: blur(82.25116729736328px);
+    font-family: 'NB Architekt Std';
+    padding: 1.521vw 1.521vw 1.984vw;
+    border: 1px solid #636363
+}
+
+
+.species-card__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.species-card__image img {
+    width: auto;
+    height: 28.307vw;
+    object-fit: cover;
+    margin-top: 1.786vw;
+    margin-bottom: 1.323vw;
+}
+
+.species-card__image img.img-1 {
+    margin-left: -1.786vw;
+    margin-bottom: -7.606vw;
+}
+
+.species-card__image img.img-2 {
+    margin-top: -1.521vw;
+    margin-bottom: -4.299vw;
+}
+
+.species-card__image img.img-3 {
+    height: 20.899vw;
+    margin-top: 0;
+}
+
+.species-card__image img.img-4 {
+    height: 23.413vw;
+    margin-top: 0.397vw;
+    margin-left: -11.905vw;
+    margin-bottom: -1.323vw;
+}
+
+.species-card__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.331vw;
+    border-top: 1px solid #FFFFFF;
+    padding-top: 0.529vw;
+    position: relative;
+    z-index: 2;
+
+}
+
+.species-card__row {
+    padding-bottom: 1.19vw;
+    border-bottom: 1px solid #FFFFFF;
+    display: grid;
+    grid-template-columns: 5.489vw 1fr;
+    grid-gap: 1.786vw;
+}
+
+.species-card__row .label {
+    font-size: 0.732vw;
+    letter-spacing: 0.18em;
+}
+
+.species-card__row .value {
+    font-family: 'Telegraf';
+    font-weight: 700;
+    font-size: 1.673vw;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.species-card__status {
+    position: absolute;
+    top: 1.521vw;
+    left: 1.521vw;
+    background: #7DEA13;
+    color: #000;
+    padding: 0.397vw 0.661vw;
+    border-radius: 1.587vw;
+    border: 1px solid #000000;
+    font-size: 0.794vw;
+    letter-spacing: 0.01em;
+    z-index: 2;
+}
+
+.planet-crisis__navigation {
+    gap: 1.124vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.planet-crisis__navigation p {
+    font-size: 0.794vw;
+    line-height: 1.42;
+    letter-spacing: 0.02em;
+}
+
+.planet-crisis__slider {
+    padding-bottom: 6.481vw;
+}
+
+.planet-crisis-sec .biodiverse-planet__header {
+    margin-bottom: 3.571vw;
+}
+
+.biodiverse-planet__heading {
+    font-size: 4.431vw;
+    line-height: 1.03;
+    letter-spacing: 0.013em;
+    max-width: 57.804vw;
+    margin-bottom: 2.381vw;
+}
+
+.biodiverse-planet__desc {
+    max-width: 44.577vw;
+    font-size: 1.19vw;
+    letter-spacing: 0.025em;
+    margin-bottom: 4.497vw;
+}
+
+.planet-crisis-sec .biodiverse-planet .overview-header {
+    font-size: 0.599vw;
+    letter-spacing: 0.13em;
+    padding-top: 1.323vw;
+    margin-bottom: 0.794vw;
+
+}
+
+.biodiverse-planet__overview {
+    padding: 0 0.86vw;
+
+}
+
+.biodiverse-planet__overview .overview-inner {
+    padding-bottom: 2.513vw;
+    border-bottom-left-radius: 2.646vw;
+    border-bottom-right-radius: 2.646vw;
+}
+
+.biodiverse-planet__overview .overview-inner .wrapper-md {
+    padding: 0 3.307vw;
+}
+
+.biodiverse-planet__overview .overview-title {
+    font-size: 5.461vw;
+    line-height: 0.846;
+    letter-spacing: -0.05em;
+    max-width: 90%;
+    margin-bottom: 2.381vw;
+}
+
+.biodiverse-planet__overview .overview-content {
+    display: grid;
+    grid-template-columns: 1fr 37.368vw;
+    gap: 9.061vw;
+    margin-bottom: 5.026vw;
+}
+
+
+.biodiverse-planet__overview .overview-content .left-inner {
+    display: grid;
+    grid-template-columns: 1fr 23.611vw;
+    grid-gap: 3.175vw;
+}
+
+.biodiverse-planet__overview .overview-content .right {
+    margin-top: -4.563vw;
+}
+
+.biodiverse-planet__overview .overview-desc {
+    font-size: 1.587vw;
+    line-height: 1.083;
+    letter-spacing: 0.01875em;
+}
+
+.biodiverse-planet__overview .overview-warning .warning-icon {
+    width: 2.579vw;
+    margin-bottom: 1.323vw;
+}
+
+.biodiverse-planet__overview .overview-warning .warning-process .rectangle {
+    clip-path: polygon(8.3% 0%, 100% 0%, 91.7% 100%, 0% 100%);
+    width: 10%;
+    aspect-ratio: 36/15;
+    background-color: #828282;
+}
+
+.biodiverse-planet__overview .overview-warning .warning-process .rectangle.active {
+    background-color: #fff;
+}
+
+.warning-process__value {
+    margin-top: 0.463vw;
+    font-size: 2.116vw;
+    line-height: 1.4375;
+    letter-spacing: -0.0625em;
+}
+
+.biodiverse-planet__overview .overview-content .left-content-1 {
+    gap: 0.132vw;
+}
+
+.biodiverse-planet__overview .overview-content .left-content-1 span {
+    font-size: 0.529vw;
+    letter-spacing: 0.02em;
+    line-height: 2.625;
+}
+
+.biodiverse-planet__overview .overview-content .left-content-1 .video {
+    aspect-ratio: 1;
+    margin-top: -0.661vw;
+    margin-bottom: -0.331vw;
+}
+
+.biodiverse-planet__overview .stat-item {
+    border-radius: 0.265vw !important;
+}
+
+.our-responsibility-sec {
+    padding: 0 0.86vw;
+    background-color: #fff;
+}
+
+.our-responsibility-main {
+    padding: 12.831vw 0 17.262vw;
+    margin-top: -8.995vw;
+    border-radius: 2.646vw;
+}
+
+.our-responsibility-sec .wrapper-md {
+    padding: 0 3.307vw;
+}
+
+.our-responsibility-sec .row-1 {
+    font-size: 0.638vw;
+    letter-spacing: 0.02em;
+    padding-bottom: 1.323vw;
+}
+
+.our-responsibility-sec .row-1 span {
+    padding: 0.463vw 0;
+}
+
+.our-responsibility-sec .row-2,
+.our-responsibility-sec .row-3 {
+    display: grid;
+    grid-template-columns: 1fr 37.368vw;
+    grid-gap: 3.307vw;
+}
+
+.our-responsibility-sec .heading {
+    font-size: 6.349vw;
+    letter-spacing: -0.01em;
+}
+
+.our-responsibility-sec .desc {
+    font-size: 0.794vw;
+    line-height: 1.33;
+    letter-spacing: 0.0375em;
+    margin: 1.19vw 0;
+}
+
+.our-responsibility-sec .subheading {
+    font-size: 2.116vw;
+    line-height: 1.0625;
+    letter-spacing: 0.01375em;
+}
+
+.our-responsibility-sec .row-3 .column-2 {
+    gap: 2.381vw;
+    padding: 1.19vw 0;
+}
+
+.our-responsibility-navigation span {
+    font-size: 0.661vw;
+}
+
+.our-responsibility-navigation .swiper-arrow {
+    border: 1px solid #000000;
+}
+
+.our-responsibility__slider-wrapper {
+    padding: 4.63vw 0;
+}
+
+.our-responsibility__slider .swiper-slide {
+    display: flex;
+    height: auto;
+}
+
+.our-responsibility__slider {
+    margin-right: -3.307vw;
+}
+
+.responsibility-item {
+    font-family: 'NB Architekt Std';
+    display: flex;
+    height: 100%;
+
+}
+
+.responsibility-item .item-left {
+    width: 2.183vw;
+    border-right: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.587vw;
+    padding: 0.661vw 0;
+}
+
+.responsibility-item .item-left span {
+    font-size: 0.489vw;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    transform: rotate(-90deg);
+    margin-left: -0.926vw;
+}
+
+.responsibility-item .item-right {
+    width: calc(100% - 2.183vw);
+    padding: 0 2.116vw 0 1.19vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.794vw;
+}
+
+.responsibility-item .item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.794vw;
+}
+
+.responsibility-item .item-header .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    gap: 0.794vw;
+}
+
+.responsibility-item .item-number {
+    font-family: 'NB Architekt Light';
+    font-size: 6.636vw;
+    letter-spacing: -0.05em;
+    margin-top: -0.86vw;
+}
+
+.responsibility-item .line-text {
+    font-size: 0.546vw;
+    line-height: 1.7;
+}
+
+.responsibility-item .item-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.397vw;
+    font-size: 0.733vw;
+    letter-spacing: 0.13em;
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    padding: 0.529vw 0.794vw;
+    border-radius: 2.381vw;
+}
+
+.responsibility-item .item-btn svg {
+    width: 0.661vw;
+}
+
+.responsibility-item .item-btn:hover {
+    background-color: #fff;
+    color: #000000;
+}
+
+.responsibility-item .item-title {
+    font-size: 1.467vw;
+    margin-bottom: 2.116vw;
+}
+
+.responsibility-item .item-desc {
+    font-size: 0.733vw;
+    font-family: 'Telegraf';
+    line-height: 1.17;
+
+}
