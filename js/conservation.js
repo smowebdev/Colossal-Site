@@ -52,4 +52,36 @@ jQuery(document).ready(function ($) {
       nextEl: ".our-responsibility-next",
     },
   });
+  const swiperAdvisor = new Swiper(".human-factor__slider", {
+    slidesPerView: 1,
+    navigation: {
+      nextEl: ".human-factor-next",
+      prevEl: ".human-factor-prev",
+    },
+
+    on: {
+      init: function () {
+        updateFraction(this, ".human-factor-counter");
+      },
+      slideChange: function () {
+        updateFraction(this, ".human-factor-counter");
+      },
+    },
+  });
+  function updateFraction(swiper, wrapperSelector) {
+    const wrapper = document.querySelector(wrapperSelector);
+
+    if (!wrapper) return;
+
+    const current = wrapper.querySelector(".current");
+    const total = wrapper.querySelector(".total");
+
+    if (!current || !total) return;
+
+    let realIndex = swiper.realIndex + 1;
+    let totalSlides = swiper.slides.length - (swiper.loop ? 2 : 0);
+
+    current.textContent = realIndex.toString().padStart(2, "0");
+    total.textContent = totalSlides.toString().padStart(2, "0");
+  }
 });

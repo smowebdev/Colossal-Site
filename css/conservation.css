@@ -202,6 +202,42 @@
     padding: 5.026vw 4.233vw 0;
 }
 
+.planet-crisis__banner .text-plus {
+    font-size: 1.587vw;
+    position: absolute;
+    z-index: 2;
+}
+
+.planet-crisis__banner .text-plus-1 {
+    top: 0;
+    left: 0;
+}
+
+.planet-crisis__banner .text-plus-2 {
+    top: 0;
+    right: 0;
+}
+
+.planet-crisis__banner .text-plus-3 {
+    top: 22%;
+    left: 0;
+}
+
+.planet-crisis__banner .text-plus-4 {
+    top: 22%;
+    right: 0;
+}
+
+.planet-crisis__banner .text-plus-5 {
+    top: 31.2%;
+    left: 0;
+}
+
+.planet-crisis__banner .text-plus-6 {
+    top: 31.2%;
+    right: 0;
+}
+
 .planet-crisis__banner .video {
     aspect-ratio: 1512/1402;
 }
@@ -657,4 +693,396 @@
     font-family: 'Telegraf';
     line-height: 1.17;
 
+}
+
+.human-factor-sec {
+    padding: 3.704vw 0 7.937vw;
+}
+
+.human-factor__label {
+    margin-bottom: 1.587vw;
+}
+
+.human-factor-sec .row-plus {
+    margin-bottom: 1.72vw;
+}
+
+.human-factor-sec .row-plus .column-1 {
+    width: 42%;
+}
+
+.human-factor-sec .row-plus .column-2 {
+    width: 16%;
+}
+
+.human-factor-sec .row-plus .column-3 {
+    width: 42%;
+
+}
+
+.human-factor-sec .row-plus img {
+    width: 0.529vw;
+}
+
+.human-factor__heading {
+    padding: 1.521vw 0 3.77vw;
+    margin-left: -3.307vw;
+    margin-right: -3.307vw;
+}
+
+.human-factor__heading span {
+    font-size: 8.398vw;
+    line-height: 1.38;
+    display: inline-block;
+    color: #FF7B31;
+    border: 0.198vw solid #FF7B31;
+    border-radius: 21.032vw;
+    padding: 1.918vw 6.151vw;
+}
+
+.human-factor__content {
+    margin-top: 2.976vw;
+    gap: 1.587vw;
+    padding-top: 1.984vw;
+}
+
+.human-factor__content .left {
+    width: calc(58.67% - 0.794vw);
+    display: grid;
+    grid-template-columns: 1fr 21.892vw;
+    grid-gap: 1.257vw;
+    padding-top: 3.571vw;
+
+}
+
+.human-factor__content .right {
+    width: calc(41.33% - 0.794vw);
+}
+
+.human-factor__content .row-label {
+    font-size: 0.638vw;
+    letter-spacing: 0.02em;
+    padding-top: 0.331vw;
+    margin-bottom: 3.175vw;
+}
+
+.human-factor__content .content-title {
+    font-size: 2.116vw;
+    line-height: 120%;
+    letter-spacing: 0.01375em;
+}
+
+.human-factor__content .content-desc {
+    max-width: 80%;
+}
+
+.human-factor__slider .slide-img {
+    aspect-ratio: 560/385;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #979797;
+    border-radius: 0.529vw;
+    margin-bottom: 1.058vw;
+}
+
+.human-factor__slider .slide-img .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.human-factor__slider .slide-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'NB Architekt Std';
+    gap: 0.529vw;
+    font-size: 0.638vw;
+    letter-spacing: 0.02em;
+    color: #B3B3B3;
+    border-top: 1px solid #B3B3B3;
+    padding-top: 0.331vw;
+    margin-bottom: 1.058vw;
+}
+
+.human-factor__slider .slide-title {
+    font-size: 2.116vw;
+    line-height: 120%;
+    letter-spacing: 0.01375em;
+    color: #B3B3B3;
+    margin-bottom: 1.984vw;
+}
+
+.human-factor__slider .slide-source {
+    position: absolute;
+    top: 1.455vw;
+    left: 1.587vw;
+    display: flex;
+    align-items: center;
+    font-family: 'NB Architekt Std';
+    gap: 1.19vw;
+    font-size: 0.863vw;
+    letter-spacing: 0.02em;
+    color: #F4F4F4;
+}
+
+.human-factor__slider .slide-source .square-plus {
+    width: 1.72vw;
+    height: 1.72vw;
+}
+
+.human-factor__slider .slide-source .square-plus img {
+    width: 0.595vw;
+}
+
+.human-factor__slider .slide-log {
+    font-family: 'NB Architekt Std';
+    font-size: 0.863vw;
+    letter-spacing: 0.02em;
+    color: #F4F4F4;
+    position: absolute;
+    left: 1.587vw;
+    bottom: 0.661vw;
+    padding: 0.661vw 0;
+}
+
+.human-factor__slider .slide-log::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 19%;
+    height: 1px;
+    background-color: #E5DEDD;
+}
+
+.human-factor__navigation {
+    gap: 2.116vw;
+    margin-bottom: 1.124vw;
+}
+
+.human-factor__slider-wrapper .swiper-arrow.swiper-button-disabled {
+    background-color: #D9D9D9;
+    color: #5E5E5E;
+}
+
+.human-factor__slider-wrapper .human-factor-counter {
+    font-size: 2.116vw;
+}
+
+.human-factor__slider-wrapper .human-factor-counter .total {
+    color: #4F4F4F;
+}
+
+.work-in-action-sec {
+    padding-bottom: 100px;
+}
+
+.work-in-action-bg-grid {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: -265px;
+    opacity: 0.5;
+    mix-blend-mode: screen;
+
+}
+
+.work-in-action-bg-grid::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 29.81%, rgba(0, 0, 0, 0) 73.56%, #000000 100%);
+}
+
+.work-in-action-sec .row-1 {
+    margin-bottom: 152px;
+}
+
+.work-in-action-sec .heading {
+    font-size: 277.58px;
+    line-height: 200px;
+    background:
+        linear-gradient(180deg, #FFFFFF 16.62%, #7DEA13 96.47%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding: 10px 0;
+    margin-bottom: 45px;
+}
+
+.work-in-action__about {
+    display: grid;
+    grid-template-columns: 622px 1fr;
+    grid-gap: 80px;
+    margin-bottom: 75px;
+}
+
+.work-in-action__about .title {
+    font-size: 40px;
+    letter-spacing: 0.011em;
+}
+
+.work-in-action__about .desc {
+    max-width: 585px;
+}
+
+.work-in-action-sec .our-genetic .title {
+    font-size: 61px;
+    line-height: 1;
+    background:
+        linear-gradient(0deg, #FFFFFF 24.67%, #7DEA13 144.49%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    max-width: 776px;
+    margin-bottom: 91px;
+}
+
+.work-in-action-sec .our-genetic__content {
+    display: grid;
+    grid-template-columns: 1fr 746px;
+    grid-gap: 162px;
+    margin-right: -64px;
+}
+
+.work-in-action-sec .our-genetic__content .left {
+    padding-left: 74px;
+}
+
+.work-in-action-sec .our-genetic__content .image {
+    border-top-left-radius: 40px;
+}
+
+.work-in-action-sec .our-genetic__content .image::before,
+.work-in-action-sec .our-genetic__content .image::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.work-in-action-sec .our-genetic__content .image::before {
+    background: url('../img/2000W_grid.png') no-repeat center / cover;
+    opacity: 0.5;
+}
+
+.work-in-action-sec .our-genetic__content .image::after {
+    background:
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 63.37%, rgba(0, 0, 0, 0.7) 94.01%),
+        linear-gradient(0deg, rgba(108, 108, 108, 0.2), rgba(108, 108, 108, 0.2)),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
+}
+
+.work-in-action-sec .our-genetic__content .image-caption {
+    position: absolute;
+    z-index: 2;
+    left: 29px;
+    top: 35px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.017em;
+    max-width: 86px;
+
+}
+
+.work-in-action-sec .our-genetic__content .image-caption .square {
+    backdrop-filter: blur(0.7742958664894104px);
+    box-shadow: 0px 0px 4.13px 0px #FF6131;
+
+}
+
+.work-in-action-sec .our-genetic__content .right-bottom {
+    gap: 22px;
+}
+
+.work-in-action-sec .our-genetic__content .right-bottom__text {
+    gap: 10px;
+    max-width: 410px;
+}
+
+.our-genetic-list {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.our-genetic-item {
+    font-family: 'NB Architekt Std';
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding-bottom: 33px;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(90deg, #5E5E5E 58.17%, #000000 100%) 1;
+}
+
+.our-genetic-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.our-genetic-item .item-top {
+    display: flex;
+    gap: 20px;
+}
+
+.our-genetic-item .item-bottom {
+    display: flex;
+    gap: 23px;
+}
+
+.our-genetic-item .item-plus {
+    flex-shrink: 0;
+}
+
+.our-genetic-item .line-text {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 0.017em;
+}
+
+.our-genetic-item .item-number {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1px solid #FF7B31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    letter-spacing: 0.09em;
+    color: #FF7B31;
+    margin-top: 6px;
+    flex-shrink: 0;
+}
+
+.our-genetic-item .item-title {
+    font-size: 48px;
+    line-height: 93%;
+    letter-spacing: 0.44px;
+}
+
+.our-genetic-item .item-desc {
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+}
+
+.our-genetic-item .item-line {
+    height: 2px;
+    width: 35px;
+    background: #383838;
+}
+
+.our-genetic-item .item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 386px;
 }
