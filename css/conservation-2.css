@@ -1,0 +1,39 @@
+.conservation-page .footer-end {
+  margin-top: -12.37vw;
+  position: relative;
+  z-index: 2;
+  mix-blend-mode: difference;
+}
+.shaping-conversation-label {
+  margin-bottom: 5.1vw;
+}
+.shaping-conversation-conservation
+  .shaping-conversation-card.card-orange::before {
+  display: none;
+}
+.shaping-conversation-conservation .shaping-conversation-card::before {
+  display: none;
+}
+.protect-earth-bg {
+  top: 7.47vw;
+  left: 0;
+}
+.protect-earth-title {
+  font-weight: 800;
+  font-size: 18.36vw;
+  line-height: 13.21vw;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    #000000 48.56%,
+    #7dea13 96.47%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin-top: 5.82vw;
+}
