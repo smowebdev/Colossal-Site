@@ -949,6 +949,12 @@
     align-items: start;
 }
 
+.work-in-action-sec .our-genetic__content .btn-orange:hover {
+    background-color: transparent;
+    border-color: #FF6131;
+    color: #FF7B31;
+}
+
 .work-in-action-sec .our-genetic__content .source-group {
     position: absolute;
     left: -2.778vw;
@@ -1134,11 +1140,15 @@
 }
 
 .conservation-project-sec .project-title {
-    font-size: 29px;
+    font-size: 1.918vw;
+    flex: 1;
+    position: relative;
+    z-index: 3;
 }
 
 .conservation-project-sec .project-list {
-    gap: 32px;
+    gap: 2.116vw;
+    padding-bottom: 4.828vw;
 }
 
 .conservation-project-sec .project-content.project-elephants .project-title {
@@ -1176,13 +1186,52 @@
     text-align: end;
 }
 
+.conservation-project-sec .project-content .project-box .box-link-arrow {
+    width: 2.116vw;
+    height: 2.116vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FF6B00;
+    background: rgba(0, 0, 0, 0.4);
+    color: #FF6B00;
+    margin-top: 2.249vw;
+    position: relative;
+    z-index: 4;
+}
+
+.conservation-project-sec .project-content .project-box .box-link-arrow:hover {
+    color: #fff;
+    background-color: #FF6B00;
+}
+
+.conservation-project-sec .project-content .project-box .box-link-arrow svg {
+    width: 0.661vw;
+}
+
+.conservation-project-sec .project-content {
+    height: 100%;
+}
+
 .conservation-project-sec .project-content .project-box {
     position: relative;
-    border-radius: 0.529vw;
+    border-radius: 0.397vw;
     font-family: 'NB Architekt Std';
     border: 1px solid #979797;
-    min-height: 449px;
-    padding: 35px 30px 12px;
+    min-height: 29.696vw;
+    padding: 2.315vw 1.984vw 0.794vw;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.conservation-project-sec .project-content .project-box.box-lg {
+    border-radius: 0.529vw;
+}
+
+.conservation-project-sec .project-content .project-box .box-bottom {
+    margin-top: auto;
 }
 
 .conservation-project-sec .project-content .project-box::before,
@@ -1201,8 +1250,7 @@
 }
 
 .conservation-project-sec .project-content .project-box::after {
-    background:
-        linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.44%), linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-color: rgba(0, 0, 0, 0.3);
     z-index: 2;
 }
 
@@ -1232,6 +1280,187 @@
     z-index: 3;
 }
 
+
+.conservation-project-sec .project-content .project-box .box-header {
+    border-top: 1px solid #fff;
+    display: flex;
+    gap: 1.587vw;
+    justify-content: space-between;
+}
+
+.conservation-project-sec .project-content .project-box .box-btn {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.463vw;
+    font-size: 0.794vw;
+    line-height: 1.33;
+    letter-spacing: 0.13em;
+    color: #FF6B00;
+    padding: 0.463vw 0.794vw;
+    border-radius: 2.646vw;
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #FF6B00;
+    left: 0.86vw;
+    bottom: 0.86vw;
+}
+
+.conservation-project-sec .project-content .project-box .box-btn svg {
+    width: 0.728vw;
+    flex-shrink: 0;
+}
+
+.conservation-project-sec .project-content .project-box .box-btn:hover {
+    color: #fff;
+    background-color: #FF6B00;
+}
+
+.conservation-project-sec .project-content .project-box .box-endangerment {
+    margin-left: -1.984vw;
+    background-color: #7DEA13;
+    backdrop-filter: blur(6.7404961585998535px);
+    -webkit-backdrop-filter: blur(6.7404961585998535px);
+    position: relative;
+    z-index: 4;
+    max-width: 26.257vw;
+    border-top-right-radius: 1.455vw;
+    border-bottom-right-radius: 1.455vw;
+    border-bottom-left-radius: 0.529vw;
+    margin-top: 3.638vw;
+    margin-bottom: -0.794vw;
+    color: #000;
+}
+
+.conservation-project-sec .project-content .project-box .box-endangerment__top {
+    padding: 0.794vw 0.794vw 0.926vw 0.794vw;
+
+}
+
+.conservation-project-sec .project-content .project-box .box-endangerment__content {
+    border: 1px solid #000;
+    border-top-right-radius: 0.992vw;
+}
+
+.conservation-project-sec .project-content .project-box .box-endangerment__header {
+    font-size: 0.562vw;
+    letter-spacing: 0.02em;
+    padding: 0.661vw 1.323vw 0.794vw 1.323vw;
+    gap: 0.529vw;
+    border-bottom: 1px dashed #000;
+    margin-bottom: 0.661vw;
+
+}
+
+.conservation-project-sec .project-content .project-box .box-endangerment__body {
+    padding: 0 1.323vw 1.19vw;
+}
+
+.conservation-project-sec .project-content .project-box .box-endangerment__title {
+    font-size: 3.046vw;
+    line-height: 0.8;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.323vw;
+}
+
+.conservation-project-sec .project-content .project-box .box-endangerment__title span {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.conservation-project-sec .project-content .project-box .box-endangerment .line-text {
+    font-size: 1.798vw;
+    letter-spacing: -0.17em;
+    margin-bottom: 0.992vw;
+
+}
+
+.conservation-project-sec .project-content .project-box .box-endangerment__list {
+    gap: 1.058vw;
+}
+
+.conservation-project-sec .project-content .project-box .box-endangerment__item .item-line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.3);
+    mix-blend-mode: multiply;
+    margin-bottom: 0.397vw;
+}
+
+
+.conservation-project-sec .project-content .project-box .box-endangerment__item .item-label {
+    font-size: 0.562vw;
+    letter-spacing: 0.02em;
+    margin-bottom: 0.331vw;
+}
+
+.conservation-project-sec .project-content .project-box .box-endangerment__item .item-text {
+    font-size: 0.953vw;
+    line-height: 1.25;
+    font-family: 'Telegraf';
+    letter-spacing: 0.03em;
+}
+
+.conservation-project-sec .project-content .project-box .box-endangerment__bottom {
+    border-top: 1px dashed #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.794vw;
+    padding-left: 1.984vw;
+}
+
+.conservation-project-sec .project-content .project-box .box-endangerment__bottom span {
+    font-weight: 700;
+    font-size: 0.562vw;
+    letter-spacing: 0.02em;
+}
+
+.conservation-project-sec .project-content .project-box.box-lg .cs-warning-box .left {
+    width: 2.778vw;
+}
+
+.conservation-project-sec .project-content .project-box.box-lg .cs-warning-box .right img,
+.conservation-project-sec .project-content .project-box.box-lg .cs-warning-box .left img {
+    width: 1.455vw;
+}
+
+.conservation-project-sec .project-content .project-box.box-lg .cs-warning-box {
+    min-height: 2.315vw;
+    font-size: 0.463vw;
+}
+
+.conservation-project-sec .project-content .project-box .box-endangerment .cs-warning-box {
+    position: static;
+    font-size: 0.647vw;
+    border-radius: 0;
+}
+
+.conservation-project-sec .project-content .project-box.box-lg .cs-warning-box .right {
+    gap: 0.397vw;
+}
+
+.conservation-project-sec .project-content .project-box .box-line {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    margin-bottom: 0.661vw;
+    position: relative;
+    z-index: 4;
+}
+
+.conservation-project-sec .project-content .project-speci {
+    font-family: 'NB Architekt Std';
+    font-size: 0.926vw;
+    mix-blend-mode: difference;
+    position: relative;
+    z-index: 3;
+    margin-top: 0.661vw;
+}
+
+.conservation-project-sec .project-content .box-header .project-speci {
+    text-align: right;
+}
+
 .conservation-project-sec .project-content .project-box .cs-warning-box {
     position: absolute;
     bottom: 0;
@@ -1240,23 +1469,32 @@
     color: #000000;
     min-height: 1.587vw;
     font-family: 'Telegraf';
-    font-size: 0.397vw;
+    font-size: 0.311vw;
     border-bottom-right-radius: 0.529vw;
 }
 
+
+
 .conservation-project-sec .project-content.project-elephants .project-box .cs-warning-box {
     min-height: 2.381vw;
-    font-size: 7px;
+}
+
+.conservation-project-sec .project-content .project-box .cs-warning-box .left {
+    width: 1.852vw;
 }
 
 .conservation-project-sec .project-content .project-box .cs-warning-box .right {
     gap: 0.661vw;
-    padding: 0.397vw;
+    padding: 0 0.397vw;
+}
+
+.conservation-project-sec .project-content.project-elephants .project-box .cs-warning-box .left {
+    width: 2.778vw;
 }
 
 .conservation-project-sec .project-content .project-box .cs-warning-box .right img,
 .conservation-project-sec .project-content .project-box .cs-warning-box .left img {
-    width: 15px;
+    width: 0.992vw;
 }
 
 .conservation-project-sec .project-content.project-elephants .project-box .cs-warning-box .right img,
@@ -1267,6 +1505,7 @@
 .conservation-project-sec .project-content.project-elephants .project-box {
     min-height: 43.915vw;
     margin-top: 1.984vw;
+    height: auto;
 }
 
 .conservation-project-sec .project-content.project-elephants .project-box::before,
@@ -1286,7 +1525,7 @@
 
 .conservation-project-sec .project-content.project-elephants .project-box .box-bg-2 {
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     bottom: 0;
     width: 100%;
     left: 0;
@@ -1300,20 +1539,163 @@
     pointer-events: none;
 }
 
-.conservation-project-sec .project-content.project-elephants .project-box .box-btn {
+.conservation-project-sec .project-content.project-elephants .project-box .btn-primary {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
+    z-index: 4;
 }
 
 .conservation-project-sec .project-row {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 20px;
+    grid-gap: 1.323vw;
 }
 
-.conservation-project-sec .project-row-2 {
+.conservation-project-sec .project-row .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.323vw;
+}
+
+.conservation-project-sec .project-group {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.19vw;
+}
+
+.conservation-project-sec .project-box.box-sm {
+    min-height: 22.95vw;
+}
+
+.conservation-project-sec .project-row-2,
+.conservation-project-sec .project-row-4,
+.conservation-project-sec .project-row-6 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.conservation-project-sec .project-content .project-box.box-lg .project-title {
+    font-size: 2.976vw;
+}
+
+.conservation-project-sec .project-content.project-lion .box-btn {
+    left: auto;
+    right: 1.257vw;
+    bottom: 1.257vw;
+}
+
+.conservation-project-sec .project-content .cs-warning-box.bg-yellow {
+    background-color: #FBFF00 !important;
+}
+
+.conservation-project-sec .project-content .cs-warning-box.bg-red {
+    background-color: #FF0000 !important;
+}
+
+.conservation-project-sec .project-content .cs-warning-box.bg-purple {
+    background-color: #5C0C33 !important;
+    color: #fff;
+}
+
+.conservation-project-sec .project-content .cs-warning-box.bg-purple .left {
+    border-color: #fff;
+}
+
+.conservation-project-sec .project-content.project-california-condor .cs-warning-box .right {
+    gap: 0.265vw;
+    padding: 0 0 0 0.265vw;
+}
+
+.conservation-project-sec .project-content.project-pink-pigeon .project-speci {
+    color: #808080;
+}
+
+.conservation-project-sec .project-box-note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(33, 33, 33, 0.6);
+    border-radius: 12.169vw;
+    flex: 1;
+    padding: 3.307vw 6.614vw;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid transparent;
+    min-height: 22.884vw;
+}
+
+.conservation-project-sec .project-box-note .note-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.984vw;
+    position: relative;
+    z-index: 2;
+}
+
+.conservation-project-sec .project-box-note .note-logo {
+    width: 3.108vw;
+}
+
+.conservation-project-sec .project-box-note .note-video {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.conservation-project-sec .project-box-note .note-label {
+    font-size: 0.661vw;
+}
+
+.conservation-project-sec .project-box-note .note-title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+}
+
+.conservation-project-sec .project-row-3,
+.conservation-project-sec .project-row-5 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.19vw;
+}
+
+.conservation-project-sec .project-row-4 .column-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.19vw;
+}
+
+.conservation-project-sec .project-row-4 .project-group {
+    grid-template-columns: 1fr;
+    gap: 1.323vw;
+}
+
+.conservation-project-sec .stats-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.587vw;
+    margin: 0;
+}
+
+.conservation-project-sec .project-row-6 .project-box-note {
+    border-color: #979797;
+}
+
+.conservation-project-sec .project-gallery__header {
+    line-height: 1.375;
+    padding-top: 1.058vw;
+    margin-bottom: 3.108vw;
+}
+
+.conservation-project-sec .project-gallery__header .column {
+    gap: 0.661vw 7.143vw;
+}
+
+.conservation-project-sec .project-gallery__header .square {
+    margin-top: 0.331vw;
 }
