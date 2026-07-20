@@ -875,14 +875,14 @@
 }
 
 .work-in-action-sec {
-    padding-bottom: 100px;
+    padding-bottom: 6.614vw;
 }
 
 .work-in-action-bg-grid {
     position: absolute;
     left: 0;
     width: 100%;
-    top: -265px;
+    top: -17.526vw;
     opacity: 0.5;
     mix-blend-mode: screen;
 
@@ -896,40 +896,40 @@
 }
 
 .work-in-action-sec .row-1 {
-    margin-bottom: 152px;
+    margin-bottom: 10.053vw;
 }
 
 .work-in-action-sec .heading {
-    font-size: 277.58px;
-    line-height: 200px;
+    font-size: 18.358vw;
+    line-height: 0.72;
     background:
         linear-gradient(180deg, #FFFFFF 16.62%, #7DEA13 96.47%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
-    padding: 10px 0;
-    margin-bottom: 45px;
+    padding: 0.661vw 0;
+    margin-bottom: 2.976vw;
 }
 
 .work-in-action__about {
     display: grid;
-    grid-template-columns: 622px 1fr;
-    grid-gap: 80px;
-    margin-bottom: 75px;
+    grid-template-columns: 41.138vw 1fr;
+    grid-gap: 5.291vw;
+    margin-bottom: 4.96vw;
 }
 
 .work-in-action__about .title {
-    font-size: 40px;
+    font-size: 2.646vw;
     letter-spacing: 0.011em;
 }
 
 .work-in-action__about .desc {
-    max-width: 585px;
+    max-width: 38.69vw;
 }
 
 .work-in-action-sec .our-genetic .title {
-    font-size: 61px;
+    font-size: 4.034vw;
     line-height: 1;
     background:
         linear-gradient(0deg, #FFFFFF 24.67%, #7DEA13 144.49%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
@@ -937,23 +937,53 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
-    max-width: 776px;
-    margin-bottom: 91px;
+    max-width: 51.323vw;
+    margin-bottom: 6.019vw;
 }
 
 .work-in-action-sec .our-genetic__content {
     display: grid;
-    grid-template-columns: 1fr 746px;
-    grid-gap: 162px;
-    margin-right: -64px;
+    grid-template-columns: 1fr 49.339vw;
+    grid-gap: 10.714vw;
+    margin-right: -4.233vw;
+    align-items: start;
+}
+
+.work-in-action-sec .our-genetic__content .source-group {
+    position: absolute;
+    left: -2.778vw;
+    align-items: center;
+    color: #5E5E5E;
+}
+
+.work-in-action-sec .our-genetic__content .source-group-top {
+    flex-direction: column-reverse;
+    top: 0;
+}
+
+.work-in-action-sec .our-genetic__content .source-group-bottom {
+    bottom: 0;
+}
+
+.work-in-action-sec .our-genetic__content .source-group__label {
+    transform: rotate(90deg);
+}
+
+.work-in-action-sec .our-genetic__content .source-group-top .source-group__label {
+    margin-top: 2.513vw;
+}
+
+.work-in-action-sec .our-genetic__content .source-group-bottom .source-group__label {
+    margin-bottom: 2.513vw;
+    flex-direction: row-reverse;
 }
 
 .work-in-action-sec .our-genetic__content .left {
-    padding-left: 74px;
+    padding-left: 4.894vw;
 }
 
 .work-in-action-sec .our-genetic__content .image {
-    border-top-left-radius: 40px;
+    border-top-left-radius: 2.646vw;
 }
 
 .work-in-action-sec .our-genetic__content .image::before,
@@ -975,48 +1005,45 @@
         linear-gradient(180deg, rgba(0, 0, 0, 0) 63.37%, rgba(0, 0, 0, 0.7) 94.01%),
         linear-gradient(0deg, rgba(108, 108, 108, 0.2), rgba(108, 108, 108, 0.2)),
         linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-
 }
 
 .work-in-action-sec .our-genetic__content .image-caption {
     position: absolute;
     z-index: 2;
-    left: 29px;
-    top: 35px;
-    font-size: 16px;
-    line-height: 20px;
+    left: 1.918vw;
+    top: 2.315vw;
+    font-size: 1.058vw;
+    line-height: 1.25;
     letter-spacing: 0.017em;
-    max-width: 86px;
-
+    max-width: 5.688vw;
 }
 
 .work-in-action-sec .our-genetic__content .image-caption .square {
     backdrop-filter: blur(0.7742958664894104px);
     box-shadow: 0px 0px 4.13px 0px #FF6131;
-
 }
 
 .work-in-action-sec .our-genetic__content .right-bottom {
-    gap: 22px;
+    gap: 1.455vw;
 }
 
 .work-in-action-sec .our-genetic__content .right-bottom__text {
-    gap: 10px;
-    max-width: 410px;
+    gap: 0.661vw;
+    max-width: 27.116vw;
 }
 
 .our-genetic-list {
     display: flex;
     flex-direction: column;
-    gap: 34px;
+    gap: 2.249vw;
 }
 
 .our-genetic-item {
     font-family: 'NB Architekt Std';
     display: flex;
     flex-direction: column;
-    gap: 35px;
-    padding-bottom: 33px;
+    gap: 2.315vw;
+    padding-bottom: 2.183vw;
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(90deg, #5E5E5E 58.17%, #000000 100%) 1;
 }
@@ -1028,12 +1055,12 @@
 
 .our-genetic-item .item-top {
     display: flex;
-    gap: 20px;
+    gap: 1.323vw;
 }
 
 .our-genetic-item .item-bottom {
     display: flex;
-    gap: 23px;
+    gap: 1.521vw;
 }
 
 .our-genetic-item .item-plus {
@@ -1042,47 +1069,251 @@
 
 .our-genetic-item .line-text {
     font-weight: 700;
-    font-size: 10px;
+    font-size: 0.661vw;
     line-height: 1.4;
     letter-spacing: 0.017em;
 }
 
 .our-genetic-item .item-number {
-    width: 22px;
-    height: 22px;
+    width: 1.455vw;
+    height: 1.455vw;
     border-radius: 50%;
     border: 1px solid #FF7B31;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 9px;
+    font-size: 0.595vw;
     letter-spacing: 0.09em;
     color: #FF7B31;
-    margin-top: 6px;
+    margin-top: 0.397vw;
     flex-shrink: 0;
 }
 
 .our-genetic-item .item-title {
-    font-size: 48px;
+    font-size: 3.175vw;
     line-height: 93%;
-    letter-spacing: 0.44px;
+    letter-spacing: 0.0092em;
 }
 
 .our-genetic-item .item-desc {
-    font-size: 14px;
+    font-size: 0.926vw;
     line-height: 130%;
     letter-spacing: 0.02em;
 }
 
 .our-genetic-item .item-line {
-    height: 2px;
-    width: 35px;
+    height: 0.132vw;
+    width: 2.315vw;
     background: #383838;
 }
 
 .our-genetic-item .item-info {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    max-width: 386px;
+    gap: 0.992vw;
+    max-width: 25.529vw;
+}
+
+.conservation-project-sec {
+    padding: 5.291vw 0 100px;
+}
+
+.conservation-project-sec .heading {
+    font-size: 4.034vw;
+    line-height: 100%;
+    background:
+        linear-gradient(0deg, #7DEA13 -20.9%, #FFFFFF 81.86%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    max-width: 51.323vw;
+    margin-bottom: 4.96vw;
+}
+
+.conservation-project-sec .project-title {
+    font-size: 29px;
+}
+
+.conservation-project-sec .project-list {
+    gap: 32px;
+}
+
+.conservation-project-sec .project-content.project-elephants .project-title {
+    font-size: 6.614vw;
+    line-height: 90%;
+}
+
+.conservation-project-sec .project-content.project-elephants .project-header {
+    border-top: 1px solid #D9D9D9;
+    display: grid;
+    grid-template-columns: 1fr 15.212vw;
+    grid-gap: 3.968vw;
+
+}
+
+.conservation-project-sec .project-content.project-elephants .project-infos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.331vw;
+}
+
+.conservation-project-sec .project-content.project-elephants .project-infos .info-item {
+    display: grid;
+    grid-template-columns: 2.646vw 1fr;
+    grid-gap: 1.323vw;
+    align-items: center;
+}
+
+.conservation-project-sec .project-content.project-elephants .project-infos .label {
+    font-size: 0.529vw;
+    letter-spacing: 0.03em;
+}
+
+.conservation-project-sec .project-content.project-elephants .project-infos .value {
+    text-align: end;
+}
+
+.conservation-project-sec .project-content .project-box {
+    position: relative;
+    border-radius: 0.529vw;
+    font-family: 'NB Architekt Std';
+    border: 1px solid #979797;
+    min-height: 449px;
+    padding: 35px 30px 12px;
+}
+
+.conservation-project-sec .project-content .project-box::before,
+.conservation-project-sec .project-content .project-box::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    border-radius: inherit;
+}
+
+.conservation-project-sec .project-content .project-box::before {
+    background: url('../img/2000W_grid.png') no-repeat center / cover;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.conservation-project-sec .project-content .project-box::after {
+    background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.44%), linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    z-index: 2;
+}
+
+.conservation-project-sec .project-content .project-box .box-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.conservation-project-sec .project-content .project-box .square {
+    position: absolute;
+    top: 2.778vw;
+    left: 2.778vw;
+    z-index: 3;
+}
+
+.conservation-project-sec .project-content .project-box .group-plus {
+    font-size: 1.093vw;
+    letter-spacing: 0.02em;
+    position: absolute;
+    top: 2.249vw;
+    right: 2.513vw;
+    z-index: 3;
+}
+
+.conservation-project-sec .project-content .project-box .cs-warning-box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    color: #000000;
+    min-height: 1.587vw;
+    font-family: 'Telegraf';
+    font-size: 0.397vw;
+    border-bottom-right-radius: 0.529vw;
+}
+
+.conservation-project-sec .project-content.project-elephants .project-box .cs-warning-box {
+    min-height: 2.381vw;
+    font-size: 7px;
+}
+
+.conservation-project-sec .project-content .project-box .cs-warning-box .right {
+    gap: 0.661vw;
+    padding: 0.397vw;
+}
+
+.conservation-project-sec .project-content .project-box .cs-warning-box .right img,
+.conservation-project-sec .project-content .project-box .cs-warning-box .left img {
+    width: 15px;
+}
+
+.conservation-project-sec .project-content.project-elephants .project-box .cs-warning-box .right img,
+.conservation-project-sec .project-content.project-elephants .project-box .cs-warning-box .left img {
+    width: 1.455vw;
+}
+
+.conservation-project-sec .project-content.project-elephants .project-box {
+    min-height: 43.915vw;
+    margin-top: 1.984vw;
+}
+
+.conservation-project-sec .project-content.project-elephants .project-box::before,
+.conservation-project-sec .project-content.project-elephants .project-box::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    border-radius: inherit;
+    z-index: 1;
+}
+
+.conservation-project-sec .project-content.project-elephants .project-box::after {
+    background: url('../img/conservation/grid-3.png') no-repeat center / cover;
+}
+
+.conservation-project-sec .project-content.project-elephants .project-box .box-bg-2 {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.conservation-project-sec .project-content.project-elephants .project-box .box-bg-2::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.23) 80%);
+    pointer-events: none;
+}
+
+.conservation-project-sec .project-content.project-elephants .project-box .box-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.conservation-project-sec .project-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.conservation-project-sec .project-row-2 {
+    grid-template-columns: repeat(2, 1fr);
 }
