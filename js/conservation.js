@@ -84,4 +84,14 @@ jQuery(document).ready(function ($) {
     current.textContent = realIndex.toString().padStart(2, "0");
     total.textContent = totalSlides.toString().padStart(2, "0");
   }
+  $('.keystone-species-tab').on('click', function () {
+    $('.keystone-species-tab').removeClass('active');
+    $(this).addClass('active');
+
+    var targetId = $(this).attr('data-tap');
+
+    $('.keystone-species-content-wrapper').hide();
+
+    $('#' + targetId).fadeIn(300);
+  });
 });
