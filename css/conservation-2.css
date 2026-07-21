@@ -648,3 +648,29 @@
 .indigenous-partners-section {
   padding: 4.76vw 0 4.7vw;
 }
+.indigenous-council-title {
+  font-weight: 400;
+  font-size: 14.01vw;
+  line-height: 99%;
+  letter-spacing: 0.26vw;
+}
+.indigenous-council-container {
+  padding: 0 1.59vw;
+}
+.indigenous-council-label-left {
+  width: 39.29vw;
+}
+.mb-59 {
+  margin-bottom: 3.9vw;
+}
+.indigenous-council-label-right {
+  width: 45.11vw;
+}
+.indigenous-council-intro-marker {
+  font-family: NB Architekt Std;
+  font-size: 1.59vw;
+  line-height: 1.12vw;
+}
+.indigenous-council-section .wrapper-md{
+  padding:0 3.31vw ;
+}
