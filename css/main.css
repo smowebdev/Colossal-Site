@@ -468,6 +468,7 @@ h6 {
     font-family: 'Badger';
 }
 
+
 .w-half {
     width: 50%;
 
@@ -3746,6 +3747,7 @@ h6 {
     background-color: #4F4F4F;
     border-radius: 2.646vw;
     padding: 0.728vw 0.992vw 0.661vw 2.183vw;
+    margin: 0;
 }
 
 .footer-become-member-form input {

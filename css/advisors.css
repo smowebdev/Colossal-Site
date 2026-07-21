@@ -301,6 +301,7 @@
     padding: 0.397vw;
     z-index: 1;
     cursor: pointer;
+    background-color: #F6F6F6;
 }
 
 .advisory-team img {
@@ -415,6 +416,11 @@
     font-size: 0.794vw;
     padding: 0.265vw 0.794vw;
     border: 1px solid #6A5F40;
+    color: #6A5F40;
+    min-width: 6.217vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .advisory-counter {
@@ -429,6 +435,7 @@
 
 .advisory-img-bottom {
     margin-top: -13.955vw;
+    pointer-events: none;
 }
 
 .advisory-img-bottom .image {
@@ -457,6 +464,7 @@
     top: 49%;
     left: 54%;
     transform: translate(-50%, -50%);
+    z-index: 2;
 }
 
 .advisory-team-intro-sec {
