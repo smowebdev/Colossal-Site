@@ -657,20 +657,279 @@
 .indigenous-council-container {
   padding: 0 1.59vw;
 }
-.indigenous-council-label-left {
+.indigenous-council-label-left,
+.indigenous-council-subtitle {
   width: 39.29vw;
 }
 .mb-59 {
   margin-bottom: 3.9vw;
 }
-.indigenous-council-label-right {
+.indigenous-council-label-right,
+.indigenous-council-description {
   width: 45.11vw;
 }
 .indigenous-council-intro-marker {
-  font-family: NB Architekt Std;
   font-size: 1.59vw;
   line-height: 1.12vw;
 }
-.indigenous-council-section .wrapper-md{
-  padding:0 3.31vw ;
+.indigenous-council-section .wrapper-md {
+  padding: 0 3.31vw;
+}
+.indigenous-council-label {
+  margin-bottom: 2.31vw;
+  padding-top: 2.91vw;
+}
+.indigenous-council-subtitle {
+  font-size: 4.23vw;
+}
+.indigenous-council-description {
+  font-weight: 400;
+  font-size: 1.59vw;
+  line-height: 112.00000000000001%;
+  letter-spacing: 0.03vw;
+  margin-top: 0.66vw;
+}
+.indigenous-council-description strong {
+  font-weight: 800;
+}
+
+.indigenous-council-intro {
+  margin-bottom: 5.09vw;
+}
+.indigenous-council-member-content {
+  padding: 1.85vw 2.15vw 2.12vw;
+}
+.indigenous-council-member-name {
+  font-weight: 800;
+  font-size: 2.19vw;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin-bottom: 0.63vw;
+}
+.indigenous-council-member-role {
+  font-size: 0.93vw;
+  line-height: 140%;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  max-width: 18.19vw;
+}
+.indigenous-council-member-meta {
+}
+.gap-16 {
+  gap: 1.06vw;
+}
+.indigenous-council-bg {
+  top: 8.2vw;
+  z-index: 0;
+}
+.indigenous-council-section .conservation-model-bg-grid::before {
+  z-index: 0;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 1) 68.88%, #ffffff 100%),
+    linear-gradient(180deg, #ffffff 6.55%, rgba(255, 255, 255, 0) 24.03%);
+}
+.rst-quote-richard-garriott {
+  padding-left: 4.313vw;
+  padding-right: 3.915vw;
+  padding-bottom: 4.03vw;
+}
+
+.rst-quote-richard-garriott-content {
+  background: #fff;
+  border-top-left-radius: 1.327vw;
+  border-bottom-left-radius: 1.327vw;
+  padding-top: 1.858vw;
+  padding-right: 2.389vw;
+  padding-left: 2.389vw;
+  padding-bottom: 1.991vw;
+}
+
+.rst-quote-richard-garriott-grid {
+  border-radius: 1.327vw;
+  box-shadow: 0px 25px 20px 0px #00000033;
+}
+
+.rst-quote-richard-garriott-author {
+  border-top-right-radius: 1.327vw;
+  border-bottom-right-radius: 1.327vw;
+  position: relative;
+  padding-top: 1.858vw;
+  padding-bottom: 2.455vw;
+  padding-left: 2.19vw;
+  padding-right: 2.19vw;
+}
+
+.rst-quote-richard-garriott-author img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 1.327vw;
+  border-bottom-right-radius: 1.327vw;
+  display: block;
+  object-fit: cover;
+}
+
+.rst-quote-richard-garriott-author-border {
+  position: relative;
+  z-index: 1;
+  border-radius: 1.593vw;
+  padding: 1.858vw;
+  padding-bottom: 2.588vw;
+  border: 1px solid #f4f4f4;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rst-quote-richard-garriott-content > p {
+  font-weight: 400;
+  color: #000;
+  padding-right: 1.128vw;
+  font-size: 2.28vw;
+  line-height: 130%;
+  letter-spacing: 0.03vw;
+}
+
+.rst-quote-richard-garriott-content-head,
+.rst-quote-richard-garriott-content-foot {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rst-quote-richard-garriott-content-head {
+  margin-bottom: 2.31vw;
+  border-top: 1px solid #dedfdf;
+  padding-top: 0.93vw;
+}
+
+.rst-quote-richard-garriott-content-foot {
+  margin-top: 2.51vw;
+  border-bottom: 1px solid #dedfdf;
+  padding-bottom:1.06vw;
+  align-items: end;
+}
+
+.rst-quote-richard-garriott-content-head img,
+.rst-quote-richard-garriott-content-foot img {
+  width: 1.924vw;
+}
+
+.rst-quote-richard-garriott-content-head span,
+.rst-quote-richard-garriott-content-foot span {
+  font-family: "NB Architekt Std";
+  font-weight: 400;
+  font-size: 0.64vw;
+  line-height: 1em;
+  letter-spacing: 2%;
+  text-transform: uppercase;
+  color: #828282;
+}
+
+.rst-quote-richard-garriott-author-border h4 {
+  font-weight: 800;
+  font-size: 1.062vw;
+  line-height: 0.995vw;
+  letter-spacing: -2%;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  color: #fff;
+}
+
+.rst-quote-richard-garriott-author-bottom h3 {
+  font-weight: 800;
+  font-size: 2.08vw;
+  line-height: 1.792vw;
+  letter-spacing: 0.025vw;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 1.327vw 0;
+  color: #fff;
+}
+
+.rst-quote-richard-garriott-author-bottom div {
+  gap: 0.664vw;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.rst-quote-richard-garriott-author-bottom div span {
+  background: #82828280;
+  border: 0.62px solid #f4f4f4;
+  border-radius: 1.636vw;
+  font-family: "NB Architekt Std";
+  font-weight: 400;
+  font-size: 0.655vw;
+  line-height: 1em;
+  letter-spacing: 13%;
+  vertical-align: middle;
+  display: inline-flex;
+  padding: 0.297vw 0.384vw;
+  color: #fff;
+}
+
+.rst-beyond-our-core {
+  background-size: 100%;
+}
+
+.rst-beyond-our-core-container {
+  padding-left: 4.081vw;
+  padding-right: 3.749vw;
+}
+
+.rst-beyond-our-core:after {
+  background:
+    linear-gradient(180deg, rgba(153, 64, 221, 0) 0%, #9940dd 100%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, #000000 90%);
+  background-blend-mode: multiply;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  content: "";
+  height: 28.774vw;
+}
+
+.bg-beyond-our-core {
+  margin-top: -5.309vw;
+}
+
+.rst-beyond-our-core img {
+  width: 100%;
+  display: block;
+}
+
+.rst-beyond-our-core-head {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 6.038vw 0;
+}
+
+.rst-beyond-our-core-head p {
+  margin: 0;
+  color: #383838;
+  font-family: "NB Architekt Std";
+  font-weight: 400;
+  font-size: 2.192vw;
+  line-height: 100%;
+  text-align: center;
+}
+
+.rst-beyond-our-core-head span {
+  font-family: "NB Architekt Std";
+  font-weight: 400;
+  font-size: 1.062vw;
+  line-height: 100%;
+  text-align: center;
+  color: #b3b3b3;
+}
+.rst-quote-richard-garriott-content > p{
+  padding:  0 0 0 1.72vw;
 }
