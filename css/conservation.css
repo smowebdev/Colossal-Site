@@ -1771,7 +1771,7 @@
 }
 
 .conservation-model-sec {
-    padding: 6.614vw 0 100px;
+    padding: 6.614vw 0 4.762vw;
 }
 
 .conservation-model-bg-grid::before {
@@ -1898,17 +1898,27 @@
 }
 
 .conservation-model-sec .conservation-framework__box .box-header .left {
-    width: calc(100% - 3.307vw - 22.817vw);
+    width: calc(100% - 3.307vw - 21.825vw);
 }
 
 .conservation-model-sec .conservation-framework__box .box-header .right {
-    width: 22.817vw;
+    width: 21.825vw;
 }
 
 .conservation-model-sec .conservation-framework__heading .heading {
     font-size: 6.331vw;
     letter-spacing: -0.01em;
     flex: 1;
+}
+
+.conservation-model-sec .conservation-framework__heading video {
+    aspect-ratio: 1;
+    width: 5.093vw;
+    border-radius: 1.058vw;
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 0.794vw;
+    right: 0;
 }
 
 .conservation-model-sec .conservation-framework__heading span {
@@ -2096,7 +2106,7 @@
 
 .conservation-model-sec .conservation-framework__content .content-number .right {
     width: calc(100% - 4.96vw);
-    padding: 0.86vw;
+    padding: 0.595vw 0.595vw 0.595vw 0.86vw;
 }
 
 .conservation-model-sec .conservation-framework__content .content-body {
@@ -2111,7 +2121,7 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 3.968vw;
-    gap: 32px;
+    gap: 2.116vw;
     justify-content: space-between;
 }
 
@@ -2198,10 +2208,12 @@
     height: 30.556vw;
     background: linear-gradient(0deg, rgba(244, 244, 244, 0) 0%, #F4F4F4 97.27%);
     pointer-events: none;
+    z-index: 2;
 }
 
 .conservation-model-sec .conservation-framework__content .content-banner .banner-header {
     margin-bottom: 2.976vw;
+    z-index: 3;
 }
 
 .conservation-model-sec .conservation-framework__content .content-banner .banner-header .column {
@@ -2218,6 +2230,7 @@
 
 .conservation-model-sec .conservation-framework__content .content-banner .banner-title {
     font-size: 6.614vw;
+    z-index: 3;
 }
 
 .conservation-model-sec .conservation-framework__content .content-banner .sound-collection {
@@ -2292,6 +2305,7 @@
     padding: 2.116vw;
     display: flex;
     flex-direction: column;
+    min-height: 21.892vw;
 
 }
 
@@ -2345,7 +2359,7 @@
     letter-spacing: -0.0115em;
     color: #9940DD;
     line-height: 1;
-    margin-bottom: 2.646vw;
+    margin-bottom: 1.323vw;
 }
 
 .conservation-model-sec .conservation-framework__content .content-data-item .line-text {
@@ -2448,35 +2462,29 @@
     margin-top: 3.638vw;
 }
 
+
 .additional-projects__item {
+    padding: 1px;
+    border-radius: 0.265vw;
+    overflow: hidden;
     aspect-ratio: 448/274;
+    background: #D9D9D9;
+    clip-path: polygon(0.1% 99.8%, 99.9% 99.8%, 99.9% 10.7%, 93.4% 0.2%, 0.1% 0.2%);
+}
+
+.additional-projects__item .item-inner {
+    height: 100%;
+    background: #fff;
     clip-path: polygon(0.1% 99.8%, 99.9% 99.8%, 99.9% 10.7%, 93.4% 0.2%, 0.1% 0.2%);
     background-color: #fff;
     position: relative;
-    border-radius: 0.265vw;
+    border-radius: inherit;
     padding: 0.926vw;
     display: flex;
     gap: 1.058vw;
     transition: all 0.4s ease;
 }
 
-.additional-projects__item::before,
-.additional-projects__item::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 0.265vw;
-    pointer-events: none;
-}
-
-.additional-projects__item::before {
-    background-color: #D9D9D9;
-}
-
-.additional-projects__item::after {
-    inset: 1px;
-    background-color: inherit;
-}
 
 .additional-projects__item .item-image {
     width: calc(50% - 0.529vw);
@@ -2538,4 +2546,390 @@
 
 .additional-projects__item:hover {
     transform: scale(1.05);
+}
+
+.conservation-model-sec .conservation-framework__content .content-biovault-list {
+    margin-bottom: 5.952vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-biovault .left {
+    width: 42.27%;
+    padding-right: 9.061vw;
+    padding-top: 3.175vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.conservation-model-sec .conservation-framework__content .content-biovault .right {
+    width: 57.73%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.conservation-model-sec .conservation-framework__content .content-3 .biovault-media-links {
+    margin-top: 5.489vw;
+    margin-bottom: -8.466vw;
+}
+
+.conservation-model-sec .conservation-framework__content .biovault-media-links .media-link-list {
+    margin-top: 3.638vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.265vw;
+}
+
+.conservation-model-sec .conservation-framework__content .biovault-media-links .media-link-item {
+    position: relative;
+    display: flex;
+    gap: 4.762vw;
+    padding: 1.455vw 0 1.455vw 2.91vw;
+}
+
+.conservation-model-sec .conservation-framework__content .biovault-media-links .media-link-item::before {
+    content: "";
+    position: absolute;
+    top: -1.19vw;
+    left: 0;
+    background: url('../img/conservation/icon-1.svg') no-repeat center / contain;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.conservation-model-sec .conservation-framework__content .biovault-media-links .media-link-item a {
+    color: #B3B3B3;
+    font-size: 1.587vw;
+    line-height: 120%;
+    letter-spacing: 0.01875em;
+    text-decoration: underline;
+}
+
+
+.conservation-model-sec .conservation-framework__content .biovault-media-links .media-link-item a:hover {
+    color: #FF7B31;
+}
+
+.conservation-model-sec .conservation-framework__content .biovault-media-links .media-link-item .text-plus {
+    font-family: 'NB Architekt Std';
+    font-size: 1.058vw;
+    color: #383838;
+    flex-shrink: 0;
+}
+
+.conservation-model-sec .conservation-framework__content .content-biovault .title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    margin-bottom: 2.646vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-biovault .biovault-number .label {
+    gap: 0.661vw 7.143vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-biovault .biovault-number .line-text {
+    letter-spacing: 0;
+}
+
+.conservation-model-sec .conservation-framework__content .content-biovault .desc {
+    margin-top: 3.571vw;
+}
+
+
+
+
+.conservation-model-sec .conservation-framework__content .content-biovault .image {
+    border: 1px solid #979797;
+    margin-top: -7.077vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-biovault .image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 123, 49, 0) 50%, #FF7B31 100%);
+    mix-blend-mode: exclusion;
+    pointer-events: none;
+}
+
+.conservation-model-sec .conservation-framework__content .content-biovault .btn-primary .arrow {
+    background: transparent;
+}
+
+.conservation-model-sec .conservation-framework__content .content-biovault .btn-primary span {
+    max-width: 10.251vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-biovault-2 .left {
+    padding-top: 0;
+}
+
+.conservation-model-sec .conservation-framework__content .content-biovault-2 .right {
+    padding-top: 4.894vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-2 .content-body .left {
+    padding-bottom: 5.886vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-biovault-2 .image {
+    margin-top: -2.646vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-biovault-2 .image::before {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000000 100%);
+    mix-blend-mode: unset;
+}
+
+.conservation-model-sec .conservation-framework__content .content-biovault-3 {
+    margin-top: 1.72vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-2 .content-banner .banner-title {
+    font-size: 11.243vw;
+    line-height: 0.79;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 21.16%, rgba(125, 234, 19, 0.68) 88.17%), linear-gradient(0deg, #F4F4F4, #F4F4F4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    padding-top: 0.661vw;
+
+}
+
+.conservation-model-sec .conservation-framework__content .content-2 .content-banner {
+    padding-top: 13.823vw;
+    min-height: 60.847vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-2 .content-banner .banner-image {
+    position: absolute;
+    z-index: 3;
+    width: 9.325vw;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+}
+
+.conservation-model-sec .conservation-framework__content .content-2 .content-bottom::before {
+    height: 44.18vw;
+    background: linear-gradient(180deg, #7DEA13 20.94%, #F4F4F4 100%);
+    top: -2.646vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-3 .content-banner {
+    min-height: 60.847vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conservation-model-sec .conservation-framework__content .content-3 .content-banner .banner-title {
+    font-size: 11.243vw;
+    line-height: 0.79;
+    background: linear-gradient(180deg, #FFFFFF 43.56%, #FF7B31 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    padding-top: 1.323vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-3 .virus-img {
+    position: absolute;
+    z-index: 1;
+    mix-blend-mode: exclusion;
+}
+
+.conservation-model-sec .conservation-framework__content .content-3 .virus-img.img-1 {
+    width: 40.807vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.conservation-model-sec .conservation-framework__content .content-3 .virus-img.img-2 {
+    width: 12.897vw;
+    top: 39%;
+    left: 9%;
+    transform: rotate(-28.21deg);
+}
+
+.conservation-model-sec .conservation-framework__content .content-3 .virus-img.img-3 {
+    width: 5.82vw;
+    top: 20%;
+    left: 80%;
+    transform: rotate(24.64deg);
+}
+
+.conservation-model-sec .conservation-framework__content .content-3 .content-bottom::before {
+    height: 44.18vw;
+    background: linear-gradient(180deg, #9940DD 20.94%, #F4F4F4 100%);
+    top: -6.614vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-3 .content-biovault .left {
+    width: 50.65%;
+}
+
+.conservation-model-sec .conservation-framework__content .content-3 .content-biovault .right {
+    width: 49.35%;
+}
+
+.conservation-model-sec .conservation-framework__content .content-3 .content-biovault .label .square {
+    background: #383838 !important;
+}
+
+.conservation-model-sec .conservation-framework__content .content-3 .content-biovault-1 .image {
+    margin-left: -4.233vw;
+    margin-top: -8.598vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-3 .content-biovault-1 .image::before {
+    background: linear-gradient(180deg, rgba(125, 234, 19, 0) 31.7%, #7DEA13 100%);
+
+}
+
+.conservation-model-sec .conservation-framework__content .content-3 .content-biovault-1 .right {
+    padding-top: 5.754vw;
+    max-width: 37.368vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-3 .content-biovault .btn-primary span {
+    max-width: 21.296vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-4 .content-banner .banner-title {
+    font-size: 12.566vw;
+    line-height: 170%;
+    margin-left: -4.233vw;
+    margin-right: -4.233vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-4 .content-data-list {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.conservation-model-sec .conservation-framework__content .content-4 .content-bottom::before {
+    background: linear-gradient(180deg, #6A5F40 20.94%, #F4F4F4 100%);
+}
+
+.conservation-model-sec .conservation-framework__content .content-4 .content-biovault .left {
+    width: 59%;
+    padding-top: 0;
+}
+
+.conservation-model-sec .conservation-framework__content .content-4 .content-biovault .right {
+    width: 41%;
+}
+
+.conservation-model-sec .conservation-framework__content .content-4 .content-biovault .image {
+    margin-left: -4.233vw;
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.conservation-model-sec .conservation-framework__content .content-4 .content-biovault .image::before {
+    display: none;
+}
+
+.conservation-model-sec .conservation-framework__content .content-4 .additional-projects__cta::after {
+    background: linear-gradient(180deg, rgba(255, 123, 49, 0) 65%, #FF7B31 100%);
+
+}
+
+.conservation-model-sec .conservation-framework__content .content-5 .content-banner .banner-title {
+    font-size: 9.921vw;
+    line-height: 80%;
+    padding: 0.661vw 0;
+    background: linear-gradient(180deg, #FFFFFF 43.56%, #FF7B31 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.conservation-model-sec .conservation-framework__content .content-5 .content-banner {
+    min-height: 60.847vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conservation-model-sec .conservation-framework__content .content-5 .content-bottom::before {
+    margin-top: -6.614vw;
+    height: 44.18vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-5 .biovault-number .label .square {
+    background-color: #383838;
+}
+
+
+.conservation-model-sec .conservation-framework__content .content-5 .content-biovault-1 .image {
+    margin-left: -4.233vw;
+    border-radius: 1.323vw !important;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: -9.127vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-5 .content-biovault-1 .image::before {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.conservation-model-sec .conservation-framework__content .content-5 .content-biovault-1 {
+    margin-bottom: 2.646vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-5 .biovault-media-links .media-link-item a {
+    color: #383838;
+}
+
+.conservation-model-sec .conservation-framework__content .biovault-media-links .media-link-item::before {
+    background-image: url('../img/conservation/icon-2.svg');
+}
+
+.conservation-model-sec .conservation-framework__content .content-5 .content-biovault .left {
+    width: 50.7%;
+}
+
+.conservation-model-sec .conservation-framework__content .content-5 .content-biovault .right {
+    width: 49.3%;
+    padding-top: 4.299vw;
+    max-width: 37.368vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-5 .content-biovault-2 .image {
+    margin-top: 0;
+    border-radius: 0.265vw !important;
+}
+
+.conservation-model-sec .conservation-framework__content .content-5 .content-biovault-1 .left {
+    width: 59.2%;
+}
+
+.conservation-model-sec .conservation-framework__content .content-5 .content-biovault-1 .right {
+    width: 40.8%;
+    padding-top: 5.556vw;
+    max-width: 100%;
+
+}
+
+.conservation-model-sec .conservation-framework__content .content-5 .content-biovault-2 {
+    margin-bottom: 4.63vw;
+}
+
+.conservation-model-sec .conservation-framework__content .content-5 .content-biovault-3 .right {
+    padding-top: 0;
+}
+
+.conservation-model-sec .conservation-framework__content .content-5 .content-biovault .btn-primary span {
+    max-width: 23.545vw;
 }
