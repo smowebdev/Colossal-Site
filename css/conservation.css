@@ -1701,6 +1701,27 @@
     margin-bottom: 3.108vw;
 }
 
+.conservation-project-sec .project-gallery .project-gallery-text-bottom {
+    position: absolute;
+    right: 7.54vw;
+    bottom: 0;
+    font-size: 0.638vw;
+    letter-spacing: 0.02em;
+    color: #979797;
+    text-align: end;
+}
+
+.conservation-project-sec .project-gallery .project-gallery-square {
+    background-color: #979797;
+    position: absolute;
+    right: 3.307vw;
+    bottom: 5.423vw;
+}
+
+.conservation-project-sec .project-gallery .project-gallery-text-bottom span {
+    margin-bottom: 0.331vw;
+}
+
 .conservation-project-sec .project-gallery__header .column {
     gap: 0.661vw 7.143vw;
 }
@@ -1786,7 +1807,7 @@
     position: absolute;
     inset: 0;
     background:
-        linear-gradient(180deg, #FFFFFF 8.74%, rgba(255, 255, 255, 0) 37.13%), linear-gradient(180deg, rgba(255, 255, 255, 0) 68.88%, #FFFFFF 100%);
+        linear-gradient(180deg, #f4f4f4 8.74%, rgba(244, 244, 244, 0) 37.13%), linear-gradient(180deg, rgba(244, 244, 244, 0) 68.88%, #f4f4f4 100%);
     z-index: 1;
 }
 
@@ -2867,6 +2888,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.conservation-model-sec .conservation-framework__content .content-5 .content-banner::before {
+    background: linear-gradient(180deg, rgba(106, 95, 64, 0.9) 71.74%, #FF7B31 119.35%);
+    mix-blend-mode: exclusion;
+
 }
 
 .conservation-model-sec .conservation-framework__content .content-5 .content-bottom::before {
@@ -4206,7 +4233,18 @@
 
 .conservation-page .research-partners-conservation {
     padding: 7.08vw 0 2.71vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.conservation-page .research-partners-conservation::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
     background: linear-gradient(180deg, #7dea13 37.78%, #ffffff 72.6%);
+    height: 139.021vw;
 }
 
 .conservation-page .research-partners-header {
