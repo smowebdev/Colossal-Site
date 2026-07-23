@@ -148,6 +148,7 @@
     display: grid;
     grid-template-columns: 10.913vw 1fr 21.825vw;
     grid-gap: 3.968vw;
+    align-items: start;
 }
 
 .con-colossal-foundation-sec .row-2 .square {
@@ -172,6 +173,11 @@
     align-items: center;
     gap: 0.463vw;
     padding: 0.463vw 0.794vw;
+}
+
+.con-colossal-foundation__btn:hover {
+    color: #fff;
+    background-color: #FF6B00;
 }
 
 .con-colossal-foundation__btn svg {
@@ -1479,6 +1485,7 @@
 
 .conservation-project-sec .project-content.project-elephants .project-box .cs-warning-box {
     min-height: 2.381vw;
+    font-size: 0.463vw;
 }
 
 .conservation-project-sec .project-content .project-box .cs-warning-box .left {
