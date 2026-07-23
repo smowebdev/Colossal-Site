@@ -247,6 +247,10 @@ jQuery(document).ready(function ($) {
     }
   });
 
-  changePartner(3);
+  changePartner(
+    $partenerItems.filter(".active").length
+      ? Number($partenerItems.filter(".active").data("id"))
+      : 3
+  );
   // Partners Tab List - End
 });

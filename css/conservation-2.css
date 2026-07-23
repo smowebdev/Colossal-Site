@@ -809,7 +809,7 @@
 .rst-quote-richard-garriott-content-foot {
   margin-top: 2.51vw;
   border-bottom: 1px solid #dedfdf;
-  padding-bottom:1.06vw;
+  padding-bottom: 1.06vw;
   align-items: end;
 }
 
@@ -930,6 +930,100 @@
   text-align: center;
   color: #b3b3b3;
 }
-.rst-quote-richard-garriott-content > p{
-  padding:  0 0 0 1.72vw;
+.rst-quote-richard-garriott-content > p {
+  padding: 0 0 0 1.72vw;
+}
+.advisors-heading-wrapper {
+  gap: 6.28vw;
+}
+.advisor-memoriam {
+  font-size: 1.06vw;
+  line-height: 130%;
+  letter-spacing: -0.04em;
+  margin-bottom: 0.86vw;
+}
+.conservation-page .advisor-info .advisor-role {
+  max-width: 100%;
+}
+.conservation-page .advisors-heading {
+  width: 24.67vw;
+}
+.advisors-heading-wrapper .desc {
+  width: 37.37vw;
+}
+.conservation-page .advisors-header {
+  margin-bottom: 5.42vw;
+}
+.conservation-page .research-partners-content .partner-content .content-image {
+  width: 100%;
+  aspect-ratio: auto;
+}
+.conservation-page
+  .research-partners-content
+  .partner-content
+  .content-video::after,
+.conservation-page
+  .research-partners-content
+  .partner-content
+  .content-video::before,
+.conservation-page
+  .research-partners-content
+  .partner-content
+  .content-image::before {
+  display: none;
+}
+.conservation-page .research-partners-content .content-note {
+  padding: 0.93vw;
+}
+.conservation-page .research-partners-content .content-note p {
+  font-size: 0.53vw;
+  line-height: 0.66vw;
+  letter-spacing: 0.02em;
+}
+.conservation-page .research-partners-content .content-btn a {
+  border: 0.92px solid #7dea13;
+  border-radius: 2.38vw;
+  padding: 0.46vw 0.79vw;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 11.09px;
+  line-height: 14.79px;
+  letter-spacing: 0.13em;
+  color: #7dea13;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4vw;
+  margin-top: 1.59vw;
+}
+.conservation-page .research-partners-content .partner-content .content-logo {
+  padding-left: 2.08vw;
+  width: 17.13vw;
+}
+.research-partners-title {
+  font-weight: 400;
+  font-size: 14.48vw;
+  line-height: 99%;
+  letter-spacing: 0.58vw;
+  margin-top: 6.94vw;
+}
+.indigenous-council-members{
+  grid-template-columns: 1fr 1fr;
+}
+.conservation-page .advisors-sec {
+  padding: 0 0 5.42vw;
+}
+.conservation-page .research-partners-conservation {
+  padding: 7.08vw 0 2.71vw;
+  background: linear-gradient(180deg, #7dea13 37.78%, #ffffff 72.6%);
+}
+.conservation-page .research-partners-header {
+  margin-bottom: 5.69vw;
+}
+.conservation-page .research-partners-content .partner-content .content-bottom {
+  margin-top: 0;
+  padding-top: 2.12vw;
+}
+.conservation-page .research-partners-content .partner-content {
+  padding-bottom: 3.04vw;
 }
