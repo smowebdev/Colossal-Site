@@ -3276,20 +3276,20 @@
 }
 
 .keystone-species-heading-description {
-    font-size: 16px;
+    font-size: 1.06vw;
     line-height: 1.32vw;
     letter-spacing: 0.03vw;
     margin-top: 0.26vw;
 }
 
 .keystone-species-tab {
-    font-size: 35.36px;
-    line-height: 48.63px;
+    font-size: 2.01vw;
+    line-height: 3.22vw;
     letter-spacing: 0%;
     text-align: center;
     padding: 0.46vw 1.65vw;
     border: 1.31px solid #d9d9d9;
-    border-radius: 100px;
+    border-radius: 6.61vw;
     transition: all 0.3s ease-in-out;
 }
 
@@ -3445,7 +3445,7 @@
     padding: 0.23vw 0.25vw 0.26vw;
     background: #8282821a;
     border: 0.46px solid #212121;
-    border-radius: 50px;
+    border-radius: 3.31vw;
 }
 
 .keystone-species-tag-dots {
@@ -3584,7 +3584,7 @@
 }
 
 .thylacine-feature-list {
-    padding-bottom: 148px;
+    padding-bottom: 9.79vw;
 }
 
 .conservation-page .advisory-team-intro-sec.iac-sec .team-intro-main {
@@ -3930,7 +3930,7 @@
 
 .rst-quote-richard-garriott-grid {
     border-radius: 1.327vw;
-    box-shadow: 0px 25px 20px 0px #00000033;
+    box-shadow: 0px 1.65vw 1.32vw 0px #00000033;
 }
 
 .rst-quote-richard-garriott-author {
@@ -4172,9 +4172,8 @@
     border-radius: 2.38vw;
     padding: 0.46vw 0.79vw;
     font-weight: 400;
-    font-style: Regular;
-    font-size: 11.09px;
-    line-height: 14.79px;
+    font-size: 0.73vw;
+    line-height: 0.98vw;
     letter-spacing: 0.13em;
     color: #7dea13;
     display: inline-flex;
