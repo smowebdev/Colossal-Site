@@ -664,6 +664,7 @@ h6 {
     background-color: #000;
     padding: 0.463vw 0.728vw;
     text-align: center;
+    display: inline-block;
 }
 
 .btn-orange-secondary:hover {

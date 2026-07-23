@@ -2892,6 +2892,10 @@
     color: #383838;
 }
 
+.conservation-model-sec .conservation-framework__content .content-5 .biovault-media-links .media-link-item a:hover {
+    color: #fff;
+}
+
 .conservation-model-sec .conservation-framework__content .biovault-media-links .media-link-item::before {
     background-image: url('../img/conservation/icon-2.svg');
 }
@@ -2932,4 +2936,104 @@
 
 .conservation-model-sec .conservation-framework__content .content-5 .content-biovault .btn-primary span {
     max-width: 23.545vw;
+}
+
+.conservation-cta-sec .wrapper-sm {
+    padding: 0 1.587vw;
+}
+
+.conservation-cta-main {
+    border-radius: 2.646vw;
+    padding: 2.646vw 2.646vw 8.532vw 2.646vw;
+}
+
+.conservation-cta-main .source-group {
+    position: absolute;
+    z-index: 1;
+    color: #B3B3B3;
+}
+
+.conservation-cta-main .source-group-1 {
+    top: 2.646vw;
+    left: 2.646vw;
+}
+
+.conservation-cta-main .source-group-2 {
+    top: 2.646vw;
+    right: 2.646vw;
+}
+
+.conservation-cta-main .source-group-3 {
+    top: 70%;
+    left: 2.646vw;
+}
+
+.conservation-cta-main .source-group-4 {
+    top: 70%;
+    right: 2.646vw;
+}
+
+.conservation-cta-main .title {
+    font-size: 4.034vw;
+    line-height: 100%;
+    max-width: 78%;
+    background:
+        linear-gradient(0deg, #FFFFFF 24.67%, #7DEA13 144.49%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin-top: 3.175vw;
+    margin-bottom: 4.299vw;
+}
+
+.conservation-cta-main .cta-box {
+    min-height: 32.738vw;
+    border: 1px solid #979797;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25.397vw;
+    padding: 11.376vw;
+    margin-bottom: 5.556vw;
+}
+
+.conservation-cta-main .cta-box::before,
+.conservation-cta-main .cta-box::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.conservation-cta-main .cta-box::before {
+    background: rgba(164, 155, 156, 0.7);
+    mix-blend-mode: multiply;
+}
+
+.conservation-cta-main .cta-box::after {
+    background: linear-gradient(180deg, rgba(153, 64, 221, 0) 65%, #9940DD 100%);
+    background-blend-mode: exclusion;
+
+}
+
+.conservation-cta-main .cta-box-text {
+    font-size: 1.587vw;
+    line-height: 120%;
+    letter-spacing: 0.1em;
+}
+
+.conservation-cta-main .conservation-cta-bottom {
+    max-width: 70%;
+}
+
+.conservation-cta-main .conservation-cta-desc {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+}
+
+.conservation-cta-main .conservation-cta-btn {
+    color: #FF7B31;
+    margin-top: 2.778vw;
 }
