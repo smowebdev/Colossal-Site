@@ -600,11 +600,13 @@ h6 {
     gap: 1.124vw;
     text-align: left;
     background-color: transparent;
+    box-shadow: none !important;
 }
 
 .btn-primary:hover {
     color: #000;
-    background-color: transparent;
+    background-color: transparent !important;
+    border-color: transparent !important;
 }
 
 .btn-primary .arrow {
@@ -2492,7 +2494,8 @@ h6 {
 
 .across-oceans-list {
     display: flex;
-    gap: 1.323vw;
+    gap: 3.241vw 1.323vw;
+    flex-wrap: wrap;
 }
 
 .across-oceans-list .item {

@@ -1,0 +1,613 @@
+.lab-stat-sec {
+    padding: 100px 0 6.614vw;
+}
+
+.lab-stat-sec .row-1 {
+    margin-bottom: 1.984vw;
+}
+
+.lab-stat-sec .row-2 {
+    line-height: 1.375;
+    margin-bottom: 5.093vw;
+}
+
+.lab-stat-sec .row-2 .column {
+    gap: 0.661vw 7.143vw;
+}
+
+.lab-stat-sec .row-2 .square {
+    margin-top: 0.331vw;
+}
+
+.lab-stat-sec .heading {
+    max-width: 66.138vw;
+    font-size: 4.233vw;
+    line-height: 1;
+    letter-spacing: 0.006875em;
+    margin-bottom: 8.73vw;
+}
+
+.lab-stat-sec .across-oceans-list .item-bottom {
+    max-width: 13.228vw;
+}
+
+.lab-stat-sec .cs-map {
+    margin-top: 1.984vw;
+}
+
+.lab-stat-sec .row-3 {
+    padding-top: 0.86vw;
+    margin-top: 0.265vw;
+    margin-bottom: 2.844vw;
+}
+
+.lab-stat-sec .row-3 p {
+    margin-bottom: 0.529vw;
+
+}
+
+.lab-stat-sec .row-3 .column-1,
+.lab-stat-sec .row-4 .column-1 {
+    width: 34%;
+    padding-right: 1.587vw;
+}
+
+.lab-stat-sec .row-3 .column-2,
+.lab-stat-sec .row-4 .column-2 {
+    padding-right: 1.587vw;
+    width: 34%;
+}
+
+.lab-stat-sec .row-3 .column-3,
+.lab-stat-sec .row-4 .column-3 {
+    width: 32%;
+}
+
+.lab-stat-sec .row-4 .title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+}
+
+.lab-stat-sec .row-4 .column-2 .desc {
+    font-size: 1.19vw;
+    letter-spacing: 0.025em;
+}
+
+.lab-intro-sec {
+    padding: 1.918vw 0 20.37vw;
+    border-bottom-right-radius: 2.646vw;
+    border-bottom-left-radius: 2.646vw;
+}
+
+.lab-intro-sec .video {
+    height: 84%;
+}
+
+.lab-intro-sec .video::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #000000 14.15%, rgba(0, 0, 0, 0) 45.53%),
+        linear-gradient(0deg, rgba(108, 108, 108, 0.2), rgba(108, 108, 108, 0.2)),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.lab-intro-sec .heading {
+    font-size: 6.349vw;
+    line-height: 0.92;
+    letter-spacing: 0.004em;
+    background:
+        linear-gradient(360deg, rgba(255, 255, 255, 0) 0%, rgba(125, 234, 19, 0.7) 67.44%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    max-width: 82.341vw;
+    margin-bottom: 4.828vw;
+}
+
+.lab-intro-sec .subheading {
+    font-size: 2.116vw;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    max-width: 55.291vw;
+}
+
+.lab-intro-sec .text-left,
+.lab-intro-sec .text-right {
+    font-size: 0.794vw;
+    letter-spacing: 0.1em;
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+}
+
+.lab-intro-sec .text-left {
+    transform: rotate(-90deg);
+    left: -0.86vw;
+}
+
+.lab-intro-sec .text-right {
+    transform: rotate(90deg);
+    right: -1.323vw;
+}
+
+.lab-about-sec {
+    padding: 6.085vw 0 2.116vw;
+}
+
+.lab-about-grid-bg {
+    top: -4.63vw;
+}
+
+.lab-about-grid-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 68.88%, #E0E0E0 100%),
+        linear-gradient(0deg, #FFFFFF 5.45%, rgba(255, 255, 255, 0) 43.68%);
+    z-index: 1;
+}
+
+.lab-about-sec .row-1 {
+    color: #434343;
+    line-height: 1.375;
+    margin: 3.836vw 0 6.085vw;
+}
+
+.lab-about-sec .row-1 .column {
+    gap: 0.661vw 7.143vw;
+}
+
+.lab-about-sec .row-1 .square {
+    margin-top: 0.331vw;
+    background-color: #434343;
+}
+
+.lab-about-sec .img-deco {
+    width: 59.656vw;
+    position: absolute;
+    left: -3.836vw;
+    top: 24.735vw;
+    pointer-events: none;
+    opacity: 0.1;
+    mix-blend-mode: multiply;
+    z-index: 1;
+}
+
+.lab-about-sec .world-class {
+    font-size: 6.878vw;
+    max-width: 80.291vw;
+    margin-bottom: 6.614vw;
+}
+
+.lab-about-sec .world-class .text-plus {
+    font-size: 2.249vw;
+    line-height: 0.647;
+}
+
+.lab-about-sec .world-class .icon-img {
+    width: 10.384vw;
+    position: absolute;
+    top: 38%;
+    right: 0;
+}
+
+.lab-about-sec .world-class p {
+    padding: 4.365vw 1.323vw 4.96vw;
+}
+
+.lab-about-sec .row-2 {
+    margin-bottom: 0.992vw;
+}
+
+.lab-about-sec .row-2 .line-text {
+    font-size: 0.59vw;
+}
+
+.lab-about-sec .row-2 .source-label {
+    gap: 0.595vw;
+    font-size: 0.529vw;
+    letter-spacing: 0.02em;
+}
+
+.headquarters-subheading {
+    font-size: 1.732vw;
+    line-height: 1.18;
+    letter-spacing: 0.015em;
+    margin-bottom: -0.397vw;
+}
+
+.headquarters-heading {
+    font-size: 12.277vw;
+    line-height: 1.3;
+    letter-spacing: 0.017em;
+    margin-bottom: 1.323vw;
+}
+
+.headquarters-row-content {
+    border-top: 1px solid #B3B3B3;
+    padding-top: 0.661vw;
+    margin-bottom: 1.323vw;
+}
+
+
+.headquarters-row-content .column-1 {
+    width: 17%;
+    padding-right: 3.968vw;
+}
+
+.headquarters-row-content .column-2 {
+    width: 33.5%;
+    padding-right: 3.968vw;
+}
+
+.headquarters-row-content .column-3 {
+    width: 17%;
+    padding-right: 3.968vw;
+}
+
+.headquarters-row-content .column-4 {
+    width: 32.5%;
+}
+
+.headquarters-row-content .icon {
+    width: 1.918vw;
+}
+
+.headquarters-row-content .square {
+    background-color: #383838;
+}
+
+.headquarters-row-content .location {
+    line-height: 1.2;
+}
+
+.headquarters-row-content .label {
+    font-size: 0.794vw;
+    line-height: 1.83;
+    display: inline-block;
+}
+
+.headquarters-row-content.content-2 .desc {
+    font-size: 0.794vw;
+    letter-spacing: 0.0375em;
+    display: flex;
+    gap: 0.198vw;
+}
+
+.headquarters-row-content.content-2 .column-2,
+.headquarters-row-content.content-2 .column-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3.307vw;
+}
+
+.headquarters-row-content.content-3 .label {
+    color: #6A5F40;
+    line-height: 1;
+    padding: 0.265vw 0.529vw;
+    border: 1px solid #6A5F40;
+}
+
+.headquarters-row-content .tags {
+    gap: 0.265vw;
+}
+
+.headquarters-row-content .tag {
+    font-size: 0.788vw;
+    letter-spacing: 0.13em;
+    color: #5E5E5E;
+    padding: 0.331vw 0.529vw;
+    border: 1px solid #5E5E5E;
+    border-radius: 1.984vw;
+    display: inline-block;
+}
+
+.headquarters-row-content .btn-primary {
+    font-size: 0.868vw;
+    line-height: 1.37;
+}
+
+.headquarters-row-content .btn-primary .arrow {
+    background: transparent;
+    padding: 1.257vw 2.447vw;
+}
+
+.headquarters-row-content .btn-primary .arrow svg {
+    width: 2.116vw;
+}
+
+.headquarters-images {
+    gap: 0.992vw;
+    margin-left: -1.19vw;
+    margin-right: -1.19vw;
+    margin-bottom: 1.984vw;
+}
+
+.headquarters-images .image,
+.headquarters-images .video {
+    position: relative;
+    border-radius: 0.529vw;
+    overflow: hidden;
+    height: 33.201vw;
+}
+
+.headquarters-images .img-row {
+    display: grid;
+    grid-template-columns: 31.283vw 1fr;
+    grid-gap: 0.86vw;
+}
+
+.headquarters-images .img-row.row-reverse {
+    grid-template-columns: 1fr 31.283vw;
+}
+
+.headquarters-images .img-row.row-lg {
+    grid-template-columns: 1fr;
+}
+
+.headquarters-images .img-row.row-lg .image {
+    height: 52.778vw;
+}
+
+.headquarters-images .img-row.row-lg .image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/labs/grid-2.png') no-repeat center / cover;
+    pointer-events: none;
+    opacity: 0.35;
+}
+
+
+.headquarters-images .img-row-2 .image {
+    border-radius: 21.693vw;
+}
+
+.headquarters-images .img-row-4 .image {
+    border-radius: 30.159vw;
+}
+
+
+.headquarters-images .img-row-6 .image-right {
+    border-radius: 19.577vw;
+}
+
+.headquarters-images .img-row-8 .image-right {
+    border-radius: 23.81vw;
+}
+
+.headquarters-images .img-row-9 .image-left {
+    border-radius: 19.048vw;
+}
+
+.headquarters-labs {
+    display: grid;
+    grid-template-columns: 33.995vw 1fr;
+    grid-gap: 1.19vw;
+}
+
+.headquarters-labs .lab-box {
+    position: relative;
+    border-radius: 1.058vw;
+    padding: 1.653vw 1.323vw 1.058vw 2.116vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.headquarters-labs .lab-box.box-left {
+    border: 1px solid #B3B3B3;
+}
+
+.headquarters-labs .lab-box.box-right::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../img/labs/rectangle-1.png') no-repeat center / cover;
+    pointer-events: none;
+}
+
+.headquarters-labs .lab-box .box-source {
+    gap: 0.595vw;
+    font-size: 0.529vw;
+    letter-spacing: 0.02em;
+}
+
+.headquarters-labs .lab-box .line-text {
+    font-size: 0.59vw;
+}
+
+.headquarters-labs .lab-box .box-header {
+    margin-bottom: 0.794vw;
+}
+
+.headquarters-labs .lab-box .box-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.579vw;
+}
+
+.headquarters-labs .lab-box .box-title .title {
+    font-size: 2.91vw;
+    line-height: 1.57;
+    letter-spacing: 0.02em;
+}
+
+.headquarters-labs .lab-box .box-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.265vw;
+    margin-bottom: 0.86vw;
+}
+
+.headquarters-labs .lab-box .box-tags .tag {
+    display: inline-block;
+    font-size: 0.788vw;
+    letter-spacing: 0.13em;
+    padding: 0.331vw 0.529vw;
+    border: 1px solid #5E5E5E;
+    color: #5E5E5E;
+    border-radius: 1.984vw;
+}
+
+.headquarters-labs .lab-box .box-infos {
+    margin-bottom: 1.323vw;
+}
+
+.headquarters-labs .lab-box .box-infos .info-item {
+    display: grid;
+    grid-template-columns: 12.566vw 1fr;
+    grid-gap: 1.323vw;
+    border-top: 1px solid #B3B3B3;
+    padding: 0.794vw 0;
+    min-height: 5.952vw;
+    font-size: 0.794vw;
+    line-height: 1.33;
+}
+
+.headquarters-labs .lab-box .box-infos .info-item:last-child {
+    min-height: auto;
+}
+
+
+
+.headquarters-labs .lab-box .box-infos .location {
+    font-size: 1.846vw;
+}
+
+.headquarters-labs .lab-box .box-infos .icon {
+    width: 1.918vw;
+}
+
+.headquarters-labs .lab-box .box-img {
+    height: 24.669vw;
+    border-radius: 0.529vw;
+    overflow: hidden;
+    margin-left: -1.058vw;
+    margin-right: -0.265vw;
+    max-width: 31.746vw;
+    margin-top: auto;
+}
+
+.headquarters-labs .lab-box.box-right {
+    aspect-ratio: 916/909;
+}
+
+.headquarters-labs .lab-box.box-right .box-header {
+    max-width: 31.019vw;
+
+}
+
+.headquarters-labs .lab-box .box-btn {
+    font-size: 1.846vw;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.926vw;
+    text-align: right;
+    color: #000;
+}
+
+.headquarters-labs .lab-box .box-btn:hover .arrow {
+    background-color: #FF7B31;
+    color: #fff;
+}
+
+.headquarters-labs .lab-box .box-btn .arrow {
+    width: 3.042vw;
+    height: 3.042vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FF7B31;
+    border-radius: 50%;
+    flex-shrink: 0;
+    color: #FF7B31;
+}
+
+.headquarters-labs .lab-box .box-btn span {
+    max-width: 19.312vw;
+}
+
+.headquarters-labs .lab-box .box-btn .arrow svg {
+    width: 1.587vw;
+}
+
+
+.headquarters-labs .lab-box.box-right .info-item:last-child {
+    max-width: 30.159vw;
+}
+
+.headquarters-labs .lab-box.box-right .box-title {
+    margin-bottom: 4.63vw;
+}
+
+.headquarters-labs .lab-box .box-careers {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-height: 34.788vw;
+    width: 25.198vw;
+    background-color: #FF7B31;
+    border-radius: 1.058vw;
+    overflow: hidden;
+    padding: 1.455vw 1.323vw 2.513vw;
+}
+
+.headquarters-labs .lab-box .box-careers__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.headquarters-labs .lab-box .box-careers__header {
+    font-size: 0.638vw;
+    letter-spacing: 0.02em;
+    margin-bottom: 1.852vw;
+    width: 100%;
+}
+
+.headquarters-labs .lab-box .box-careers__title {
+    font-size: 2.646vw;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0.011em;
+    max-width: 82%;
+    margin-bottom: 1.521vw;
+
+}
+
+.headquarters-labs .lab-box .box-careers__desc {
+    letter-spacing: 0.01em;
+    max-width: 90%;
+    margin-bottom: 1.521vw;
+    line-height: 1.25;
+}
+
+.headquarters-labs .lab-box .box-careers .img-plus {
+    width: 0.529vw;
+}
+
+.headquarters-labs .lab-box .box-careers .btn-primary {
+    font-size: 0.868vw;
+    line-height: 1.37;
+    gap: 1.323vw;
+    margin: 1.521vw 0;
+
+}
+
+.headquarters-labs .lab-box .box-careers .btn-primary .arrow {
+    padding: 1.257vw 2.447vw;
+    border-color: #fff;
+    color: #fff;
+}
+
+.headquarters-labs .lab-box .box-careers .btn-primary .arrow svg {
+    width: 2.116vw;
+}
+
+.headquarters-labs .lab-box .box-careers .btn-primary span {
+    max-width: 8.201vw;
+}
