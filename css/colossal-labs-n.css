@@ -187,12 +187,13 @@
     line-height: 0.647;
 }
 
-.lab-about-sec .world-class .icon-img {
-    width: 10.384vw;
+.lab-about-sec .world-class .cs-node {
     position: absolute;
     top: 38%;
     right: 0;
+    width: 10.384vw;
 }
+
 
 .lab-about-sec .world-class p {
     padding: 4.365vw 1.323vw 4.96vw;
@@ -610,4 +611,447 @@
 
 .headquarters-labs .lab-box .box-careers .btn-primary span {
     max-width: 8.201vw;
+}
+
+.lab-partnerships-sec {
+    border-top-left-radius: 2.116vw;
+    border-top-right-radius: 2.116vw;
+    padding: 5.489vw 1.653vw 1.72vw;
+}
+
+
+.lab-partnerships-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60.847vw;
+    background: #7DEA13;
+}
+
+.lab-partnerships-overlay::before,
+.lab-partnerships-overlay::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+}
+
+.lab-partnerships-overlay::before {
+    background: url('../img/labs/grid-3.png') no-repeat center / cover;
+    mix-blend-mode: exclusion;
+    opacity: 0.6;
+}
+
+.lab-partnerships-overlay::after {
+    background:
+        linear-gradient(0deg, #FFFFFF 13.33%, rgba(255, 255, 255, 0) 98.26%);
+}
+
+
+.lab-partnerships-heading {
+    font-size: 6.878vw;
+    line-height: 80%;
+    padding: 0.794vw 6.614vw;
+}
+
+.lab-partnerships-heading span {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.lab-partnerships-header .img-plus {
+    width: 1.058vw;
+    height: 1.058vw;
+    object-fit: contain;
+}
+
+.cs-node {
+    width: 9.524vw;
+    font-size: 0.477vw;
+    letter-spacing: 0.03em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.463vw;
+}
+
+.cs-node__top {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.587vw;
+}
+
+.cs-node__bottom {
+    padding: 0 0.463vw;
+}
+
+.lab-partnerships-header .cs-node {
+    left: -3.241vw;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+}
+
+.lab-partnerships-header {
+    max-width: 95%;
+    margin: 0 auto 2.778vw;
+}
+
+.lab-work-slider__header {
+    gap: 1.323vw;
+    margin-bottom: 1.323vw;
+}
+
+.lab-work-slider__header .left,
+.lab-work-slider__header .right {
+    width: calc(50% - 0.661vw);
+}
+
+.lab-work-slider__header .left {
+    padding-left: 2.646vw;
+}
+
+
+.lab-work-slider__wrap {
+    margin-bottom: 0.132vw;
+}
+
+.lab-work-slider__wrap .label {
+    font-size: 1.587vw;
+}
+
+.lab-work-slider .slide-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.323vw;
+}
+
+.lab-work-slider .slide-images .image {
+    aspect-ratio: 719/718;
+    border-radius: 1.058vw;
+    border: 1px solid #828282;
+    overflow: hidden;
+}
+
+.lab-work-slider .slide-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lab-work-counter {
+    font-size: 1.587vw;
+}
+
+.lab-work-counter .total {
+    color: #000;
+}
+
+.lab-work-arrow .swiper-arrow {
+    background-color: #fff;
+    color: #000000;
+}
+
+.lab-work-arrow .swiper-arrow.swiper-button-disabled {
+    background-color: #D9D9D9;
+    color: #5E5E5E;
+    mix-blend-mode: multiply;
+}
+
+.lab-partnerships-sec .research-partners-sec .wrapper-sm {
+    padding: 0 0.794vw;
+}
+
+.lab-partnerships-sec .research-partners-sec .wrapper-md {
+    padding: 0 2.646vw;
+}
+
+.lab-partnerships-sec .research-partners-sec .research-partners-header .label {
+    color: #000;
+    border-color: #000000;
+}
+
+.lab-partnerships-sec .research-partners-sec {
+    padding-bottom: 0;
+}
+
+.lab-divisions-sec {
+    padding: 4.96vw 0 27.315vw;
+}
+
+.lab-divisions-sec .img-deco {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    bottom: 19.841vw;
+    mix-blend-mode: difference;
+    opacity: 0.22;
+    filter: blur(3px);
+}
+
+.lab-divisions-sec::before,
+.lab-divisions-sec::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.lab-divisions-sec::before {
+    background: url('../img/labs/grid-4.png') no-repeat center / cover;
+    opacity: 0.6;
+}
+
+.lab-divisions-sec::after {
+    background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 55%);
+}
+
+.lab-divisions-sec .row-1 {
+    margin-bottom: 6.151vw;
+}
+
+.lab-divisions-sec .heading {
+    font-size: 15.184vw;
+    line-height: 0.87;
+    background: linear-gradient(180deg, #2F2F2F 2.21%, #FF7B31 38.62%, #FF7B31 63.46%, #9940DD 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.lab-division-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.918vw;
+    margin-top: 6.415vw;
+}
+
+.lab-division-row .row-label .label,
+.lab-division-row .row-label .line-text {
+    font-size: 0.529vw;
+    letter-spacing: 0.02em;
+}
+
+.lab-division-row .row-label {
+    margin-bottom: 1.257vw;
+}
+
+.lab-division-row .row-label .label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.595vw;
+}
+
+.lab-division-row .row-label .label .square-plus {
+    border-color: #5E5E5E;
+}
+
+.lab-division-row .column-2 {
+    margin-top: -13.558vw;
+}
+
+.lab-division-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.587vw;
+}
+
+.lab-division-card-wrap {
+    padding: 1px;
+    background: #5E5E5E;
+    clip-path: polygon(2.7% 0.1%, 97.3% 0.1%, 97.4% 0.1%, 97.6% 0.1%, 97.7% 0.1%, 97.9% 0.1%, 98% 0.2%, 98.1% 0.2%, 98.2% 0.2%, 98.4% 0.3%, 98.5% 0.3%, 98.6% 0.4%, 98.7% 0.4%, 98.8% 0.5%, 98.9% 0.5%, 99% 0.6%, 99.1% 0.7%, 99.2% 0.7%, 99.3% 0.8%, 99.4% 0.9%, 99.4% 1%, 99.5% 1.1%, 99.6% 1.2%, 99.6% 1.3%, 99.7% 1.4%, 99.7% 1.4%, 99.8% 1.5%, 99.8% 1.7%, 99.8% 1.8%, 99.8% 1.9%, 99.8% 2%, 99.8% 2.1%, 99.8% 83.3%, 99.8% 83.4%, 99.8% 83.5%, 99.8% 83.6%, 99.8% 83.7%, 99.8% 83.8%, 99.7% 83.9%, 99.7% 84%, 99.6% 84.1%, 99.6% 84.2%, 99.5% 84.3%, 99.4% 84.4%, 99.4% 84.4%, 99.3% 84.5%, 99.2% 84.6%, 99.1% 84.7%, 99% 84.7%, 98.9% 84.8%, 98.8% 84.9%, 98.7% 84.9%, 98.6% 85%, 98.5% 85%, 98.4% 85.1%, 98.2% 85.1%, 98.1% 85.1%, 98% 85.2%, 97.9% 85.2%, 97.7% 85.2%, 97.6% 85.2%, 97.4% 85.2%, 97.3% 85.3%, 60.1% 85.3%, 60% 85.3%, 59.9% 85.3%, 59.8% 85.3%, 59.7% 85.3%, 59.6% 85.3%, 59.5% 85.3%, 59.4% 85.3%, 59.3% 85.4%, 59.2% 85.4%, 59.1% 85.4%, 59% 85.4%, 58.9% 85.5%, 58.8% 85.5%, 58.7% 85.5%, 58.6% 85.6%, 58.6% 85.6%, 58.5% 85.7%, 58.4% 85.7%, 58.3% 85.8%, 58.2% 85.8%, 58.2% 85.9%, 58.1% 86%, 58% 86%, 58% 86.1%, 57.9% 86.1%, 57.8% 86.2%, 57.8% 86.3%, 57.7% 86.4%, 57.7% 86.4%, 57.6% 86.5%, 50.3% 98.8%, 50.3% 98.8%, 50.2% 98.9%, 50.2% 99%, 50.1% 99%, 50.1% 99.1%, 50% 99.2%, 50% 99.2%, 49.9% 99.3%, 49.8% 99.3%, 49.8% 99.4%, 49.7% 99.4%, 49.6% 99.5%, 49.6% 99.5%, 49.5% 99.6%, 49.4% 99.6%, 49.3% 99.6%, 49.2% 99.7%, 49.2% 99.7%, 49.1% 99.7%, 49% 99.8%, 48.9% 99.8%, 48.8% 99.8%, 48.7% 99.8%, 48.6% 99.9%, 48.5% 99.9%, 48.4% 99.9%, 48.3% 99.9%, 48.2% 99.9%, 48.1% 99.9%, 48% 99.9%, 2.7% 99.9%, 2.5% 99.9%, 2.4% 99.9%, 2.2% 99.9%, 2.1% 99.9%, 2% 99.8%, 1.8% 99.8%, 1.7% 99.8%, 1.6% 99.7%, 1.5% 99.7%, 1.4% 99.6%, 1.3% 99.6%, 1.2% 99.5%, 1% 99.5%, 1% 99.4%, 0.9% 99.3%, 0.8% 99.3%, 0.7% 99.2%, 0.6% 99.1%, 0.5% 99%, 0.5% 98.9%, 0.4% 98.8%, 0.3% 98.7%, 0.3% 98.6%, 0.2% 98.6%, 0.2% 98.5%, 0.2% 98.3%, 0.1% 98.2%, 0.1% 98.1%, 0.1% 98%, 0.1% 97.9%, 0.1% 2.1%, 0.1% 2%, 0.1% 1.9%, 0.1% 1.8%, 0.2% 1.7%, 0.2% 1.5%, 0.2% 1.4%, 0.3% 1.4%, 0.3% 1.3%, 0.4% 1.2%, 0.5% 1.1%, 0.5% 1%, 0.6% 0.9%, 0.7% 0.8%, 0.8% 0.7%, 0.9% 0.7%, 1% 0.6%, 1% 0.5%, 1.2% 0.5%, 1.3% 0.4%, 1.4% 0.4%, 1.5% 0.3%, 1.6% 0.3%, 1.7% 0.2%, 1.8% 0.2%, 2% 0.2%, 2.1% 0.1%, 2.2% 0.1%, 2.4% 0.1%, 2.5% 0.1%);
+}
+
+.lab-division-card {
+    position: relative;
+    aspect-ratio: 442/564;
+    overflow: hidden;
+    backdrop-filter: blur(36px);
+    -webkit-backdrop-filter: blur(36px);
+    background: #000;
+    color: #fff;
+    clip-path: polygon(2.7% 0.1%, 97.3% 0.1%, 97.4% 0.1%, 97.6% 0.1%, 97.7% 0.1%, 97.9% 0.1%, 98% 0.2%, 98.1% 0.2%, 98.2% 0.2%, 98.4% 0.3%, 98.5% 0.3%, 98.6% 0.4%, 98.7% 0.4%, 98.8% 0.5%, 98.9% 0.5%, 99% 0.6%, 99.1% 0.7%, 99.2% 0.7%, 99.3% 0.8%, 99.4% 0.9%, 99.4% 1%, 99.5% 1.1%, 99.6% 1.2%, 99.6% 1.3%, 99.7% 1.4%, 99.7% 1.4%, 99.8% 1.5%, 99.8% 1.7%, 99.8% 1.8%, 99.8% 1.9%, 99.8% 2%, 99.8% 2.1%, 99.8% 83.3%, 99.8% 83.4%, 99.8% 83.5%, 99.8% 83.6%, 99.8% 83.7%, 99.8% 83.8%, 99.7% 83.9%, 99.7% 84%, 99.6% 84.1%, 99.6% 84.2%, 99.5% 84.3%, 99.4% 84.4%, 99.4% 84.4%, 99.3% 84.5%, 99.2% 84.6%, 99.1% 84.7%, 99% 84.7%, 98.9% 84.8%, 98.8% 84.9%, 98.7% 84.9%, 98.6% 85%, 98.5% 85%, 98.4% 85.1%, 98.2% 85.1%, 98.1% 85.1%, 98% 85.2%, 97.9% 85.2%, 97.7% 85.2%, 97.6% 85.2%, 97.4% 85.2%, 97.3% 85.3%, 60.1% 85.3%, 60% 85.3%, 59.9% 85.3%, 59.8% 85.3%, 59.7% 85.3%, 59.6% 85.3%, 59.5% 85.3%, 59.4% 85.3%, 59.3% 85.4%, 59.2% 85.4%, 59.1% 85.4%, 59% 85.4%, 58.9% 85.5%, 58.8% 85.5%, 58.7% 85.5%, 58.6% 85.6%, 58.6% 85.6%, 58.5% 85.7%, 58.4% 85.7%, 58.3% 85.8%, 58.2% 85.8%, 58.2% 85.9%, 58.1% 86%, 58% 86%, 58% 86.1%, 57.9% 86.1%, 57.8% 86.2%, 57.8% 86.3%, 57.7% 86.4%, 57.7% 86.4%, 57.6% 86.5%, 50.3% 98.8%, 50.3% 98.8%, 50.2% 98.9%, 50.2% 99%, 50.1% 99%, 50.1% 99.1%, 50% 99.2%, 50% 99.2%, 49.9% 99.3%, 49.8% 99.3%, 49.8% 99.4%, 49.7% 99.4%, 49.6% 99.5%, 49.6% 99.5%, 49.5% 99.6%, 49.4% 99.6%, 49.3% 99.6%, 49.2% 99.7%, 49.2% 99.7%, 49.1% 99.7%, 49% 99.8%, 48.9% 99.8%, 48.8% 99.8%, 48.7% 99.8%, 48.6% 99.9%, 48.5% 99.9%, 48.4% 99.9%, 48.3% 99.9%, 48.2% 99.9%, 48.1% 99.9%, 48% 99.9%, 2.7% 99.9%, 2.5% 99.9%, 2.4% 99.9%, 2.2% 99.9%, 2.1% 99.9%, 2% 99.8%, 1.8% 99.8%, 1.7% 99.8%, 1.6% 99.7%, 1.5% 99.7%, 1.4% 99.6%, 1.3% 99.6%, 1.2% 99.5%, 1% 99.5%, 1% 99.4%, 0.9% 99.3%, 0.8% 99.3%, 0.7% 99.2%, 0.6% 99.1%, 0.5% 99%, 0.5% 98.9%, 0.4% 98.8%, 0.3% 98.7%, 0.3% 98.6%, 0.2% 98.6%, 0.2% 98.5%, 0.2% 98.3%, 0.1% 98.2%, 0.1% 98.1%, 0.1% 98%, 0.1% 97.9%, 0.1% 2.1%, 0.1% 2%, 0.1% 1.9%, 0.1% 1.8%, 0.2% 1.7%, 0.2% 1.5%, 0.2% 1.4%, 0.3% 1.4%, 0.3% 1.3%, 0.4% 1.2%, 0.5% 1.1%, 0.5% 1%, 0.6% 0.9%, 0.7% 0.8%, 0.8% 0.7%, 0.9% 0.7%, 1% 0.6%, 1% 0.5%, 1.2% 0.5%, 1.3% 0.4%, 1.4% 0.4%, 1.5% 0.3%, 1.6% 0.3%, 1.7% 0.2%, 1.8% 0.2%, 2% 0.2%, 2.1% 0.1%, 2.2% 0.1%, 2.4% 0.1%, 2.5% 0.1%);
+}
+
+.lab-division-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+
+    clip-path: inherit;
+    border: 1px solid #5E5E5E;
+}
+
+.lab-division-card .card-inner {
+    padding: 1.587vw 1.587vw 1.852vw 1.587vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    z-index: 2;
+
+}
+
+.lab-division-card .card-video {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.lab-division-card .card-video::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #FF7B31;
+    mix-blend-mode: difference;
+    z-index: 1;
+}
+
+.lab-division-card .card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.513vw;
+    width: 100%;
+}
+
+.lab-division-card .card-label {
+    display: inline-block;
+    color: #7DEA13;
+    font-family: 'NB Architekt Std';
+    font-size: 0.872vw;
+    letter-spacing: 0.02em;
+    padding: 0.463vw 0.794vw;
+    border-radius: 0.397vw;
+    transition: all 0.3s ease;
+    border: 1px solid #7DEA13;
+}
+
+.lab-division-card .card-logo {
+    transition: all 0.3s ease;
+    color: #5E5E5E;
+}
+
+.lab-division-card .card-logo svg {
+    width: 1.521vw;
+    height: 1.653vw;
+    object-fit: contain;
+}
+
+.lab-division-card .card-title {
+    font-size: 3.175vw;
+    line-height: 100%;
+    margin-bottom: 2.844vw;
+
+}
+
+.lab-division-card .card-line {
+    height: 1px;
+    width: 2.976vw;
+    background-color: #B3B3B3;
+    margin-bottom: 1.587vw;
+}
+
+.lab-division-card .card-desc {
+    font-size: 1.19vw;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0.01em;
+    color: #B3B3B3;
+    transition: all 0.3s ease;
+    max-width: 22.354vw;
+}
+
+.lab-division-card .card-icon {
+    height: 2.91vw;
+    width: auto;
+    margin-top: auto;
+}
+
+.lab-division-card:hover .card-video {
+    opacity: 1;
+    visibility: visible;
+}
+
+.lab-division-card:hover .card-desc {
+    opacity: 0;
+}
+
+.lab-division-card:hover .card-logo {
+    color: #7DEA13;
+}
+
+.lab-division-card:hover .card-label {
+    background: #7DEA13;
+    color: #000;
+}
+
+.lab-testimonial-sec .testimonial-main {
+    position: relative;
+    z-index: 3;
+    margin-top: -17.857vw;
+}
+
+.lab-testimonial-sec .testimonial-main>.left .quote-title {
+    padding: 3.307vw 0 2.513vw;
+    max-width: 39.352vw;
+}
+
+.lab-testimonial-sec .testimonial-main>.left .row-3 .text {
+    font-size: clamp(6px, 0.639vw, 20px);
+}
+
+.lab-testimonial-sec .testimonial-main>.left .line:last-child {
+    margin: 1.72vw 0 0 0;
+}
+
+.lab-testimonial-sec .testimonial-main>.left .row-3 .quote-icon img {
+    transform: rotate(-180deg);
+}
+
+.lab-testimonial-sec .testimonial-main>.right::after {
+    background:
+        radial-gradient(160.77% 55.4% at 51.75% 100%, #FF7B31 16.52%, rgba(255, 123, 49, 0) 70.91%);
+
+}
+
+.lab-careers-sec {
+    padding: 0.794vw 0 5.093vw;
+}
+
+.lab-careers-sec .heading {
+    font-size: 14.655vw;
+    line-height: 0.79;
+    padding-top: 0.661vw;
+    margin-bottom: 0;
+}
+
+
+.lab-careers-sec .clsl-mission-header {
+    margin-bottom: 4.431vw;
+}
+
+.lab-careers-slider {
+    margin-top: -4.63vw;
+    padding-bottom: 0;
+}
+
+
+
+.lab-careers-sec .clsl-mission-subheading {
+    margin-bottom: 2.447vw;
+}
+
+.lab-careers-sec .clsl-mission-subheading .medium-title {
+    font-size: 4.431vw;
+    line-height: 1.03;
+    letter-spacing: 0.013em;
 }
