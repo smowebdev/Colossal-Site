@@ -1118,6 +1118,10 @@
     margin-top: 2.91vw;
 }
 
+.education-faqs-item .btn-primary .arrow {
+    background: transparent;
+}
+
 .education-faqs-title {
     font-weight: 400;
     font-size: 2.65vw;
