@@ -1,4 +1,17 @@
 jQuery(document).ready(function ($) {
+  $(".lab-division-card").each(function () {
+    const video = $(this).find("video").get(0);
+
+    $(this).on("mouseenter", function () {
+      video.currentTime = 0;
+      video.play();
+    });
+
+    $(this).on("mouseleave", function () {
+      video.pause();
+      video.currentTime = 0;
+    });
+  });
   const labWorkSlider = new Swiper(".lab-work-slider", {
     slidesPerView: 1,
     navigation: {
