@@ -78,3 +78,9 @@ h1 {
     width: 1vw;
     height: 1vw;
 }
+
+.colossal-hero-section .wh-rec-1 img {
+    width: 0.339vw;
+    height: 0.339vw;
+    object-fit: contain;
+}
