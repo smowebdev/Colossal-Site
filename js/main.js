@@ -40,26 +40,41 @@ jQuery(document).ready(function ($) {
   // Research FAQ - End
 
   // FAQ - Start
+  const smootherScroll = ScrollSmoother.get();
+
   const firstFaqItem = $(".faq-item").first();
   firstFaqItem.addClass("active");
   firstFaqItem.find(".faq-content").show();
   firstFaqItem.find(".faq-toggle").text("[ CLOSE ]");
-  $(".faq-header").click(function () {
+
+  $(".faq-header").on("click", function (e) {
+    e.preventDefault();
+
     const item = $(this).closest(".faq-item");
     const content = item.find(".faq-content");
     const toggleBtn = item.find(".faq-toggle");
 
     $(".faq-item").not(item).removeClass("active");
-    $(".faq-content").not(content).slideUp();
+    $(".faq-content").not(content).stop(true, true).slideUp(300);
     $(".faq-toggle").not(toggleBtn).text("[ EXPAND ]");
 
     if (item.hasClass("active")) {
       item.removeClass("active");
-      content.slideUp();
+
+      content.stop(true, true).slideUp(300, function () {
+        ScrollTrigger.refresh();
+        smootherScroll && smootherScroll.refresh();
+      });
+
       toggleBtn.text("[ EXPAND ]");
     } else {
       item.addClass("active");
-      content.slideDown();
+
+      content.stop(true, true).slideDown(300, function () {
+        ScrollTrigger.refresh();
+        smootherScroll && smootherScroll.refresh();
+      });
+
       toggleBtn.text("[ CLOSE ]");
     }
   });
