@@ -1,0 +1,75 @@
+.colossal-hero-section {
+    padding-top: 8.327vw !important;
+    padding-bottom: 7.799vw;
+}
+
+.box-small span {
+    font-family: 'NB Architekt Std', Courier, monospace;
+    font-weight: 400;
+    font-size: 0.52875vw;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'NB Architekt Std', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1.322vw;
+    letter-spacing: 0.02em;
+
+}
+
+.hero-img-wrap img {
+    width: 42.989vw;
+}
+
+.hero-img-wrap .img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% + 5.82vw);
+    max-width: none;
+    height: auto;
+    
+    mix-blend-mode: exclusion;
+    pointer-events: none;
+}
+
+.colossal-hero-section .mt-14 {
+    margin-top: 0.926vw;
+}
+
+.colossal-hero-section .column {
+    gap: 7.275vw;
+    top: 7.407vw;
+}
+
+.colossal-hero-section .text-md {
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 0.265vw;
+}
+
+.colossal-hero-section .text-index {
+    margin-left: 12.169vw;
+    margin-top: -0.397vw;
+}
+.colossal-hero-section .box-rec-2{
+    margin-top: -9.524vw;
+    margin-left: 0.595vw;
+    padding-right: 0.661vw;
+}
+.colossal-hero-section .text-where{
+    padding-left: 7.143vw;
+}
+.colossal-hero-section .row-bottom{
+    margin-top: -0.463vw;
+}
+.colossal-hero-section  .wh-rec-1{
+    width: 1vw;
+    height: 1vw;
+}
