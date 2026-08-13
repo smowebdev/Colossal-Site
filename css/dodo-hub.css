@@ -1967,6 +1967,174 @@ p:last-child, p:last-of-type {
     clip-path: polygon(98.844% 0%, 98.844% 0%, 99.032% 0.027%, 99.209% 0.104%, 99.375% 0.228%, 99.527% 0.395%, 99.661% 0.599%, 99.777% 0.838%, 99.871% 1.106%, 99.941% 1.399%, 99.985% 1.714%, 100% 2.046%, 100% 81.382%, 100% 81.382%, 99.971% 82.017%, 99.887% 82.619%, 99.753% 83.18%, 99.573% 83.693%, 99.353% 84.148%, 99.095% 84.539%, 98.805% 84.857%, 98.488% 85.095%, 98.148% 85.243%, 97.79% 85.294%, 79.275% 85.294%, 79.275% 85.294%, 78.917% 85.345%, 78.577% 85.494%, 78.26% 85.731%, 77.97% 86.049%, 77.713% 86.44%, 77.492% 86.896%, 77.312% 87.408%, 77.178% 87.97%, 77.094% 88.572%, 77.065% 89.206%, 77.065% 96.039%, 77.065% 96.039%, 77.036% 96.674%, 76.952% 97.276%, 76.818% 97.837%, 76.639% 98.35%, 76.418% 98.805%, 76.16% 99.196%, 75.871% 99.515%, 75.554% 99.752%, 75.213% 99.9%, 74.855% 99.951%, 1.156% 99.951%, 1.156% 99.951%, 0.969% 99.924%, 0.791% 99.847%, 0.625% 99.723%, 0.473% 99.556%, 0.339% 99.352%, 0.223% 99.114%, 0.129% 98.845%, 0.059% 98.552%, 0.015% 98.237%, 0% 97.905%, 0% 2.046%, 0% 2.046%, 0.015% 1.714%, 0.059% 1.399%, 0.129% 1.106%, 0.223% 0.838%, 0.339% 0.599%, 0.473% 0.395%, 0.625% 0.228%, 0.791% 0.104%, 0.969% 0.027%, 1.156% 0%, 98.844% 0%);
 }
 
+.core-phenotype-differences .left {
+    width: 26.5%;
+    padding-right: 3.439vw;
+}
+.core-phenotype-differences .title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    margin-bottom: 0.661vw;
+}
+.core-phenotype-differences .title-bottom {
+    gap: 0;
+    margin-top: 11.574vw;
+}
+.core-phenotype-differences .title-bottom .square {
+    width: 1.587vw;
+    height: 1.587vw;
+	margin-bottom: 0.595vw;
+}
+
+.core-phenotype-differences .note-text {
+    font-size: 0.661vw;
+    line-height: 1.8;
+	margin-bottom: 0.198vw;
+}
+
+.core-phenotype-differences .right {
+    width: 73.5%;
+}
+.core-phenotype-differences .core-source {
+    margin: 3.396vw 0 0 0 ;
+	gap: 17.593vw;
+}
+.core-phenotype-differences .core-source-label {
+    gap: 0.529vw;
+    font-size: clamp(6px, 0.529vw, 20px);
+    letter-spacing: 0.02em;
+    margin-bottom: 1.058vw;
+}
+.core-phenotype-differences .core-source-video {
+    aspect-ratio: 170 / 95;
+}
+.core-phenotype-differences .key-data {
+    font-size: clamp(6px, 0.529vw, 20px);
+    letter-spacing: 0.02em;
+    transform: rotate(-90deg);
+    bottom: 3.505vw;
+    left: -0.331vw;
+}
+.core-phenotype-differences .video {
+    transform: rotateY(180deg);
+    padding: 3.505vw 7.672vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.core-phenotype-differences .video::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #FFFFFF4D;
+}
+.core-phenotype-differences .video video {
+    width: auto;
+    height: 33.201vw;
+}
+.core-phenotype-differences .body-part {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    mix-blend-mode: multiply;
+    gap: 1.058vw;
+}
+.core-phenotype-differences .body-part-1 {
+    top: 7%;
+    left: 5%;
+}
+.core-phenotype-differences .body-part .image {
+    width: 11.772vw;
+    height: 6.614vw;
+    object-fit: cover;
+    border: 1px solid #979797;
+    border-radius: 0.529vw;
+}
+.core-phenotype-differences .body-part .text {
+    font-size: 0.794vw;
+    color: #828282;
+    max-width: 9.722vw;
+}
+.core-phenotype-differences .body-part .img-line {
+    position: absolute;
+    max-width: unset;
+}
+.core-phenotype-differences .body-part {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    mix-blend-mode: multiply;
+    gap: 1.058vw;
+}
+.core-phenotype-differences .body-part-2 {
+    top: 1.147vw;
+    left: 61%;
+}
+.core-phenotype-differences .body-part-2 .img-line {
+    top: 3.302vw;
+    left: -7.765vw;
+    width: 6.426vw;
+}
+
+.core-phenotype-differences .body-part-3 {
+    top: 11.905vw;
+    right: 2.05vw;
+    flex-direction: column-reverse;
+}
+.core-phenotype-differences .body-part-1 .img-line {
+    top: 2.469vw;
+    left: 100%;
+	margin-left: 1.089vw;
+    width: 1.69vw;
+}
+.core-phenotype-differences .body-part-3 .img-line {
+    top: auto;
+	bottom: 0.331vw;
+	right: 100%;
+	margin-right: 1.167vw;
+    left: auto;
+    width: 10.582vw;
+}
+.core-phenotype-differences .body-part-4 {
+    bottom: 3.241vw;
+    right: 2.05vw;
+    flex-direction: column;
+}
+.core-phenotype-differences .body-part-4 .img-line {
+    top: 0;
+	margin-right: 1.19vw;
+	right: 100%;
+    left: auto;
+    width: 4.729vw;
+}
+.core-phenotype-differences .body-part-5 {
+    bottom: 4.101vw;
+    left: 6.614vw;
+    flex-direction: column;
+}
+.core-phenotype-differences .body-part-5 .img-line {
+    top: auto;
+	bottom: 0.331vw;
+    left: 100%;
+    width: 11.673vw;
+}
+
+.core-phenotype-differences .core-source-label {
+    gap: 0.529vw;
+    font-size: clamp(6px, 0.529vw, 20px);
+    letter-spacing: 0.02em;
+    margin-bottom: 1.058vw;
+	left: 2.381vw;
+	top: -0.463vw;
+}
+.core-phenotype-differences .core-source-video {
+    aspect-ratio: 170 / 95;
+	width: 12.765vw;
+	height: 7.143vw;
+}
+
+
+
 .phenotype-wrapper .box-4{
 	bottom: 0px;
     right: 2.116vw;
