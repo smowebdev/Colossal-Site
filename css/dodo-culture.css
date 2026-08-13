@@ -34,5 +34,31 @@
 }
 
 .dodo-return-sec .mammoth-return-divier {
-    top: -280px;
+    margin-top: -280px;
+    top: 0;
+    margin-bottom: 0;
+}
+
+.dodo-return-sec .heading {
+    font-size: 498.37px;
+    letter-spacing: -54.88px;
+    line-height: 1;
+}
+
+.dodo-return-sec .mammoth-return-main {
+    min-height: 1325px;
+    padding-top: 492px;
+    padding-bottom: 10px;
+}
+
+.dodo-return-sec .mammoth-return-main .img-2 {
+    width: 1201px;
+    position: absolute;
+    z-index: 2;
+    left: 9%;
+    bottom: 15%;
+}
+
+.dodo-return-sec .mammoth-return-heading {
+    padding-bottom: 52px;
 }
