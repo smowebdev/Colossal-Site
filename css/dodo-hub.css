@@ -2265,6 +2265,16 @@ p:last-child, p:last-of-type {
 .mix-difference {
     mix-blend-mode: difference;
 }
+.dodo-hub-page .footer-end img{
+	width: 78.373vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dodo-hub-page .footer-end{
+	mix-blend-mode: Exclusion;
+	    margin-top: -36.376vw;
+}
+    
 .shaping-conversation-card .card-arrow {
     width: 1.72vw;
     height: 1.521vw;
