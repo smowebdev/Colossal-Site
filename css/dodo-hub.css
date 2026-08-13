@@ -1900,6 +1900,9 @@ p:last-child, p:last-of-type {
     border-radius: 0.992vw;
 
 }
+.mammoth-related-main .column-2 .video video{
+	border-radius: 0.992vw;
+}
 
 .mammoth-related-main .column-2 .video::before {
     content: "";
