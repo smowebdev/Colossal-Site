@@ -2271,8 +2271,8 @@ p:last-child, p:last-of-type {
 	margin-right: auto;
 }
 .dodo-hub-page .footer-end{
-	mix-blend-mode: Exclusion;
-	    margin-top: -36.376vw;
+	mix-blend-mode: exclusion;
+	    margin-top: -21.825vw;
 }
     
 .shaping-conversation-card .card-arrow {
