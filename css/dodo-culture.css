@@ -67,7 +67,11 @@
 }
 
 .dodo-culture-lore-sec {
-    padding: 4.63vw 0 100px;
+    padding: 0 0 100px;
+}
+
+.dodo-culture-lore-sec .banner-wrap {
+    padding-top: 4.63vw;
 }
 
 .dodo-culture-lore-sec .banner-wrap .row-1 {
@@ -133,4 +137,154 @@
     font-size: 2.646vw;
     line-height: 1;
     letter-spacing: 0.011em;
+}
+
+.dodo-culture-lore-sec .wild-stories {
+    padding-top: 1.323vw;
+}
+
+.dodo-culture-lore-sec .wild-stories .heading {
+    font-size: 8.296vw;
+    line-height: 0.85;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 32.56%, rgba(125, 234, 19, 0.68) 100%), linear-gradient(0deg, #F4F4F4, #F4F4F4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    max-width: 90%;
+}
+
+.dodo-culture-lore-sec .wild-stories__media {
+    width: 110.6%;
+    margin-left: -3.5%;
+    margin-top: -10.185vw;
+}
+
+.dodo-culture-lore-sec .wild-stories__media video {
+    box-shadow: 0px 6px 36px 0px #000000F2 inset;
+    position: absolute;
+    top: 32%;
+    left: 42%;
+    width: 15.41vw;
+    height: 12.5vw;
+    object-fit: cover;
+    transform: rotate(-5.03deg);
+    clip-path: polygon(93.5% 90.7%, 92.4% 91.8%, 90.9% 92.9%, 89.1% 93.8%, 86.9% 94.7%, 84.4% 95.5%, 81.7% 96.3%, 78.7% 97%, 75.5% 97.5%, 72.2% 98.1%, 68.6% 98.5%, 65% 98.9%, 61.2% 99.2%, 57.3% 99.4%, 53.4% 99.5%, 49.5% 99.6%, 45.6% 99.6%, 41.6% 99.5%, 37.8% 99.3%, 34% 99%, 30.3% 98.7%, 26.8% 98.3%, 23.4% 97.8%, 20.3% 97.3%, 17.3% 96.6%, 14.6% 95.9%, 12.1% 95.1%, 9.9% 94.2%, 8.1% 93.3%, 6.6% 92.2%, 5.5% 91.1%, 4.7% 90%, 4% 88.5%, 3.4% 86.7%, 2.9% 84.7%, 2.3% 82.3%, 1.9% 79.7%, 1.4% 76.9%, 1.1% 73.9%, 0.8% 70.7%, 0.5% 67.4%, 0.3% 63.9%, 0.2% 60.4%, 0.1% 56.7%, 0% 53.1%, 0% 49.4%, 0.1% 45.7%, 0.2% 42%, 0.3% 38.3%, 0.5% 34.8%, 0.8% 31.3%, 1.1% 28%, 1.5% 24.8%, 1.9% 21.8%, 2.4% 19%, 2.9% 16.4%, 3.5% 14%, 4.1% 11.9%, 4.8% 10.1%, 5.6% 8.7%, 6.4% 7.5%, 7.5% 6.6%, 9% 5.7%, 10.8% 4.8%, 12.9% 4.1%, 15.3% 3.4%, 18% 2.7%, 21% 2.1%, 24.1% 1.6%, 27.4% 1.2%, 30.9% 0.8%, 34.5% 0.5%, 38.2% 0.3%, 42% 0.1%, 45.8% 0%, 49.7% 0%, 53.5% 0%, 57.4% 0.1%, 61.2% 0.3%, 64.9% 0.5%, 68.5% 0.8%, 71.9% 1.2%, 75.3% 1.6%, 78.4% 2.1%, 81.3% 2.7%, 84% 3.4%, 86.4% 4.1%, 88.6% 4.8%, 90.4% 5.7%, 91.9% 6.6%, 93% 7.5%, 93.6% 8.4%, 94.2% 9.6%, 94.8% 11.2%, 95.4% 13.1%, 95.9% 15.3%, 96.4% 17.7%, 96.9% 20.3%, 97.3% 23.2%, 97.8% 26.2%, 98.1% 29.5%, 98.5% 32.8%, 98.8% 36.3%, 99% 39.8%, 99.3% 43.4%, 99.4% 47%, 99.6% 50.7%, 99.6% 54.3%, 99.7% 57.9%, 99.6% 61.5%, 99.5% 64.9%, 99.4% 68.2%, 99.2% 71.4%, 98.9% 74.5%, 98.6% 77.3%, 98.2% 79.9%, 97.7% 82.3%, 97.2% 84.4%, 96.6% 86.3%, 95.9% 87.8%, 95.1% 89%);
+}
+
+.dodo-culture-lore-sec .wild-stories__content {
+    color: #979797;
+    padding: 0 7.011vw;
+}
+
+.dodo-culture-lore-sec .wild-stories__content .column-1 {
+    width: 42.5%;
+    padding-right: 1.984vw;
+}
+
+.dodo-culture-lore-sec .wild-stories__content .column-2 {
+    width: 25.5%;
+    padding-right: 1.984vw;
+}
+
+.dodo-culture-lore-sec .wild-stories__content .column-3 {
+    width: 32%;
+}
+
+.dodo-culture-lore-sec .wild-stories__content .image::before,
+.dodo-culture-lore-sec .wild-stories__content .video::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(153, 64, 221, 0) 44.04%, #715F31 100%);
+    mix-blend-mode: difference;
+    pointer-events: none;
+}
+
+.dodo-culture-lore-sec .wild-stories__content .video {
+    aspect-ratio: 413/557;
+}
+
+.dodo-culture-lore-sec .wild-stories__content .content {
+    font-size: 2.646vw;
+    line-height: 102%;
+    padding-left: 5.423vw;
+}
+
+.dodo-culture-lore-sec .wild-stories__content .text-plus {
+    font-size: 1.323vw;
+    letter-spacing: 0.045em;
+    margin: 1.323vw 0 3.307vw;
+}
+
+.dodo-culture-lore-sec .wild-stories__img-bottom {
+    margin-top: -30.159vw;
+}
+
+.dodo-culture-lore-sec .wild-stories__img-bottom::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 70%, #FFFFFF 95%);
+    pointer-events: none;
+}
+
+.dodo-cl-facts-slider-wrap {
+    margin-top: -662px;
+    padding: 80px 0 104px;
+}
+
+.dodo-cl-facts-slider-wrap .slider-navigation {
+    position: absolute;
+    left: 16%;
+    right: 16%;
+    top: 8.2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dodo-cl-facts-slider-wrap .swiper-arrow {
+    background: #fff;
+    color: #000;
+}
+
+.dodo-cl-facts-slider-wrap .swiper-arrow.swiper-button-disabled {
+    mix-blend-mode: multiply;
+    background: #D9D9D9;
+    color: #5E5E5E;
+}
+
+.dodo-cl-facts-slider .slider-box {
+    min-height: 1470px;
+    border-radius: 56px;
+    position: relative;
+}
+
+.dodo-cl-facts-slider .slider-box::before,
+.dodo-cl-facts-slider .slider-box::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+}
+
+.dodo-cl-facts-slider .slider-box::before {
+    background: linear-gradient(180deg, #FF7B31 27.89%, rgba(255, 123, 49, 0) 76.01%);
+}
+
+.dodo-cl-facts-slider .slider-box::after {
+    background: url('../img/dodo-culture/grid-1.png') no-repeat center / cover;
+    border: 1px solid #D9D9D9;
+    mix-blend-mode: multiply;
+}
+
+.dodo-fact-counter {
+    font-size: 24px;
+    mix-blend-mode: multiply;
+}
+
+.dodo-fact-counter .total {
+    color: #000;
 }

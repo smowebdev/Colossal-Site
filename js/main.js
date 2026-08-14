@@ -1,3 +1,24 @@
+function updateCounter(swiper, wrapperSelector) {
+  const wrapper = document.querySelector(wrapperSelector);
+
+  if (!wrapper) return;
+
+  const current = wrapper.querySelector(".current");
+  const total = wrapper.querySelector(".total");
+
+  if (!current || !total) return;
+
+  let realIndex = swiper.realIndex + 1;
+  let totalSlides = swiper.slides.length - (swiper.loop ? 2 : 0);
+
+  current.textContent = realIndex.toString().padStart(2, "0");
+  total.textContent = totalSlides.toString().padStart(2, "0");
+}
+function designPxToViewportPx(px) {
+  const baseWidth = window.innerWidth <= 767 ? 767 : 1512;
+
+  return (px / baseWidth) * window.innerWidth;
+}
 jQuery(document).ready(function ($) {
   // Research FAQ - Start
   document
@@ -107,30 +128,13 @@ jQuery(document).ready(function ($) {
 
     on: {
       init: function () {
-        updateFraction(this, ".advisor-counter");
+        updateCounter(this, ".advisor-counter");
       },
       slideChange: function () {
-        updateFraction(this, ".advisor-counter");
+        updateCounter(this, ".advisor-counter");
       },
     },
   });
-
-  function updateFraction(swiper, wrapperSelector) {
-    const wrapper = document.querySelector(wrapperSelector);
-
-    if (!wrapper) return;
-
-    const current = wrapper.querySelector(".current");
-    const total = wrapper.querySelector(".total");
-
-    if (!current || !total) return;
-
-    let realIndex = swiper.realIndex + 1;
-    let totalSlides = swiper.slides.length - (swiper.loop ? 2 : 0);
-
-    current.textContent = realIndex.toString().padStart(2, "0");
-    total.textContent = totalSlides.toString().padStart(2, "0");
-  }
 
   // Explore Key Slider - Start
   const keyItems = $(".explore-key-list .item");
@@ -320,22 +324,6 @@ jQuery(document).ready(function ($) {
       },
     },
   });
-  function updateCounter(swiper, wrapperSelector) {
-    const wrapper = document.querySelector(wrapperSelector);
-
-    if (!wrapper) return;
-
-    const current = wrapper.querySelector(".current");
-    const total = wrapper.querySelector(".total");
-
-    if (!current || !total) return;
-
-    let realIndex = swiper.realIndex + 1;
-    let totalSlides = swiper.slides.length - (swiper.loop ? 2 : 0);
-
-    current.textContent = realIndex.toString().padStart(2, "0");
-    total.textContent = totalSlides.toString().padStart(2, "0");
-  }
 
   $(".species-colossal-content .co-content").hide();
   $(".species-colossal-content .co-content.active").show();

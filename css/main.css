@@ -4432,3 +4432,22 @@ h6 {
 .faq-content img {
     width: 100%;
 }
+
+.circle-with-line {
+    gap: 1.058vw;
+    margin-top: -1.72vw;
+    margin-bottom: 2.513vw;
+}
+
+.circle-with-line .circle {
+    width: 3.042vw;
+    height: 3.042vw;
+    border-radius: 50%;
+    border: 1px solid #979797;
+}
+
+.circle-with-line .circle .dot {
+    width: 0.595vw;
+    height: 0.595vw;
+    border-radius: 50%;
+}
