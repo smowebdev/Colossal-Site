@@ -1,7 +1,7 @@
 jQuery(document).ready(function ($) {
   const dodoFactSlider = new Swiper(".dodo-cl-facts-slider", {
-    slidesPerView: 1.302,
-    spaceBetween: designPxToViewportPx(50),
+    slidesPerView: 1.3,
+    spaceBetween: designPxToViewportPx(60),
     loop: true,
     centeredSlides: true,
     initialSlide: 1,
