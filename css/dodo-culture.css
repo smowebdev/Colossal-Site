@@ -24,8 +24,8 @@
 
 .dodo-culture-hero.cl-hero .heading-left {
     border: 5px solid #F4F4F4;
-    border-radius: 406px;
-    padding: 35px 69px;
+    border-radius: 26.852vw;
+    padding: 2.315vw 4.563vw;
     position: absolute;
     bottom: 25%;
     left: 6%;
@@ -33,26 +33,29 @@
     mix-blend-mode: exclusion;
 }
 
+.dodo-culture-hero.cl-hero .heading-left img {
+    width: 17.46vw;
+}
+
 .dodo-return-sec .mammoth-return-divier {
-    margin-top: -280px;
+    margin-top: -18.519vw;
     top: 0;
     margin-bottom: 0;
 }
 
 .dodo-return-sec .heading {
-    font-size: 498.37px;
-    letter-spacing: -54.88px;
+    font-size: 32.961vw;
+    letter-spacing: -0.11em;
     line-height: 1;
 }
 
 .dodo-return-sec .mammoth-return-main {
-    min-height: 1325px;
-    padding-top: 492px;
-    padding-bottom: 10px;
+    padding-top: 32.54vw;
+    padding-bottom: 8.069vw;
 }
 
 .dodo-return-sec .mammoth-return-main .img-2 {
-    width: 1201px;
+    width: 79.431vw;
     position: absolute;
     z-index: 2;
     left: 9%;
@@ -60,5 +63,74 @@
 }
 
 .dodo-return-sec .mammoth-return-heading {
-    padding-bottom: 52px;
+    padding-bottom: 3.439vw;
+}
+
+.dodo-culture-lore-sec {
+    padding: 4.63vw 0 100px;
+}
+
+.dodo-culture-lore-sec .banner-wrap .row-1 {
+    margin-bottom: 2.844vw;
+}
+
+.dodo-culture-lore-sec .banner-wrap .row-2 {
+    line-height: 1.375;
+}
+
+.dodo-culture-lore-sec .banner-wrap .row-2 .column {
+    gap: 0.661vw 7.143vw;
+}
+
+.dodo-culture-lore-sec .banner-wrap .row-2 .square {
+    margin-top: 0.331vw;
+}
+
+.dodo-culture-lore-sec .banner-inner {
+    margin-top: -1.587vw;
+    padding: 7.804vw 0 9.59vw;
+}
+
+.dodo-culture-lore-sec .banner-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 91.18%, #000000 100%), linear-gradient(180deg, #000000 11.36%, rgba(0, 0, 0, 0) 24.92%);
+}
+
+.dodo-culture-lore-sec .banner-bg .img-sub {
+    position: absolute;
+    width: 42.13vw;
+    z-index: 2;
+    left: 30%;
+    top: 23%;
+}
+
+.dodo-culture-lore-sec .banner-label {
+    font-size: 2.185vw;
+    margin-bottom: 11.243vw;
+}
+
+.dodo-culture-lore-sec .banner-subheading {
+    font-size: 11.243vw;
+    line-height: 0.79;
+    padding-bottom: 9.722vw;
+}
+
+.dodo-culture-lore-sec .banner-heading {
+    font-size: 22.222vw;
+    line-height: 75%;
+    letter-spacing: -0.11em;
+    color: #FF6B00;
+    z-index: 5;
+    margin-left: -2.315vw;
+    padding-bottom: 10.45vw;
+}
+
+.dodo-culture-lore-sec .banner-desc {
+    max-width: 40.278vw;
+    font-size: 2.646vw;
+    line-height: 1;
+    letter-spacing: 0.011em;
 }
