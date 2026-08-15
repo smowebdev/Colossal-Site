@@ -283,7 +283,7 @@
 }
 
 .dodo-cl-facts-slider .slider-box::after {
-    background: url('../img/dodo-culture/grid-1.png') no-repeat center / cover;
+    background: url('../img/dodo-culture-lore/grid-1.png') no-repeat center / cover;
     border: 1px solid #D9D9D9;
     mix-blend-mode: multiply;
     z-index: 4;
@@ -540,7 +540,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: url('../img/dodo-culture/grid-2.png') no-repeat center / cover;
+    background: url('../img/dodo-culture-lore/grid-2.png') no-repeat center / cover;
 }
 
 .dodo-culture-lore-sec .dodo-music__spotify .spotify-box {
@@ -778,4 +778,1703 @@
 
 .dodo-culture-lore-sec .dodo-music__spotify .lyrics-item.item-large .item-album {
     font-size: 1.56vw;
+}
+
+.dodo-culture-lore-page .footer-end img {
+    width: 78.373vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dodo-culture-lore-page .footer-end {
+    mix-blend-mode: exclusion;
+    margin-top: -21.825vw;
+}
+
+.big-bird-wrap {
+    padding-top: 0.529vw;
+    padding-bottom: 27.447vw;
+}
+
+.big-bird-title {
+    width: 73.016vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2.116vw;
+}
+
+.big-bird-title2 {
+    width: 68.122vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -0.86vw;
+}
+
+.big-bird-title2-wrap {
+    padding-left: 2.646vw;
+}
+
+.big-bird-main-bg {
+    width: 88.889vw;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: -8.333vw;
+    border-radius: 2.116vw;
+}
+
+.big-bird-main-bg img {
+    border-radius: 2.116vw;
+}
+
+.big-bird-main-bg:after {
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    border-radius: 2.116vw;
+}
+
+.big-bird-left {
+    width: 25.794vw;
+    left: 0;
+    top: 28.307vw;
+}
+
+.big-bird-right {
+    width: 24.802vw;
+    right: 0;
+    top: 29.101vw;
+}
+
+.big-bird-sesame {
+    width: 25.595vw;
+    left: 1.653vw;
+    top: 54.894vw;
+}
+
+.paper-edge-2 {
+    left: 0;
+    bottom: -7.341vw;
+}
+
+.fiction-film-label span {
+    font-size: 0.661vw;
+    line-height: 1;
+    letter-spacing: 0.148em;
+}
+
+.fiction-film-section {
+    padding-top: 12.235vw;
+    padding-bottom: 10.964vw;
+}
+
+.fiction-film-label {
+    padding-left: 4.233vw;
+    padding-right: 3.968vw;
+    margin-bottom: 6.711vw;
+}
+
+.fiction-film-label div {
+    font-size: 0.661vw;
+    line-height: 1;
+    letter-spacing: 0.045em;
+}
+
+.fiction-film-title {
+    gap: 0.989vw;
+}
+
+.fiction-film-title span {
+    border-radius: 12.536vw;
+
+    border: 0.556vw solid #F4F4F4;
+    font-weight: 300;
+    font-size: 15.794vw;
+    line-height: 1.105em;
+    letter-spacing: 0.173vw;
+    padding-left: 5.82vw;
+    padding-right: 4.96vw;
+    text-align: center;
+    color: #F4F4F4;
+    mix-blend-mode: difference;
+
+
+}
+
+.fiction-film-title img {
+    width: 40.278vw;
+    top: 9.282vw;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+}
+
+.fiction-film-des {
+    border-top: 1px solid #383838;
+    border-bottom: 1px solid #383838;
+    padding-top: 3.838vw;
+    margin-top: 6.305vw;
+    padding-bottom: 4.018vw;
+}
+
+.fiction-film-des p {
+    font-weight: 700;
+    font-size: 2.646vw;
+    line-height: 1;
+    letter-spacing: 0.011em;
+    text-align: center;
+    width: 62.037vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+
+}
+
+.fiction-film-des .square-left {
+    left: 0;
+    top: 1.058vw;
+}
+
+.fiction-film-des .square-right {
+    right: 0;
+    top: 1.058vw;
+}
+
+.book9-1 {
+    width: 20.187vw;
+    left: 44.654vw;
+    top: 10.053vw;
+    mix-blend-mode: multiply;
+
+}
+
+.book34-1 {
+    width: 19.709vw;
+    left: 0;
+    top: 12.796vw;
+    mix-blend-mode: multiply;
+}
+
+.book1-1 {
+    width: 10.185vw;
+    right: 4.497vw;
+    top: 13.897vw;
+    mix-blend-mode: multiply;
+}
+
+.book11-1 {
+    width: 19.079vw;
+    left: 8.255vw;
+    top: 40.212vw;
+    mix-blend-mode: multiply;
+}
+
+.book14-1 {
+    width: 14.1vw;
+    left: 52.05vw;
+    top: 43.585vw;
+    mix-blend-mode: multiply;
+}
+
+.book4-1 {
+    width: 17.904vw;
+    right: 7.275vw;
+    top: 31.746vw;
+    mix-blend-mode: multiply;
+}
+
+.book25-1 {
+    width: 15.013vw;
+    left: 0;
+    top: 68.944vw;
+    mix-blend-mode: multiply;
+}
+
+.book41-1 {
+    width: 10.913vw;
+    right: 0;
+    top: 67.301vw;
+    mix-blend-mode: multiply;
+}
+
+.fiction-film-grid {
+    width: 100%;
+    top: -4.696vw;
+    left: 0;
+}
+
+.fiction-film-main {
+    padding-top: 7.507vw;
+}
+
+.fiction-film-content1 {
+    width: 24.802vw;
+    margin-left: auto;
+    margin-right: 22.741vw;
+    margin-bottom: 29.101vw;
+}
+
+.fiction-film-content .title {
+    font-size: 2.185vw;
+    line-height: 1;
+    color: #5E5E5E;
+    margin-bottom: 3.638vw;
+}
+
+.fiction-film-content p {
+    color: #979797;
+    font-size: 1.058vw;
+    line-height: 1.25em;
+    letter-spacing: 0.028125em;
+}
+
+.fiction-film-content2 {
+    width: 19.719vw;
+    margin-left: 35.185vw;
+    margin-right: auto;
+    margin-bottom: 14.612vw;
+}
+
+.fiction-film-content2 .title {
+    margin-bottom: 3.108vw;
+}
+
+.book8-1 {
+    width: 38.823vw;
+    left: 8.483vw;
+    top: 2.646vw;
+    mix-blend-mode: multiply;
+}
+
+.ellipse-198 {
+    width: 16.288vw;
+    left: 41.601vw;
+    top: 29.101vw;
+}
+
+.fiction-film-content-img-label img {
+    width: 18.585vw;
+}
+
+.fiction-film-content-img-label1 {
+    right: 4.299vw;
+    top: 3.638vw;
+}
+
+.fiction-film-content-img-label span {
+    font-size: 0.7vw;
+    line-height: 1;
+
+}
+
+.fiction-film-content-img-label1 span {
+    top: 3.902vw;
+    right: -2.646vw;
+}
+
+.fiction-film-content-img-label2 {
+    left: 2.236vw;
+    top: 47.691vw;
+}
+
+.fiction-film-content-img-label2 img {
+    width: 25.29vw;
+}
+
+.fiction-film-content-img-label2 span {
+    top: 2.712vw;
+    left: 100%;
+    white-space: nowrap;
+    margin-left: 0.875vw;
+}
+
+.fiction-film-content-img-label3 {
+    right: 0;
+    top: 36.266vw;
+}
+
+.fiction-film-content-img-label3 img {
+    width: 38.757vw;
+}
+
+.fiction-film-content-img-label3 span {
+    top: 8.333vw;
+    left: 1.455vw;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.fiction-film-content3 {
+    margin-left: 4.233vw;
+    gap: 2.646vw;
+    margin-bottom: 56.481vw;
+}
+
+.fiction-film-content3 .title {
+    width: 28.307vw;
+    margin: 0;
+}
+
+.fiction-film-content3 p {
+    width: 19.444vw;
+}
+
+.fiction-film-content4 {
+    width: 20.172vw;
+    margin-left: auto;
+    margin-right: 5.596vw;
+    margin-bottom: 13.36vw;
+}
+
+.fiction-film-content4 .title {
+    margin-bottom: 3.042vw;
+}
+
+.fiction-film-content5 .title {
+    margin-bottom: 2.381vw;
+}
+
+.fiction-film-content5 {
+    width: 44.643vw;
+    margin-left: auto;
+    margin-right: 7.606vw;
+    margin-bottom: 43.096vw;
+}
+
+.fiction-film-content5 p {
+    width: 20.172vw;
+}
+
+.fiction-film-content6 {
+    width: 24.339vw;
+    margin-left: 23.148vw;
+    margin-right: auto;
+    margin-bottom: 2.513vw;
+}
+
+.fiction-film-content6 .title {
+    margin-bottom: 1.323vw;
+}
+
+.fiction-film-content-img-label4 {
+    left: 5.14vw;
+    top: 105.159vw;
+}
+
+.fiction-film-content-img-label4 img {
+    width: 28.389vw;
+}
+
+.fiction-film-content-img-label4 span {
+    top: 100%;
+    left: 0;
+    margin-top: 0.78vw;
+    white-space: nowrap;
+}
+
+.fiction-film-main .image-305 {
+    width: 50.875vw;
+    right: 2.53vw;
+    top: 69.841vw;
+}
+
+.fiction-film-content-img-label5 {
+    right: 5.116vw;
+    top: 118.32vw;
+}
+
+.fiction-film-content-img-label5 img {
+    width: 18.923vw;
+}
+
+.fiction-film-content-img-label5 span {
+    bottom: 100%;
+    right: 0;
+    margin-bottom: 0.511vw;
+    white-space: nowrap;
+}
+
+.fiction-film-main .alice-100 {
+    width: 24.405vw;
+    left: 40.265vw;
+    top: 110.45vw;
+}
+
+.fiction-film-main .image-254 {
+    width: 41.612vw;
+    left: 32.054vw;
+    top: 150.437vw;
+}
+
+.fiction-film-main .Waldrop-Who-dodos-01-1 {
+    width: 60.714vw;
+    right: 2.192vw;
+    top: 201.226vw;
+}
+
+.fiction-film-content-video1 {
+    border-radius: 1.058vw;
+    width: 40.26vw;
+    height: 19.581vw;
+    left: 37.948vw;
+    top: 136.439vw;
+}
+
+.fiction-film-content-video1 {}
+
+.fiction-film-main .looney_1001 {
+    width: 48.942vw;
+    right: 10.69vw;
+    top: 236.278vw;
+}
+
+.fiction-film-content-img-label6 {
+    left: 0;
+    top: 136.706vw;
+}
+
+.fiction-film-content-img-label6 img {
+    width: 36.111vw;
+}
+
+.fiction-film-content-img-label6 span {
+    bottom: 3.704vw;
+    right: 0.86vw;
+    white-space: nowrap;
+}
+
+.fiction-film-content-img-label7 {
+    left: 3.448vw;
+    top: 191.138vw;
+}
+
+.fiction-film-content-img-label7 img {
+    width: 43.122vw;
+}
+
+.fiction-film-content-img-label7 span {
+    top: 100%;
+    left: 0;
+    margin-top: 0.926vw;
+    white-space: nowrap;
+}
+
+.fiction-film-content-img-label8 {
+    left: 13.303vw;
+    top: 220.899vw;
+}
+
+.fiction-film-content-img-label8 img {
+    width: 19.643vw;
+}
+
+.fiction-film-content-img-label8 span {
+    bottom: -0.86vw;
+    left: 14.881vw;
+    white-space: nowrap;
+}
+
+.fiction-film-content-img-label9 {
+    right: 3.316vw;
+    top: 217.231vw;
+}
+
+.fiction-film-content-img-label9 img {
+    width: 24.868vw;
+}
+
+.fiction-film-content-img-label9 span {
+    top: 100%;
+    left: 0;
+    margin-top: 0.794vw;
+    white-space: nowrap;
+}
+
+.fiction-film-content-img-label10 {
+    left: 4.034vw;
+    top: 252.151vw
+}
+
+.fiction-film-content-img-label10 img {
+    width: 15.542vw;
+    border-radius: 2.116vw;
+}
+
+.fiction-film-content-img-label10 span {
+    top: 100%;
+    left: 0.661vw;
+    margin-top: 1.058vw;
+    white-space: nowrap;
+}
+
+.fiction-film-content-img-label11 {
+    right: 3.382vw;
+    top: 264.321vw
+}
+
+.fiction-film-content-img-label11 img {
+    width: 15.542vw;
+    height: 10.317vw;
+    object-fit: cover;
+    border-radius: 2.116vw;
+}
+
+.fiction-film-content-img-label11 span {
+    bottom: 100%;
+    right: 0.582vw;
+    margin-bottom: 1.257vw;
+    white-space: nowrap;
+}
+
+.fiction-film-content-two-img {
+    gap: 2.513vw;
+    padding-left: 3.307vw;
+    padding-right: 3.307vw;
+}
+
+.fiction-film-content-two-img>div {
+    width: 50%;
+}
+
+.fiction-film-content-two-img>div span {
+    font-size: 0.7vw;
+    line-height: 1;
+    left: 0.728vw;
+    top: 100%;
+    margin-top: 1.058vw;
+}
+
+.gap-108 {
+    gap: 7.143vw;
+}
+
+.video-game-banner {
+    padding-top: 8.848vw;
+    padding-bottom: 13.048vw;
+    padding-left: 4.233vw;
+    padding-right: 4.233vw;
+}
+
+.video-game-section {
+    background: url('../img/dodo-culture-lore/video_game_bg.jpg') no-repeat top center;
+    background-size: 100%;
+}
+
+.video-game-bg-top {
+    left: 0;
+    top: -6.797vw;
+}
+
+.video-game-banner-label {
+    font-size: 1.058vw;
+    line-height: 0.6875;
+    margin-bottom: 2.542vw;
+}
+
+.gap-13 {
+    gap: 0.86vw;
+}
+
+.video-game-banner-label1 {
+    gap: 14.749vw;
+}
+
+.video-game-banner-label-source-item {}
+
+.gap-19 {
+    gap: 1.257vw;
+}
+
+.video-game-banner-label-source-item {
+    font-size: 0.529vw;
+    line-height: 100%;
+    letter-spacing: 2%;
+
+}
+
+.video-game-banner-label-source-item .source-plus {
+    border: 0.8px solid #FFFFFF;
+    width: 1.058vw;
+    height: 1.058vw;
+    display: flex;
+    align-items: center;
+    margin-top: 0.926vw;
+    justify-content: center;
+}
+
+.video-game-banner-label-source-item .source-plus img {
+    width: 0.339vw;
+}
+
+.video-game-banner-label-source-item+.video-game-banner-label-source-item .source-plus {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.video-game-banner h2 {
+    font-family: Telegraf;
+    font-weight: 700;
+    font-size: 14.995vw;
+    line-height: 11.833vw;
+    letter-spacing: -1%;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 4.409vw;
+}
+
+.video-game-banner .text-game {
+    font-family: 'Badger';
+    font-weight: 400;
+    font-size: 30.081vw;
+    line-height: 23.138vw;
+    letter-spacing: -6%;
+    color: #7DEA13;
+    text-transform: uppercase;
+    margin-top: -3.704vw;
+}
+
+.video-game-section:before {
+    width: 100%;
+    top: 45.944vw;
+    left: 0;
+    content: "";
+    height: 52.91vw;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 5.89%, #FFFFFF 47.9%);
+    position: absolute;
+}
+
+.video-game-des {
+    padding-bottom: 7.495vw;
+    padding-left: 3.34vw;
+    padding-right: 3.34vw;
+}
+
+.video-game-des-label {
+    font-size: 1.058vw;
+    line-height: 1;
+    margin-bottom: 3.77vw;
+}
+
+.video-game-des-label div {
+    letter-spacing: -10%;
+}
+
+.video-game-des>p {
+    letter-spacing: 0.011;
+    line-height: 1;
+    font-size: 2.646vw;
+    width: 60.582vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-game-des>p span {
+    color: #B3B3B3;
+}
+
+.direction-rtl {
+    direction: rtl;
+}
+
+.video-game-row1 {
+    padding-left: 4.233vw;
+    gap: 5.026vw;
+    padding-right: 5.804vw;
+}
+
+.video-game-row1 .video-game-col1 {
+    width: 49.143vw;
+}
+
+.video-game-row1 .video-game-col2 {
+    width: 35.797vw;
+    padding-top: 6.758vw;
+}
+
+.video-game-row1 .video-game-col1 span {
+    font-size: 0.7vw;
+    top: 4.167vw;
+    line-height: 1;
+}
+
+.video-game-row1 .video-game-col1 span.text1 {
+    left: 0;
+}
+
+.video-game-row1 .video-game-col1 span.text2 {
+    right: 0;
+}
+
+.video-game-row1 .video-game-col2 h3 {
+    font-weight: 400;
+    font-size: 2.185vw;
+    line-height: 100%;
+    width: 26.455vw;
+    margin-bottom: 1.986vw;
+    gap: 2.284vw;
+    color: #5E5E5E;
+}
+
+.video-game-row1 {
+    margin-bottom: 8.48vw;
+}
+
+.video-game-row1 .video-game-col2 h3 span {
+    margin-top: 0.397vw;
+    background: #7DEA13;
+    width: 1.587vw;
+    height: 1.587vw;
+}
+
+.video-game-row1 .video-game-col2 p {
+    color: #5E5E5E;
+    font-size: 1.058vw;
+    line-height: 1.25em;
+    letter-spacing: 0.028125em;
+    width: 26.455vw;
+}
+
+.video-game-col2-video {
+    width: 26.455vw;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 4.468vw;
+}
+
+.video-game-col2-video video {
+    width: 100%;
+    border-radius: 1.224vw;
+    object-fit: cover;
+    height: 14.786vw;
+    margin-bottom: 0.992vw;
+}
+
+.video-game-col2-video span {
+
+    font-size: 0.7vw;
+    line-height: 1;
+    text-align: right;
+    display: block;
+    margin-top: 0.728vw;
+}
+
+.video-game-col2-video span:first-child {
+    margin: 0;
+}
+
+.video-game-row2 {
+    padding-left: 5.159vw;
+    padding-right: 0;
+    margin-bottom: 13.294vw;
+}
+
+.video-game-row2-col1 {
+    width: 25.992vw;
+    padding-top: 0.265vw;
+}
+
+.video-game-row2-col2 {
+    width: 42.394vw;
+}
+
+.video-game-row2-col1 h3 {
+    font-weight: 400;
+    font-size: 3.045vw;
+    line-height: 100%;
+    margin-bottom: 2.315vw;
+    color: #5E5E5E;
+}
+
+.video-game-row2-col1 p {
+    color: #979797;
+    font-size: 1.058vw;
+    line-height: 1.25em;
+    letter-spacing: 0.028125em;
+}
+
+.video-game-row2-img1 {
+    width: 35.847vw;
+    top: -5.886vw;
+    left: 30.556vw;
+
+}
+
+.video-game-row2-img2 {
+    width: 25.661vw;
+    top: 17.063vw;
+    left: 16.005vw;
+
+}
+
+.video-game-row3-img1 {
+    left: 0;
+    top: -8.399vw;
+    width: 79.167vw;
+}
+
+.video-game-row3 {
+    padding-bottom: 13.218vw;
+    padding-right: 4.233vw;
+}
+
+.video-game-row3-inner {
+    width: 19.083vw;
+}
+
+.video-game-row3-inner>img {
+    width: 18.307vw;
+    margin-bottom: 2.315vw;
+}
+
+.video-game-row3-inner h3 {
+    font-weight: 400;
+    font-size: 2.185vw;
+    line-height: 100%;
+    margin-bottom: 1.984vw;
+    gap: 2.284vw;
+    color: #5E5E5E;
+}
+
+.video-game-row3-inner h3 span {
+    margin-top: 0.397vw;
+    background: #7DEA13;
+    width: 1.587vw;
+    height: 1.587vw;
+}
+
+.video-game-row3-inner p {
+    color: #5E5E5E;
+    font-size: 1.058vw;
+    line-height: 1.25em;
+    letter-spacing: 0.028125em;
+}
+
+.video-game-row3-inner-youtube {
+    margin-top: 2.315vw;
+    border-top: 1px solid #828282;
+    padding-top: 0.653vw;
+}
+
+.video-game-row3-inner-youtube span {
+    color: #5E5E5E;
+    font-size: 0.794vw;
+    line-height: 150%;
+    margin-top: 0.397vw;
+    width: 11.334vw;
+    text-decoration: underline;
+}
+
+.video-game-row3-inner-youtube img {
+    width: 1.587vw;
+    min-width: 1.587vw;
+}
+
+
+
+.explore-key .title {
+    font-size: 1.587vw;
+    margin-bottom: 0.98vw;
+}
+
+.explore-key .desc {
+    letter-spacing: 0.037em;
+    margin-bottom: 3.108vw;
+    font-size: 0.731vw;
+    line-height: 100%;
+    color: #B3B3B3;
+    text-align: center;
+
+}
+
+.gap-2 {
+    gap: 0.529vw !important;
+}
+
+.explore-key-list .item {
+    font-size: 0.653vw;
+    letter-spacing: 0.13em;
+    background-color: rgba(130, 130, 130, 0.5);
+    display: inline-flex;
+    align-items: center;
+    opacity: 0.25;
+    cursor: pointer;
+    border-radius: 1.587vw;
+    padding: 0.265vw 0.397vw;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(244, 244, 244);
+    border-image: none;
+    gap: 0.364vw;
+    transition: 0.4s;
+}
+
+.explore-key-list .item.active {
+    opacity: 1;
+}
+
+.dot {
+    flex-shrink: 0;
+}
+
+.bg-green {
+    background-color: rgb(125, 234, 19) !important;
+}
+
+.explore-key-list .item .dot {
+    width: 0.489vw;
+    height: 0.489vw;
+    border-radius: 50%;
+}
+
+.explore-key-swiper {
+    padding: 5.754vw 0px 6.418vw;
+}
+
+.explore-key-swiper .swiper-slide {
+    width: 29.497vw;
+    position: relative;
+}
+
+.explore-key-swiper .swiper-slide.swiper-slide-active {
+    width: 37.368vw;
+}
+
+.explore-key-swiper .border-img-top {
+    position: absolute;
+    left: -1.521vw;
+    width: calc(100% + 3.042vw);
+    top: -1.786vw;
+    max-width: unset;
+    display: none;
+}
+
+.explore-key-swiper .swiper-slide.swiper-slide-active .inner {
+    aspect-ratio: 565 / 618;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1.653vw 1.343vw -0.132vw;
+}
+
+.explore-key-swiper .border-img-bottom {
+    position: absolute;
+    left: -1.521vw;
+    width: calc(100% + 3.042vw);
+    bottom: 1.984vw;
+    max-width: unset;
+    display: none;
+}
+
+.explore-key-swiper .swiper-slide .inner {
+    aspect-ratio: 446 / 618;
+    position: relative;
+    margin-bottom: 3.638vw;
+    border-radius: 0.529vw;
+    overflow: hidden;
+}
+
+.explore-key-swiper .bg-media {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    top: 0px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.explore-key-swiper .content {
+    height: 100%;
+    position: relative;
+    padding: 1.852vw 1.587vw;
+}
+
+.explore-key-swiper .bg-media::before {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    inset: 0px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(108, 108, 108, 0.2), rgba(108, 108, 108, 0.2));
+}
+
+.explore-key-swiper .bg-media video,
+.explore-key-swiper .bg-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.explore-key-swiper .content .square {
+    position: absolute;
+    top: 2.315vw;
+    left: 2.116vw;
+    display: none;
+}
+
+.explore-key-swiper .content .plus {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    display: none;
+}
+
+.explore-key-swiper .content .plus-2 {
+    bottom: 1.786vw;
+    left: 1.852vw;
+}
+
+.explore-key-swiper .content .plus-3 {
+    bottom: 1.786vw;
+    right: 1.852vw;
+}
+
+.btn-primary {
+    font-weight: 700;
+    font-size: 1.438vw;
+    line-height: 1.918vw;
+    letter-spacing: 0.13em;
+    color: rgb(0, 0, 0);
+    display: inline-flex;
+    align-items: center;
+    text-align: left;
+    background-color: transparent;
+    box-shadow: none !important;
+    gap: 1.124vw;
+}
+
+.explore-key-swiper .content .explore-key-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.btn-primary .arrow {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 123, 49);
+    flex-shrink: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 123, 49);
+    border-image: none;
+    border-radius: 4.299vw;
+    padding: 2.083vw 4.001vw;
+}
+
+.btn-primary .arrow svg {
+    width: 3.638vw;
+}
+
+.explore-key-swiper .sub-page {
+    font-family: "NB Architekt Std";
+    font-size: 1.058vw;
+    color: rgb(179, 179, 179);
+    text-align: center;
+    display: none;
+}
+
+.explore-key-swiper .swiper-slide.swiper-slide-active .sub-page {
+    display: block;
+}
+
+.explore-key-swiper .swiper-slide.swiper-slide-active .border-img-bottom,
+.explore-key-swiper .swiper-slide.swiper-slide-active .border-img-top {
+    display: block;
+}
+
+.explore-key-swiper .swiper-slide.swiper-slide-active .content .explore-key-btn {
+    display: block;
+}
+
+.explore-key-swiper .swiper-slide.swiper-slide-active .content .name {
+    display: block;
+}
+
+.explore-key-swiper .swiper-slide.swiper-slide-active .content .square {
+    display: block;
+}
+
+.explore-key-swiper .swiper-slide.swiper-slide-active .content .plus {
+    display: block;
+}
+
+.explore-key-swiper .content .name {
+    font-weight: 700;
+    font-size: 2.065vw;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: none;
+}
+
+.explore-key-swiper .content .plus-1 {
+    top: 1.587vw;
+    right: 1.852vw;
+}
+
+.explore-key-navigation {
+    position: absolute;
+    right: 7.407vw;
+    bottom: 6.019vw;
+    z-index: 2;
+}
+
+.art-gallery-box-list {
+    gap: 1.323vw;
+}
+
+.art-gallery-box-list>div {
+    width: 50%;
+}
+
+.art-gallery-box-item,
+.art-gallery-box-item-bg {
+    border-radius: 1.058vw;
+}
+
+.art-gallery-box-item2 {
+    height: 52.579vw;
+
+    margin-top: 1.587vw;
+}
+
+.art-gallery-box-item-content {
+    bottom: 0;
+    border: 1px solid #747474;
+    border-radius: 1.058vw;
+    background: #A5A5A530;
+    backdrop-filter: blur(11.300000190734863px);
+    padding: 1.984vw;
+    left: 2.513vw;
+    right: 2.513vw;
+}
+
+.art-gallery-box-item-content .label {
+    font-size: 1.058vw;
+    line-height: 1;
+    gap: 7.143vw;
+    margin-bottom: 1.918vw;
+}
+
+.art-gallery-box-item-content h3 {
+    font-size: 4.233vw;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 1.849vw;
+}
+
+.art-gallery-box-item2 .art-gallery-box-item-content h3 {
+    margin-bottom: 2.049vw;
+}
+
+.art-gallery-box-item-content p {
+    font-size: 1.058vw;
+    line-height: 1.25em;
+    letter-spacing: 0.028125em;
+    color: #fff;
+}
+
+.art-gallery-box-item2 .art-gallery-box-item-content {
+    padding-bottom: 2.15vw;
+}
+
+.art-gallery-box-item3 .art-gallery-box-item-content h3 {
+    margin-bottom: 1.649vw;
+}
+
+.art-gallery-box-item3 .art-gallery-box-item-content {
+    padding-bottom: 2.15vw;
+}
+
+.art-gallery-box-item2 .art-gallery-box-item-content p {
+    width: 34.392vw;
+}
+
+.art-gallery-box-item2:after {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 45.63%, #000000 70.72%);
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.art-gallery-box {
+    padding-bottom: 1.587vw;
+}
+
+.art-gallery-box-item>span {
+    font-size: 1.058vw;
+
+}
+
+.art-gallery-box-list .label-plus {
+    font-size: 2.249vw;
+    line-height: 0.64706em;
+    left: 46.928vw;
+    top: 0.728vw;
+}
+
+.art-gallery-box-list .label-des {
+    color: #979797;
+    font-size: 2.218vw;
+    line-height: 1em;
+    width: 29.63vw;
+    top: 0.728vw;
+    right: 0;
+}
+
+.art-gallery-box-item-bg,
+.art-gallery-box-item-bg2 {
+    left: 0;
+    top: 0;
+}
+
+.art-gallery-box-item-bg2 {
+    width: 51.455vw;
+    max-width: max-content;
+}
+
+.art-gallery-box-item2>span {
+    left: 1.918vw;
+    top: 25.198vw;
+}
+
+.art-gallery-box-item3>span {
+    right: 1.323vw;
+    top: 1.72vw;
+}
+
+.art-gallery-box-item3 {
+    height: 87.5vw;
+}
+
+.art-gallery-box-item1 {
+    height: 70.37vw;
+}
+
+.art-gallery-box-item1 .art-gallery-box-item-content {
+    bottom: 2.844vw;
+}
+
+.art-gallery-box-item1>span {
+    left: 1.587vw;
+    top: 1.587vw;
+}
+
+.art-gallery-box-item1 .art-gallery-box-item-content {
+    border: 1px solid #F4F4F4;
+    background: #6262624F;
+}
+
+.art-gallery-box-item3 .art-gallery-box-item-bg {
+    height: 66.27vw !important;
+}
+
+.art-gallery-box-item3:after {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 68.44%, #000000 96.56%);
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 66.27vw;
+    position: absolute;
+}
+
+.art-section {
+    background-color: #000000;
+    border-radius: 2.646vw 2.646vw 0 0;
+}
+
+.art-section .art-tb-text,
+.art-section .art-tb-line {
+    letter-spacing: 0.03vw;
+}
+
+.art-section .art-tb-text-1 {
+    letter-spacing: 0.098vw;
+}
+
+.art-tb-text {
+    white-space: nowrap;
+}
+
+.art-top-box {
+    padding-top: 5.7vw;
+    padding-bottom: 6.1vw;
+}
+
+.art-section .art-tb {
+    gap: 3.241vw;
+}
+
+.art-section .art-tb-1 {
+    gap: 6.283vw;
+}
+
+.art-heading-h2 {
+    font-weight: 800;
+    font-size: 11.243vw;
+    line-height: 8.862vw;
+}
+
+.art-mc-imt {
+    width: 92.105vw;
+    height: 13.138vw;
+    overflow: hidden;
+}
+
+
+.art-mc-imt-1 {
+    margin-top: -4.4vw;
+    width: 61.405vw;
+    height: 43.6vw;
+    overflow: hidden;
+
+}
+
+.art-mc-imt img,
+.art-mc-imt-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.art-mc-img {
+    margin-top: -4vw;
+}
+
+.art-mc-box {
+    max-width: 79.8vw;
+    width: 100%;
+    margin-top: -2.75vw;
+    height: 29.101vw;
+}
+
+.art-mc-p-text {
+    font-size: 4.233vw;
+    line-height: 4.233vw;
+    max-width: 69.123vw;
+    width: 100%;
+    padding: 3.968vw 0;
+}
+
+.art-mc-p-text p {
+    color: #5E5E5E;
+}
+
+.art-mc-p-text p span {
+    color: #FFFFFF;
+}
+
+
+.art-icon-text {
+    font-family: 'NB Architekt Std';
+    font-size: 2.249vw;
+    line-height: 1.455vw;
+    font-weight: 300;
+}
+
+.art-icon-bottom {
+    max-width: 74.9vw;
+    width: 100%;
+}
+
+.art-bottom {
+    padding-top: 6.3vw;
+}
+
+.art-heading-h3 {
+    color: #FFFFFF;
+    font-size: 2.646vw;
+    line-height: 1;
+    letter-spacing: 0.029vw;
+    max-width: 25.794vw;
+    width: 100%;
+}
+
+.art-bottom .art-text-p {
+    font-size: 1.058vw;
+    line-height: 1.323vw;
+    letter-spacing: 0.03vw;
+}
+
+.art-b-content {
+    gap: 4.89vw;
+}
+
+.art-b-content .art-text-p {
+    max-width: 27.36vw;
+    width: 100%;
+}
+
+/*************************/
+
+.dodo-swiper {
+    width: 100%;
+    overflow: visible !important;
+}
+
+.dodo-slide {
+
+    width: 20.238vw !important;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.dodo-card {
+    max-width: 20.238vw;
+    width: 100%;
+}
+
+.dodo-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    user-select: none;
+    -webkit-user-drag: none;
+
+}
+
+.art-b-dodo-slider {
+    margin-top: -5.622vw;
+}
+
+.art-b-dodo-slider:after {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    width: 100%;
+    height: 17.328vw;
+    content: "";
+    left: 0;
+    position: absolute;
+    bottom: -3.307vw;
+    z-index: 1;
+}
+
+.art-div-bottom {
+    spadding-bottom: 49.603vw;
+}
+
+
+.font-text {
+    font-family: 'NB Architekt Std';
+    font-size: 0.661vw;
+    letter-spacing: 0.03vw;
+}
+
+.art-tb-1 {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.art-tb-line {
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 0;
+    direction: rtl;
+}
+
+.square {
+    flex-shrink: 0;
+}
+
+
+.dodo-mauritian-video {
+    background-color: #000;
+    margin-bottom: 4.232vw;
+}
+
+.wrapper-mauritian-video {
+    padding: 0 6.746vw;
+}
+
+.wrapper-mauritian-video::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 67.75%, #000000 100%);
+}
+
+.wrapper-mauritian-video video {
+    border-radius: 1.054vw;
+    aspect-ratio: 1308 / 696;
+    object-fit: cover;
+}
+
+.mauritian-symbol-heading {
+    font-size: 5.467vw;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 3.174vw;
+}
+
+.mauritian-symbol-heading span {
+    color: #FF6B00;
+    font-size: 9.218vw;
+    letter-spacing: -0.06em;
+    line-height: 6.6898vw;
+    bottom: -0.595vw;
+    margin-left: -0.463vw;
+}
+
+.wrapper-mauritian-symbol {
+    padding: 0 6.746vw;
+    padding-top: 7.539vw;
+    background-color: #000;
+}
+
+.mauritian-symbol-describes {
+    max-width: 83.994vw;
+}
+
+.symbol-describes-txt p {
+    font-size: 1.587vw;
+    line-height: 1;
+    letter-spacing: 0;
+    max-width: 39.682vw;
+}
+
+.mauritian-sl-item {
+    aspect-ratio: 303 / 343;
+    width: 20.039vw;
+}
+
+.mauritian-sl-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 1.058vw;
+}
+
+.mauritian-slider {
+    padding-bottom: 3.174vw;
+    padding-top: 2.777vw;
+}
+
+.wrapper-modern-mauritian {
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+}
+
+.negative-expressions-tag {
+    color: #979797;
+    margin-bottom: 2.711vw;
+    letter-spacing: 18%;
+    font-size: 0.925vw;
+    line-height: 0.661vw;
+}
+
+.negative-expressions-heading {
+    font-size: 12.152vw;
+    line-height: 8.928vw;
+    font-weight: 800;
+    letter-spacing: -1%;
+}
+
+.sec-negative-expressions {
+    background-image: url(../img/dodo-culture-lore/Grid.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 1.984vw;
+    padding-bottom: 3.968vw;
+}
+
+.expressions-describes {
+    max-width: 87.301vw;
+    margin-top: -0.727vw;
+}
+
+.negative-expressions-bottom {
+    padding: 0 4.233vw;
+}
+
+.expressions-describes-txt p {
+    font-size: 2.116vw;
+    line-height: 1.0625;
+    max-width: 41.997vw;
+    letter-spacing: 0;
+}
+
+.expressions-rhetoric-content {
+    padding-top: 2.513vw;
+    padding-bottom: 13.690vw;
+}
+
+.expressions-box-heading {
+    font-size: 3.978vw;
+    font-weight: 300;
+    color: #000;
+    line-height: 3.536vw;
+}
+
+.wraper-expressions-box p {
+    color: #5E5E5E;
+    font-size: 1.322vw;
+    line-height: 1.2;
+    text-align: center;
+    max-width: 37.235vw;
+    margin: 0 auto;
+    margin-top: -1.058vw;
+}
+
+.expressions-box__image {
+    margin-top: -3.769vw;
+}
+
+.expressions-box__top {
+    min-height: 27.248vw;
+}
+
+.expressions-box__image img {
+    max-width: 29.828vw;
+    max-height: 23.941vw;
+}
+
+.expressions-sl-item {
+    width: 44.312vw !important;
+    height: auto;
+}
+
+.negative-expressions-main {
+    padding-top: 9.457vw;
+    padding-bottom: 6.878vw;
+}
+
+.expressions-sl-item.sl1 img {
+    max-width: 24.140vw;
+    max-height: 21.957vw;
+}
+
+.expressions-sl-item.sl1 p {
+    max-width: 32.473vw;
+}
+
+.wraper-expressions-box {
+    height: 100%;
+    flex-direction: column;
+}
+
+.mauritian-slider .swiper-wrapper {
+    transition-timing-function: linear;
+}
+
+.expressions-sl-item.sl3 {
+    width: 37.037vw !important;
+}
+
+.expressions-sl-item.sl3 img {
+    max-width: 30.026vw;
+}
+
+.mw-447 {
+    max-width: 29.563vw !important;
 }
