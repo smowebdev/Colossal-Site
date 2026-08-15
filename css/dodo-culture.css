@@ -533,7 +533,7 @@
 
 .dodo-culture-lore-sec .dodo-music__spotify {
     margin-top: -10.847vw;
-    padding-bottom: 100px;
+    padding-bottom: 11.574vw;
 }
 
 .dodo-culture-lore-sec .dodo-music__spotify::before {
@@ -662,4 +662,120 @@
     to {
         transform: rotate(360deg);
     }
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .playlist {
+    padding-bottom: 9.259vw;
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics .slash-icon {
+    height: 0.992vw;
+    width: auto;
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 9.656vw 6.614vw;
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-item.item-large {
+    grid-column: span 2;
+    margin-right: -4.233vw;
+    margin-top: -1.124vw;
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-item {
+    display: flex;
+    font-family: 'NB Architekt Std';
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-item .item-content {
+    width: 52.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5.026vw;
+    justify-content: space-between;
+    padding-bottom: 2.315vw;
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-item.item-large .item-content {
+    padding-top: 6.812vw;
+    width: 46.3%;
+    padding-bottom: 2.646vw;
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-item .item-image {
+    border-radius: 1.058vw;
+    overflow: hidden;
+    aspect-ratio: 1;
+    width: 48.5%;
+    position: relative;
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-item.item-large .item-image {
+    width: 53.7%;
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-item .item-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(90deg, #FFFFFF 3.91%, rgba(255, 255, 255, 0) 62.62%);
+
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-item.item-large .item-image {
+    border-radius: 1.19vw 0px 0px 1.19vw;
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-item.item-large .item-image::before {
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 44.53%, #FFFFFF 88.8%);
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-item .item-label {
+    font-size: 0.832vw;
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-item .item-title {
+    font-size: 1.766vw;
+    line-height: 170%;
+    letter-spacing: 12%;
+    color: #979797;
+    position: relative;
+    z-index: 2;
+    width: 105%;
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-item .item-title span {
+    color: #000;
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-item.item-large .item-title {
+    font-size: 4.233vw;
+    line-height: 1.265625;
+    letter-spacing: 0;
+    width: 160%;
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-item .item-author .author-name {
+    font-family: 'Telegraf';
+    font-weight: 700;
+    font-size: 1.806vw;
+    line-height: 1.07;
+    text-transform: uppercase;
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-item.item-large .item-author .author-name {
+    font-size: 2.638vw;
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-item .item-album {
+    font-size: 0.928vw;
+    margin-top: 0.661vw;
+}
+
+.dodo-culture-lore-sec .dodo-music__spotify .lyrics-item.item-large .item-album {
+    font-size: 1.56vw;
 }
