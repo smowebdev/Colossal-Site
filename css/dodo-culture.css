@@ -62,6 +62,24 @@
     bottom: 15%;
 }
 
+.dodo-return-sec .mammoth-return-main .img-2::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 37.03%, #000000 100%);
+}
+
+.dodo-return-sec .mammoth-return-main .video::before {
+    background:
+        linear-gradient(0deg, rgba(0, 0, 0, 0) 79.02%, #000000 89.74%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 64.65%, #000000 79.29%);
+
+}
+
+.dodo-return-sec .mammoth-return-bottom .desc {
+    max-width: 27.249vw;
+}
+
 .dodo-return-sec .mammoth-return-heading {
     padding-bottom: 3.439vw;
 }
@@ -373,7 +391,7 @@
     letter-spacing: -1%;
     font-family: 'Telegraf';
     text-transform: uppercase;
-    margin-bottom: 2.579vw;
+    margin-bottom: 2.513vw;
 
 }
 
@@ -499,7 +517,7 @@
 
 .dodo-culture-lore-sec .dodo-music__intro .contents {
     position: absolute;
-    top: 50%;
+    top: 48.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 79.63vw;
@@ -539,8 +557,11 @@
 .dodo-culture-lore-sec .dodo-music__spotify::before {
     content: "";
     position: absolute;
-    inset: 0;
     background: url('../img/dodo-culture-lore/grid-2.png') no-repeat center / cover;
+    top: 5%;
+    left: 0;
+    width: 100%;
+    height: 96%;
 }
 
 .dodo-culture-lore-sec .dodo-music__spotify .spotify-box {
@@ -687,11 +708,12 @@
 
 .dodo-culture-lore-sec .dodo-music__spotify .lyrics-item {
     display: flex;
+    align-items: start;
     font-family: 'NB Architekt Std';
 }
 
 .dodo-culture-lore-sec .dodo-music__spotify .lyrics-item .item-content {
-    width: 52.5%;
+    width: 51.5%;
     display: flex;
     flex-direction: column;
     gap: 5.026vw;
@@ -1112,7 +1134,7 @@
 .fiction-film-content3 {
     margin-left: 4.233vw;
     gap: 2.646vw;
-    margin-bottom: 56.481vw;
+    margin-bottom: 55.291vw;
 }
 
 .fiction-film-content3 .title {
@@ -1128,7 +1150,7 @@
     width: 20.172vw;
     margin-left: auto;
     margin-right: 5.596vw;
-    margin-bottom: 13.36vw;
+    margin-bottom: 14.36vw;
 }
 
 .fiction-film-content4 .title {
@@ -1465,8 +1487,7 @@
 }
 
 .video-game-des>p {
-    letter-spacing: 0.011;
-    line-height: 1;
+    letter-spacing: 0.011em;
     font-size: 2.646vw;
     width: 60.582vw;
     margin-left: auto;
@@ -1493,7 +1514,7 @@
 
 .video-game-row1 .video-game-col2 {
     width: 35.797vw;
-    padding-top: 6.758vw;
+    padding-top: 6.481vw;
 }
 
 .video-game-row1 .video-game-col1 span {
@@ -1514,7 +1535,6 @@
     font-weight: 400;
     font-size: 2.185vw;
     line-height: 100%;
-    width: 26.455vw;
     margin-bottom: 1.986vw;
     gap: 2.284vw;
     color: #5E5E5E;
@@ -1536,7 +1556,7 @@
     font-size: 1.058vw;
     line-height: 1.25em;
     letter-spacing: 0.028125em;
-    width: 26.455vw;
+    width: 26.786vw;
 }
 
 .video-game-col2-video {
@@ -1544,6 +1564,10 @@
     margin-left: auto;
     margin-right: 0;
     margin-top: 4.468vw;
+}
+
+.video-game-col2-video .text-video {
+    padding-right: 0.529vw;
 }
 
 .video-game-col2-video video {
@@ -2477,4 +2501,8 @@
 
 .mw-447 {
     max-width: 29.563vw !important;
+}
+
+.dodo-culture-lore-page .explore-key-swiper {
+    padding-bottom: 5.556vw;
 }

@@ -121,6 +121,10 @@ h6 {
     font-weight: 400;
 }
 
+em {
+    font-style: italic;
+}
+
 .plus {
     font-size: 1.587vw;
     line-height: 1.125;
