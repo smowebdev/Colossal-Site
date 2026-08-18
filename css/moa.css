@@ -145,6 +145,7 @@
 
 .moa-page .testimonial-main>.right .testimonial-author-info .name {
     line-height: 1;
+    padding-bottom: 0.661vw;
 }
 
 .moa-page .testimonial-main>.left .line:last-child {
