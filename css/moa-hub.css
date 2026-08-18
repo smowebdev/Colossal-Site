@@ -97,3 +97,25 @@
 .moa-hub-page .advisors-sec {
     padding-bottom: 4.762vw;
 }
+
+.moa-hub-page .testimonial-white-sec .testimonial-main>.left .quote-title {
+    font-size: 20px;
+    letter-spacing: 0.44px;
+}
+
+.moa-hub-page .testimonial-white-sec .testimonial-main>.left .row-2 {
+    margin-bottom: 12px;
+
+}
+
+.moa-hub-page .testimonial-main>.right::after {
+    background: radial-gradient(160.77% 55.4% at 51.75% 100%, #7DEA13 0%, rgba(125, 234, 19, 0) 70.91%);
+}
+
+.moa-hub-page .moa-habitat-sec .map-wrapper .subtitle-4 {
+    color: #B3B3B3 !important;
+}
+
+.moa-hub-page .woolly-mammoths-sec .bg-1::before {
+    display: none;
+}

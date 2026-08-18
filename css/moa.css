@@ -132,6 +132,7 @@
     font-size: 2.116vw;
     line-height: 130%;
     letter-spacing: 0.01375em;
+    max-width: 40.212vw;
 }
 
 .moa-page .testimonial-main>.left .row-3 .text {
@@ -158,6 +159,10 @@
 .moa-page .testimonial-main>.right::after {
     background:
         radial-gradient(160.77% 55.4% at 51.75% 100%, #7DEA13 16.52%, rgba(125, 234, 19, 0) 70.91%);
+}
+
+.moa-page .partner-slider {
+    padding-bottom: 5.159vw;
 }
 
 .moa-page .partner-slider .partner-name,
@@ -202,7 +207,7 @@
 }
 
 .moa-page .woolly-mammoths-sec .heading-1 {
-    margin: -5.291vw 0 0.86vw -1.587vw;
+    margin: -5.82vw 0 0.86vw -1.587vw;
 }
 
 .moa-page .woolly-mammoths-sec .heading-wrapper span {
@@ -220,6 +225,9 @@
     margin-top: -76.323vw;
 }
 
+.moa-page .moa-intro-sec {
+    padding-top: 5.82vw;
+}
 
 .moa-page .woolly-mammoths-sec .woolly-mammoths-img .text {
     top: 45.6% !important;
@@ -254,7 +262,7 @@
     position: absolute;
     left: 0;
     width: 100%;
-    top: 52.45%;
+    top: 52.32%;
 }
 
 .moa-intro-bottom .title {
@@ -369,7 +377,7 @@
 
 .moa-habitat-sec .map-wrapper .map-img .map-label.label-left {
     padding: 0.331vw;
-    top: 21.164vw;
+    top: 21.561vw;
     left: 4.828vw;
 }
 
@@ -455,7 +463,7 @@
 
 .moa-habitat-sec .moa-data .box-left {
     max-width: 33.399vw;
-    padding: 3.307vw;
+    padding: 3.902vw 3.505vw 2.579vw;
 }
 
 .moa-habitat-sec .moa-data .box-left .box-inner {
