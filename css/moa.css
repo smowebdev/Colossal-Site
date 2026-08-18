@@ -17,6 +17,16 @@
 
 }
 
+.moa-hero .mammoth-hero-info .item {
+    min-width: 14.153vw;
+    padding: 0.397vw 0.661vw;
+    text-align: center;
+}
+
+.moa-hero .mammoth-hero-info .item:first-child {
+    min-width: 15.939vw;
+}
+
 .moa-hero .mammoth-hero-info {
     padding-top: 2.646vw;
 }
