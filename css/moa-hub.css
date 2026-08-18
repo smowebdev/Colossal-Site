@@ -19,3 +19,72 @@
 .moa-hub-page .reviving-mammoth-sec .row-2 .square {
     margin-top: 5px;
 }
+
+.moa-hub-page .explore-key-swiper .bg-media::before {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.moa-hub-page .explore-key-swiper .bg-media::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: rgba(108, 108, 108, 0.2);
+}
+
+.moa-hub-page .explore-key-swiper .swiper-slide.swiper-slide-active .bg-media::after {
+    display: none;
+}
+
+.moa-hub-page .explore-key-swiper .swiper-slide.swiper-slide-active .bg-media::before {
+    background: rgba(0, 0, 0, 0.14);
+
+}
+
+.moa-hub-page .moa-about-img {
+    max-width: unset;
+    width: calc(100% + 10px);
+    left: -1%;
+    top: 48.5%;
+}
+
+.moa-hub-page .moa-about-img img {
+    margin: 0;
+}
+
+.moa-hub-page .earth-friend-content .inner {
+    padding-bottom: 659px;
+}
+
+.moa-hub-page .moa-about-sec::before {
+    height: 704px;
+    left: 20px;
+    width: calc(100% - 40px);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.04%, #000000 93.71%);
+}
+
+.moa-hub-page .science-action-sec .inner-global {
+    margin-bottom: 289px;
+}
+
+.moa-hub-page .science-action-content .right .content .video {
+    aspect-ratio: 1;
+}
+
+.moa-hub-page .science-action-content .right .title {
+    padding-bottom: 0;
+}
+
+.moa-hub-page .science-action-content .video-info {
+    top: 55% !important;
+}
+
+
+
+.moa-hub-page .science-action-content .right .content {
+    margin-bottom: 12px;
+}
+
+.moa-hub-page .science-action-content .left .title {
+    margin-bottom: 199px;
+}

@@ -89,7 +89,7 @@
 }
 
 .moa-page .science-action-content .left .title {
-    max-width: 29.431vw;
+    max-width: 30.423vw;
 }
 
 .moa-page .science-action-content .right .content .text-content-2 {
@@ -100,6 +100,10 @@
     font-size: 1.852vw;
     line-height: 1.32;
     letter-spacing: -0.04em;
+}
+
+.step-de-extinction .content-top .video .clsl-lab-logo {
+    max-width: 18.849vw;
 }
 
 .moa-page .metrics-panel-row .item {
