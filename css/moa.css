@@ -537,6 +537,12 @@
     max-width: 34.392vw;
 }
 
+.moa-habitat-sec .moa-data .box-right .box-top .title-wrapper .text-plus {
+    font-size: 1.323vw;
+    line-height: 1.65;
+    letter-spacing: 0.02em;
+}
+
 .moa-habitat-sec .moa-data .box-right .text {
     font-size: 0.992vw;
     line-height: 2.2;

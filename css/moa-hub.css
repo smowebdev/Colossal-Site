@@ -99,12 +99,12 @@
 }
 
 .moa-hub-page .testimonial-white-sec .testimonial-main>.left .quote-title {
-    font-size: 20px;
-    letter-spacing: 0.44px;
+    font-size: 1.323vw;
+    letter-spacing: 0.022em;
 }
 
 .moa-hub-page .testimonial-white-sec .testimonial-main>.left .row-2 {
-    margin-bottom: 12px;
+    margin-bottom: 0.794vw;
 
 }
 
@@ -118,4 +118,184 @@
 
 .moa-hub-page .woolly-mammoths-sec .bg-1::before {
     display: none;
+}
+
+.moa-hub-page .moa-habitat-sec::before {
+    display: none;
+}
+
+.moa-hub-page .moa-habitat-content::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 32.738vw;
+    height: 28.505vw;
+    background: linear-gradient(270deg, #9940DD 2.44%, rgba(255, 123, 49, 0.8) 20.39%, rgba(255, 255, 255, 0) 77.71%);
+    mix-blend-mode: unset;
+}
+
+.moa-habitat-sec .distribution {
+    display: grid;
+    grid-template-columns: 1fr 27.712vw;
+}
+
+.moa-habitat-sec .distribution .left {
+    background-color: #000;
+    padding: 3.571vw 3.439vw 3.307vw;
+}
+
+.moa-habitat-sec .distribution .left::before,
+.moa-habitat-sec .distribution .left::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.moa-habitat-sec .distribution .left::before {
+    background: url('../img/moa-hub/bg-1.png') no-repeat center / cover;
+    opacity: 0.3;
+}
+
+.moa-habitat-sec .distribution .left::after {
+    background: url('../img/moa-hub/grid-1.png') no-repeat center / cover;
+    mix-blend-mode: difference;
+}
+
+.moa-habitat-sec .distribution .left-content {
+    gap: 3.968vw;
+    width: 50%;
+    padding-right: 3.968vw;
+}
+
+.moa-habitat-sec .distribution .left-image {
+    width: 50%;
+}
+
+.moa-habitat-sec .distribution .left-image .image-wrapper {
+    padding: 1.323vw;
+    width: 27.447vw;
+    height: 26.587vw;
+}
+
+.moa-habitat-sec .distribution .left-image .image-wrapper .border-img {
+    width: 1.587vw;
+    height: 1.587vw;
+    border: 1px solid #B3B3B3;
+}
+
+.moa-habitat-sec .distribution .left-image .image-wrapper .border-img.border-top-left {
+    border-right: none;
+    border-bottom: none;
+}
+
+.moa-habitat-sec .distribution .left-image .image-wrapper .border-img.border-top-right {
+    border-left: none;
+    border-bottom: none;
+}
+
+.moa-habitat-sec .distribution .left-image .image-wrapper .border-img.border-bottom-left {
+    border-top: none;
+    border-right: none;
+}
+
+.moa-habitat-sec .distribution .left-image .image-wrapper .border-img.border-bottom-right {
+    border-top: none;
+    border-left: none;
+}
+
+.moa-habitat-sec .distribution .left-image .image {
+    border: 1px solid #5E5E5E;
+    padding: 1.389vw 1.257vw 1.257vw;
+}
+
+.moa-habitat-sec .distribution .left-image .image-caption {
+    position: absolute;
+    z-index: 3;
+    top: 1.587vw;
+    left: 1.587vw;
+}
+
+
+.moa-habitat-sec .distribution .left-image .image-caption .line-text {
+    font-size: 0.661vw;
+    line-height: 1.4;
+    letter-spacing: 0.017em;
+}
+
+.moa-habitat-sec .distribution .title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    max-width: 20.172vw;
+}
+
+.moa-hub-page .moa-habitat-grid {
+    height: 109.3% !important;
+}
+
+.distribution-item {
+    font-size: 1.323vw;
+    line-height: 96%;
+    color: #5E5E5E;
+    position: relative;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.distribution-item::before {
+    transition: all 0.4s ease;
+    content: "/ ";
+}
+
+.distribution-item.active,
+.distribution-item:hover {
+    color: #FFFFFF;
+}
+
+.distribution-item.active::before {
+    content: ">>>>> ";
+}
+
+.moa-habitat-sec .distribution .text-habitat {
+    position: absolute;
+    top: 50%;
+    right: -8.73vw;
+    font-size: 0.992vw;
+    letter-spacing: 0.02em;
+    transform: translateY(-50%) rotate(-90deg);
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.moa-habitat-sec .distribution .right {
+    padding: 4.63vw 0 0 1.918vw;
+}
+
+.moa-habitat-sec .geological-distribution-title {
+    max-width: 7.407vw;
+    margin-bottom: 4.365vw;
+}
+
+.moa-habitat-sec .geological-distribution-image {
+    width: 16.534vw;
+    height: 22.354vw;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.moa-habitat-sec .geological-distribution-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #9940DD;
+    mix-blend-mode: exclusion;
+    z-index: 1;
+}
+
+.moa-habitat-sec .geological-distribution-image .img-main {
+    mix-blend-mode: luminosity;
+    width: 11.772vw;
+    height: 17.063vw;
 }
