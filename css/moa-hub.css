@@ -98,6 +98,10 @@
     padding-bottom: 4.762vw;
 }
 
+.moa-hub-page .testimonial-white-sec .testimonial-main {
+    margin-top: -10.913vw;
+}
+
 .moa-hub-page .testimonial-white-sec .testimonial-main>.left .quote-title {
     font-size: 1.323vw;
     letter-spacing: 0.022em;
@@ -328,4 +332,123 @@
 
 .moa-hub-page .conservation-impact-bottom .row-3 {
     padding-bottom: 5.291vw;
+}
+
+.te-kaupapa-sec {
+    min-height: 2192px;
+    margin-top: -115px;
+    padding: 175px 0 100px;
+}
+
+.te-kaupapa-sec::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -86px;
+    height: 680px;
+    pointer-events: none;
+    background: linear-gradient(180deg, #FFFFFF 30.15%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+    width: 100%;
+}
+
+.te-kaupapa-sec .bg-1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 1.47%, #FF7B31 46.47%, #9940DD 100%);
+    mix-blend-mode: exclusion;
+}
+
+.te-kaupapa-heading {
+    font-size: 350px;
+    line-height: 86%;
+    letter-spacing: -4px;
+    padding-bottom: 92px;
+}
+
+.te-kaupapa-subheading {
+    font-size: 24px;
+    line-height: 160%;
+    letter-spacing: 14%;
+    width: 250px;
+    position: absolute;
+    top: 68px;
+    z-index: 2;
+}
+
+.te-kaupapa-subheading.subheading-left {
+    left: 111px;
+}
+
+.te-kaupapa-subheading.subheading-right {
+    right: 111px;
+}
+
+.te-kaupapa-content .left {
+    width: 51%;
+    padding-right: 137px;
+}
+
+.te-kaupapa-content .right {
+    flex: 1;
+}
+
+.te-kaupapa-content .right-inner {
+    max-width: 532px;
+}
+
+.te-kaupapa-content .label {
+    gap: 30px;
+}
+
+.te-kaupapa-content .label .square {
+    width: 16px;
+    height: 16px;
+}
+
+.te-kaupapa-content .title {
+    font-size: 64px;
+    line-height: 64px;
+    margin-top: 3px;
+    margin-bottom: 34px;
+}
+
+
+.te-kaupapa-content .desc {
+    max-width: 568px;
+}
+
+.te-kaupapa-content .earth-img {
+    width: 580px;
+    max-width: unset;
+    margin-top: -120px;
+    margin-left: -30px;
+    margin-bottom: -128px;
+}
+
+.te-kaupapa-content .right-row-1 {
+    margin-top: -27px;
+}
+
+.te-kaupapa-content.content-2 .title {
+    max-width: 375px;
+    margin-top: 34px;
+    margin-bottom: 61px;
+}
+
+.te-kaupapa-content.content-2 .right {
+    margin-top: -85px;
+}
+
+.te-kaupapa-content .image-wrapper {
+    padding: 20px;
+    max-width: 452px;
+}
+
+.te-kaupapa-content .image-wrapper .border-img {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
 }
