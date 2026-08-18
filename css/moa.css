@@ -687,15 +687,82 @@
 }
 
 .tusks-sec.moa-info-sec {
-    padding-top: 7.341vw;
+    padding-top: 7.209vw;
 }
 
 .tusks-sec.moa-info-sec .video-bg {
     aspect-ratio: 1512/1042;
 }
 
+.mammoth-related-sec.moa-related-sec {
+    padding-top: 8.598vw;
+}
+
+.mammoth-related-sec.moa-related-sec .mammoth-related-heading {
+    padding-bottom: 14.484vw;
+}
+
+.mammoth-related-sec.moa-related-sec .mammoth-related-main .column-1 {
+    padding-right: 3.175vw;
+    width: 39.52%;
+}
+
+.mammoth-related-sec.moa-related-sec .mammoth-related-main .column-3 {
+    width: 39.52%;
+    padding-left: 3.175vw;
+}
+
+.mammoth-related-sec.moa-related-sec .mammoth-related-main .column-2 {
+    width: 20.96%;
+}
+
+.mammoth-related-sec.moa-related-sec .mammoth-related-item .relative-ancestor {
+    margin-bottom: 2.778vw;
+}
+
+.mammoth-related-sec.moa-related-sec .animals-wrapper {
+    padding-bottom: 2.712vw;
+}
+
+.mammoth-related-sec.moa-related-sec .mammoth-related-item .mammoth-name-line {
+    margin-top: 2.381vw;
+    width: 66%;
+}
+
+.mammoth-related-sec.moa-related-sec .mammoth-related-main .column-1 .line-2 {
+    margin-right: -20%;
+}
+
+.mammoth-related-sec.moa-related-sec .mammoth-related-main .column-3 .line-2 {
+    margin-left: -20%;
+}
+
+.mammoth-related-sec.moa-related-sec .mammoth-related-main .column-1 .mammoth-related-item-info {
+    margin-right: -20%;
+}
+
+.mammoth-related-sec.moa-related-sec .mammoth-related-main .column-3 .mammoth-related-item-info {
+    margin-left: -15%;
+}
+
+.mammoth-related-sec.moa-related-sec .mammoth-related-main .column-2 .line-1 {
+    margin-top: -2.315vw;
+}
+
+.mammoth-related-sec.moa-related-sec .mammoth-related-main .column-2 .video-wrapper {
+    margin-bottom: 3.968vw;
+}
+
+.mammoth-related-sec.moa-related-sec .mammoth-related-main .column-2 .desc p {
+    margin-bottom: 4.233vw;
+}
+
 .mammoth-related-sec.moa-related-sec .asian-elephant {
     padding-bottom: 9.921vw;
+}
+
+.mammoth-related-sec.moa-related-sec .core-phenotype-differences .title {
+    letter-spacing: -0.05em;
 }
 
 .moa-conservation-impact-sec .conservation-impact-header::before {
@@ -718,6 +785,8 @@
 }
 
 .moa-conservation-impact-sec .conservation-impact-header .heading {
+    padding-top: 0;
+    margin-top: 6.68vw;
     background:
         linear-gradient(180deg, rgba(255, 255, 255, 0) 32.56%, rgba(0, 0, 0, 0.78) 89.88%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     -webkit-background-clip: text;
@@ -761,7 +830,7 @@
 }
 
 .conservation-threat .row-1 {
-    padding: 0.661vw 13.228vw 2.315vw 0;
+    padding: 0.661vw 8.228vw 2.315vw 0;
 }
 
 .conservation-threat .row-1 .column {
@@ -831,6 +900,22 @@
 
 }
 
+.conservation-impact-sec.moa-conservation-impact-sec .conservation-impact-bottom .row-1 {
+    margin-bottom: 5.159vw;
+}
+
+.conservation-impact-sec.moa-conservation-impact-sec .conservation-impact-bottom .desc {
+    margin-top: 0.529vw;
+}
+
+.conservation-impact-sec.moa-conservation-impact-sec .conservation-impact-bottom .row-2 {
+    margin-bottom: 5.556vw;
+}
+
+.conservation-impact-sec.moa-conservation-impact-sec .conservation-impact-bottom .row-3 .image-sm {
+    aspect-ratio: 448/421;
+}
+
 .moa-shaping-conversation-sec .row-1 {
     margin-bottom: 1.984vw;
 }
@@ -853,6 +938,16 @@
     padding-top: 36.508vw;
     padding-bottom: 38.955vw;
     clip-path: polygon(0% 99.986%, 0% 0%, 100% 0%, 100% 99.986%, 75.575% 99.986%, 75.575% 99.986%, 75.331% 99.966%, 75.101% 99.909%, 74.886% 99.817%, 74.689% 99.694%, 74.515% 99.543%, 74.365% 99.367%, 74.244% 99.169%, 74.154% 98.952%, 74.098% 98.72%, 74.079% 98.475%, 74.083% 97.624%, 74.083% 97.624%, 74.065% 97.379%, 74.009% 97.146%, 73.918% 96.93%, 73.797% 96.731%, 73.647% 96.555%, 73.472% 96.404%, 73.276% 96.281%, 73.061% 96.19%, 72.83% 96.133%, 72.586% 96.113%, 27.288% 96.188%, 27.288% 96.188%, 27.047% 96.208%, 26.818% 96.265%, 26.604% 96.356%, 26.409% 96.477%, 26.235% 96.627%, 26.086% 96.801%, 25.965% 96.997%, 25.874% 97.211%, 25.816% 97.441%, 25.796% 97.684%, 25.791% 98.491%, 25.791% 98.491%, 25.77% 98.734%, 25.713% 98.964%, 25.622% 99.179%, 25.5% 99.375%, 25.35% 99.549%, 25.176% 99.698%, 24.981% 99.819%, 24.767% 99.91%, 24.538% 99.966%, 24.296% 99.986%, 0% 99.986%);
+}
+
+.moa-culture-lore-sec .culture-lore-main::before {
+    z-index: 2;
+    background: linear-gradient(180deg, #000000 5.75%, rgba(0, 0, 0, 0) 14.98%);
+}
+
+.moa-page .faqs-sec {
+    padding-top: 6.944vw;
+    padding-bottom: 2.646vw;
 }
 
 .moa-culture-lore-sec .btn-primary:hover .arrow {

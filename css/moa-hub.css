@@ -299,3 +299,33 @@
     width: 11.772vw;
     height: 17.063vw;
 }
+
+.moa-hub-page .moa-conservation-impact-sec .conservation-impact-header {
+    padding-bottom: 22.156vw;
+    padding-top: 18.519vw;
+    margin-bottom: 5.556vw;
+}
+
+.moa-hub-page .moa-conservation-impact-sec .conservation-impact-header .heading {
+    padding-top: 0;
+    margin-top: 6.68vw;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 32.56%, rgba(106, 95, 64, 0.78) 76.66%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.moa-hub-page .moa-conservation-impact-bg {
+    top: 0.794vw;
+}
+
+.moa-hub-page .conservation-impact-bottom .row-3 .text-2 {
+    margin-top: 7.54vw;
+}
+
+.moa-hub-page .conservation-impact-bottom .row-3 {
+    padding-bottom: 5.291vw;
+}

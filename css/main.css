@@ -4417,6 +4417,7 @@ em {
 
 .faq-content-inner {
     display: flex;
+    align-items: center;
     width: 88.35%;
 }
 
@@ -4429,12 +4430,9 @@ em {
     flex: 1 1 49.02%;
 }
 
-.faq-item.has-img .faq-content-inner .right {
-    padding-top: 1.786vw;
-}
 
 .faq-content img {
-    width: 100%;
+    aspect-ratio: 406/250;
 }
 
 .circle-with-line {
