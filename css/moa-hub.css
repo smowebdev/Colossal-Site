@@ -1,23 +1,18 @@
 .moa-hub-page .moa-hero .mammoth-database {
-    max-width: 467px;
-}
-
-.moa-hub-page .navigate-woolly p {
-    mix-blend-mode: difference;
-    color: rgba(255, 255, 255, 0.75);
+    max-width: 30.886vw;
 }
 
 .moa-hub-page .reviving-mammoth-sec .row-2 {
     line-height: 1.375;
-    margin-bottom: 78px;
+    margin-bottom: 5.159vw;
 }
 
 .moa-hub-page .reviving-mammoth-sec .row-2 .column {
-    gap: 10px 108px;
+    gap: 0.661vw 7.143vw;
 }
 
 .moa-hub-page .reviving-mammoth-sec .row-2 .square {
-    margin-top: 5px;
+    margin-top: 0.331vw;
 }
 
 .moa-hub-page .explore-key-swiper .bg-media::before {
@@ -43,7 +38,7 @@
 
 .moa-hub-page .moa-about-img {
     max-width: unset;
-    width: calc(100% + 10px);
+    width: calc(100% + 0.661vw);
     left: -1%;
     top: 48.5%;
 }
@@ -53,18 +48,18 @@
 }
 
 .moa-hub-page .earth-friend-content .inner {
-    padding-bottom: 659px;
+    padding-bottom: 43.585vw;
 }
 
 .moa-hub-page .moa-about-sec::before {
-    height: 704px;
-    left: 20px;
-    width: calc(100% - 40px);
+    height: 46.561vw;
+    left: 1.323vw;
+    width: calc(100% - 2.646vw);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.04%, #000000 93.71%);
 }
 
 .moa-hub-page .science-action-sec .inner-global {
-    margin-bottom: 289px;
+    margin-bottom: 19.114vw;
 }
 
 .moa-hub-page .science-action-content .right .content .video {
@@ -79,12 +74,26 @@
     top: 55% !important;
 }
 
-
-
 .moa-hub-page .science-action-content .right .content {
-    margin-bottom: 12px;
+    margin-bottom: 0.794vw;
 }
 
 .moa-hub-page .science-action-content .left .title {
-    margin-bottom: 199px;
+    margin-bottom: 13.161vw;
+}
+
+.moa-hub-page .advisors-header .row-1 {
+    margin-bottom: 2.513vw;
+}
+
+.moa-hub-page .advisors-header .row-2 {
+    margin-bottom: 3.307vw;
+}
+
+.moa-hub-page .advisor-swiper {
+    padding-bottom: 0.992vw;
+}
+
+.moa-hub-page .advisors-sec {
+    padding-bottom: 4.762vw;
 }

@@ -6,6 +6,11 @@
     margin: 11.045vw 0 13.757vw;
 }
 
+.moa-page .navigate-woolly p {
+    mix-blend-mode: difference;
+    color: rgba(255, 255, 255, 0.75);
+}
+
 .moa-hero .mammoth-hero-process {
     bottom: 15.608vw;
 }
