@@ -4405,6 +4405,7 @@ em {
     font-size: 1.058vw;
     color: #979797;
     white-space: nowrap;
+    text-transform: uppercase;
 }
 
 .faq-content {

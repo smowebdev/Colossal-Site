@@ -11,6 +11,11 @@
     gap: 0.661vw 7.143vw;
 }
 
+.moa-hub-page .earth-friend-content .grid-bg {
+    top: 0;
+    object-fit: cover;
+}
+
 .moa-hub-page .reviving-mammoth-sec .row-2 .square {
     margin-top: 0.331vw;
 }
@@ -335,17 +340,16 @@
 }
 
 .te-kaupapa-sec {
-    min-height: 2192px;
-    margin-top: -115px;
-    padding: 175px 0 100px;
+    margin-top: -7.606vw;
+    padding: 11.574vw 0 18.386vw;
 }
 
 .te-kaupapa-sec::before {
     content: "";
     position: absolute;
     left: 0;
-    top: -86px;
-    height: 680px;
+    top: -5.688vw;
+    height: 44.974vw;
     pointer-events: none;
     background: linear-gradient(180deg, #FFFFFF 30.15%, rgba(255, 255, 255, 0) 100%);
     z-index: 1;
@@ -361,94 +365,131 @@
 }
 
 .te-kaupapa-heading {
-    font-size: 350px;
+    font-size: 23.148vw;
     line-height: 86%;
-    letter-spacing: -4px;
-    padding-bottom: 92px;
+    letter-spacing: -0.011em;
+    padding-bottom: 6.085vw;
 }
 
 .te-kaupapa-subheading {
-    font-size: 24px;
+    font-size: 1.587vw;
     line-height: 160%;
     letter-spacing: 14%;
-    width: 250px;
+    width: 16.534vw;
     position: absolute;
-    top: 68px;
+    top: 4.497vw;
     z-index: 2;
 }
 
 .te-kaupapa-subheading.subheading-left {
-    left: 111px;
+    left: 7.341vw;
 }
 
 .te-kaupapa-subheading.subheading-right {
-    right: 111px;
+    right: 7.341vw;
 }
 
 .te-kaupapa-content .left {
     width: 51%;
-    padding-right: 137px;
+    padding-right: 9.061vw;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .te-kaupapa-content .right {
-    flex: 1;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .te-kaupapa-content .right-inner {
-    max-width: 532px;
+    max-width: 35.185vw;
 }
 
 .te-kaupapa-content .label {
-    gap: 30px;
+    gap: 1.984vw;
 }
 
 .te-kaupapa-content .label .square {
-    width: 16px;
-    height: 16px;
+    width: 1.058vw;
+    height: 1.058vw;
 }
 
 .te-kaupapa-content .title {
-    font-size: 64px;
-    line-height: 64px;
-    margin-top: 3px;
-    margin-bottom: 34px;
+    font-size: 4.233vw;
+    line-height: 1;
+    margin-top: 0.198vw;
+    margin-bottom: 2.249vw;
 }
 
 
 .te-kaupapa-content .desc {
-    max-width: 568px;
+    max-width: 37.566vw;
 }
 
 .te-kaupapa-content .earth-img {
-    width: 580px;
+    width: 38.36vw;
     max-width: unset;
-    margin-top: -120px;
-    margin-left: -30px;
-    margin-bottom: -128px;
+    margin-top: -7.937vw;
+    margin-left: -1.984vw;
+    margin-bottom: -8.466vw;
 }
 
 .te-kaupapa-content .right-row-1 {
-    margin-top: -27px;
+    margin-top: -1.786vw;
 }
 
 .te-kaupapa-content.content-2 .title {
-    max-width: 375px;
-    margin-top: 34px;
-    margin-bottom: 61px;
+    max-width: 24.802vw;
+    margin-top: 2.249vw;
+    margin-bottom: 4.034vw;
 }
 
 .te-kaupapa-content.content-2 .right {
-    margin-top: -85px;
+    margin-top: -5.622vw;
+}
+
+.te-kaupapa-content.content-2 .left {
+    padding-top: 8.069vw;
+}
+
+.te-kaupapa-content .line-text {
+    padding-bottom: 1.323vw;
+    font-size: 0.661vw;
+    line-height: 1.4;
+    letter-spacing: 0.017em;
 }
 
 .te-kaupapa-content .image-wrapper {
-    padding: 20px;
-    max-width: 452px;
+    padding: 1.323vw;
+    max-width: 29.894vw;
 }
 
 .te-kaupapa-content .image-wrapper .border-img {
-    width: 20px;
-    height: 20px;
+    width: 1.323vw;
+    height: 1.323vw;
     border: 1px solid #FFFFFF;
     position: absolute;
+}
+
+.te-kaupapa-content .image-wrapper .border-img.border-top-left {
+    border-bottom: none;
+    border-right: none;
+}
+
+.te-kaupapa-content .image-wrapper .border-img.border-top-right {
+    border-bottom: none;
+    border-left: none;
+}
+
+.te-kaupapa-content .image-wrapper .border-img.border-bottom-left {
+    border-top: none;
+    border-right: none;
+}
+
+.te-kaupapa-content .image-wrapper .border-img.border-bottom-right {
+    border-top: none;
+    border-left: none;
 }
