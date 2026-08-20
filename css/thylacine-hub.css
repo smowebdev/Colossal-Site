@@ -1,0 +1,564 @@
+.thylacine-intro-sec .bg-top {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    mix-blend-mode: darken;
+    opacity: 0.86;
+    z-index: 2;
+}
+
+
+
+.thylacine-hub-page .woolly-mammoths-sec .bg-1::before {
+    background: linear-gradient(180deg, #FFFFFF 23.28%, rgba(255, 255, 255, 0) 50%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 77.57%, #000000 100%);
+    opacity: 1;
+}
+
+.thylacine-hub-page .woolly-mammoths-sec .bg-1::after {
+    display: none;
+}
+
+.thylacine-intro-sec .bg-top::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(113, 95, 49, 0.7) 4.85%, rgba(113, 95, 49, 0) 63.66%);
+}
+
+.thylacine-hub-page .woolly-mammoths-sec .woolly-mammoths-img::before {
+    display: none;
+}
+
+.thylacine-hub-page .woolly-mammoths-sec .woolly-mammoths-img {
+    margin-top: -38.989vw;
+}
+
+.thylacine-hub-page .woolly-mammoths-sec .woolly-mammoths-img img {
+    transform: rotate(-4.53deg);
+}
+
+.thylacine-hub-page .woolly-mammoths-sec .heading {
+    font-size: 256px;
+    line-height: 274px;
+    letter-spacing: 9.07px;
+}
+
+.thylacine-hub-page .woolly-mammoths-sec .heading-1 {
+    margin: 0;
+}
+
+.thylacine-hub-page .woolly-mammoths-sec .heading-2 {
+    margin: 0;
+    margin-top: 12px;
+    z-index: 3;
+}
+
+.thylacine-hub-page .moa-intro-bottom {
+    position: static;
+    margin-top: -483px;
+    padding-bottom: 164px;
+}
+
+.thylacine-hub-page .moa-intro-bottom .title {
+    background:
+        linear-gradient(180deg, #715F31 18.99%, rgba(255, 255, 255, 0) 90.31%), linear-gradient(0deg, #FF7B31, #FF7B31);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 0;
+    margin-bottom: 258px;
+}
+
+.thylacine-hub-page .moa-intro-bottom .bottom-row.row-1 {
+    margin-bottom: 182px;
+}
+
+.thylacine-hub-page .moa-intro-bottom .bottom-row.row-2 .column-1 .square {
+    background: #D9D9D9;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+}
+
+.thylacine-hub-page .moa-intro-bottom .bottom-row.row-2 .column-1 {
+    font-size: 34px;
+    line-height: 24px;
+    letter-spacing: 0.89px;
+    gap: 16px;
+}
+
+.thylacine-hub-page .woolly-mammoths-sec .woolly-mammoths-img .text {
+    top: 30.9% !important;
+}
+
+.thylacine-hub-page .moa-habitat-sec::before {
+    display: none;
+}
+
+.thylacine-hub-page .moa-habitat-sec {
+    margin-top: 0;
+}
+
+.thylacine-hub-page .moa-habitat-sec .map-wrapper {
+    margin-top: -734px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .map-img {
+    max-width: 874px;
+    margin: 0 auto;
+}
+
+.thylacine-hub-page .moa-habitat-sec .map-img .image {
+    margin-left: -24px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .map-img .position {
+    position: absolute;
+    z-index: 2;
+    width: 79px;
+    height: 79px;
+    border-radius: 12px;
+    border: 1px solid #979797;
+    mix-blend-mode: screen;
+}
+
+.thylacine-hub-page .moa-habitat-sec .map-img .position.position-1 {
+    bottom: 29%;
+    left: 18.5%;
+}
+
+.thylacine-hub-page .moa-habitat-sec .map-img .position.position-2 {
+    bottom: 37.5%;
+    left: 33.5%;
+}
+
+.thylacine-hub-page .moa-habitat-sec .map-img .position.position-3 {
+    bottom: 25.5%;
+    right: 23.5%;
+}
+
+.thylacine-hub-page .moa-habitat-sec .map-img .position.position-4 {
+    bottom: 6.5%;
+    right: 28%;
+}
+
+.thylacine-hub-page .moa-habitat-sec .map-img .map-line {
+    position: absolute;
+    bottom: 33.9%;
+    left: 23.8%;
+    width: 190px;
+    z-index: 1;
+}
+
+.thylacine-hub-page .moa-habitat-sec .map-img .square-plus {
+    position: absolute;
+    z-index: 1;
+    bottom: 32%;
+    left: 51%;
+    width: 27px;
+    height: 27px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .map-img .square-plus img {
+    width: 10px;
+
+}
+
+.thylacine-hub-page .moa-habitat-sec .map-content {
+    max-width: 1008px;
+    margin: -120px auto 0;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data {
+    display: flex;
+    padding-bottom: 66px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .left {
+    width: 58%;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .right {
+    width: 42%;
+    padding: 93px 0 0 60px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .title {
+    font-size: 40px;
+    letter-spacing: 0.011em;
+    margin-bottom: 41px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .list {
+    gap: 8px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .list .item {
+    font-size: 16px;
+    line-height: 1;
+    color: #5E5E5E;
+    position: relative;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .list .item:hover {
+    color: #F4F4F4;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .list .item.active {
+    color: #F4F4F4;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .list .item::before {
+    content: "<<<";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -60px;
+    font-size: 14px;
+    letter-spacing: 2%;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .list .item.active::before {
+    opacity: 1;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap {
+    max-width: 482px;
+    height: 452px;
+    margin: -92px auto 0;
+    left: 10px;
+    padding: 41px 47px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .border-img {
+    width: 27px;
+    height: 27px;
+    border: 1px solid #828282;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .border-img.border-top-left {
+    border-bottom: none;
+    border-right: none;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .border-img.border-top-right {
+    border-bottom: none;
+    border-left: none;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .border-img.border-bottom-left {
+    border-top: none;
+    border-right: none;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .border-img.border-bottom-right {
+    border-top: none;
+    border-left: none;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .box {
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    border-image: linear-gradient(180deg,
+            #9940DD 0%,
+            #B5B5B5 100%) 1;
+    padding: 12px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .box-inner img {
+    border: 1px solid #4F4F4F;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .border-box {
+    width: 20px;
+    height: 20px;
+    background-color: #4F4F4F;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .border-box.border-top-left {
+    clip-path: polygon(0% 0%, 99.2% 0%, 0% 98.4%);
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .border-box.border-top-right {
+    clip-path: polygon(99.2% 0%, 0% 0%, 99.2% 98.4%);
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .border-box.border-bottom-left {
+    clip-path: polygon(0% 98.4%, 99.2% 98.4%, 0% 0%);
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .border-box.border-bottom-right {
+    clip-path: polygon(99.2% 98.4%, 0% 98.4%, 99.2% 0%);
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .ecosystem-name {
+    font-size: 16.53px;
+    line-height: 24px;
+    color: #4F4F4F;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .map-ecosystem__line {
+    position: absolute;
+    top: var(--line-top, 0%);
+    left: var(--line-left, 0%);
+    width: var(--line-width, 245px);
+    height: 2px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    background: linear-gradient(to left, #000000 0.5%, #9940DD 35.9%);
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .map-ecosystem__line.vertical {
+    height: var(--line-width, 245px);
+    width: 2px;
+    background: linear-gradient(to bottom, #000000 0.5%, #9940DD 35.9%);
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .map-ecosystem__line.horizontal.add-line::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    background: #9940DD;
+    height: var(--line-height, 100px);
+}
+
+
+
+.thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .map-ecosystem__line.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .text-1 {
+    top: 7px;
+    left: -26px;
+    font-size: 13.22px;
+    letter-spacing: 2%;
+    z-index: 2;
+}
+
+.thylacine-hub-page .moa-habitat-sec .location-data .text-2 {
+    font-size: 15px;
+    letter-spacing: 2%;
+    top: 44px;
+    left: -26px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts {
+    min-height: 673px;
+    padding: 20px 0 20px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .img-bg {
+    width: 1260px;
+    max-width: unset;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .label {
+    font-size: 15px;
+    letter-spacing: 2%;
+    margin-bottom: 22px;
+    padding-left: 30px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .square-1 {
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 0;
+    right: 30px;
+
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .title {
+    font-size: 40px;
+    line-height: 31px;
+    letter-spacing: -1px;
+    padding-bottom: 8px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .desc {
+    max-width: 325px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .content-top {
+    padding: 0 30px 12px;
+    border-bottom: 1.64px dashed #000;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .content-top__left {
+    width: 48%;
+    padding-right: 58px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .content-top__right {
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .text-plus {
+    font-size: 20px;
+    letter-spacing: 2%;
+
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .content-bottom {
+    padding: 32px 30px 24px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .content-bottom .label {
+    padding-left: 0;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .content-bottom .row-1 .left {
+    padding-right: 17px;
+    width: 48%;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .content-bottom .row-1 .right {
+    width: 52%;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .content-bottom .images {
+    gap: 16px;
+    margin-top: 37px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .content-bottom .logo-list {
+    width: 146px;
+    margin-top: 22px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .content-bottom .thylacine-split-black-img {
+    width: 285px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .subtitle {
+    font-size: 26.18px;
+    max-width: 315px;
+    margin-top: 27px;
+    margin-bottom: 45px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .text-detail {
+    font-size: 17.52px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .content-bottom .line-text {
+    font-size: 48px;
+    letter-spacing: -17%;
+    margin-top: 16px;
+    margin-left: 173px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content {
+    position: absolute;
+    z-index: 2;
+    bottom: 12%;
+    right: -13%;
+    width: 283px;
+    height: 395px;
+    padding: 20px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .border-img {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #828282;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .border-img.border-top-right {
+    border-bottom: none;
+    border-left: none;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .border-img.border-bottom-left {
+    border-top: none;
+    border-right: none;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .border-img.border-bottom-right {
+    border-top: none;
+    border-left: none;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .box {
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-image: linear-gradient(180deg, #4F4F4F 0%, #B5B5B5 100%) 1;
+    padding: 8px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .video {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .video::before,
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .video::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    mix-blend-mode: difference;
+    pointer-events: none;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .video::before {
+    background: rgb(130, 130, 130, 0.23);
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .video::after {
+    background: url('../img/thylacine-hub/grid-1.png') no-repeat center / cover;
+    opacity: 0.55;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .label-video {
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    font-size: 8px;
+    letter-spacing: 2%;
+    gap: 15px;
+    z-index: 2;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .text-source {
+    font-size: 8px;
+    letter-spacing: 2%;
+    margin-top: 3px;
+}
+
+.thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .video-name {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -28px;
+    font-size: 10px;
+    z-index: 2;
+}
+
+.thylacine-hub-page .moa-habitat-content .img-1 {
+    position: absolute;
+    bottom: 0;
+    left: 82px;
+    width: 337px;
+    border: 1px solid #B3B3B3;
+    z-index: 3;
+}
