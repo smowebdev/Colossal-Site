@@ -1,0 +1,32 @@
+
+.thylacine-culture-lore-sec .culture-lore-main {
+    background-image: url('../img/thy/Vector127.png');
+}
+
+.thylacine-culture-lore-sec .cul-center-box {
+    margin-top: -14vw;
+}
+
+.thylacine-culture-lore-sec .culture-lore-main {
+   height: 86.243vw;
+    padding-top: 31.349vw;
+}
+
+.thylacine-culture-lore-sec .culture-lore-main::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(180deg, rgba(151, 151, 151, 0) 51.28%, #9940DD 95.15%);
+    pointer-events: none;
+}
+.thylacine-culture-lore-sec .culture-lore-heading {
+    font-size: 13.539vw;
+    margin-bottom: 8.446vw;
+}
+.thylacine-culture-lore-sec  .mt-text{
+    margin-top: 1vw;
+}
+.thylacine-culture-lore-sec  .text{
+    font-size: 0.794vw;
+}
