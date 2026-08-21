@@ -1,14 +1,12 @@
 .thylacine-intro-sec .bg-top {
     position: absolute;
-    top: -50px;
+    top: -3.307vw;
     left: 0;
     width: 100%;
     mix-blend-mode: darken;
     opacity: 0.86;
     z-index: 2;
 }
-
-
 
 .thylacine-hub-page .woolly-mammoths-sec .bg-1::before {
     background: linear-gradient(180deg, #FFFFFF 23.28%, rgba(255, 255, 255, 0) 50%),
@@ -40,9 +38,9 @@
 }
 
 .thylacine-hub-page .woolly-mammoths-sec .heading {
-    font-size: 256px;
-    line-height: 274px;
-    letter-spacing: 9.07px;
+    font-size: 16.931vw;
+    line-height: 1.0703125;
+    letter-spacing: 0.035em;
 }
 
 .thylacine-hub-page .woolly-mammoths-sec .heading-1 {
@@ -51,14 +49,14 @@
 
 .thylacine-hub-page .woolly-mammoths-sec .heading-2 {
     margin: 0;
-    margin-top: 12px;
+    margin-top: 0.794vw;
     z-index: 3;
 }
 
 .thylacine-hub-page .moa-intro-bottom {
     position: static;
-    margin-top: -483px;
-    padding-bottom: 164px;
+    margin-top: -31.944vw;
+    padding-bottom: 10.847vw;
 }
 
 .thylacine-hub-page .moa-intro-bottom .title {
@@ -69,25 +67,25 @@
     background-clip: text;
     color: transparent;
     padding-bottom: 0;
-    margin-bottom: 258px;
+    margin-bottom: 17.063vw;
 }
 
 .thylacine-hub-page .moa-intro-bottom .bottom-row.row-1 {
-    margin-bottom: 182px;
+    margin-bottom: 12.037vw;
 }
 
 .thylacine-hub-page .moa-intro-bottom .bottom-row.row-2 .column-1 .square {
     background: #D9D9D9;
-    width: 24px;
-    height: 24px;
+    width: 1.587vw;
+    height: 1.587vw;
     margin: 0;
 }
 
 .thylacine-hub-page .moa-intro-bottom .bottom-row.row-2 .column-1 {
-    font-size: 34px;
-    line-height: 24px;
-    letter-spacing: 0.89px;
-    gap: 16px;
+    font-size: 2.249vw;
+    line-height: 0.7;
+    letter-spacing: 0.026em;
+    gap: 1.058vw;
 }
 
 .thylacine-hub-page .woolly-mammoths-sec .woolly-mammoths-img .text {
@@ -103,24 +101,24 @@
 }
 
 .thylacine-hub-page .moa-habitat-sec .map-wrapper {
-    margin-top: -734px;
+    margin-top: -48.545vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .map-img {
-    max-width: 874px;
+    max-width: 57.804vw;
     margin: 0 auto;
 }
 
 .thylacine-hub-page .moa-habitat-sec .map-img .image {
-    margin-left: -24px;
+    margin-left: -1.587vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .map-img .position {
     position: absolute;
     z-index: 2;
-    width: 79px;
-    height: 79px;
-    border-radius: 12px;
+    width: 5.225vw;
+    height: 5.225vw;
+    border-radius: 0.794vw;
     border: 1px solid #979797;
     mix-blend-mode: screen;
 }
@@ -149,7 +147,7 @@
     position: absolute;
     bottom: 33.9%;
     left: 23.8%;
-    width: 190px;
+    width: 12.566vw;
     z-index: 1;
 }
 
@@ -158,23 +156,23 @@
     z-index: 1;
     bottom: 32%;
     left: 51%;
-    width: 27px;
-    height: 27px;
+    width: 1.786vw;
+    height: 1.786vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .map-img .square-plus img {
-    width: 10px;
+    width: 0.661vw;
 
 }
 
 .thylacine-hub-page .moa-habitat-sec .map-content {
-    max-width: 1008px;
-    margin: -120px auto 0;
+    max-width: 66.667vw;
+    margin: -7.937vw auto 0;
 }
 
 .thylacine-hub-page .moa-habitat-sec .location-data {
     display: flex;
-    padding-bottom: 66px;
+    padding-bottom: 4.365vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .location-data .left {
@@ -183,24 +181,25 @@
 
 .thylacine-hub-page .moa-habitat-sec .location-data .right {
     width: 42%;
-    padding: 93px 0 0 60px;
+    padding: 6.151vw 0 0 3.968vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .location-data .title {
-    font-size: 40px;
+    font-size: 2.646vw;
     letter-spacing: 0.011em;
-    margin-bottom: 41px;
+    margin-bottom: 2.712vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .location-data .list {
-    gap: 8px;
+    gap: 0.529vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .location-data .list .item {
-    font-size: 16px;
+    font-size: 1.058vw;
     line-height: 1;
     color: #5E5E5E;
     position: relative;
+    cursor: pointer;
 }
 
 .thylacine-hub-page .moa-habitat-sec .location-data .list .item:hover {
@@ -216,8 +215,8 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: -60px;
-    font-size: 14px;
+    left: -3.968vw;
+    font-size: 0.926vw;
     letter-spacing: 2%;
     opacity: 0;
     transition: all 0.3s ease;
@@ -228,16 +227,16 @@
 }
 
 .thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap {
-    max-width: 482px;
-    height: 452px;
-    margin: -92px auto 0;
-    left: 10px;
-    padding: 41px 47px;
+    max-width: 31.878vw;
+    height: 29.894vw;
+    margin: -6.085vw auto 0;
+    left: 0.661vw;
+    padding: 2.712vw 3.108vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .border-img {
-    width: 27px;
-    height: 27px;
+    width: 1.786vw;
+    height: 1.786vw;
     border: 1px solid #828282;
 }
 
@@ -264,11 +263,11 @@
 .thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .box {
     width: 100%;
     height: 100%;
-    border: 2px solid;
+    border: 0.132vw solid;
     border-image: linear-gradient(180deg,
             #9940DD 0%,
             #B5B5B5 100%) 1;
-    padding: 12px;
+    padding: 0.794vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .box-inner img {
@@ -276,8 +275,8 @@
 }
 
 .thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .border-box {
-    width: 20px;
-    height: 20px;
+    width: 1.323vw;
+    height: 1.323vw;
     background-color: #4F4F4F;
 }
 
@@ -298,11 +297,11 @@
 }
 
 .thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .ecosystem-name {
-    font-size: 16.53px;
-    line-height: 24px;
+    font-size: 1.093vw;
+    line-height: 1.45;
     color: #4F4F4F;
     position: absolute;
-    bottom: -6px;
+    bottom: -0.397vw;
     left: 0;
     width: 100%;
 }
@@ -311,8 +310,8 @@
     position: absolute;
     top: var(--line-top, 0%);
     left: var(--line-left, 0%);
-    width: var(--line-width, 245px);
-    height: 2px;
+    width: var(--line-width, 16.204vw);
+    height: 0.132vw;
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
@@ -320,8 +319,8 @@
 }
 
 .thylacine-hub-page .moa-habitat-sec .location-data .map-ecosystem-wrap .map-ecosystem__line.vertical {
-    height: var(--line-width, 245px);
-    width: 2px;
+    height: var(--line-width, 16.204vw);
+    width: 0.132vw;
     background: linear-gradient(to bottom, #000000 0.5%, #9940DD 35.9%);
 }
 
@@ -330,9 +329,9 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 2px;
+    width: 0.132vw;
     background: #9940DD;
-    height: var(--line-height, 100px);
+    height: var(--line-height, 6.614vw);
 }
 
 
@@ -343,65 +342,64 @@
 }
 
 .thylacine-hub-page .moa-habitat-sec .location-data .text-1 {
-    top: 7px;
-    left: -26px;
-    font-size: 13.22px;
+    top: 0.463vw;
+    left: -1.72vw;
+    font-size: 0.874vw;
     letter-spacing: 2%;
     z-index: 2;
 }
 
 .thylacine-hub-page .moa-habitat-sec .location-data .text-2 {
-    font-size: 15px;
+    font-size: 0.992vw;
     letter-spacing: 2%;
-    top: 44px;
-    left: -26px;
+    top: 2.91vw;
+    left: -1.72vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts {
-    min-height: 673px;
-    padding: 20px 0 20px;
+    padding: 1.323vw 0 10.979vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .img-bg {
-    width: 1260px;
+    width: 83.333vw;
     max-width: unset;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .label {
-    font-size: 15px;
+    font-size: 0.992vw;
     letter-spacing: 2%;
-    margin-bottom: 22px;
-    padding-left: 30px;
+    margin-bottom: 1.455vw;
+    padding-left: 1.984vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .square-1 {
-    width: 33px;
-    height: 33px;
+    width: 2.183vw;
+    height: 2.183vw;
     position: absolute;
     top: 0;
-    right: 30px;
+    right: 1.984vw;
 
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .title {
-    font-size: 40px;
-    line-height: 31px;
-    letter-spacing: -1px;
-    padding-bottom: 8px;
+    font-size: 2.646vw;
+    line-height: 0.775;
+    letter-spacing: -0.025em;
+    padding-bottom: 0.529vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .desc {
-    max-width: 325px;
+    max-width: 21.495vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .content-top {
-    padding: 0 30px 12px;
+    padding: 0 1.984vw 0.794vw;
     border-bottom: 1.64px dashed #000;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .content-top__left {
     width: 48%;
-    padding-right: 58px;
+    padding-right: 3.836vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .content-top__right {
@@ -412,13 +410,13 @@
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .text-plus {
-    font-size: 20px;
+    font-size: 1.323vw;
     letter-spacing: 2%;
 
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .content-bottom {
-    padding: 32px 30px 24px;
+    padding: 2.116vw 1.984vw 1.587vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .content-bottom .label {
@@ -426,7 +424,7 @@
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .content-bottom .row-1 .left {
-    padding-right: 17px;
+    padding-right: 1.124vw;
     width: 48%;
 }
 
@@ -435,35 +433,35 @@
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .content-bottom .images {
-    gap: 16px;
-    margin-top: 37px;
+    gap: 1.058vw;
+    margin-top: 2.447vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .content-bottom .logo-list {
-    width: 146px;
-    margin-top: 22px;
+    width: 9.656vw;
+    margin-top: 1.455vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .content-bottom .thylacine-split-black-img {
-    width: 285px;
+    width: 18.849vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .subtitle {
-    font-size: 26.18px;
-    max-width: 315px;
-    margin-top: 27px;
-    margin-bottom: 45px;
+    font-size: 1.731vw;
+    max-width: 20.833vw;
+    margin-top: 1.786vw;
+    margin-bottom: 2.976vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .text-detail {
-    font-size: 17.52px;
+    font-size: 1.159vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .content-bottom .line-text {
-    font-size: 48px;
+    font-size: 3.175vw;
     letter-spacing: -17%;
-    margin-top: 16px;
-    margin-left: 173px;
+    margin-top: 1.058vw;
+    margin-left: 11.442vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content {
@@ -471,14 +469,14 @@
     z-index: 2;
     bottom: 12%;
     right: -13%;
-    width: 283px;
-    height: 395px;
-    padding: 20px;
+    width: 18.717vw;
+    height: 26.124vw;
+    padding: 1.323vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .border-img {
-    width: 20px;
-    height: 20px;
+    width: 1.323vw;
+    height: 1.323vw;
     border: 1px solid #828282;
 }
 
@@ -502,7 +500,7 @@
     height: 100%;
     border: 1px solid;
     border-image: linear-gradient(180deg, #4F4F4F 0%, #B5B5B5 100%) 1;
-    padding: 8px;
+    padding: 0.529vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .video {
@@ -531,34 +529,86 @@
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .label-video {
     position: absolute;
-    top: 14px;
-    right: 20px;
-    font-size: 8px;
+    top: 0.926vw;
+    right: 1.323vw;
+    font-size: 0.529vw;
     letter-spacing: 2%;
-    gap: 15px;
+    gap: 0.992vw;
     z-index: 2;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .text-source {
-    font-size: 8px;
+    font-size: 0.529vw;
     letter-spacing: 2%;
-    margin-top: 3px;
+    margin-top: 0.198vw;
 }
 
 .thylacine-hub-page .moa-habitat-sec .habitat-facts .video-content .video-name {
     position: absolute;
     left: 0;
     width: 100%;
-    bottom: -28px;
-    font-size: 10px;
+    bottom: -1.852vw;
+    font-size: 0.661vw;
     z-index: 2;
 }
 
 .thylacine-hub-page .moa-habitat-content .img-1 {
     position: absolute;
     bottom: 0;
-    left: 82px;
-    width: 337px;
+    left: -11.243vw;
+    width: 22.288vw;
     border: 1px solid #B3B3B3;
     z-index: 3;
+}
+
+.thylacine-hub-page .moa-habitat-content .text-global {
+    position: absolute;
+    top: 16.5%;
+    left: -11%;
+}
+
+.thylacine-hub-page .moa-habitat-content .text-location {
+    position: absolute;
+    top: 16.5%;
+    right: -12.5%;
+}
+
+.thylacine-hub-page .moa-habitat-content .text-systems {
+    position: absolute;
+    top: 45.5%;
+    right: -11.5%;
+}
+
+.thylacine-hub-page .moa-habitat-content .square-left,
+.thylacine-hub-page .moa-habitat-content .square-right {
+    position: absolute;
+    top: 30.5%;
+}
+
+.thylacine-hub-page .moa-habitat-content .square-left {
+    left: -9%;
+}
+
+.thylacine-hub-page .moa-habitat-content .square-right {
+    right: -9%;
+}
+
+.thylacine-hub-page .moa-habitat-content .square-bottom {
+    right: 14%;
+    bottom: 3.5%;
+    position: absolute;
+    z-index: 2;
+}
+
+.thylacine-hub-page .moa-habitat-content .square-plus-1 {
+    position: absolute;
+    top: 50.5%;
+    right: -13%;
+}
+
+.thylacine-hub-page .moa-habitat-grid {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 66.138vw;
 }
