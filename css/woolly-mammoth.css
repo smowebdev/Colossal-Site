@@ -1554,6 +1554,10 @@
     padding-left: 2.976vw;
 }
 
+.mammoth-related-main .column-3 .mammoth-related-item-info .info-list .item p:last-child {
+    text-align: end;
+}
+
 .mammoth-related-item .lineage-compare {
     font-size: clamp(6px, 0.529vw, 20px);
     line-height: 1.25;
