@@ -1009,3 +1009,120 @@
 .thylacine-hub-page .partner-sec-black .partner-slider {
     padding-bottom: 2.976vw;
 }
+
+.thy-rewilding-paradise-sec {
+    padding-bottom: 6.349vw;
+}
+
+.thy-rewilding-paradise-sec::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #000;
+    height: 42.328vw;
+    pointer-events: none;
+}
+
+.thy-rewilding-paradise-sec .row-1 {
+    padding-top: 1.852vw;
+    border-top: 1px solid #979797;
+    margin-bottom: 3.042vw;
+}
+
+.thy-rewilding-paradise-sec .row-1 .column-1 {
+    line-height: 1.375;
+    gap: 0.661vw 7.275vw;
+    width: 41.5%;
+}
+
+.thy-rewilding-paradise-sec .row-1 .column-2 {
+    font-size: 0.794vw;
+    line-height: 1.83;
+    width: 30%;
+}
+
+.thy-rewilding-paradise-sec .row-1 .column-3 {
+    font-size: 1.587vw;
+    width: 28.5%;
+    line-height: 0.92;
+}
+
+.thy-rewilding-paradise__content .left {
+    width: 33.82%;
+    padding-right: 1.323vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.thy-rewilding-paradise__content .right {
+    width: 66.18%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.thy-rewilding-paradise__content .title {
+    font-size: 4.431vw;
+    line-height: 1.03;
+    letter-spacing: 0.013em;
+    margin-bottom: 2.646vw;
+
+}
+
+.thy-rewilding-paradise__content .btn-primary .arrow {
+    background: transparent;
+}
+
+.thy-rewilding-paradise__content .btn-primary span {
+    max-width: 8.069vw;
+}
+
+.thy-rewilding-paradise__content .subtitle {
+    font-size: 1.846vw;
+    margin-bottom: 2.116vw;
+}
+
+.thy-rewilding-paradise__content .list {
+    padding-bottom: 1.058vw;
+    border-bottom: 1px solid #828282;
+
+}
+
+.thy-rewilding-paradise__content .list .item {
+    display: grid;
+    grid-template-columns: 11.574vw 1fr;
+    grid-gap: 1.323vw;
+    font-size: 0.794vw;
+    line-height: 1.33;
+    padding: 1.058vw 0;
+    border-top: 1px solid #828282;
+}
+
+.thy-rewilding-paradise__content .desc-left {
+    font-size: 0.794vw;
+    letter-spacing: 0.0375em;
+    margin-top: 1.587vw;
+    max-width: 28.902vw;
+    line-height: 1.33;
+}
+
+.thy-rewilding-paradise-sec .advisor-swiper-panel {
+    margin-top: 3.836vw;
+}
+
+.thy-rewilding-paradise-sec .advisor-card .advisor-img-wrapper::before {
+    background: linear-gradient(180deg, #C9C9C7 0%, #FF7B31 100%) !important;
+}
+
+.thy-rewilding-paradise-sec .advisor-info .advisor-role {
+    margin-top: 1.852vw;
+}
+
+.thy-rewilding-paradise-sec .advisor-info .advisor-name {
+    color: #000000;
+}
+
+.thy-rewilding-paradise-sec .advisor-swiper {
+    padding-bottom: 1.587vw;
+}

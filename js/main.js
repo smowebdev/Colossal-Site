@@ -103,19 +103,9 @@ jQuery(document).ready(function ($) {
 
   const swiperAdvisor = new Swiper(".advisor-swiper", {
     slidesPerView: "auto",
-    spaceBetween: 20,
+    spaceBetween: designPxToViewportPx(20),
     loop: true,
-    breakpoints: {
-      0: {
-        spaceBetween: 8,
-      },
-      768: {
-        spaceBetween: 10,
-      },
-      1024: {
-        spaceBetween: 20,
-      },
-    },
+
     pagination: {
       el: ".advisor-progress",
       type: "progressbar",
@@ -141,14 +131,10 @@ jQuery(document).ready(function ($) {
 
   const exploreSwiper = new Swiper(".explore-key-swiper", {
     slidesPerView: "auto",
-    spaceBetween: 40,
+    spaceBetween: designPxToViewportPx(40),
     loop: true,
     centeredSlides: true,
-    breakpoints: {
-      0: { spaceBetween: 12 },
-      768: { spaceBetween: 20 },
-      1024: { spaceBetween: 40 },
-    },
+
     navigation: {
       nextEl: ".explore-key-next",
       prevEl: ".explore-key-prev",
@@ -223,19 +209,7 @@ jQuery(document).ready(function ($) {
     loop: true,
     centeredSlides: true,
     slidesPerView: 2.087,
-    spaceBetween: 16,
-    breakpoints: {
-      0: {
-        spaceBetween: 8,
-      },
-      768: {
-        spaceBetween: 12,
-      },
-      1024: {
-        spaceBetween: 16,
-      },
-    },
-
+    spaceBetween: designPxToViewportPx(16),
     navigation: {
       nextEl: ".dire-wolf-slider-next",
       prevEl: ".dire-wolf-slider-prev",
@@ -252,18 +226,7 @@ jQuery(document).ready(function ($) {
 
   const labSlider = new Swiper(".lab-slider", {
     slidesPerView: "auto",
-    spaceBetween: 20,
-    breakpoints: {
-      0: {
-        spaceBetween: 8,
-      },
-      768: {
-        spaceBetween: 10,
-      },
-      1024: {
-        spaceBetween: 20,
-      },
-    },
+    spaceBetween: designPxToViewportPx(20),
     centeredSlides: false,
     navigation: {
       nextEl: ".lab-next",
@@ -366,7 +329,7 @@ jQuery(document).ready(function ($) {
   const colossalProjectSlider = new Swiper(".colossal-project-swiper", {
     slidesPerView: "auto",
     speed: 600,
-    spaceBetween: 20,
+    spaceBetween: designPxToViewportPx(20),
     loop: true,
     watchSlidesProgress: true,
     slideToClickedSlide: true,
@@ -411,18 +374,7 @@ jQuery(document).ready(function ($) {
   }
   new Swiper(".conservation-partner-slider", {
     slidesPerView: "auto",
-    spaceBetween: 20,
-    breakpoints: {
-      0: {
-        spaceBetween: 8,
-      },
-      768: {
-        spaceBetween: 10,
-      },
-      1024: {
-        spaceBetween: 20,
-      },
-    },
+    spaceBetween: designPxToViewportPx(20),
     navigation: {
       nextEl: ".partner-next",
       prevEl: ".partner-prev",
@@ -431,7 +383,7 @@ jQuery(document).ready(function ($) {
 
   new Swiper(".lab-universities-slider", {
     slidesPerView: "auto",
-    spaceBetween: 20,
+    spaceBetween: designPxToViewportPx(20),
     centerInsufficientSlides: true,
     breakpoints: {
       0: {
