@@ -931,3 +931,81 @@
 .thylacine-hub-page .conservation-impact-sec.moa-conservation-impact-sec .conservation-impact-learnmore::before {
     background: rgba(0, 0, 0, 0.2);
 }
+
+.thylacine-hub-page .conservation-impact-sec.moa-conservation-impact-sec .conservation-impact-bottom .row-1 {
+    margin-bottom: 2.646vw;
+}
+
+.thylacine-hub-page .conservation-impact-sec.moa-conservation-impact-sec .conservation-impact-bottom .row-2 .image {
+    width: 24.14vw;
+    margin-top: 0.529vw;
+}
+
+.thylacine-hub-page .conservation-impact-sec.moa-conservation-impact-sec .conservation-impact-bottom .row-2 {
+    margin-bottom: 2.646vw;
+}
+
+.thylacine-hub-page .conservation-impact-bottom .row-3 .text-1 {
+    margin-bottom: 12.566vw;
+}
+
+.thylacine-hub-page .conservation-impact-bottom .row-3 .title {
+    line-height: 1;
+    padding-bottom: 0.529vw;
+}
+
+.thylacine-hub-page .conservation-impact-bottom .row-3 .text-2 {
+    margin-top: auto;
+}
+
+.thylacine-hub-page .conservation-impact-sec.moa-conservation-impact-sec .conservation-impact-bottom .row-3 .image-sm {
+    aspect-ratio: 448/313;
+}
+
+.thylacine-hub-page .conservation-impact-bottom .row-3 .image {
+    margin-bottom: 1.653vw;
+}
+
+.thylacine-hub-page .conservation-impact-bottom .row-3 .image:last-of-type {
+    margin-bottom: 0;
+}
+
+.thylacine-hub-page .conservation-impact-bottom .row-3 .image-gra::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 123, 49, 0) 50%, #FF7B31 100%);
+    mix-blend-mode: exclusion;
+}
+
+.thylacine-hub-page .conservation-partners-black {
+    padding-top: 2.513vw;
+    padding-bottom: 2.05vw;
+}
+
+.thylacine-hub-page .partner-sec-black .line {
+    background: #4F4F4F !important;
+}
+
+.thylacine-hub-page .partner-sec-black .partner-slider .partner-name,
+.thylacine-hub-page .partner-sec-black .partner-slider .partner-name .plus,
+.thylacine-hub-page .partner-sec-black .partner-slider .index-text {
+    color: #B3B3B3;
+}
+
+.thylacine-hub-page .partner-sec-black .partner-slider .btn-visit {
+    color: #B3B3B3;
+    border-color: #B3B3B3;
+}
+
+.thylacine-hub-page .partner-sec-black .partner-slider .partner-card .partner-logo {
+    padding: 2vw 1vw;
+}
+
+.thylacine-hub-page .partner-sec-black {
+    padding-bottom: 10.185vw;
+}
+
+.thylacine-hub-page .partner-sec-black .partner-slider {
+    padding-bottom: 2.976vw;
+}
