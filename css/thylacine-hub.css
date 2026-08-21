@@ -1,3 +1,308 @@
+.thylacine-culture-lore-sec .cul-center-box {
+    margin-top: -14vw;
+}
+
+.thylacine-culture-lore-sec .culture-lore-main {
+    height: 86.243vw;
+    padding-top: 31.349vw;
+}
+
+.thylacine-culture-lore-sec .culture-lore-main::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(180deg, rgba(151, 151, 151, 0) 51.28%, #9940DD 95.15%);
+    pointer-events: none;
+}
+
+.thylacine-culture-lore-sec .culture-lore-heading {
+    font-size: 13.539vw;
+    margin-bottom: 8.446vw;
+}
+
+.thylacine-culture-lore-sec .mt-text {
+    margin-top: 1vw;
+}
+
+.thylacine-culture-lore-sec .text {
+    font-size: 0.794vw;
+}
+
+/*******************/
+.thylacine-shaping-sec .card-green::before {
+    background: linear-gradient(180deg, rgba(255, 125, 49, 0) 38.97%, #FF7B31 100%);
+    mix-blend-mode: exclusion;
+}
+
+.thylacine-shaping-sec .shaping-conversation-card.card-orange::before {
+    background: linear-gradient(180deg, rgba(127, 234, 19, 0) 38.97%, #7DEA13 100%);
+    mix-blend-mode: exclusion;
+}
+
+.thylacine-shaping-sec .mix-difference {
+    letter-spacing: 0.02em;
+}
+
+.thylacine-shaping-sec .card-title {
+    max-width: 72%;
+}
+
+.thylacine-shaping-sec .shaping-conversation-card.card-purple::before {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.302);
+}
+
+.thylacine-shaping-sec .shaping-conversation-card .card-image.right-img {
+    object-fit: cover;
+    object-position: right center;
+}
+
+.thylacine-shaping-sec .shaping-conversation-card .card-line-text {
+    font-size: 0.926vw;
+    line-height: 0.996vw;
+    letter-spacing: -0.1em;
+}
+
+.thylacine-faqs-sec.faqs-sec {
+    padding-top: 5.1vw;
+    padding-bottom: 2.646vw;
+}
+
+.thylacine-faqs-sec .faqs-heading {
+    font-size: 2.381vw;
+    letter-spacing: 0.012em;
+    padding-bottom: 3.7vw;
+}
+
+.thylacine-shaping-sec .shaping-conversation-card.small .card-content {
+    padding: 1.19vw 1.323vw 1.7vw 1.521vw;
+}
+
+.thylacine-shaping-sec .shaping-conversation-card .card-content {
+    padding: 1.323vw 1.72vw 2.1vw 1.852vw;
+}
+
+.thylacine-shaping-sec .card-title.text-bt {
+    margin-bottom: 1.5vw;
+    max-width: 31vw;
+}
+
+.thylacine-shaping-sec .shaping-conversation-card .card-desc {
+    font-size: 0.794vw;
+    padding-bottom: 0.15vw;
+    padding-top: 0.3vw;
+}
+
+.thylacine-hub-page .mammoth-hero .mammoth-database {
+    max-width: 40.563vw;
+}
+
+.thylacine-hub-page .medium-title {
+    font-size: 3.704vw;
+    line-height: 4.233vw;
+}
+
+.thylacine-revi-sec.reviving-mammoth-sec .row-2 {
+    margin-bottom: 5.4vw;
+}
+
+.thylacine-revi-sec .explore-key {
+    padding-top: 5.7vw;
+}
+
+.thylacine-hero .mammoth-hero-info .item:first-child {
+    min-width: auto;
+}
+
+.thylacine-hero .mammoth-hero-info .item {
+    letter-spacing: 0.02em;
+    padding: 0.397vw 0.6vw;
+}
+
+.thylacine-hero .row-box-col {
+    padding: 2.1vw 0;
+    gap: 5.2vw;
+}
+
+.thylacine-hero .hero-tt-box {
+    padding-bottom: 1.5vw;
+}
+
+.thylacine-hero .mammoth-hero-process .line-orange {
+    height: 0.463vw;
+    border-radius: 1.455vw;
+    background: linear-gradient(90deg, #7DEA13 0%, #E0FF14 100%);
+    box-shadow: 0 0 0.496vw 0 #7DEA13;
+    left: -0.132vw;
+}
+
+.thy-slider-ex .explore-key-swiper .bg-media video,
+.explore-key-swiper .bg-media.transform-scale11 img {
+    transform: scale(1.1);
+}
+
+.thy-slider-ex .explore-key-swiper .content {
+    background: #00000024;
+}
+
+
+.thy-about-se .earth-friend-content .inner {
+    padding: 9.656vw 10.119vw 0;
+}
+
+
+.thy-about-sec .moa-about-img {
+    height: 53.638vw;
+    max-width: 100%;
+}
+
+.thy-about-sec .moa-about-img .bg-1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.thy-about-sec .moa-about-img .bg-1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 42.61%, #000000 85.93%),
+        linear-gradient(180deg, #9940DD 0%, rgba(113, 95, 49, 0) 50.06%);
+
+}
+
+.thy-about-sec .moa-about-img img {
+    margin: 0;
+    left: 0vw;
+}
+
+.thy-about-sec .moa-about-img .bg-2 {
+    position: absolute;
+    top: -1.72vw;
+    left: 0;
+    width: 100%;
+    height: 48.148vw;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 62.52%, #000000 93.71%);
+
+}
+
+.thy-about-sec .moa-about-img .bg-2::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 62.52%, #000000 93.71%);
+    z-index: 4;
+}
+
+.thy-about-sec .moa-about-img {
+    margin-top: 4.5vw;
+}
+
+.thy-about-sec .earth-friend-content::before {
+    background: linear-gradient(180deg, #7DEA13 4.36%, #9940DD 36%);
+    top: 0;
+}
+
+.thylacine-revi-sec.reviving-mammoth-sec {
+    padding-bottom: 0;
+}
+
+.thylacine-slider.explore-key-swiper {
+    padding: 5.754vw 0 4.7vw;
+}
+
+.earth-friend-content .inner {
+    padding: 5.9vw 4.119vw 0;
+    margin-bottom: -14.286vw;
+}
+
+.thy-about-sec .earth-friend-content .heading {
+    padding: 5.532vw 0 0;
+}
+
+.thy-science-sec.science-action-sec {
+    margin-top: -1.5vw;
+    padding-top: 11.39vw;
+
+}
+
+.thy-science-sec.science-action-sec .inner-global {
+    margin-bottom: 19.151vw;
+}
+
+
+.thy-science-sec .science-action-content .left .square-lg {
+    right: 3.5vw;
+    top: 2.61vw;
+}
+
+.thy-science-sec .science-action-content .right .plus-2,
+.thy-science-sec .science-action-content .right .plus-4 {
+    top: 1.984vw;
+    right: 1.5vw;
+}
+
+.thy-science-sec .science-action-content .left {
+    width: 50.6%;
+    padding-left: 0.6vw;
+}
+
+.thy-science-sec .science-action-content .left .title {
+    font-size: 2.646vw;
+    letter-spacing: 0.02225em;
+    margin-bottom: 18.839vw;
+}
+
+.thy-step-de .step-de-extinction .content-top .box-1 .time {
+    font-size: 1.852vw;
+    line-height: 1.27vw;
+    padding-bottom: 1vw;
+}
+
+.thy-step-de .step-de-extinction {
+    padding: 3.68vw 2.183vw 3.836vw;
+}
+
+.thy-step-de .step-de-extinction .content-top .box-1 {
+    top: 0.132vw;
+    left: 0.529vw;
+    padding: 1.35vw 0.992vw 1.257vw 0.992vw;
+}
+
+.thy-step-de .step-de-extinction .content-top .video .subtitle {
+    top: 26%;
+
+}
+
+.thy-step-de .step-de-extinction .content-top .video .desc {
+    margin-top: -0.9vw;
+    left: 7.9vw;
+    line-height: 1.2;
+    max-width: 83%;
+}
+
+.thy-step-de .step-de-extinction .content-top .video {
+    left: 0.5vw;
+}
+
+.thy-step-de .step-de-extinction .content-top {
+    margin-bottom: 3.2vw;
+}
+
+.thy-step-de .step-global .text-2 {
+    white-space: nowrap;
+}
+
+.thy-step-de .step-de-extinction .step-list {
+    padding-left: 0.4vw;
+}
+
+.thy-sec-ac-video.science-action-video-wrapper .clsl-lab-video-toggle {
+    bottom: 2.9vw;
+    right: 4.2vw;
+}
+
 .thylacine-intro-sec .bg-top {
     position: absolute;
     top: -3.307vw;
@@ -801,7 +1106,7 @@
 }
 
 .thylacine-hub-page .conservation-impact-sec.moa-conservation-impact-sec {
-    margin-top: 8px;
+    margin-top: 0.529vw;
 }
 
 .thylacine-hub-page .moa-conservation-impact-sec .conservation-impact-header>.bg-grid {
