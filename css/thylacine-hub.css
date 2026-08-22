@@ -198,6 +198,25 @@
 .thy-about-sec .earth-friend-content::before {
     background: linear-gradient(180deg, #7DEA13 4.36%, #9940DD 36%);
     top: 0;
+    border-top-left-radius: 1.058vw;
+    border-top-right-radius: 1.058vw;
+}
+
+.science-action-content .left {
+    border-right: none;
+    position: relative;
+    
+}
+
+.science-action-content .left::after {
+    content: "";
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 98%;
+    border-right: 1px solid;
+    border-image: linear-gradient(180deg, #828282 0%, #1C1C1C 100%) 1;
 }
 
 .thylacine-revi-sec.reviving-mammoth-sec {
@@ -1698,6 +1717,26 @@
     width: 104%;
     height: 50.148vw;
 }
+
 .thy-advisors-page.advisors-sec .advisor-info {
     margin-left: 0.198vw;
+}
+
+.shaping-conversation-sec.thylacine-shaping-sec {
+    padding-top: 0.5vw;
+    padding-bottom: 6.193vw;
+}
+
+.thylacine-shaping-sec .shaping-conversation-header {
+    padding-top: 2.5vw;
+    border-top: 1px solid #979797;
+}
+
+.thylacine-shaping-sec .shaping-conversation-card.small .card-content {
+    padding: 1.19vw 1.323vw 1.25vw 1.521vw !important;
+}
+
+.culture-lore-sec.thylacine-culture-lore-sec .text-end {
+    font-size: 1.196vw;
+    bottom: 1.824vw;
 }
