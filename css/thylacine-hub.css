@@ -233,14 +233,6 @@
     top: 2.61vw;
 }
 
-.thy-science-sec .science-action-content .right .plus-2,
-.thy-science-sec .science-action-content .right .plus-4 {
-    top: 1.984vw;
-    right: 1.5vw;
-}
-
-
-
 .thy-science-sec .science-action-content .left .title {
     font-size: 2.646vw;
     letter-spacing: 0.02225em;
@@ -1447,7 +1439,7 @@
 /**************************************************/
 .thylacine-hero .mammoth-hero-process-row {
     padding-bottom: 0;
-    margin-top: 1vw;
+    margin-top: 0.3vw;
 }
 
 .thylacine-hero .square-lg.bg-black {
@@ -1459,21 +1451,7 @@
     padding-top: 0.2vw;
 }
 
-.thylacine-hero .reviving-mammoth-heading {
-    max-width: 100% !important;
-}
 
-.thylacine-revi-sec.reviving-mammoth-sec .row-2 {
-    margin-bottom: 5.1vw;
-}
-
-.thylacine-revi-sec .mammoth-hero-process {
-    max-width: 27.315vw;
-    width: 100%;
-    transform: rotate(90deg);
-    left: -5.3vw;
-    bottom: 14.881vw;
-}
 
 .thylacine-revi-sec .explore-key .title {
     margin-bottom: 1.2vw;
@@ -1661,4 +1639,65 @@
     max-width: 100%;
     transform: none;
     position: static;
+}
+
+
+/*******************5******************/
+.thylacine-revi-sec.reviving-mammoth-sec .row-1 {
+    margin-bottom: 2.8vw;
+    margin-top: -0.2vw;
+    margin-left: -0.2vw;
+}
+
+.thylacine-revi-sec .stat-header-item-2 {
+    margin-left: -1vw;
+    gap: 7vw;
+    margin-top: -0.3vw;
+}
+
+.thylacine-revi-sec.reviving-mammoth-sec .row-2 {
+    margin-bottom: 4.7vw;
+}
+
+.moa-page.thylacine-hub-page .thylacine-revi-sec .reviving-mammoth-heading {
+    max-width: 100% !important;
+}
+
+.thylacine-hero .mammoth-hero-process {
+    bottom: 15.881vw;
+}
+
+.moa-page.thylacine-hub-page .thy-about-sec .earth-friend-content .inner {
+    padding: 5.9vw 4.9vw 0;
+
+}
+
+.moa-page.thylacine-hub-page .science-action-content .left .title {
+    max-width: 100% !important;
+}
+
+.thy-step-de .inner.d-flex.align-items-center {
+    padding-right: 1vw;
+    margin-top: -0.5vw;
+}
+
+.science-action-sec .step-de-extinction .content-top .box-4 {
+    bottom: 0px;
+    right: 1.5vw;
+}
+
+.thy-sec-ac-video.science-action-video-wrapper .clsl-lab-video-toggle {
+    bottom: 2.9vw;
+    right: 4.7vw;
+}
+
+.thy-about-sec .bg-2 {
+    position: absolute;
+    top: 28.7vw;
+    left: -1.918vw;
+    width: 104%;
+    height: 50.148vw;
+}
+.thy-advisors-page.advisors-sec .advisor-info {
+    margin-left: 0.198vw;
 }
