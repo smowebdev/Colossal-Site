@@ -103,10 +103,6 @@
     line-height: 4.233vw;
 }
 
-.thylacine-revi-sec.reviving-mammoth-sec .row-2 {
-    margin-bottom: 5.4vw;
-}
-
 .thylacine-revi-sec .explore-key {
     padding-top: 5.7vw;
 }
@@ -243,10 +239,7 @@
     right: 1.5vw;
 }
 
-.thy-science-sec .science-action-content .left {
-    width: 50.6%;
-    padding-left: 0.6vw;
-}
+
 
 .thy-science-sec .science-action-content .left .title {
     font-size: 2.646vw;
@@ -264,23 +257,6 @@
     padding: 3.68vw 2.183vw 3.836vw;
 }
 
-.thy-step-de .step-de-extinction .content-top .box-1 {
-    top: 0.132vw;
-    left: 0.529vw;
-    padding: 1.35vw 0.992vw 1.257vw 0.992vw;
-}
-
-.thy-step-de .step-de-extinction .content-top .video .subtitle {
-    top: 26%;
-
-}
-
-.thy-step-de .step-de-extinction .content-top .video .desc {
-    margin-top: -0.9vw;
-    left: 7.9vw;
-    line-height: 1.2;
-    max-width: 83%;
-}
 
 .thy-step-de .step-de-extinction .content-top .video {
     left: 0.5vw;
@@ -1430,4 +1406,193 @@
 
 .thy-rewilding-paradise-sec .advisor-swiper {
     padding-bottom: 1.587vw;
+}
+
+
+/**************************/
+.thy-advisors-page .advisor-card .advisor-img-wrapper::before {
+    background: linear-gradient(180deg, #C9C9C7 20.19%, #C265F6 100%);
+}
+
+.thy-advisors-page .right .advisor-img.img-transcale {
+    transform: scale(1.2);
+    height: 120%;
+}
+
+.thy-advisors-page .right .advisor-img.img-height-120 {
+    height: 150%;
+}
+
+.thy-advisors-page .ad-text {
+    line-height: 1.389vw;
+    letter-spacing: 0.1em;
+    color: #5A5A5A;
+}
+
+.thy-advisors-page .square-24 {
+    width: 1.587vw;
+    height: 1.587vw;
+}
+
+.thy-advisors-page .ad-text-number {
+    font-size: 2.249vw;
+    line-height: 1.587vw;
+    letter-spacing: 0.089em;
+}
+
+.thy-advisors-page .pt-top-ad-part {
+    padding-top: 1.521vw;
+}
+
+/**************************************************/
+.thylacine-hero .mammoth-hero-process-row {
+    padding-bottom: 0;
+    margin-top: 1vw;
+}
+
+.thylacine-hero .square-lg.bg-black {
+    width: 0.529vw !important;
+    height: 0.529vw !important;
+}
+
+.thylacine-hero p.hub-text.text-black {
+    padding-top: 0.2vw;
+}
+
+.thylacine-hero .reviving-mammoth-heading {
+    max-width: 100% !important;
+}
+
+.thylacine-revi-sec.reviving-mammoth-sec .row-2 {
+    margin-bottom: 5.1vw;
+}
+
+.thylacine-revi-sec .mammoth-hero-process {
+    max-width: 27.315vw;
+    width: 100%;
+    transform: rotate(90deg);
+    left: -5.3vw;
+    bottom: 14.881vw;
+}
+
+.thylacine-revi-sec .explore-key .title {
+    margin-bottom: 1.2vw;
+}
+
+.thylacine-revi-sec .explore-key-navigation {
+    bottom: 4.2vw;
+}
+
+.thylacine-revi-sec .earth-friend-content .inner {
+    padding: 5.9vw 4.5vw 0;
+}
+
+.thy-about-sec .earth-friend-content {
+    overflow: visible !important;
+}
+
+.thy-about-sec .moa-about-img {
+    width: 100vw;
+    max-width: 100vw !important;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*===============================*/
+
+.thy-science-sec .science-action-content .left {
+    width: 50%;
+    padding-left: 0.2vw;
+}
+
+.thy-science-sec .video-info {
+    padding-top: 2.65vw;
+    padding-left: 0.9vw;
+}
+
+.thy-science-sec .science-action-content .right .content .text-content-2 {
+    top: 55%;
+    left: 2.653vw;
+}
+
+.thy-step-de .step-de-extinction .content-top .box-1 {
+    top: 0.132vw;
+    left: 0.529vw;
+    padding: 1.35vw 0.7vw 1.3vw 0.992vw;
+}
+
+.thy-step-de .step-de-extinction .content-top .video .desc {
+    margin-top: -0.9vw;
+    left: 7.5vw;
+    line-height: 1.2;
+    max-width: 83%;
+}
+
+.thy-step-de .step-de-extinction .content-top .video .subtitle {
+    left: -0.5vw;
+    top: 26%;
+}
+
+.thy-advisors-page .row-ml {
+    margin-left: -3vw;
+    margin-top: -0.5vw;
+}
+
+.thy-advisors-page .advisors-header .row-2 {
+    margin-bottom: 4.1vw;
+}
+
+.thy-advisors-page .ad-box-left-text {
+    padding-left: 0.6vw;
+}
+
+.thy-advisors-page .ad-box-left-text .p-rem {
+    margin-bottom: 1.5vw;
+}
+
+.thy-advisors-page .advisors-header {
+    margin-bottom: 4.1vw;
+    padding-left: -1.9vw;
+}
+
+.thy-advisors-page .advisor-info .advisor-role {
+    max-width: 100%;
+}
+
+.thy-advisors-page .advisor-swiper {
+    padding-bottom: 0.2vw;
+    margin-top: 0.2vw;
+}
+
+.thy-advisors-page .advisors-main>.left {
+    width: 25.3%;
+    padding-right: 1.323vw;
+    margin-left: -0.2vw;
+}
+
+.thy-advisors-page .advisor-info .advisor-name {
+    margin-top: 1vw;
+}
+
+.thy-advisors-page .pt-top-ad-part {
+    gap: 1vw;
+}
+
+.thy-advisors-page .ad-text-number {
+    letter-spacing: 0.059vw;
+}
+
+.thy-advisors-page .advisors-main>.left .text-bottom {
+    margin-bottom: 0.794vw;
+}
+
+.thy-advisors-page .advisor-topbar {
+    display: flex;
+    align-items: center;
+    gap: 1.19vw;
+    margin-left: 0.5vw;
+}
+
+.thy-advisors-page .advisor-arrows {
+    margin-right: -0.5vw;
 }
