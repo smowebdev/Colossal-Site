@@ -1,0 +1,65 @@
+.thylacine-hub-page .testimonial-main>.left .quote-title {
+    font-size: 2.646vw;
+    line-height: 130%;
+    letter-spacing: 0.011em;
+    max-width: 38.029vw;
+    padding: 0;
+}
+
+.thylacine-hub-page .testimonial-main>.left .row-2 {
+    margin-bottom: 1.455vw;
+}
+
+.thylacine-hub-page .testimonial-main>.left {
+    padding-bottom: 2.315vw;
+}
+
+.thylacine-hub-page .testimonial-main>.right::after {
+    background:
+        linear-gradient(180deg, rgba(153, 64, 221, 0) 55.45%, #9940DD 100%);
+
+}
+
+.thylacine-hub-page .testimonial-main>.right .testimonial-author {
+    padding-bottom: 3.836vw;
+}
+
+.thylacine-hub-page .testimonial-main>.right .testimonial-author-info .name {
+    line-height: 0.825;
+    padding-bottom: 1.323vw;
+    font-size: 2.646vw;
+    letter-spacing: 0.0095em;
+}
+
+.thylacine-hub-page .testimonial-sec {
+    padding-bottom: 3.571vw;
+}
+
+.thylacine-hub-page .partner-slider {
+    padding-bottom: 2.976vw;
+}
+
+.thylacine-hub-page .partner-sec-white {
+    padding-bottom: 7.275vw;
+}
+
+.thylacine-hub-page .partner-sec-white .swiper-arrow.swiper-button-disabled {
+    background: #D9D9D9;
+    color: #5E5E5E;
+}
+
+.thylacine-hub-page .footer-end {
+    margin-top: -5.423vw;
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: exclusion;
+    height: 26.455vw;
+    overflow: hidden;
+}
+
+.thylacine-hub-page .footer-end img {
+    width: 100%;
+    max-width: 100%;
+    transform: none;
+    position: static;
+}
