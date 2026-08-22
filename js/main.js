@@ -101,29 +101,44 @@ jQuery(document).ready(function ($) {
   });
   // FAQ - End
 
-  const swiperAdvisor = new Swiper(".advisor-swiper", {
-    slidesPerView: "auto",
-    spaceBetween: designPxToViewportPx(20),
-    loop: true,
+  $(".advisor-swiper-panel").each(function (index) {
+    const panel = this;
 
-    pagination: {
-      el: ".advisor-progress",
-      type: "progressbar",
-    },
+    const swiperEl = panel.querySelector(".advisor-swiper");
+    const progressEl = panel.querySelector(".advisor-progress");
+    const nextEl = panel.querySelector(".advisor-next");
+    const prevEl = panel.querySelector(".advisor-prev");
+    const counterEl = panel.querySelector(".advisor-counter");
 
-    navigation: {
-      nextEl: ".advisor-next",
-      prevEl: ".advisor-prev",
-    },
+    const counterClass = `advisor-counter-${index}`;
 
-    on: {
-      init: function () {
-        updateCounter(this, ".advisor-counter");
+    counterEl.classList.add(counterClass);
+
+    new Swiper(swiperEl, {
+      slidesPerView: "auto",
+      spaceBetween: designPxToViewportPx(20),
+      loop: true,
+
+      pagination: {
+        el: progressEl,
+        type: "progressbar",
       },
-      slideChange: function () {
-        updateCounter(this, ".advisor-counter");
+
+      navigation: {
+        nextEl: nextEl,
+        prevEl: prevEl,
       },
-    },
+
+      on: {
+        init: function () {
+          updateCounter(this, `.${counterClass}`);
+        },
+
+        slideChange: function () {
+          updateCounter(this, `.${counterClass}`);
+        },
+      },
+    });
   });
 
   // Explore Key Slider - Start
