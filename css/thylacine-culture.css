@@ -151,7 +151,7 @@
 
 .thylacine-culture-lore-page .subterranean-creatures {
     margin-top: 0;
-    padding-bottom: 38px;
+    padding-bottom: 2.513vw;
 }
 
 .thylacine-culture-lore-page .subterranean-creatures-heading {
@@ -310,7 +310,7 @@
     z-index: 1;
 }
 
-.many-names__main-title {
+.thylacine-culture-lore-page .many-names__main-title {
     font-size: 8.898vw;
     line-height: 0.75;
     max-width: 76.72vw;
@@ -322,11 +322,334 @@
     padding: 0.661vw 0;
 }
 
-.many-names__main-title span {
+.thylacine-culture-lore-page .many-names__main-title span {
     display: block;
     margin-left: -4.299vw;
 }
 
-.many-names__main-title span+span {
+.thylacine-culture-lore-page .many-names__main-title span+span {
     margin-top: 3.042vw;
+}
+
+.thylacine-culture-facts-sec::before {
+    content: "";
+    position: absolute;
+    top: -3.968vw;
+    left: 0;
+    width: 100%;
+    height: 32%;
+    background: linear-gradient(180deg, #FF7B31 16.15%, rgba(153, 64, 221, 0) 86.2%);
+    pointer-events: none;
+}
+
+.thylacine-culture-facts-sec .myth-box {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 0.841vw solid #FFFFFF;
+    display: inline-flex;
+    flex-direction: column;
+    border-radius: 21.825vw;
+    color: #fff;
+    padding: 3.108vw 4.233vw 1.918vw;
+    margin-top: -9.061vw;
+    text-align: center;
+    z-index: 5;
+}
+
+.thylacine-culture-facts-sec .myth-box .myth-text {
+    font-size: 10.097vw;
+    line-height: 1;
+    letter-spacing: -1%;
+}
+
+.thylacine-culture-facts-sec .myth-box span {
+    margin-top: -1.058vw;
+}
+
+.thylacine-culture-facts-sec .row-1 {
+    font-size: 1.587vw;
+    padding: 0 1.984vw;
+    margin-top: -1.852vw;
+    margin-bottom: 4.563vw;
+}
+
+.thylacine-culture-facts-sec .row-2 {
+    font-size: 3.696vw;
+    line-height: 90%;
+    letter-spacing: 32%;
+}
+
+.thylacine-culture-facts-sec .row-3 {
+    margin-bottom: 4.894vw;
+}
+
+.thylacine-culture-facts-sec .row-3 .image {
+    max-width: 89.616vw;
+    margin-top: -1.323vw;
+}
+
+.thylacine-culture-facts-sec .row-3 .image img {
+    margin-left: 2.381vw;
+}
+
+.thylacine-culture-facts-sec .row-4 {
+    font-size: 3.696vw;
+    line-height: 90%;
+    letter-spacing: 32%;
+    margin-bottom: 13.757vw;
+}
+
+.thylacine-culture-facts-sec .row-img {
+    position: absolute;
+    top: 17.791vw;
+    width: 93.519vw;
+    left: 2.381vw;
+    z-index: 1;
+}
+
+.thylacine-culture-facts-sec .row-img .text-no {
+    position: absolute;
+    font-size: 0.728vw;
+    letter-spacing: 10.5%;
+    color: #979797;
+    transform: rotate(90deg);
+    bottom: 10.251vw;
+    right: -5.159vw;
+    z-index: 2;
+}
+
+.thylacine-culture-facts-sec .row-5 {
+    margin-bottom: 4.894vw;
+}
+
+.thylacine-culture-facts-sec .fact-text {
+    font-size: 10.097vw;
+    line-height: 1;
+    letter-spacing: -1%;
+    color: #FF7B31;
+    border: 0.841vw solid #FF7B31;
+    border-radius: 21.825vw;
+    padding: 3.042vw 6.085vw 2.116vw;
+    display: inline-block;
+}
+
+.thylacine-culture-facts-sec .row-6 .text {
+    font-size: 4.762vw;
+    line-height: 0.92;
+    letter-spacing: -1%;
+    padding: 0 3.505vw 1.587vw;
+}
+
+.thylacine-in-modern {
+    padding: 4.497vw 0 2.315vw;
+}
+
+.thylacine-in-modern-grid::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 66.01%, #FFFFFF 97.18%),
+        linear-gradient(180deg, #FFFFFF -2.89%, rgba(255, 255, 255, 0) 25.68%);
+
+}
+
+.thylacine-in-modern__header {
+    margin-bottom: 4.696vw;
+}
+
+.thylacine-in-modern__header span {
+    font-size: 0.661vw;
+    line-height: 100%;
+    letter-spacing: 0.148em;
+}
+
+.thylacine-in-modern__header .line-text {
+    font-size: 0.661vw;
+    line-height: 100%;
+    letter-spacing: 0.045em;
+
+}
+
+.thylacine-in-modern__header .column {
+    gap: 3.307vw;
+}
+
+.thylacine-in-modern__heading {
+    font-size: 13.499vw;
+    line-height: 0.77;
+    letter-spacing: -1%;
+}
+
+.thylacine-in-modern__heading span {
+    font-size: 22.222vw;
+    line-height: normal;
+    letter-spacing: -0.11em;
+    background: linear-gradient(180deg, #FF7B31 0%, #B53C1F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin-top: -5.159vw;
+    margin-left: -4.365vw;
+}
+
+.thylacine-in-modern__image {
+    max-width: 50vw;
+    margin-top: -26.455vw;
+}
+
+.thylacine-in-modern__subheading {
+    font-size: 8.296vw;
+    line-height: 0.853;
+    background:
+        linear-gradient(180deg, rgba(255, 123, 49, 0.68) 41.12%, rgba(255, 255, 255, 0) 166.12%), linear-gradient(0deg, #F4F4F4, #F4F4F4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin-top: -10.119vw;
+}
+
+.thylacine-stamps__header {
+    margin-bottom: 5.622vw;
+}
+
+.thylacine-stamps__title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    max-width: 69.577vw;
+}
+
+.thylacine-stamps .lasting-symbol {
+    gap: 1.323vw;
+    padding-top: 11.442vw;
+}
+
+.thylacine-stamps .lasting-symbol__left,
+.thylacine-stamps .lasting-symbol__right {
+    width: calc(50% - 0.661vw);
+    min-height: 41.534vw;
+    border-radius: 1.058vw;
+    position: relative;
+    padding: 2.249vw 2.381vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3.175vw;
+    color: #fff;
+}
+
+.thylacine-stamps .lasting-symbol__left::before,
+.thylacine-stamps .lasting-symbol__right::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: url('../img/thylacine-culture/grid-3.png') no-repeat center / cover;
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+
+.thylacine-stamps .lasting-symbol__title {
+    font-weight: 700;
+    font-size: 2.646vw;
+    line-height: 1;
+    letter-spacing: 0.011em;
+    text-align: center;
+    position: relative;
+    font-family: 'Telegraf';
+    z-index: 2;
+    padding-top: 2.249vw;
+
+}
+
+.thylacine-stamps .lasting-symbol__desc {
+    color: #979797;
+    position: relative;
+    z-index: 2;
+}
+
+.thylacine-stamps .lasting-symbol__desc strong {
+    color: #fff;
+}
+
+.thylacine-stamps .lasting-symbol__left .lasting-symbol__desc {
+    max-width: 33.598vw;
+}
+
+.thylacine-stamps .lasting-symbol__image {
+    position: absolute;
+    max-width: unset;
+    z-index: 1;
+}
+
+.thylacine-stamps .lasting-symbol__left .lasting-symbol__image {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+
+}
+
+.thylacine-stamps .lasting-symbol__right .lasting-symbol__image {
+    width: 68.254vw;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -5.291vw;
+}
+
+.lasting-symbol__bg {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    border-radius: inherit;
+}
+
+.thylacine-stamps {
+    padding-bottom: 4.497vw;
+}
+
+.ancient-artifacts.australian-postage-stamps {
+    padding: 0 0 7.407vw;
+}
+
+.ancient-artifacts.australian-postage-stamps .heading {
+    font-size: 2.646vw;
+    line-height: 1;
+    letter-spacing: 0.011em;
+    margin-bottom: 0.331vw;
+}
+
+.ancient-artifacts.australian-postage-stamps .subheading {
+    font-size: 0.731vw;
+    letter-spacing: 0.037em;
+}
+
+.ancient-artifacts.australian-postage-stamps .artifact-label {
+    top: 1.323vw;
+}
+
+
+.ancient-artifacts.australian-postage-stamps .artifact-swiper {
+    padding-top: 2.976vw;
+}
+
+.ancient-artifacts.australian-postage-stamps .artifact-swiper .swiper-slide {
+    transform: scale(0.6) translateZ(0);
+}
+
+.ancient-artifacts.australian-postage-stamps .artifact-slide img {
+    width: 100%;
+}
+
+.australian-postage-stamps__content {
+    max-width: 70.04vw;
+    padding-left: 7.672vw;
+
 }
