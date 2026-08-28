@@ -740,7 +740,7 @@
 }
 
 .thylacine-film-tv__content {
-    padding: 4.167vw 0 100px;
+    padding: 4.167vw 0 0;
 }
 
 .thylacine-film-tv__content .row-1 {
@@ -758,6 +758,7 @@
     font-size: 8.558vw;
     line-height: 0.788;
     margin-bottom: -2.513vw;
+    z-index: 3;
 }
 
 .extinct-or-alive .title span {
@@ -776,7 +777,7 @@
 }
 
 .extinct-or-alive .content-bottom .square {
-    margin-top: 5px;
+    margin-top: 0.331vw;
 }
 
 .extinct-or-alive .content-bottom .column-1 {
@@ -797,4 +798,279 @@
 
 .extinct-or-alive .content-bottom .column-3 p {
     max-width: 37.169vw;
+}
+
+.extinct-or-alive {
+    padding-bottom: 9.061vw;
+}
+
+.thylacine-film-tv-sec .documentary-grid {
+    position: absolute;
+    pointer-events: none;
+    left: 0;
+    width: 100%;
+    top: -20.503vw;
+}
+
+.thylacine-film-tv-sec .documentary-grid::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 67.35%, #000000 100%),
+        linear-gradient(180deg, #000000 18.26%, rgba(0, 0, 0, 0) 45.18%);
+}
+
+.thylacine-film-tv-sec .documentary-row-1 .left {
+    width: 59%;
+    padding-right: 3.968vw;
+    padding-left: 4.828vw;
+}
+
+.thylacine-film-tv-sec .documentary-row-1 .right {
+    flex: 41%;
+}
+
+.thylacine-film-tv-sec .documentary-row-1 .video {
+    aspect-ratio: 682/362;
+    border-radius: 1.455vw;
+}
+
+.thylacine-film-tv-sec .documentary-row-1 .title {
+    font-size: 2.646vw;
+    line-height: 1;
+    letter-spacing: 0.011em;
+}
+
+.thylacine-film-tv-sec .documentary-row-1 .desc {
+    color: #979797;
+    padding-top: 2.116vw;
+}
+
+.thylacine-film-tv-sec .documentary-row-1 .right-row {
+    gap: 1.587vw;
+}
+
+.thylacine-film-tv-sec .documentary-row-1 .image {
+    border-radius: 1.323vw;
+}
+
+.thylacine-film-tv-sec .documentary-row-1 .image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #000000 8.46%, rgba(0, 0, 0, 0) 43.35%);
+    pointer-events: none;
+}
+
+.thylacine-film-tv-sec .documentary-row-1 {
+    padding-bottom: 5.291vw;
+}
+
+.thylacine-film-tv-sec .documentary-row-2 .left {
+    width: 59.3%;
+    padding-right: 6.812vw;
+    padding-left: 25.5%;
+}
+
+.thylacine-film-tv-sec .documentary-row-2 .right {
+    width: 40.7%;
+    padding-top: 1.653vw;
+}
+
+.thylacine-film-tv-sec .documentary-row-2 .desc {
+    color: #979797;
+}
+
+.thylacine-film-tv-sec .documentary-row-2 .image {
+    position: relative;
+    border-radius: 1.058vw;
+    margin-bottom: 2.976vw;
+}
+
+.thylacine-film-tv-sec .documentary-row-2 .image img {
+    border-radius: inherit;
+}
+
+.thylacine-film-tv-sec .documentary-row-2 .image-caption {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -6.085vw;
+    font-size: 3.571vw;
+    line-height: 1;
+    letter-spacing: 0.01em;
+}
+
+.thylacine-film-tv-sec .documentary-row-2 .image-caption span {
+    font-size: 6.746vw;
+    letter-spacing: -0.166em;
+    margin-bottom: -2.116vw;
+}
+
+.thylacine-film-tv-sec .documentary-row-2 .image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: linear-gradient(180deg,
+            #FFFFFF 0%,
+            #979797 100%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+.thylacine-film-tv-sec .documentary-row-2 .right .image {
+    border-radius: 1.323vw;
+}
+
+.thylacine-film-tv-sec .documentary-row-2 .right .image::before {
+    background: linear-gradient(180deg,
+            #D9D9D9 0%,
+            #666666 100%);
+}
+
+.thylacine-film-tv-sec .documentary-row-2 .right .desc {
+    padding-left: 7.672vw;
+}
+
+.thylacine-film-tv-sec .documentary .the-hunter {
+    position: absolute;
+    left: 0;
+    top: 3.704vw;
+    width: 49.339vw;
+}
+
+.thylacine-film-tv-sec .documentary .the-hunter::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 42.06%, #000000 74.83%);
+
+}
+
+.thylacine-film-tv-sec .documentary .the-hunter__logo {
+    position: absolute;
+    z-index: 2;
+    width: 20.238vw;
+    top: 35%;
+    left: 37%;
+}
+
+.wild-kratts__logo {
+    max-width: 30.622vw;
+    margin-top: -5.159vw;
+}
+
+.wild-kratts__video-wrap {
+    max-width: 46.098vw;
+    padding: 4.63vw 3.439vw;
+    margin-top: -6.746vw;
+}
+
+.wild-kratts__video-wrap .video-border {
+    width: 3.307vw;
+    height: 3.307vw;
+    border: 1px solid #828282;
+}
+
+.wild-kratts__video-wrap .video-border.border-top-left {
+    border-bottom: none;
+    border-right: none;
+}
+
+.wild-kratts__video-wrap .video-border.border-top-right {
+    border-bottom: none;
+    border-left: none;
+}
+
+.wild-kratts__video-wrap .video-border.border-bottom-left {
+    border-top: none;
+    border-right: none;
+}
+
+.wild-kratts__video-wrap .video-border.border-bottom-right {
+    border-top: none;
+    border-left: none;
+}
+
+.wild-kratts__video {
+    aspect-ratio: 593/320;
+    box-shadow: 0px 25px 20.3px -11px #00000040;
+}
+
+.wild-kratts__video::before,
+.wild-kratts__video::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.wild-kratts__video::after {
+    background: rgba(108, 108, 108, 0.2);
+}
+
+.wild-kratts__desc {
+    position: absolute;
+    top: 12%;
+    left: 0;
+    width: 24.206vw;
+    color: #979797;
+    z-index: 2;
+}
+
+.wild-kratts__desc a {
+    color: inherit !important;
+}
+
+.wild-kratts__desc a:hover {
+    color: #fff !important;
+}
+
+.wild-kratts__line {
+    position: absolute;
+    top: 16%;
+    left: 23%;
+    width: 10.053vw;
+}
+
+.wild-kratts__actor {
+    position: absolute;
+    bottom: 1.455vw;
+    z-index: 1;
+}
+
+.wild-kratts__actor-name {
+    position: absolute;
+    z-index: 2;
+    font-size: 1.587vw;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    bottom: 31%;
+}
+
+.wild-kratts__actor.actor-1 {
+    width: 24.14vw;
+    left: -0.265vw;
+}
+
+.wild-kratts__actor.actor-2 {
+    width: 34.788vw;
+    right: -8.862vw;
+}
+
+.wild-kratts__actor.actor-2 .wild-kratts__actor-name {
+    bottom: 33%;
+}
+
+.wild-kratts {
+    padding-bottom: 5.291vw;
 }
