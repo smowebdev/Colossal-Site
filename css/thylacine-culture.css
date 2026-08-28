@@ -1,6 +1,6 @@
 .thylacine-culture-lore-page .cl-hero .row-1 .column-1 {
-    width: 23%;
-    margin-right: 10.5%;
+    width: 23.5%;
+    margin-right: 10%;
 }
 
 .thylacine-culture-lore-page .cl-hero {
@@ -652,4 +652,149 @@
     max-width: 70.04vw;
     padding-left: 7.672vw;
 
+}
+
+.thylacine-film-tv__header .row-1 {
+    margin-bottom: 11.706vw;
+}
+
+.thylacine-film-tv__heading {
+    font-size: 13.499vw;
+    line-height: 0.77;
+    letter-spacing: -1%;
+}
+
+.thylacine-film-tv__header-grid::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #FFFFFF -2.89%, rgba(255, 255, 255, 0) 25.68%);
+}
+
+.thylacine-film-tv__header-images {
+    margin-top: -13.624vw;
+}
+
+.thylacine-film-tv__header-images .img-1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.thylacine-film-tv__header-images .img-2::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 68.97%, #000000 89.96%);
+}
+
+.thylacine-film-tv__header-images .img-3 {
+    width: 58.333vw;
+    bottom: 0;
+    left: -21%;
+}
+
+.thylacine-film-tv__header-images .img-3::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 73.08%, #000000 90.32%);
+}
+
+.thylacine-film-tv__header-images .img-4 {
+    width: 24.603vw;
+    bottom: -1.323vw;
+    left: 25%;
+}
+
+.thylacine-film-tv__header-images .img-4::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 46.24%, #000000 100%);
+}
+
+.thylacine-film-tv__header-images .img-5 {
+    width: 44.643vw;
+    right: -8%;
+    bottom: -14.947vw;
+}
+
+.thylacine-film-tv__header-images .text-1 {
+    right: 8%;
+    bottom: 16.071vw;
+    font-size: 6.673vw;
+    line-height: 0.74;
+    letter-spacing: -0.125em;
+    transform: rotate(-11.85deg);
+}
+
+.thylacine-film-tv__header-images .text-2 {
+    font-size: 1.878vw;
+    line-height: 0.74;
+    right: 19%;
+    bottom: -1.653vw;
+    width: 9.921vw;
+    transform: rotate(1.96deg);
+}
+
+.thylacine-film-tv__content {
+    padding: 4.167vw 0 100px;
+}
+
+.thylacine-film-tv__content .row-1 {
+    margin-bottom: 4.233vw;
+}
+
+.thylacine-film-tv__content-desc {
+    max-width: 63.889vw;
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    margin-bottom: 10.78vw;
+}
+
+.extinct-or-alive .title {
+    font-size: 8.558vw;
+    line-height: 0.788;
+    margin-bottom: -2.513vw;
+}
+
+.extinct-or-alive .title span {
+    font-size: 10.237vw;
+    line-height: 0.788;
+    letter-spacing: -0.047em;
+    margin-bottom: -1.72vw;
+}
+
+.extinct-or-alive .clsl-lab-video {
+    margin-bottom: 3.307vw;
+}
+
+.extinct-or-alive .content-bottom .hub-text-medium {
+    line-height: 1.375;
+}
+
+.extinct-or-alive .content-bottom .square {
+    margin-top: 5px;
+}
+
+.extinct-or-alive .content-bottom .column-1 {
+    width: 34%;
+    gap: 0.661vw 7.275vw;
+    padding-right: 1.587vw;
+}
+
+.extinct-or-alive .content-bottom .column-2 {
+    padding-right: 1.587vw;
+    width: 23%;
+}
+
+.extinct-or-alive .content-bottom .column-3 {
+    width: 43%;
+    gap: 1.587vw;
+}
+
+.extinct-or-alive .content-bottom .column-3 p {
+    max-width: 37.169vw;
 }
