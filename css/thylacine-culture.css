@@ -1074,3 +1074,138 @@
 .wild-kratts {
     padding-bottom: 5.291vw;
 }
+
+.the-peripheral {
+    padding: 5.886vw 0 4.563vw;
+}
+
+.the-peripheral::before,
+.the-peripheral::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.the-peripheral::before {
+    background: url('../img/2000W_grid.png') no-repeat center / cover;
+    opacity: 0.5;
+}
+
+.the-peripheral::after {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.the-peripheral .content-1 {
+    max-width: 37.368vw;
+}
+
+.the-peripheral .title {
+    font-size: 6.746vw;
+    line-height: 1;
+    letter-spacing: -0.166em;
+    position: absolute;
+    z-index: 2;
+    white-space: nowrap;
+}
+
+.the-peripheral .content-1 .title {
+    top: -1.984vw;
+    left: 3.571vw;
+    transform: rotate(1.59deg);
+}
+
+.the-peripheral .content-1 .title span:nth-child(2) {
+    font-size: 6.085vw;
+    line-height: 1.1;
+    letter-spacing: -0.18em;
+}
+
+.the-peripheral .content-1 .title span:nth-child(3) {
+    font-size: 5.556vw;
+    line-height: 1.2;
+    letter-spacing: -0.2em;
+}
+
+.the-peripheral .desc {
+    color: #979797;
+    margin-top: 3.175vw;
+    max-width: 29.497vw;
+}
+
+.the-peripheral .image {
+    max-width: 37.368vw;
+}
+
+.the-peripheral .image img {
+    border-radius: inherit;
+}
+
+.the-peripheral .image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: linear-gradient(90deg,
+            #B3B3B3 0%,
+            #000000 100%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    border: 1px solid;
+}
+
+.the-peripheral .content-2 {
+    max-width: 52.646vw;
+    margin-left: auto;
+    margin-top: -3.439vw;
+}
+
+.the-peripheral .content-2 .image {
+    background: linear-gradient(180deg, #000000 0%, #B3B3B3 100%);
+}
+
+.the-peripheral .content-2 .title {
+    top: auto;
+    bottom: 1.72vw;
+    left: auto;
+    right: 2.447vw;
+    transform: rotate(-8.14deg);
+}
+
+.the-peripheral__logo {
+    top: 1.984vw;
+    right: 11.905vw;
+    width: 29.63vw;
+}
+
+.the-peripheral .image-deco {
+    right: 0;
+    bottom: 0;
+    width: 49.339vw;
+}
+
+.the-peripheral .image-deco::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+
+}
+
+.the-peripheral .text-show-setting {
+    font-size: 1.587vw;
+    bottom: 0;
+    left: 4.233vw;
+}
+
+.the-peripheral .text-date {
+    font-size: 1.587vw;
+    bottom: 0;
+    right: 4.233vw;
+}
