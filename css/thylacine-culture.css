@@ -1209,3 +1209,324 @@
     bottom: 0;
     right: 4.233vw;
 }
+
+.thylacinel-culture-music__banner .banner-top {
+    margin-top: -7.407vw;
+    padding: 11.376vw 0 15.939vw;
+}
+
+.thylacinel-culture-music__banner .banner-top__bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 55.05%, #000000 98.33%),
+        linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 27.39%);
+    pointer-events: none;
+    z-index: 2;
+}
+
+.thylacinel-culture-music__banner .banner-top__bg {
+    mix-blend-mode: lighten;
+}
+
+.thylacinel-culture-music__banner .banner-top__header {
+    gap: 1.653vw;
+    margin-bottom: 13.228vw;
+}
+
+.thylacinel-culture-music__banner .banner-top__header p {
+    font-size: 0.794vw;
+    letter-spacing: 2%;
+}
+
+.thylacinel-culture-music__banner .banner-top__btn {
+    display: inline-block;
+    font-size: 1.19vw;
+    line-height: 1.33;
+    letter-spacing: 13%;
+    padding: 0.728vw 1.124vw;
+    border: 1.5px solid #FF7B31;
+    background-color: #000;
+    color: #FF7B31;
+    border-radius: 3.968vw;
+}
+
+.thylacinel-culture-music__banner .banner-top__btn:hover {
+    background-color: #FF7B31;
+    color: #000;
+}
+
+.thylacinel-culture-music__banner .banner-top__subheading {
+    font-size: 10.237vw;
+    line-height: 0.79;
+    letter-spacing: -0.047em;
+    margin-bottom: -2.315vw;
+    z-index: 3;
+}
+
+.thylacinel-culture-music__banner .banner-top__heading {
+    font-size: 26.651vw;
+    line-height: 0.769;
+    letter-spacing: -1%;
+    margin-bottom: 0.265vw;
+}
+
+.thylacinel-culture-music__banner .banner-top__row-1 {
+    font-size: 0.661vw;
+    line-height: 100%;
+    letter-spacing: 0.148em;
+    margin-bottom: 2.513vw;
+}
+
+.thylacinel-culture-music__banner .banner-top__row-1 .column {
+    gap: 1.984vw;
+}
+
+.thylacinel-culture-music__banner .banner-top__row-1 .line-text {
+    font-size: 0.661vw;
+    line-height: 100%;
+    letter-spacing: 0.045em;
+}
+
+.thylacinel-culture-music__banner .banner-top__row-2 {
+    font-size: 1.874vw;
+    letter-spacing: 0.026em;
+}
+
+.thylacinel-culture-music__banner .banner-top__row-2 .column {
+    gap: 2.116vw;
+}
+
+.thylacinel-culture-music__banner .banner-top__row-2 .square {
+    width: 1.323vw;
+    height: 1.323vw;
+}
+
+.thylacinel-culture-music__banner .banner-bottom {
+    min-height: 77.116vw;
+    margin-top: -38.36vw;
+}
+
+.thylacinel-culture-music__banner .banner-bottom-bg-1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #000000 0%, rgba(102, 102, 102, 0) 100%);
+}
+
+.thylacinel-culture-music__banner .banner-bottom-bg-2 {
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 3.704vw);
+}
+
+.thylacinel-culture-music__banner .banner-bottom-bg-2::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 80.7%, #000000 100%);
+}
+
+.thylacinel-culture-music-sec .rst-music-description {
+    z-index: 3;
+}
+
+.thylacinel-culture-music-sec .rst-music-description {
+    max-width: 79.365vw;
+    margin-top: -3.108vw;
+    margin-bottom: 4.828vw;
+}
+
+.rst-logo-bands__text {
+    left: 0;
+    width: 100%;
+    top: 41%;
+    font-size: 7.712vw;
+    line-height: 1.1;
+    letter-spacing: 0.009em;
+    background: linear-gradient(180deg, #979797 0%, #FF7B31 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.cs-list-bands__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.116vw;
+}
+
+.cs-list-bands__left,
+.cs-list-bands__right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.72vw;
+}
+
+.cs-list-bands__item {
+    min-height: 18.519vw;
+    border-radius: 1.455vw;
+    position: relative;
+    height: 100%;
+}
+
+.cs-list-bands__item img {
+    border-radius: inherit;
+}
+
+.cs-list-bands__item.item-3 {
+    min-height: 26.19vw;
+}
+
+.cs-list-bands__item.item-3 .img-deco {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.cs-list-bands__item .cate {
+    position: absolute;
+    z-index: 2;
+    top: 1.19vw;
+    left: 1.058vw;
+    font-size: 0.653vw;
+    padding: 0.331vw 0.397vw;
+}
+
+.cs-list-bands__item .cate .cate-dot {
+    width: 0.529vw;
+    height: 0.529vw;
+}
+
+.thylacinel-culture-music-sec .the-wiggles {
+    padding: 9.392vw 0 0;
+}
+
+.thylacinel-culture-music-sec .the-wiggles__grid {
+    top: -6.481vw;
+}
+
+.thylacinel-culture-music-sec .the-wiggles__grid::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 67.35%, #000000 100%),
+        linear-gradient(180deg, #000000 18.26%, rgba(0, 0, 0, 0) 45.18%);
+}
+
+.the-wiggles__heading {
+    font-size: 18.049vw;
+    line-height: 0.77;
+    letter-spacing: -6%;
+    margin-bottom: 1.984vw;
+    color: #FF6B00;
+}
+
+.the-wiggles__heading span {
+    font-size: 7.937vw;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0.009em;
+    color: #FBFAF8;
+    position: absolute;
+    top: 46%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+}
+
+.the-wiggles__video {
+    max-width: 50.066vw;
+    aspect-ratio: 757/422;
+}
+
+.the-wiggles__video-wrap .video-caption {
+    position: absolute;
+    top: 42%;
+    transform: translateY(-50%);
+    text-align: center;
+    left: 3%;
+    width: 100%;
+    font-size: 4.63vw;
+    line-height: 110.00000000000001%;
+    letter-spacing: 1.04em;
+    color: #FBFAF8;
+}
+
+.the-wiggles__bottom {
+    margin-top: 2.249vw;
+}
+
+.the-wiggles__bottom p {
+    max-width: 17.989vw;
+}
+
+.the-wiggles__bottom .column-3 p {
+    max-width: 17.262vw;
+}
+
+.the-wiggles__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.86vw;
+    color: #FF7B31;
+    padding: 0.728vw 1.124vw;
+    font-size: 1.19vw;
+    line-height: 1.33;
+    letter-spacing: 13%;
+    font-family: 'NB Architekt Std';
+    border: 1.5px solid #FF7B31;
+    border-radius: 3.968vw;
+}
+
+.the-wiggles__btn svg {
+    width: 0.794vw;
+}
+
+.the-wiggles__btn:hover {
+    background-color: #FF7B31;
+    color: #000;
+}
+
+.thylacine-culture-lore-page .rst-media-playlist-inner {
+    background: #7DEA13;
+}
+
+.thylacine-culture-lore-page .rst-colossal-playlist-container .cs-text-right {
+    font-size: 0.661vw;
+    line-height: 100%;
+    letter-spacing: 0.09em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    right: -9.458vw;
+}
+
+.thylacine-culture-lore-page .rst-stone-record {
+    width: 71.693vw;
+    top: -2.447vw;
+    left: 9.921vw;
+    filter: drop-shadow(0px 36px 16.6px #000000BF);
+}
+
+.thylacine-culture-lore-page .rst-colossal-playlist-text {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg,
+            #979797 0%,
+            #FF7B31 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.thylacine-culture-lore-page .rst-colossal-playlist {
+    padding-bottom: 15.939vw;
+}
