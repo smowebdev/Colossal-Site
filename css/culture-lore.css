@@ -2102,12 +2102,16 @@
 }
 
 .rst-item-gear {
+    height: 100%;
     border-radius: 1.587vw;
     border: 1px solid #828282;
     padding-top: 2.116vw;
     padding-bottom: 1.852vw;
     padding-right: 1.19vw;
     padding-left: 1.19vw;
+    display: flex;
+    flex-direction: column;
+
     background: url('../img/culture-lore/bg_item-slider-gear.jpg') no-repeat center center / cover;
 }
 
@@ -2125,6 +2129,8 @@
 
 .rst-item-gear>img {
     width: 100%;
+    flex: 1;
+    object-fit: contain;
 }
 
 .rst-item-gear>div {
@@ -2246,6 +2252,8 @@
 
 .rst-slider-gear .swiper-slide {
     width: 40.146vw !important;
+    display: flex;
+    height: auto;
 }
 
 .swiper-button-next-gear img,

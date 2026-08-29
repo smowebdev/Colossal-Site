@@ -1530,3 +1530,229 @@
 .thylacine-culture-lore-page .rst-colossal-playlist {
     padding-bottom: 15.939vw;
 }
+
+.thylacine-culture-lore-page .rst-section-video-game-banner {
+    background: none;
+    margin-top: 0;
+    padding-top: 7.341vw;
+    padding-bottom: 24.471vw;
+}
+
+.thylacine-culture-lore-page .rst-section-video-game-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #FF7B31;
+    height: 98.347vw;
+    pointer-events: none;
+}
+
+.thylacine-culture-lore-page .rst-section-video-game-banner .paper-img {
+    position: absolute;
+    top: -7.738vw;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.thylacine-culture-lore-page .rst-video-game-heading {
+    margin-bottom: 3.968vw;
+}
+
+.thylacine-culture-lore-page .rst-section-video-game-banner h2 {
+    color: #9940DD;
+}
+
+.thylacine-culture-lore-page .rst-section-video-game-banner .image-banner {
+    max-width: 60.913vw;
+    margin-top: -23.148vw;
+}
+
+.thylacine-culture-lore-page .rst-section-video-game-banner .image-banner img {
+    margin-left: -3.307vw;
+}
+
+.thylacine-culture-lore-page .rst-video-game-title {
+    margin-bottom: 3.042vw;
+}
+
+.thylacine-culture-lore-page .rst-game-ty-logo {
+    width: 26.72vw;
+    margin-top: -8.333vw;
+    margin-left: 2.315vw;
+}
+
+.thylacine-culture-lore-page .rst-game-age-content p {
+    width: 31.481vw;
+}
+
+.thylacine-culture-lore-page .rst-game-age-content h3 {
+    max-width: 22.817vw;
+    align-items: start;
+    margin-bottom: 1.19vw;
+    color: #5E5E5E;
+}
+
+.thylacine-culture-lore-page .rst-game-age-content h3:before {
+    margin-top: 0.397vw;
+}
+
+.thylacine-culture-lore-page .rst-game-farcry-src img {
+    width: 35.913vw;
+    margin-top: -15.542vw;
+    margin-right: -12.302vw;
+    margin-bottom: 2.513vw;
+}
+
+.thylacine-culture-lore-page .rst-game-farcry-info-logo img {
+    width: 21.032vw;
+    max-width: unset;
+    margin-top: -5.093vw;
+    margin-left: -8.929vw;
+}
+
+.thylacine-culture-lore-page .rst-game-farcry-info-content {
+    padding-left: 2.116vw;
+}
+
+.thylacine-culture-lore-page .rst-game-farcry-info-logo {
+    width: 12vw;
+}
+
+.thylacine-culture-lore-page .rst-game-farcry-info-content {
+    width: calc(100% - 12vw);
+}
+
+.thylacine-culture-lore-page .rst-game-ark-survival-img {
+    transform: rotate(4.98deg);
+}
+
+.thylacine-culture-lore-page .rst-game-ark-survival {
+    padding-top: 1.984vw;
+    z-index: 3 !important;
+}
+
+.thylacine-culture-lore-page .rst-game-ark-survival-img img {
+    width: 107%;
+    max-width: unset;
+    margin-left: -3.704vw;
+    margin-top: -2.116vw;
+}
+
+.thylacine-culture-lore-page .rst-game-ark-survival-src p {
+    text-decoration: none;
+}
+
+.thylacine-culture-lore-page .rst-game-ark-survival-src p a {
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+    line-height: inherit;
+
+}
+
+.thylacine-culture-lore-page .rst-game-horizon {
+    height: 59.524vw;
+    padding: 0;
+    margin-top: -19.18vw;
+    background: none;
+}
+
+.thylacine-culture-lore-page .rst-game-horizon::before,
+.thylacine-culture-lore-page .rst-game-horizon::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.thylacine-culture-lore-page .rst-game-horizon::before {
+    background: linear-gradient(180deg, #FFFFFF 20.53%, rgba(255, 255, 255, 0) 55.67%);
+}
+
+.thylacine-culture-lore-page .rst-game-horizon::after {
+    background-blend-mode: multiply;
+    background: linear-gradient(360deg, #000000 3.02%, rgba(0, 0, 0, 0) 27.99%);
+}
+
+.thylacine-culture-lore-page .rst-game-horizon .horizon3 {
+    top: 20vw;
+    z-index: 3 !important;
+}
+
+.thylacine-culture-lore-page .rst-section-gear .tusk {
+    top: -14.55vw;
+}
+
+.thylacine-culture-lore-page .tazy-gear-container {
+    padding-bottom: 9.854vw;
+    padding-top: 0;
+    margin-top: -14.418vw;
+
+}
+
+.thylacine-culture-lore-page .tazy-gear-heading-wrap .heading {
+    background: linear-gradient(180deg, #979797 0%, #9940DD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-size: 43.957vw;
+    line-height: 1;
+    letter-spacing: -6%;
+    padding-top: 0.661vw;
+    margin-left: -3.968vw;
+}
+
+.thylacine-culture-lore-page .tazy-gear-heading-wrap .subheading {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14.995vw;
+    letter-spacing: -1%;
+}
+
+.thylacine-culture-lore-page .tazy-gear-heading-wrap .desc-1,
+.thylacine-culture-lore-page .tazy-gear-heading-wrap .desc-2 {
+    position: absolute;
+    top: 47%;
+    transform: translateY(-50%);
+    font-size: 1.058vw;
+    letter-spacing: 27%;
+}
+
+.thylacine-culture-lore-page .tazy-gear-heading-wrap .desc-1 {
+    left: 9%;
+}
+
+.thylacine-culture-lore-page .tazy-gear-heading-wrap .desc-2 {
+    right: 12%;
+}
+
+.thylacine-culture-lore-page .bg-gear {
+    top: 22.156vw;
+}
+
+.thylacine-culture-lore-page .explore-key {
+    padding-bottom: 7.407vw;
+}
+
+.thylacine-culture-lore-page .footer-end {
+    margin-top: -5.423vw;
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: exclusion;
+    height: 26.455vw;
+    overflow: hidden;
+}
+
+.thylacine-culture-lore-page .footer-end img {
+    width: 100%;
+    max-width: 100%;
+    transform: none;
+    position: static;
+}
