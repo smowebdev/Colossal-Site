@@ -65,10 +65,10 @@ jQuery(document).ready(function ($) {
     slidesPerView: "auto",
     centeredSlides: true,
     loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
     spaceBetween: 60,
     speed: 600,
     autoHeight: true,
