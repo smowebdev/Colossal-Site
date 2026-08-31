@@ -1156,7 +1156,6 @@
     -webkit-mask-composite: xor;
     mask-composite: exclude;
     pointer-events: none;
-    border: 1px solid;
 }
 
 .the-peripheral .content-2 {
@@ -1165,7 +1164,7 @@
     margin-top: -3.439vw;
 }
 
-.the-peripheral .content-2 .image {
+.the-peripheral .content-2 .image::before {
     background: linear-gradient(180deg, #000000 0%, #B3B3B3 100%);
 }
 

@@ -2181,7 +2181,7 @@
 
 .swiper-button-next-bands,
 .swiper-button-prev-bands {
-    background: #212121;
+    background: #FF7B31;
     border-radius: 1.323vw;
     width: 6.415vw;
     height: 2.447vw;
@@ -2189,21 +2189,18 @@
     align-items: center;
     cursor: pointer;
     justify-content: center;
+    color: #000000;
 }
 
-.swiper-button-next-bands:hover,
-.swiper-button-prev-bands:hover {
-    background: #FF7B31;
-}
 
 .swiper-button-next-bands svg,
 .swiper-button-prev-bands svg {
     width: 1.984vw;
 }
 
-.swiper-button-next-bands:hover svg path,
-.swiper-button-prev-bands:hover path {
-    fill: #000;
+.swiper-button-next-bands svg path,
+.swiper-button-prev-bands path {
+    fill: currentColor;
 }
 
 .swiper-button-next-bands svg {
@@ -2217,9 +2214,9 @@
 }
 
 .rst-bands-slider-label-section {
-    padding-left: 3.439vw;
+    padding-left: 4.233vw;
     top: 4.861vw;
-    padding-right: 5.093vw;
+    padding-right: 4.233vw;
 }
 
 .rst-bands-slider-label span {
